@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace RumbleApp.Droid
 {
-    [Activity(Label = "Blank Xamarin App", MainLauncher = true, NoHistory = true, Theme = "@style/Theme.Splash", ScreenOrientation = ScreenOrientation.Portrait, ConfigurationChanges = ConfigChanges.ScreenSize)]
+    [Activity(Label = "Rumble", MainLauncher = true, NoHistory = true, Theme = "@style/Theme.Splash", ScreenOrientation = ScreenOrientation.Portrait, ConfigurationChanges = ConfigChanges.ScreenSize)]
     public class SplashScreen : Activity
     {
         static readonly string TAG = "X:" + typeof(SplashScreen).Name;

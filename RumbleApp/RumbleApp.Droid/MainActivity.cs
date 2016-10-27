@@ -21,7 +21,7 @@ using RoundedBoxView.Forms.Plugin.Droid;
 
 namespace RumbleApp.Droid
 {
-    [Activity(Label = "The Caravan Club", 
+    [Activity(Label = "Rumble", 
         Theme = "@style/AppTheme", 
 		MainLauncher = false,
 		ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait

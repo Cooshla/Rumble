@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="internalOnly" android:versionName="0.0.0.01" package="co.rumbleapp.cooshla" android:versionCode="0">
 	<uses-sdk android:minSdkVersion="15" />
 	<application android:label="Rumble" android:largeHeap="true" android:theme="@style/AppTheme">
@@ -17,9 +17,6 @@
 		</receiver>
 		<service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
 	</application>
-  
-  
-  
 	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 	<uses-permission android:name="android.permission.DELETE_CACHE_FILES" />
 	<uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
