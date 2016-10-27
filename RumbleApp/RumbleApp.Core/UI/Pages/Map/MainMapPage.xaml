@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             xmlns:converters="clr-namespace:RumbleApp.Core.Converters;assembly=RumbleApp.Core"
+             xmlns:behaviors="clr-namespace:RumbleApp.Core.Maps;assembly=RumbleApp.Core"
+             
+             x:Class="RumbleApp.Core.UI.Pages.Map.MainMapPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:BooleanToObjectConverter x:Key="booleanToObjectConverter">
+                <converters:BooleanToObjectConverter.TrueValue>
+                    <FileImageSource File="List.png" />
+                </converters:BooleanToObjectConverter.TrueValue>
+                <converters:BooleanToObjectConverter.FalseValue>
+                    <FileImageSource File="Map.png" />
+                </converters:BooleanToObjectConverter.FalseValue>
+            </converters:BooleanToObjectConverter>
+        </ResourceDictionary> 
+    </ContentPage.Resources>
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="{Binding ShowMapIcon}" Command="{Binding ShowMapCommand}" />
+    </ContentPage.ToolbarItems>
+
+
+    <Grid Padding="5,5,5,5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="40" />
+        </Grid.RowDefinitions>
+
+
+        <maps:Map MapType="Satellite"  VerticalOptions="FillAndExpand" IsVisible="{Binding ShowMap}" Grid.Column="0" Grid.Row="0">
+            <maps:Map.Behaviors>
+                <behaviors:MapBehavior ItemsSource="{Binding Items}" />
+            </maps:Map.Behaviors>
+        </maps:Map>
+
+
+        <Button Text="Add an Event" Command="{Binding AddEventCommand}" Grid.Column="0" Grid.Row="1"></Button>
+    </Grid>
+
+</ContentPage>

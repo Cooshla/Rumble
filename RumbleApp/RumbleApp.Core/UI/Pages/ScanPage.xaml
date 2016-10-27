@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 x:Class="RumbleApp.Core.UI.ScanPage"
+			 Title="Scan Page">
+  <ContentPage.Content>
+    <StackLayout>
+      <Label Text="Scan" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+
+      <Button Text="Scan" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Command="{Binding ScanCommand}" />
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage> 

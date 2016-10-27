@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             x:Class="RumbleApp.Core.UI.Pages.Map.AddEvent" BackgroundColor="#60000000">
+   
+    
+    <ScrollView Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <Frame >
+            <StackLayout Orientation="Vertical"  Padding="20,20,20,20" VerticalOptions="End"  HorizontalOptions="FillAndExpand" Spacing="10" BackgroundColor="White">
+
+
+
+            <Label Text="Please add your event details" />
+            <BoxView HeightRequest="20" WidthRequest="0" />
+
+            <Entry Placeholder="Event Name" Keyboard="Default" Text="{Binding EventName}" Style="{DynamicResource entryStyle}"  />
+            <BoxView Style="{DynamicResource hrStyle}" /> 
+
+            <Entry Placeholder="Time" Keyboard="Default"  Text="{Binding Time}" Style="{DynamicResource entryStyle}"/>
+            <BoxView Style="{DynamicResource hrStyle}" />
+
+            <Entry Placeholder="Number Places"  Keyboard="Numeric"  Text="{Binding Places}" Style="{DynamicResource entryStyle}" />
+            <BoxView Style="{DynamicResource hrStyle}" />
+
+
+            <Entry Placeholder="Location (google lookup to come)"  Keyboard="Default"  Text="{Binding Location}" Style="{DynamicResource entryStyle}"/>
+            <BoxView Style="{DynamicResource hrStyle}" />
+
+
+            <Button x:Name="btnSignUp" Text="Add Event Up" TextColor="White" Command="{Binding AddEventCommand}" Style="{DynamicResource greenButtonStyle}" />
+
+            <Button Command="{Binding BackCommand}" Text="Back" VerticalOptions="End" Style="{DynamicResource plainButtonStyle}" />
+            <BoxView Style="{DynamicResource hrStyle}" />
+
+        </StackLayout>
+        </Frame>
+    </ScrollView>
+    
+    
+</ContentPage>
