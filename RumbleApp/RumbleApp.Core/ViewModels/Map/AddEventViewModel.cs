@@ -25,12 +25,13 @@ namespace RumbleApp.Core.ViewModels.Map
 
         public ICommand AddEventCommand { get { return new Command(AddEvent); } }
         public ICommand BackCommand { get { return new Command(Back); } }
-        
+
         public AddEventViewModel(IPageFactory _page, IAppNavigation _navi, IEventService _envt)
         {
             PageFac = _page;
             Navi = _navi;
             Evnt = _envt;
+
         }
 
         public async void AddEvent()

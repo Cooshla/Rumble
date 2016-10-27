@@ -10,6 +10,7 @@ namespace RumbleApp.Core.Interfaces
     public interface IEventService
     {
         Task<Event> GetEvent(int id);
+        Task<List<Event>> GetAllEvents();
         Task<List<Event>> GetAllEventsForUser(string id);
         Task<List<Event>> GetAllEventsAttendedByUser(string id);
         Task AddEvent(Event evnt);

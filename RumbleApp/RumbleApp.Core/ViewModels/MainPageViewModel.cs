@@ -1,4 +1,5 @@
 using RumbleApp.Core.Interfaces;
+using RumbleApp.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,7 @@ namespace RumbleApp.Core.ViewModels
     {
         private IPageFactory PageFac { get; set; }
         private IAppNavigation Navi { get; set; }
+
 
         public MainPageViewModel(IPageFactory _page, IAppNavigation _navi)
         {
