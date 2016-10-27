@@ -42,7 +42,7 @@ namespace RumbleApp.Core.ViewModels
             User u = new User();
             
             u.Email = UserName;
-            u.PasswordHash = Password;
+            u.Password = Password;
             bool success = await Acc.LoginAsync(UserName, Password);
             if(success)
             {

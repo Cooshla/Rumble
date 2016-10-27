@@ -40,6 +40,7 @@ namespace RumbleApp.Core
             cb.RegisterType<AccountService>().As<IAccountService>().SingleInstance();
             cb.RegisterType<ProfileService>().As<IProfileService>().SingleInstance();
             cb.RegisterType<EventService>().As<IEventService>().SingleInstance();
+            cb.RegisterType<UserService>().As<IUserService>().SingleInstance();
 
             // View Models
             cb.RegisterType<MasterPageViewModel>().SingleInstance();

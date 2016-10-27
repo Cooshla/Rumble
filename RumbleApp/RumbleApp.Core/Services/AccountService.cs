@@ -14,10 +14,11 @@ namespace RumbleApp.Core.Services
     public class AccountService : IAccountService
     {
         private IRestService Rest { get; set; }
-
-        public AccountService(IRestService _rest)
+        private IUserService User { get; set; }
+        public AccountService(IRestService _rest, IUserService _user)
         {
             Rest = _rest;
+            User = _user;
         }
 
         public async Task<bool> LoginAsync(string user, string pass)
@@ -40,9 +41,7 @@ namespace RumbleApp.Core.Services
                         Settings.UserName = user;
                         Settings.Password = pass;
 
-                        // Get User
-                        // Get Profile
-                        App.ThisUser = await GetUser(user, pass);
+                        App.ThisUser = await User.GetUserViewModel();
 
                         // Fire messaging center to map page to show modal
                         MessagingCenter.Send<AccountService, bool>(this, Messages.LoginSuccessful, true);
@@ -70,9 +69,6 @@ namespace RumbleApp.Core.Services
             throw new NotImplementedException();
         }
 
-        public Task<User> GetUser(string user, string pass)
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }

@@ -34,8 +34,8 @@ namespace RumbleApp.Api.Controllers
         {
             value.Created = DateTime.Now;
             value.Updated = DateTime.Now;
-            value.CreatedBy = 1;
-            value.LastEditBy = 1;
+            value.CreatedBy = "1";
+            value.LastEditBy = "1";
             value.IsActive = true;
 
             db.Event.Add(value);
@@ -49,7 +49,7 @@ namespace RumbleApp.Api.Controllers
             var s = db.Event.Where(c => c.EventId == id).FirstOrDefault();
 
             s.Updated = DateTime.Now;
-            s.LastEditBy = 1;
+            s.LastEditBy = "1";
             
             s.Name = value.Name;
             s.Description = value.Description;

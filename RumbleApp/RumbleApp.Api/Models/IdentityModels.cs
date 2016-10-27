@@ -8,6 +8,7 @@ using System.Data.Entity;
 using RumbleApp.Models.Events;
 using RumbleApp.Models.Users;
 using RumbleApp.Models.Subscriptions;
+using System.Collections.Generic;
 
 namespace RumbleApp.Api.Models
 {
@@ -21,6 +22,18 @@ namespace RumbleApp.Api.Models
             // Add custom user claims here
             return userIdentity;
         }
+
+        public virtual Location HomeLocation { get; set; }
+        public virtual ApplicationRole ActiveRole { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public System.DateTime? LastLogin { get; set; }
+        public bool Approved { get; set; }
+
+        public string PhotoUrl { get; set; }
+        public virtual Subscriptions SubscriptionId { get; set; }
+        public virtual Profile ProfileId { get; set; }
+        public virtual NotificationTags NotificationTags { get; set; }
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
@@ -37,7 +50,6 @@ namespace RumbleApp.Api.Models
 
         public DbSet<Profile> Profile { get; set; }
         public DbSet<Event> Event{ get; set; }
-        public DbSet<User> User{ get; set; }
         public DbSet<Subscriptions> Subscriptions { get; set; }
     }
 }

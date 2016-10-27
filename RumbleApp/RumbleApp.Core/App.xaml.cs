@@ -23,6 +23,7 @@ namespace RumbleApp.Core
     public partial class App : Application
     {
         public static User ThisUser { get; set; }
+        public static string DeviceId { get; set; }
         public static string Version { get; set; }
         public static string GooglePlayCode = "";
 
@@ -76,6 +77,8 @@ namespace RumbleApp.Core
             StartupPage = scan;
             home.Detail = _firstPage;
             MainPage = home;
+
+            DeviceId = Acr.DeviceInfo.DeviceInfo.Hardware.DeviceId;
 
             SetNavService(scan);
 

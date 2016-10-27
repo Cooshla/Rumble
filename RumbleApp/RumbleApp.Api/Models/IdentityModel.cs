@@ -16,4 +16,17 @@ namespace RumbleApp.Api.Models
         public ApplicationRole(string name) : base(name) { }
         public string Description { get; set; }
     }
+    public class UserStatus
+    {
+        public System.DateTime? LastUpdated { get; set; }
+        public Status ActiveStatus { get; set; }
+    }
+
+    public enum Status
+    {
+        Active,
+        Offline
+    }
+
+
 }

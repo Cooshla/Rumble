@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -48,13 +48,15 @@
     <Compile Include="Helpers\PhoneValidator.cs" />
     <Compile Include="Interfaces\IAccountService.cs" />
     <Compile Include="Interfaces\IEventService.cs" />
-    <Compile Include="Interfaces\ILocationViewModel.cs" />
+    <Compile Include="Interfaces\IUserService.cs" />
+    <Compile Include="Interfaces\Misc\ILocationViewModel.cs" />
     <Compile Include="Interfaces\IProfileService.cs" />
     <Compile Include="Interfaces\IRestService.cs" />
     <Compile Include="Maps\MapBehavior.cs" />
     <Compile Include="Models\Account\AuthResponse.cs" />
     <Compile Include="Models\BaseModel.cs" />
     <Compile Include="Models\Event.cs" />
+    <Compile Include="Models\LocationModel.cs" />
     <Compile Include="Models\Profile.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Objects\MasterPageItem.cs" />
@@ -70,15 +72,15 @@
     <Compile Include="Commands\SimpleCommand.cs" />
     <Compile Include="Services\Messages.cs" />
     <Compile Include="Interfaces\IAppNavigation.cs" />
-    <Compile Include="Interfaces\ILogger.cs" />
-    <Compile Include="Interfaces\INavigationService.cs" />
-    <Compile Include="Interfaces\IPageFactory.cs" />
+    <Compile Include="Interfaces\Misc\ILogger.cs" />
+    <Compile Include="Interfaces\Misc\INavigationService.cs" />
+    <Compile Include="Interfaces\Misc\IPageFactory.cs" />
     <Compile Include="Helpers\Settings.cs" />
     <Compile Include="Data\Settings.cs" />
     <Compile Include="Helpers\Validation.cs" />
     <Compile Include="Data\ISQLite.cs" />
     <Compile Include="Data\DatabaseManager.cs" />
-    <Compile Include="Interfaces\ITapLockInterface.cs" />
+    <Compile Include="Interfaces\Misc\ITapLockInterface.cs" />
     <Compile Include="Abstracts\BindableRadioGroup.cs" />
     <Compile Include="Extensions\BindableObjectExtensions.cs" />
     <Compile Include="Abstracts\AutocompleteListView.cs" />
@@ -88,6 +90,7 @@
     </Compile>
     <Compile Include="Services\ProfileService.cs" />
     <Compile Include="Services\RestService.cs" />
+    <Compile Include="Services\UserService.cs" />
     <Compile Include="UI\Menu\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -127,6 +130,14 @@
     <Compile Include="ViewModels\MasterPageViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Acr.DeviceInfo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Acr.DeviceInfo.4.0.2\lib\portable-win+net45+wp8+win8+wpa81\Acr.DeviceInfo.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Acr.DeviceInfo.Interface, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Acr.DeviceInfo.4.0.2\lib\portable-win+net45+wp8+win8+wpa81\Acr.DeviceInfo.Interface.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Acr.Mvvm, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Acr.Mvvm.1.2.0\lib\portable-win+net45+wp8+win8+wpa81\Acr.Mvvm.dll</HintPath>
       <Private>True</Private>
@@ -371,6 +382,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\Misc\" />
   </ItemGroup>
   <Import Project="..\packages\Xamarin.Insights.1.12.3\build\portable-win+net45+wp80+windows8+wpa+MonoAndroid10+MonoTouch10\Xamarin.Insights.targets" Condition="Exists('..\packages\Xamarin.Insights.1.12.3\build\portable-win+net45+wp80+windows8+wpa+MonoAndroid10+MonoTouch10\Xamarin.Insights.targets')" />
   <Import Project="..\packages\Xamarin.Forms.2.3.0.107\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.0.107\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />

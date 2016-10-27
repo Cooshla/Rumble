@@ -28,8 +28,8 @@ namespace RumbleApp.Api.Controllers
         {
             value.Created = DateTime.Now;
             value.Updated = DateTime.Now;
-            value.CreatedBy = 1;
-            value.LastEditBy= 1;
+            value.CreatedBy = "1";
+            value.LastEditBy= "1";
             value.IsActive = true;
 
             db.Profile.Add(value);
@@ -42,7 +42,7 @@ namespace RumbleApp.Api.Controllers
             var s = db.Profile.Where(c => c.ProfileId == id).FirstOrDefault();
             
             s.Updated = DateTime.Now;
-            s.LastEditBy = 1;
+            s.LastEditBy = "1";
 
             s.FirstName = value.FirstName;
             s.LastName = value.LastName;
