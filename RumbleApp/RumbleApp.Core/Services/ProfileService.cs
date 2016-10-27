@@ -23,7 +23,7 @@ namespace RumbleApp.Core.Services
         {
 
             var json = JsonConvert.SerializeObject(profile);
-            var result = await Rest.PostClient<HttpResponseMessage>("api/profile/add", json);
+            var result = await Rest.PostClient<HttpResponseMessage>("api/profile", json);
             var user = await Rest.GetClient<User>("api/profile");
         }
 

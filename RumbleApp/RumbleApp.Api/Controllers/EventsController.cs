@@ -21,6 +21,10 @@ namespace RumbleApp.Api.Controllers
         {
             return db.Event.Where(c => c.EventId == id).FirstOrDefault();
         }
+        public List<Event> GetAllEvents()
+        {
+            return db.Event.ToList();
+        }
 
         [HttpGet]
         [Route("api/events/geteventforuser")]
@@ -30,7 +34,7 @@ namespace RumbleApp.Api.Controllers
         }
 
         // POST: api/Events
-        public void Post([FromBody]Event value)
+        public HttpResponseMessage Post([FromBody]Event value)
         {
             value.Created = DateTime.Now;
             value.Updated = DateTime.Now;
@@ -41,6 +45,7 @@ namespace RumbleApp.Api.Controllers
             db.Event.Add(value);
 
             db.SaveChanges();
+            return new HttpResponseMessage(HttpStatusCode.OK);
         }
 
         // PUT: api/Events/5

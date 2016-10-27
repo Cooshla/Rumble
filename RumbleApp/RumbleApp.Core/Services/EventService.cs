@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using RumbleApp.Core.Models;
+using Newtonsoft.Json;
+using System.Net.Http;
 
 namespace RumbleApp.Core.Services
 {
@@ -18,7 +20,9 @@ namespace RumbleApp.Core.Services
         }
         public async Task AddEvent(Event evnt)
         {
-            throw new NotImplementedException();
+            var json = JsonConvert.SerializeObject(evnt);
+            var result = await Rest.PostClient<HttpResponseMessage>("api/events", json);
+            var user = await Rest.GetClient<User>("api/profile");
         }
 
         public void DeleteEvent(int id)
@@ -26,9 +30,10 @@ namespace RumbleApp.Core.Services
             throw new NotImplementedException();
         }
 
-        public Task<List<Event>> GetAllEvents()
+        public async Task<List<Event>> GetAllEvents()
         {
-            throw new NotImplementedException();
+
+            return await Rest.GetClient<List<Event>>("api/Events/GetAllEvents");
         }
 
         public async Task<List<Event>> GetAllEventsAttendedByUser(string id)
@@ -38,7 +43,7 @@ namespace RumbleApp.Core.Services
 
         public async Task<Event> GetEvent(int id)
         {
-            throw new NotImplementedException();
+            return await Rest.GetClient<Event>(String.Format("api/Events/{0}",id));
         }
 
         public void UpdateEvent(Event Event)
@@ -46,9 +51,11 @@ namespace RumbleApp.Core.Services
             throw new NotImplementedException();
         }
 
-        Task<List<Event>> IEventService.GetAllEventsForUser(string id)
+        
+        public async Task<List<Event>> GetAllEventsForUser(string id)
         {
-            throw new NotImplementedException();
+            return await Rest.GetClient<List<Event>>(String.Format("api/Events/GetEventForUser>{0}", id));
+
         }
     }
 }
