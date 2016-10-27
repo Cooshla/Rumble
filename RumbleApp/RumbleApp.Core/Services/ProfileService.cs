@@ -5,29 +5,42 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using RumbleApp.Core.Models;
+using Newtonsoft.Json;
+using System.Net.Http;
 
 namespace RumbleApp.Core.Services
 {
     public class ProfileService : IProfileService
     {
-        public void AddProfile()
+        private IRestService Rest { get; set; }
+
+        public ProfileService(IRestService _rest)
         {
-            throw new NotImplementedException();
+            Rest = _rest;
         }
 
-        public void DeleteProfile(int id)
+        public async Task AddProfile(Profile profile)
         {
-            throw new NotImplementedException();
+
+            var json = JsonConvert.SerializeObject(profile);
+            var result = await Rest.PostClient<HttpResponseMessage>("api/profile/add", json);
+            var user = await Rest.GetClient<User>("api/profile");
         }
 
-        public Profile GetProfile(int id)
+        public async Task DeleteProfile(int id)
         {
             throw new NotImplementedException();
+            //await Rest.GetClient<Profile>("api/profile/get");
         }
 
-        public void UpdateProfile(Profile profile)
+        public async Task<Profile> GetProfile(int id)
         {
-            throw new NotImplementedException();
+            return await Rest.GetClient<Profile>("api/Profile/"+id);
+        }
+
+        public async Task UpdateProfile(Profile profile)
+        {
+            await Rest.PutClient<Profile>(string.Format("api/Profile/{0}",profile.ProfileId));
         }
     }
 }

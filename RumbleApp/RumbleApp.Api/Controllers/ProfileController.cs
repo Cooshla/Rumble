@@ -24,7 +24,7 @@ namespace RumbleApp.Api.Controllers
         }
 
         // POST: api/Profile
-        public void Post([FromBody]Profile value)
+        public HttpResponseMessage Post([FromBody]Profile value)
         {
             value.Created = DateTime.Now;
             value.Updated = DateTime.Now;
@@ -34,6 +34,8 @@ namespace RumbleApp.Api.Controllers
 
             db.Profile.Add(value);
             db.SaveChanges();
+
+            return new HttpResponseMessage(HttpStatusCode.OK);
         }
 
         // PUT: api/Profile/5

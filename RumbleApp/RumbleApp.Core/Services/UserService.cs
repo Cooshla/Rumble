@@ -16,7 +16,7 @@ namespace RumbleApp.Core.Services
 
         public UserService(IRestService _rest)
         {
-
+            Rest = _rest;
         }
 
         public async Task<User> GetUserViewModel()

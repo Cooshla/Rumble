@@ -9,9 +9,9 @@ namespace RumbleApp.Core.Interfaces
 {
     public interface IProfileService
     {
-        Profile GetProfile(int id);
-        void AddProfile();
-        void UpdateProfile(Profile profile);
-        void DeleteProfile(int id);
+        Task<Profile> GetProfile(int id);
+        Task AddProfile(Profile profile);
+        Task UpdateProfile(Profile profile);
+        Task DeleteProfile(int id);
     }
 }

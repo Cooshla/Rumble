@@ -10,7 +10,12 @@ namespace RumbleApp.Core.Services
 {
     public class EventService : IEventService
     {
+        private IRestService Rest { get; set; }
 
+        public EventService(IRestService _rest)
+        {
+            Rest = _rest;
+        }
         public async Task AddEvent(Event evnt)
         {
             throw new NotImplementedException();
