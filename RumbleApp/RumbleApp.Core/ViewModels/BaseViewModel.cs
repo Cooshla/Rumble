@@ -28,5 +28,14 @@ namespace RumbleApp.Core.ViewModels
             field = value;
             OnPropertyChanged(propertyName);
         }
+        protected bool IsInternetConnection()
+        {
+            bool returnValue = !(Acr.DeviceInfo.DeviceInfo.Connectivity.InternetReachability == Acr.DeviceInfo.NetworkReachability.NotReachable);
+
+            if (!returnValue)
+                App.UserDialogService.AlertAsync("You are currently offline, please connect to the internet and try again");
+
+            return returnValue;
+        }
     }
 }
