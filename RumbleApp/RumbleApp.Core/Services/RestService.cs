@@ -15,7 +15,7 @@ namespace RumbleApp.Core.Services
     public class RestService : IRestService
     {
         
-        Uri baseUrl = new Uri("https://agileapp.azurewebsites.net");
+        Uri baseUrl = new Uri("http://rumbleapi.cooshla.com/");
 
 
         public RestService()
