@@ -21,16 +21,20 @@ namespace RumbleApp.Core.ViewModels
         public string PhotoText { get; set; }
         private IAppNavigation Navi { get; set; }
         private IPageFactory Page { get; set; }
+        private IProfileService Prof { get; set; }
+        private IEventService Evnt { get; set; }
 
 
         public ICommand btnSaveClickCommand { get { return new Command(Save); } }
         public ICommand btnAddPhoto_ClickedCommand { get { return new Command(Photo); } }
         
 
-        public ProfileViewModel(IPageFactory _page, IAppNavigation _navi)
+        public ProfileViewModel(IPageFactory _page, IAppNavigation _navi, IProfileService _prof, IEventService _evnt)
         {
             Navi = _navi;
             Page = _page;
+            Prof = _prof;
+            Evnt = _evnt;
 
             RegisterMessageCenter();                
         }
@@ -47,30 +51,20 @@ namespace RumbleApp.Core.ViewModels
         {
             App.UserDialogService.ShowLoading();
 
-            PhotoText = "Add Photo";
+            ThisProfile = App.ThisUser.UserProfile;
 
-            UserImage = ImageSource.FromFile("unknown_male");
+            if (string.IsNullOrWhiteSpace(ThisProfile.ImageUrl))
+            {
+                PhotoText = "Add Photo";
+                UserImage = ImageSource.FromFile("unknown_male");
+            }
+            else
+            {
+                PhotoText = "Edit Image";
+                UserImage = ImageSource.FromUri(new Uri(ThisProfile.ImageUrl));
+            }
 
-            ThisProfile = new Profile();
-            ThisProfile.FirstName = "Stephen";
-            ThisProfile.LastName = "Shaw";
-            ThisProfile.Email = "123@test.com";
-            ThisProfile.PhoneNumber = "12345 654345";
-
-            ThisProfile.Ranking = "Blue Belt";
-            ThisProfile.Location = "Haywards Heath, West sussex";
-            ThisProfile.Longitude = 50.9990;
-            ThisProfile.Latitude = 0.1063;
-            ThisProfile.PostCode = "RH16 3PJ";
-            ThisProfile.ShowExactLocation = false;
-
-            ThisProfile.Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id erat id ex imperdiet cursus lobortis id magna. Nunc efficitur auctor ultricies. Curabitur id ultrices felis. Nam rhoncus consectetur dolor non pretium. Etiam porttitor ac lectus nec vulputate. Aenean interdum cursus turpis vel efficitur. Etiam sagittis tempus lacus";
-            ThisProfile.Interests = "Bjj, Muay thai";
-
-            ThisProfile.EventItems = new List<Event>();
-            ThisProfile.EventItems.Add(new Event() { Name = "Event 1", Description = "Open Mat", AllowInAppPurchases = false, Longitude = 50.8225, Latitude = 0.1372, StartDate = DateTime.Now, Places = 40, Location = "Brighton" });
-            ThisProfile.EventItems.Add(new Event() { Name = "Event 1", Description = "Open Mat", AllowInAppPurchases = false, Longitude = 50.8225, Latitude = 0.1372, StartDate = DateTime.Now, Places = 40, Location = "Brighton" });
-            ThisProfile.EventItems.Add(new Event() { Name = "Event 1", Description = "Open Mat", AllowInAppPurchases = false, Longitude = 50.8225, Latitude = 0.1372, StartDate = DateTime.Now, Places = 40, Location = "Brighton" });
+            ThisProfile.EventItems = await Evnt.GetAllEventsForUser(App.ThisUser.ID);
 
             OnPropertyChanged("ThisProfile");
             OnPropertyChanged("UserImage");

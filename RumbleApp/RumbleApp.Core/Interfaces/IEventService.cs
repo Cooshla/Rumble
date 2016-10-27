@@ -9,8 +9,8 @@ namespace RumbleApp.Core.Interfaces
 {
     public interface IEventService
     {
-        Event GetEvent(int id);
-        IEnumerable<Event> GetAllEventsForUser(int id);
+        Task<Event> GetEvent(int id);
+        Task<List<Event>> GetAllEventsForUser(string id);
         void AddEvent();
         void UpdateEvent(Event Event);
         void DeleteEvent(int id);
