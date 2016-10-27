@@ -1,0 +1,111 @@
+﻿<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:abstract="clr-namespace:BlankXamarinApp.Core.Abstracts" x:Class="BlankXamarinApp.Core.App" xmlns:local="clr-namespace:BlankXamarinApp.Core;assembly=BlankXamarinApp.Core">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="BackgroundColor" Value="#5fbba5" />
+                <Setter Property="TextColor" Value="White" />
+            </Style>
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="#575757" />
+                <Setter Property="FontSize" Value="Medium"/>
+            </Style>
+
+
+            <Style x:Key="OrangeButton" TargetType="Button">
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="BorderColor" Value="#ec592f" />
+                <Setter Property="BackgroundColor" Value="White" />
+                <Setter Property="TextColor" Value="#ec592f" />
+                <Setter Property="BorderWidth" Value="1" />
+                <Setter Property="FontSize" Value="18"/>
+            </Style>
+
+
+
+
+
+
+            
+            
+
+            <Style x:Key="h1LabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#000" />
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="FontAttributes" Value="Bold" />
+            </Style>
+
+
+            <Style x:Key="h2LabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#000" />
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="FontAttributes" Value="Italic" />
+            </Style>
+
+
+            <Style x:Key="understatedItalics" TargetType="Label">
+                <Setter Property="TextColor" Value="#c2c2c2" />
+                <Setter Property="FontSize" Value="Small" />
+                <Setter Property="FontAttributes" Value="Italic" />
+            </Style>
+
+            <Style x:Key="SmallText" TargetType="Label">
+                <Setter Property="TextColor" Value="#000" />
+                <Setter Property="FontSize" Value="Small" />
+            </Style>
+
+            <Style x:Key="greenButtonStyle" TargetType="Button">
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="BackgroundColor" Value="#5fbba5" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BorderRadius" Value="5" />
+                <Setter Property="HeightRequest" Value="60" />
+
+            </Style>
+            <Style x:Key="redButtonStyle" TargetType="Button">
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="BackgroundColor" Value="#ca374c" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BorderRadius" Value="5" />
+                <Setter Property="HeightRequest" Value="60" />
+
+            </Style>
+            <Style x:Key="plainButtonStyle" TargetType="Button">
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="BorderWidth" Value="0" />
+                <Setter Property="TextColor" Value="#575757" />
+                <Setter Property="BackgroundColor" Value="Transparent" />
+            </Style>
+            <Style x:Key="backButtonStyle" TargetType="Button">
+                <Setter Property="HorizontalOptions" Value="Start" />
+                <Setter Property="BorderRadius" Value="15" />
+                <Setter Property="TextColor" Value="#575757" />
+                <Setter Property="BackgroundColor" Value="White" />
+                <Setter Property="HeightRequest" Value="30" />
+                <Setter Property="WidthRequest" Value="30" />
+                <Setter Property="Image" Value="ic_chevron_left.png" />
+            </Style>
+            <Style x:Key="entryStyle" TargetType="Entry">
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+            </Style>
+            
+            <Style x:Key="menuLabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#575757" />
+                <Setter Property="FontSize" Value="18" />
+            </Style>
+            <Style x:Key="hrStyle" TargetType="BoxView">
+                <Setter Property="Color" Value="#e0e0e0" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="HeightRequest" Value="3" />
+            </Style>
+            <Style x:Key="stageStackLayoutStyleInner" TargetType="StackLayout">
+                <Setter Property="Spacing" Value="15" />
+                <Setter Property="Padding" Value="15" />
+                <Setter Property="BackgroundColor" Value="White" />
+            </Style>
+            <Style x:Key="stageStackLayoutStyleOuter" TargetType="StackLayout">
+                <Setter Property="Padding" Value="5" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,11 @@
+﻿<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" 
+				  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+				  xmlns:local="clr-namespace:BlankXamarinApp.Core.UI;assembly=BlankXamarinApp.Core"
+				  x:Class="BlankXamarinApp.Core.UI.MainPage"
+                  Title="Rumble">
+  <MasterDetailPage.Master>
+  	<local:MasterPage x:Name="masterPage" />
+  </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

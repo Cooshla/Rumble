@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 x:Class="BlankXamarinApp.Core.UI.MasterPage"
+			 Padding="0,40,0,0"
+			 Icon="hamburger.png"
+             Title="Rumble">
+  <ContentPage.Content>
+    <StackLayout VerticalOptions="FillAndExpand">
+      <ListView x:Name="listView" VerticalOptions="FillAndExpand" SeparatorVisibility="None" ItemsSource="{Binding MasterPageItems}">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ImageCell Text="{Binding Title}" ImageSource="{Binding IconSource}" />
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+        <BoxView Style="{DynamicResource hrStyle}" />
+        <Button x:Name="btnLogout" Text="Log Out" HorizontalOptions="Start" Command="{Binding LogoutCommand}" Style="{StaticResource plainButtonStyle}" FontSize="18" />
+        <BoxView VerticalOptions="EndAndExpand" HeightRequest="10" />
+        </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

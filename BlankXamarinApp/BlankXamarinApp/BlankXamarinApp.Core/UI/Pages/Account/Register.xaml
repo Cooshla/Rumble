@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BlankXamarinApp.Core.UI.Pages.Account.Register">
+    <ScrollView Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <StackLayout Orientation="Vertical" Padding="50,100,50,50" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Spacing="10">
+
+
+
+            <Label Text="Rumble, please fill in your details below" Style="{DynamicResource labelStyle}"/>
+            <BoxView HeightRequest="20" WidthRequest="0" />
+
+            <Entry Placeholder="First Name" x:Name="txtFirstName" Keyboard="Default" Text="{Binding FirstName}" Style="{DynamicResource entryStyle}"  />
+            <BoxView Style="{DynamicResource hrStyle}" />
+
+            <Entry Placeholder="Last Name" x:Name="txtLastName" Keyboard="Default"  Text="{Binding LastName}" Style="{DynamicResource entryStyle}"/>
+
+            <BoxView Style="{DynamicResource hrStyle}" />
+
+            <Entry Placeholder="Email"  x:Name="txtEmail" Keyboard="Email" Text="{Binding Email}" Style="{DynamicResource entryStyle}" />
+            <BoxView Style="{DynamicResource hrStyle}" />
+
+            <Entry Placeholder="Password"  x:Name="txtPass" Keyboard="Default" IsPassword="True" Text="{Binding Password}" Style="{DynamicResource entryStyle}" />
+            <BoxView Style="{DynamicResource hrStyle}" />
+
+            <Entry Placeholder="Phone" x:Name="txtPhone" Keyboard="Telephone" Text="{Binding Phone}" Style="{DynamicResource entryStyle}" />
+            <BoxView Style="{DynamicResource hrStyle}" />
+            <BoxView HeightRequest="20" WidthRequest="0" />
+
+
+            <Button x:Name="btnSignUp" Text="Sign Up" TextColor="White" Command="{Binding SignupCommand}" Style="{DynamicResource greenButtonStyle}" />
+
+            <Button Command="{Binding BackCommand}" Text="Back" VerticalOptions="End" Style="{DynamicResource plainButtonStyle}" />
+            <BoxView Style="{DynamicResource hrStyle}" />
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

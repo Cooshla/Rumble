@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BlankXamarinApp.Core.UI.Pages.Map.MainMapPage">
+    <Grid Padding="5,5,5,5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="40" />
+        </Grid.RowDefinitions>
+
+
+        <Label Text="The Map Will Go Here and stretch down"  Grid.Column="0" Grid.Row="0"/>
+
+
+        <Button Text="Add an Event" Command="{Binding AddEventCommand}" Grid.Column="0" Grid.Row="1"></Button>
+    </Grid>
+
+</ContentPage>

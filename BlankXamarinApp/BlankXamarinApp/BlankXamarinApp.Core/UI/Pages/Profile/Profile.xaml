@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
+             x:Class="BlankXamarinApp.Core.UI.Pages.Profile.Profile">
+
+    <ScrollView>
+
+        <StackLayout Orientation="Vertical" Padding="25" VerticalOptions="FillAndExpand" Spacing="10">
+
+            <ActivityIndicator x:Name="loading" HorizontalOptions="Center" WidthRequest="155" ></ActivityIndicator>
+            <controls:CircleImage x:Name="imgPhoto" Aspect="AspectFill" Source="{Binding UserImage}" HorizontalOptions="Center" WidthRequest="155" HeightRequest="155" ></controls:CircleImage>
+            <Button x:Name="btnAddPhoto" Text="{Binding PhotoText}" Command="{Binding btnAddPhoto_ClickedCommand}" Style="{DynamicResource plainButtonStyle}"/>
+
+            <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical">
+
+                <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal" Padding="0,20,0,0">
+                    <Entry Placeholder="First Name" HorizontalOptions="FillAndExpand" x:Name="txtFirstName" Keyboard="Default" Text="{Binding FirstName}"/>
+                    <Entry Placeholder="Last Name" HorizontalOptions="FillAndExpand" x:Name="txtLastName" Keyboard="Default" Text="{Binding LastName}"/>
+                </StackLayout>
+                <BoxView HeightRequest="5" HorizontalOptions="FillAndExpand" Color="#e0e0e0" />
+
+                <Entry Placeholder="Email" HorizontalOptions="FillAndExpand" x:Name="txtEmail" Keyboard="Default" Text="{Binding Email}" />
+                <BoxView HeightRequest="5" HorizontalOptions="FillAndExpand" Color="#e0e0e0" />
+
+                <Entry Placeholder="Phone #" HorizontalOptions="FillAndExpand" x:Name="txtPhone" Keyboard="Default" Text="{Binding PhoneNumber}" />
+                <BoxView HeightRequest="5" HorizontalOptions="FillAndExpand" Color="#e0e0e0" />
+
+
+                <StackLayout VerticalOptions="EndAndExpand">
+                    <Button x:Name="btnSetHome" VerticalOptions="End" Text="Set Home Location" TextColor="White" Command="{Binding btnSetHomeClickCommand}" />
+                    <Button x:Name="btnSave" VerticalOptions="End" Text="Save" TextColor="White" Command="{Binding btnSaveClickCommand}" />
+                </StackLayout>
+
+
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
+    
+
+</ContentPage>

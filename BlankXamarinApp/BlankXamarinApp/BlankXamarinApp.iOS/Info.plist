@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>Caravan Club</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.2.19</string>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	<key>MinimumOSVersion</key>
+	<string>7.0</string>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleBlackTranslucent</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string></string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string></string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Fonts/Avenir LT Std Heavy.otf</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<string>YES</string>
+	<key>LSRequiresIPhoneOS</key>
+	<string>YES</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>XSLaunchImageAssets</key>
+	<string>Resources/Images.xcassets/LaunchImage.launchimage</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>Icon-72@2x</string>
+		<string>Icon-72</string>
+		<string>AppIcon.appiconset/Icon-76</string>
+		<string>AppIcon.appiconset/Icon-76@2x</string>
+		<string>icon</string>
+		<string>icon@2x</string>
+		<string>AppIcon.appiconset/Icon-40@3x</string>
+	</array>
+	<key>CFBundleIdentifier</key>
+	<string>com.BlankXamarinApp.com.BlankXamarinApp.iPhone</string>
+	<key>CFBundleVersion</key>
+	<string>19.1</string>
+	<key>CFBundleName</key>
+	<string>Caravan Club</string>
+</dict>
+</plist>
