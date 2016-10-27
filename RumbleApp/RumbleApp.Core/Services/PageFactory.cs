@@ -17,11 +17,11 @@ namespace RumbleApp.Core.Services
             {
                 case Pages.MainPage: return new MainPage();
                 case Pages.ScanPage: return new ScanPage();
-                case Pages.ProfilePage: return new Profile();
+                case Pages.ProfilePage: return App.ProfilePage;
                 case Pages.LoginPage: return new Login();
                 case Pages.RegisterPage: return new Register();
-                case Pages.MainMapPage:return new MainMapPage(); 
-                case Pages.AddEventPage: return new AddEvent();
+                case Pages.MainMapPage:return App.MainMap; 
+                case Pages.AddEventPage: return App.EventsPage;
 
                 default: throw new ArgumentException(string.Format("Unknown page type {0}", page));
 			}

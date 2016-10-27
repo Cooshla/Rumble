@@ -17,6 +17,7 @@ using RumbleApp.Core.ViewModels.Map;
 using RumbleApp.Core.ViewModels.Events;
 using XLabs.Platform.Services.Media;
 using RumbleApp.Core.Models;
+using RumbleApp.Core.UI.Pages.Map;
 
 namespace RumbleApp.Core
 {
@@ -101,6 +102,13 @@ namespace RumbleApp.Core
             MainMapPageViewModel = _container.Resolve<MainMapPageViewModel>();
             AddEventViewModel = _container.Resolve<AddEventViewModel>();
             EventsViewModel = _container.Resolve<EventsViewModel>();
+
+
+
+            // static pages
+            MainMap = new MainMapPage();
+            ProfilePage = new UI.Pages.Profile.Profile();
+            EventsPage = new UI.Pages.Events.Events();
             
         }
 
@@ -135,5 +143,12 @@ namespace RumbleApp.Core
         
         public static MainMapPageViewModel MainMapPageViewModel { get; set; }
         public static AddEventViewModel AddEventViewModel { get; set; }
+
+
+        // static pages
+
+        public static MainMapPage MainMap { get; set; }
+        public static UI.Pages.Profile.Profile ProfilePage { get; set; }
+        public static UI.Pages.Events.Events EventsPage { get; set; }
     }
 }
