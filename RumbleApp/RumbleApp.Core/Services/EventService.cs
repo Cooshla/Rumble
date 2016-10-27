@@ -20,7 +20,8 @@ namespace RumbleApp.Core.Services
             throw new NotImplementedException();
         }
 
-        public async Task<IEnumerable<Event>> GetAllEventsForUser(string id)
+
+        public async Task<List<Event>> GetAllEventsAttendedByUser(string id)
         {
             throw new NotImplementedException();
         }
@@ -31,6 +32,11 @@ namespace RumbleApp.Core.Services
         }
 
         public void UpdateEvent(Event Event)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<List<Event>> IEventService.GetAllEventsForUser(string id)
         {
             throw new NotImplementedException();
         }
