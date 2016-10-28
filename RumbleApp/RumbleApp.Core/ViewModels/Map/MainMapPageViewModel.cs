@@ -61,6 +61,15 @@ namespace RumbleApp.Core.ViewModels.Map
             ShowMap = true;
             ShowMapIcon = ImageSource.FromFile("list");
             AllEvents = await Evnt.GetAllEvents();
+
+            foreach(Event evt in AllEvents)
+            {
+                Items.Add(new Pin() { Address = evt.Location, Label = evt.Name, Type = PinType.Place, Position = new Position(evt.Latitude, evt.Longitude) });
+            }
+
+            OnPropertyChanged("ShowMap");
+            OnPropertyChanged("ShowMapIcon");
+            OnPropertyChanged("Items");
             App.UserDialogService.HideLoading();
         }
 
