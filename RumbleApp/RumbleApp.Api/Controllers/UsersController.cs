@@ -28,7 +28,10 @@ namespace RumbleApp.Api.Controllers
                 LastName = user.LastName,
                 UserName = user.Email,
                 Email = user.Email,
-                NotificationTags = new NotificationTags { Tags = new List<Tag> { new Tag { tag = "appuser" }, new Tag { tag = user.Email } } }
+                NotificationTags = new NotificationTags { Tags = new List<Tag> { new Tag { tag = "appuser" }, new Tag { tag = user.Email } } },
+                 
+
+                
             };
             var result = await UserManager.CreateAsync(u, user.Password);
             return Json(new UserResponse { success = result.Succeeded, errors = result.Errors });

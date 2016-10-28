@@ -34,6 +34,8 @@ namespace RumbleApp.Core.ViewModels.Map
 
         }
 
+        
+
         public async void AddEvent()
         {
             App.UserDialogService.ShowLoading("Adding Event...");

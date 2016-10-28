@@ -53,7 +53,7 @@ namespace RumbleApp.Core.Models
 
     public class UserStatus
     {
-        public DateTime? LastUpdated { get; set; }
+        public DateTime LastUpdated { get; set; }
         public Status ActiveStatus { get; set; }
     }
 

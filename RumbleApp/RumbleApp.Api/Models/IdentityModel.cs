@@ -18,7 +18,7 @@ namespace RumbleApp.Api.Models
     }
     public class UserStatus
     {
-        public System.DateTime? LastUpdated { get; set; }
+        public System.DateTime LastUpdated { get; set; }
         public Status ActiveStatus { get; set; }
     }
 

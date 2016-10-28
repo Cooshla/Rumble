@@ -10,7 +10,7 @@ using Xamarin.Forms;
 
 namespace RumbleApp.Core.ViewModels
 {
-    public class LoginViewModel
+    public class LoginViewModel:BaseViewModel
     {
         public string UserName { get; set; }
         public string Password { get; set; }
@@ -51,6 +51,10 @@ namespace RumbleApp.Core.ViewModels
                 if (Settings.IsFirstRun)
                 {
                     Settings.IsFirstRun = false;
+                    UserName = string.Empty;
+                    Password = string.Empty;
+                    OnPropertyChanged("UserName");
+                    OnPropertyChanged("Password");
                     await Navi.PopModal();
                     await Navi.PushModal(PageFac.GetPage(Pages.Guide));
                 }

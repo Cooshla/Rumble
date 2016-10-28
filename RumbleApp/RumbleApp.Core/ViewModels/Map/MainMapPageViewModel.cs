@@ -1,5 +1,6 @@
 using RumbleApp.Core.Interfaces;
 using RumbleApp.Core.Models;
+using RumbleApp.Core.Services;
 using RumbleApp.Core.UI;
 using System;
 using System.Collections.Generic;
@@ -41,6 +42,12 @@ namespace RumbleApp.Core.ViewModels.Map
         public void RegisterMessageCenter()
         {
             MessagingCenter.Subscribe<MainPage, bool>(this, Messages.HomeClicked, async (sends, arg) =>
+            {
+                await GetData();
+            });
+
+
+            MessagingCenter.Subscribe<AccountService, bool>(this, Messages.LoginSuccessful, async (sends, arg) =>
             {
                 await GetData();
             });

@@ -34,7 +34,6 @@ namespace RumbleApp.Api.Models
         public virtual ApplicationRole ActiveRole { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public System.DateTime? LastLogin { get; set; }
         public bool Approved { get; set; }
 
         public string PhotoUrl { get; set; }

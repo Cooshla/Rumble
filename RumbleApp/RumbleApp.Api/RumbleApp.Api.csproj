@@ -223,6 +223,14 @@
     <Compile Include="Migrations\201610281425593_InitialMigration.Designer.cs">
       <DependentUpon>201610281425593_InitialMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201610281448166_Removedatetime.cs" />
+    <Compile Include="Migrations\201610281448166_Removedatetime.Designer.cs">
+      <DependentUpon>201610281448166_Removedatetime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610281456596_whatsup.cs" />
+    <Compile Include="Migrations\201610281456596_whatsup.Designer.cs">
+      <DependentUpon>201610281456596_whatsup.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -310,6 +318,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201610281425593_InitialMigration.resx">
       <DependentUpon>201610281425593_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610281448166_Removedatetime.resx">
+      <DependentUpon>201610281448166_Removedatetime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610281456596_whatsup.resx">
+      <DependentUpon>201610281456596_whatsup.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

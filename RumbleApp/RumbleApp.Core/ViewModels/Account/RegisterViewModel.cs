@@ -80,6 +80,7 @@ namespace RumbleApp.Core.ViewModels
                 PhoneNumber = Phone,
                 Password = Password,
                 Status = new UserStatus { ActiveStatus = Status.Active, LastUpdated = DateTime.UtcNow }
+                
             };
 
             UserResponse response = await Acc.RegisterAsync(user, null);
