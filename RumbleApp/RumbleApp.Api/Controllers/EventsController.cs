@@ -11,20 +11,17 @@ namespace RumbleApp.Api.Controllers
     public class EventsController : BaseApiController
     {
         // GET: api/Events
-        public IEnumerable<Event> Get()
+        public IEnumerable<Event> GetAllEvents()
         {
             return db.Event.ToList();
         }
 
         // GET: api/Events/5
-        public Event Get(int id)
+        public Event GetEvent(int id)
         {
             return db.Event.Where(c => c.EventId == id).FirstOrDefault();
         }
-        public List<Event> GetAllEvents()
-        {
-            return db.Event.ToList();
-        }
+       
 
         [HttpGet]
         [Route("api/events/geteventforuser")]
@@ -34,7 +31,7 @@ namespace RumbleApp.Api.Controllers
         }
 
         // POST: api/Events
-        public HttpResponseMessage Post([FromBody]Event value)
+        public HttpResponseMessage PostEvent([FromBody]Event value)
         {
             value.Created = DateTime.Now;
             value.Updated = DateTime.Now;
@@ -49,7 +46,7 @@ namespace RumbleApp.Api.Controllers
         }
 
         // PUT: api/Events/5
-        public void Put(int id, [FromBody]Event value)
+        public void PutEvent(int id, [FromBody]Event value)
         {
             var s = db.Event.Where(c => c.EventId == id).FirstOrDefault();
 
@@ -69,7 +66,7 @@ namespace RumbleApp.Api.Controllers
         }
 
         // DELETE: api/Events/5
-        public void Delete(int id)
+        public void DeleteEvent(int id)
         {
 
             var s = db.Event.Where(c => c.EventId == id).FirstOrDefault();

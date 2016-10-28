@@ -19,7 +19,7 @@ namespace RumbleApp.Api.Controllers
     {
         [AllowAnonymous]
         [HttpPost]
-        public async Task<JsonResult<UserResponse>> Add([FromBody]AppUser user)
+        public async Task<JsonResult<UserResponse>> AddUser([FromBody]AppUser user)
         {
 
             var u = new ApplicationUser
@@ -35,7 +35,7 @@ namespace RumbleApp.Api.Controllers
         }
 
         [HttpPut]
-        public async Task<JsonResult<UserResponse>> Update([FromBody]AppUser user)
+        public async Task<JsonResult<UserResponse>> UpdateUser([FromBody]AppUser user)
         {
             var errors = new List<string>();
             var existing = db.Users.SingleOrDefault(u => u.UserName == RequestContext.Principal.Identity.Name);
@@ -115,14 +115,14 @@ namespace RumbleApp.Api.Controllers
 
             var result = await db.SaveChangesAsync();
 
-            var json = await Get();
+            var json = await GetUser();
             return Json(new UserResponse { success = result > 0, errors = errors, ReturnedUser = json.Content });
         }
 
     
 
         [HttpGet]
-        public async Task<JsonResult<AppUser>> Get()
+        public async Task<JsonResult<AppUser>> GetUser()
         {
             var user = db.Users.SingleOrDefault(u => u.UserName == RequestContext.Principal.Identity.Name);
             AppUser appuser = new AppUser();

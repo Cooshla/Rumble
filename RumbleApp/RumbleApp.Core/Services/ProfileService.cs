@@ -23,7 +23,7 @@ namespace RumbleApp.Core.Services
         {
 
             var json = JsonConvert.SerializeObject(profile);
-            var result = await Rest.PostClient<HttpResponseMessage>("api/profile", json);
+            var result = await Rest.PostClient<HttpResponseMessage>("api/profile/postuser", json);
             var user = await Rest.GetClient<User>("api/profile");
         }
 
@@ -35,12 +35,18 @@ namespace RumbleApp.Core.Services
 
         public async Task<Profile> GetProfile(int id)
         {
-            return await Rest.GetClient<Profile>("api/Profile/"+id);
+            return await Rest.GetClient<Profile>("api/Profile/getuser?id=" + id);
         }
+        public async Task<List<Profile>> GetAllProfiles(int id)
+        {
+            return await Rest.GetClient<List<Profile>>("api/Profile/GetAllProfiles");
+        }
+
+        
 
         public async Task UpdateProfile(Profile profile)
         {
-            await Rest.PutClient<Profile>(string.Format("api/Profile/{0}",profile.ProfileId));
+            await Rest.PutClient<Profile>(string.Format("api/Profile/putuser?id={0}",profile.ProfileId));
         }
     }
 }

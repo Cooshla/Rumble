@@ -11,20 +11,20 @@ namespace RumbleApp.Api.Controllers
     public class ProfileController : BaseApiController
     {
         // GET: api/Profile
-        public IEnumerable<Profile> Get()
+        public List<Profile> GetAllProfiles()
         {
             return db.Profile.ToList();
 
         }
 
         // GET: api/Profile/5
-        public Profile Get(int id)
+        public Profile GetProfile(int id)
         {
             return db.Profile.Where(c => c.ProfileId == id).FirstOrDefault();
         }
 
         // POST: api/Profile
-        public HttpResponseMessage Post([FromBody]Profile value)
+        public HttpResponseMessage PostProfile([FromBody]Profile value)
         {
             value.Created = DateTime.Now;
             value.Updated = DateTime.Now;
@@ -39,7 +39,7 @@ namespace RumbleApp.Api.Controllers
         }
 
         // PUT: api/Profile/5
-        public void Put(int id, [FromBody]Profile value)
+        public void PutProfile(int id, [FromBody]Profile value)
         {
             var s = db.Profile.Where(c => c.ProfileId == id).FirstOrDefault();
             
@@ -62,7 +62,7 @@ namespace RumbleApp.Api.Controllers
         }
 
         // DELETE: api/Profile/5
-        public void Delete(int id)
+        public void DeleteProfile(int id)
         {
             var s = db.Profile.Where(c => c.ProfileId == id).FirstOrDefault();
             s.IsActive = false;

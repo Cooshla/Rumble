@@ -21,14 +21,14 @@ namespace RumbleApp.Core.Services
 
         public async Task<User> GetUserViewModel()
         {
-            var user = await Rest.GetClient<User>("api/user/get");
+            var user = await Rest.GetClient<User>("api/user/getuser");
             return user;
         }
 
         public async Task<bool> UpdateUserViewModelAsync()
         {
             var json = JsonConvert.SerializeObject(App.ThisUser);
-            var user = await Rest.PutClient<UserResponse>("api/user/update", json);
+            var user = await Rest.PutClient<UserResponse>("api/user/updateuser", json);
             App.ThisUser = user.ReturnedUser ?? App.ThisUser;
             return user.success;
         }

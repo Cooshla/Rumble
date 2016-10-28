@@ -21,7 +21,7 @@ namespace RumbleApp.Core.Services
         public async Task AddEvent(Event evnt)
         {
             var json = JsonConvert.SerializeObject(evnt);
-            var result = await Rest.PostClient<HttpResponseMessage>("api/events", json);
+            var result = await Rest.PostClient<HttpResponseMessage>("api/events/postevent", json);
             var user = await Rest.GetClient<User>("api/profile");
         }
 
@@ -33,7 +33,7 @@ namespace RumbleApp.Core.Services
         public async Task<List<Event>> GetAllEvents()
         {
 
-            return await Rest.GetClient<List<Event>>("api/Events/GetAllEvents");
+            return await Rest.GetClient<List<Event>>("api/Events/getallevents");
         }
 
         public async Task<List<Event>> GetAllEventsAttendedByUser(string id)
@@ -43,7 +43,7 @@ namespace RumbleApp.Core.Services
 
         public async Task<Event> GetEvent(int id)
         {
-            return await Rest.GetClient<Event>(String.Format("api/Events/{0}",id));
+            return await Rest.GetClient<Event>(String.Format("api/Events/getevent?id={0}",id));
         }
 
         public void UpdateEvent(Event Event)
@@ -54,7 +54,7 @@ namespace RumbleApp.Core.Services
         
         public async Task<List<Event>> GetAllEventsForUser(string id)
         {
-            return await Rest.GetClient<List<Event>>(String.Format("api/Events/GetEventForUser>{0}", id));
+            return await Rest.GetClient<List<Event>>(String.Format("api/Events/GetEventForUser?{0}", id));
 
         }
     }
