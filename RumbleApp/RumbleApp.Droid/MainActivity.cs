@@ -22,7 +22,7 @@ using RoundedBoxView.Forms.Plugin.Droid;
 namespace RumbleApp.Droid
 {
     [Activity(Label = "Rumble", 
-        Theme = "@style/AppTheme", 
+        Theme = "@android:style/Theme.Holo.Light", 
 		MainLauncher = false,
 		ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait
 	)]

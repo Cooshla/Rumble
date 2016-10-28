@@ -3,7 +3,7 @@
         <ResourceDictionary>
             <Style TargetType="Button">
                 <Setter Property="HorizontalOptions" Value="FillAndExpand" />
-                <Setter Property="BackgroundColor" Value="#5fbba5" />
+                <Setter Property="BackgroundColor" Value="#8C0000" />
                 <Setter Property="TextColor" Value="White" />
             </Style>
             <Style TargetType="Label">
@@ -56,7 +56,7 @@
 
             <Style x:Key="greenButtonStyle" TargetType="Button">
                 <Setter Property="HorizontalOptions" Value="FillAndExpand" />
-                <Setter Property="BackgroundColor" Value="#5fbba5" />
+                <Setter Property="BackgroundColor" Value="#8C0000" />
                 <Setter Property="TextColor" Value="White" />
                 <Setter Property="BorderRadius" Value="5" />
                 <Setter Property="HeightRequest" Value="60" />

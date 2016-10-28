@@ -14,6 +14,7 @@ namespace RumbleApp.Core.UI.Pages.Guide
     {
         public GuidePage()
         {
+            BindingContext = App.GuideViewModel;
             InitializeComponent();
             
             if (Device.Idiom == TargetIdiom.Tablet)

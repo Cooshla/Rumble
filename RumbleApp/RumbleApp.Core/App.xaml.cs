@@ -18,6 +18,7 @@ using RumbleApp.Core.ViewModels.Events;
 using XLabs.Platform.Services.Media;
 using RumbleApp.Core.Models;
 using RumbleApp.Core.UI.Pages.Map;
+using RumbleApp.Core.ViewModels.Guide;
 
 namespace RumbleApp.Core
 {
@@ -79,7 +80,7 @@ namespace RumbleApp.Core
             home.Detail = _firstPage;
             MainPage = home;
 
-            DeviceId = Acr.DeviceInfo.DeviceInfo.Hardware.DeviceId;
+           // DeviceId = Acr.DeviceInfo.DeviceInfo.Hardware.DeviceId;
 
             SetNavService(scan);
 
@@ -102,8 +103,8 @@ namespace RumbleApp.Core
             MainMapPageViewModel = _container.Resolve<MainMapPageViewModel>();
             AddEventViewModel = _container.Resolve<AddEventViewModel>();
             EventsViewModel = _container.Resolve<EventsViewModel>();
-
-
+            GuideViewModel = _container.Resolve<GuideViewModel>();
+            
 
             // static pages
             MainMap = new MainMapPage();
@@ -143,9 +144,11 @@ namespace RumbleApp.Core
         
         public static MainMapPageViewModel MainMapPageViewModel { get; set; }
         public static AddEventViewModel AddEventViewModel { get; set; }
+        public static GuideViewModel GuideViewModel{ get; set;        }
 
-
+        //public static FavouritesViewModel FavouritesViewModel { get { return Resolve<FavouritesViewModel>(); } }
         // static pages
+
 
         public static MainMapPage MainMap { get; set; }
         public static UI.Pages.Profile.Profile ProfilePage { get; set; }

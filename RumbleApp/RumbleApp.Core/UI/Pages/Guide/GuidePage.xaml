@@ -5,10 +5,10 @@
     <AbsoluteLayout HorizontalOptions="FillAndExpand">
         <ScrollView Orientation="Vertical" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
             <Grid>
-                <Image Aspect="AspectFill" Source="home.jpg" IsVisible="{Binding PageVisible[0]}" />
-                <Image Aspect="AspectFill" Source="welcome2.jpg" IsVisible="{Binding PageVisible[1]}" />
-                <Image Aspect="AspectFill" Source="welcome3.jpg" IsVisible="{Binding PageVisible[2]}" />
-                <Image Aspect="AspectFill" Source="welcome4.jpg" IsVisible="{Binding PageVisible[3]}" />
+                <Image Aspect="AspectFill" Source="home.png" IsVisible="{Binding PageVisible[0]}" />
+                <Image Aspect="AspectFill" Source="welcome1.png" IsVisible="{Binding PageVisible[1]}" />
+                <Image Aspect="AspectFill" Source="welcome2.png" IsVisible="{Binding PageVisible[2]}" />
+                <Image Aspect="AspectFill" Source="welcome3.png" IsVisible="{Binding PageVisible[3]}" />
                 
                 <StackLayout>
                     <StackLayout Spacing="10" HorizontalOptions="FillAndExpand" Padding="20,20,20,20" x:Name="GuideWrapper" VerticalOptions="FillAndExpand" IsVisible="{Binding PageVisible[0]}">
@@ -28,8 +28,8 @@
                     </StackLayout>
                     
                     <StackLayout Spacing="10" x:Name="GuideWrapper2" HorizontalOptions="FillAndExpand" Padding="20,130,20,20" VerticalOptions="FillAndExpand" IsVisible="{Binding PageVisible[1]}">
-                        <Label Text="Browse thousands of UK sites for your perfect caravan or motorhome holiday" FontSize="20" XAlign="Center" TextColor="#ffffff" x:Name="LargeTextPage2"   />
-                        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                        <Label Text="Lorem ipsum dollar sit amet etc..." FontSize="20" XAlign="Center" TextColor="#ffffff" x:Name="LargeTextPage2"   />
+                        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
                             <Button Text="Ok, got it"  FontSize="18" WidthRequest="300" TextColor="#f37e52" FontAttributes="Bold" BorderRadius="3" BackgroundColor="#ffffff" Command="{Binding NextPageCommand}" CommandParameter="2">
 
                             </Button>
@@ -41,8 +41,8 @@
                     </StackLayout>
                     
                     <StackLayout Spacing="10" x:Name="GuideWrapper3" HorizontalOptions="FillAndExpand" Padding="20,130,20,20" VerticalOptions="FillAndExpand" IsVisible="{Binding PageVisible[2]}">
-                        <Label Text="Use our powerful search filters to find your perfect site" FontSize="20" XAlign="Center" TextColor="#ffffff" x:Name="LargeTextPage3"   />
-                        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                        <Label Text="Lorem ipsum dollar sit amet etc..." FontSize="20" XAlign="Center" TextColor="#ffffff" x:Name="LargeTextPage3"   />
+                        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
                             <Button Text="Sounds great!" FontSize="18" WidthRequest="300" TextColor="#f37e52" FontAttributes="Bold" BorderRadius="3" BackgroundColor="#ffffff" Command="{Binding NextPageCommand}" CommandParameter="3">
 
                             </Button>
@@ -54,9 +54,9 @@
                     </StackLayout>
                     
                     <StackLayout Spacing="10" x:Name="GuideWrapper4" HorizontalOptions="FillAndExpand" Padding="20,130,20,20" VerticalOptions="FillAndExpand" IsVisible="{Binding PageVisible[3]}">
-                        <Label Text="We'll inspire you with collections of hand-picked sites that deliver a variety of experiences" FontSize="20" XAlign="Center" TextColor="#ffffff" x:Name="LargeTextPage4"  />
-                        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-                            <Button Text="I can't wait!" FontSize="18" WidthRequest="300" TextColor="#f37e52" FontAttributes="Bold" BorderRadius="3" BackgroundColor="#ffffff" Command="{Binding SkipPagesCommand}" CommandParameter="4">
+                        <Label Text="Lorem ipsum dollar sit amet etc..." FontSize="20" XAlign="Center" TextColor="#ffffff" x:Name="LargeTextPage4"  />
+                        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
+                            <Button Text="Lets get started!" FontSize="18" WidthRequest="300" TextColor="#f37e52" FontAttributes="Bold" BorderRadius="3" BackgroundColor="#ffffff" Command="{Binding SkipPagesCommand}" CommandParameter="4">
 
                             </Button>
                             <ContentView Padding="0,30,0,15">

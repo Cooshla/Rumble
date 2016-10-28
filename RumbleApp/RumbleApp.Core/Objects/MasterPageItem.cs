@@ -13,5 +13,9 @@ namespace RumbleApp.Core.Objects
         public string IconSource { get; set; }
 
         public Type TargetType { get; set; }
+
+        public string Id { get; set; }
+
+        public object[] Args { get; set; }
     }
 }

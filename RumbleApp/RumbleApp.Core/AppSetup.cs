@@ -3,6 +3,7 @@ using RumbleApp.Core.Interfaces;
 using RumbleApp.Core.Services;
 using RumbleApp.Core.ViewModels;
 using RumbleApp.Core.ViewModels.Events;
+using RumbleApp.Core.ViewModels.Guide;
 using RumbleApp.Core.ViewModels.Map;
 
 namespace RumbleApp.Core
@@ -52,6 +53,8 @@ namespace RumbleApp.Core
             cb.RegisterType<MainMapPageViewModel>().SingleInstance();
             cb.RegisterType<AddEventViewModel>().SingleInstance();
             cb.RegisterType<EventsViewModel>().SingleInstance();
+            cb.RegisterType<GuideViewModel>().SingleInstance();
+            
         }
     }
 }
