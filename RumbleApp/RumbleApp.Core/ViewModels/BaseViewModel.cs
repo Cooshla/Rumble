@@ -30,6 +30,8 @@ namespace RumbleApp.Core.ViewModels
         }
         protected bool IsInternetConnection()
         {
+            return true;
+
             bool returnValue = !(Acr.DeviceInfo.DeviceInfo.Connectivity.InternetReachability == Acr.DeviceInfo.NetworkReachability.NotReachable);
 
             if (!returnValue)

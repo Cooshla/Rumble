@@ -16,7 +16,7 @@ namespace RumbleApp.Core
 
 
         private const string IsFirstRunKey = "is_first_run";
-        private static readonly bool IsFirstRunDefault = false;
+        private static readonly bool IsFirstRunDefault = true;
 
         private const string UserNameKey = "user_name";
         private static readonly string UserNameDefault = string.Empty;

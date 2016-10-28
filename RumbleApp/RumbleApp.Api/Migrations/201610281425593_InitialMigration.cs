@@ -26,12 +26,70 @@ namespace RumbleApp.Api.Migrations
                         IsActive = c.Boolean(nullable: false),
                         Created = c.DateTime(nullable: false),
                         Updated = c.DateTime(nullable: false),
-                        LastEditBy = c.Int(nullable: false),
-                        CreatedBy = c.Int(nullable: false),
+                        LastEditBy = c.String(),
+                        CreatedBy = c.String(),
                     })
                 .PrimaryKey(t => t.EventId)
                 .ForeignKey("dbo.Profiles", t => t.ProfileId, cascadeDelete: true)
                 .Index(t => t.ProfileId);
+            
+            CreateTable(
+                "dbo.Locations",
+                c => new
+                    {
+                        Id = c.Int(nullable: false, identity: true),
+                        Longitude = c.Double(nullable: false),
+                        Latitude = c.Double(nullable: false),
+                        Altitude = c.Double(nullable: false),
+                        Address = c.String(),
+                        Created = c.DateTime(nullable: false),
+                        Updated = c.DateTime(nullable: false),
+                        LastEditBy = c.String(),
+                        CreatedBy = c.String(),
+                    })
+                .PrimaryKey(t => t.Id);
+            
+            CreateTable(
+                "dbo.NotificationTags",
+                c => new
+                    {
+                        Id = c.Int(nullable: false, identity: true),
+                        Created = c.DateTime(nullable: false),
+                        Updated = c.DateTime(nullable: false),
+                        LastEditBy = c.String(),
+                        CreatedBy = c.String(),
+                    })
+                .PrimaryKey(t => t.Id);
+            
+            CreateTable(
+                "dbo.Devices",
+                c => new
+                    {
+                        Id = c.Int(nullable: false, identity: true),
+                        Token = c.String(),
+                        DeviceType = c.Int(nullable: false),
+                        DeviceId = c.String(),
+                        Created = c.DateTime(nullable: false),
+                        Updated = c.DateTime(nullable: false),
+                        LastEditBy = c.String(),
+                        CreatedBy = c.String(),
+                        NotificationTags_Id = c.Int(),
+                    })
+                .PrimaryKey(t => t.Id)
+                .ForeignKey("dbo.NotificationTags", t => t.NotificationTags_Id)
+                .Index(t => t.NotificationTags_Id);
+            
+            CreateTable(
+                "dbo.Tags",
+                c => new
+                    {
+                        Id = c.Int(nullable: false, identity: true),
+                        tag = c.String(),
+                        NotificationTags_Id = c.Int(),
+                    })
+                .PrimaryKey(t => t.Id)
+                .ForeignKey("dbo.NotificationTags", t => t.NotificationTags_Id)
+                .Index(t => t.NotificationTags_Id);
             
             CreateTable(
                 "dbo.Profiles",
@@ -55,8 +113,8 @@ namespace RumbleApp.Api.Migrations
                         IsActive = c.Boolean(nullable: false),
                         Created = c.DateTime(nullable: false),
                         Updated = c.DateTime(nullable: false),
-                        LastEditBy = c.Int(nullable: false),
-                        CreatedBy = c.Int(nullable: false),
+                        LastEditBy = c.String(),
+                        CreatedBy = c.String(),
                     })
                 .PrimaryKey(t => t.ProfileId);
             
@@ -95,26 +153,15 @@ namespace RumbleApp.Api.Migrations
                 .PrimaryKey(t => t.SubscriptionId);
             
             CreateTable(
-                "dbo.Users",
-                c => new
-                    {
-                        UserId = c.Int(nullable: false, identity: true),
-                        Email = c.String(),
-                        PasswordHash = c.String(),
-                        SubscriptionId = c.Int(nullable: false),
-                        ProfileId = c.Int(nullable: false),
-                        Created = c.DateTime(nullable: false),
-                        Updated = c.DateTime(nullable: false),
-                        LastEditBy = c.Int(nullable: false),
-                        CreatedBy = c.Int(nullable: false),
-                    })
-                .PrimaryKey(t => t.UserId);
-            
-            CreateTable(
                 "dbo.AspNetUsers",
                 c => new
                     {
                         Id = c.String(nullable: false, maxLength: 128),
+                        FirstName = c.String(),
+                        LastName = c.String(),
+                        LastLogin = c.DateTime(),
+                        Approved = c.Boolean(nullable: false),
+                        PhotoUrl = c.String(),
                         Email = c.String(maxLength: 256),
                         EmailConfirmed = c.Boolean(nullable: false),
                         PasswordHash = c.String(),
@@ -126,9 +173,24 @@ namespace RumbleApp.Api.Migrations
                         LockoutEnabled = c.Boolean(nullable: false),
                         AccessFailedCount = c.Int(nullable: false),
                         UserName = c.String(nullable: false, maxLength: 256),
+                        ActiveRole_Id = c.String(maxLength: 128),
+                        HomeLocation_Id = c.Int(),
+                        NotificationTags_Id = c.Int(),
+                        Profile_ProfileId = c.Int(),
+                        Subscriptions_SubscriptionId = c.Int(),
                     })
                 .PrimaryKey(t => t.Id)
-                .Index(t => t.UserName, unique: true, name: "UserNameIndex");
+                .ForeignKey("dbo.AspNetRoles", t => t.ActiveRole_Id)
+                .ForeignKey("dbo.Locations", t => t.HomeLocation_Id)
+                .ForeignKey("dbo.NotificationTags", t => t.NotificationTags_Id)
+                .ForeignKey("dbo.Profiles", t => t.Profile_ProfileId)
+                .ForeignKey("dbo.Subscriptions", t => t.Subscriptions_SubscriptionId)
+                .Index(t => t.UserName, unique: true, name: "UserNameIndex")
+                .Index(t => t.ActiveRole_Id)
+                .Index(t => t.HomeLocation_Id)
+                .Index(t => t.NotificationTags_Id)
+                .Index(t => t.Profile_ProfileId)
+                .Index(t => t.Subscriptions_SubscriptionId);
             
             CreateTable(
                 "dbo.AspNetUserClaims",
@@ -159,26 +221,43 @@ namespace RumbleApp.Api.Migrations
         
         public override void Down()
         {
+            DropForeignKey("dbo.AspNetUsers", "Subscriptions_SubscriptionId", "dbo.Subscriptions");
             DropForeignKey("dbo.AspNetUserRoles", "UserId", "dbo.AspNetUsers");
+            DropForeignKey("dbo.AspNetUsers", "Profile_ProfileId", "dbo.Profiles");
+            DropForeignKey("dbo.AspNetUsers", "NotificationTags_Id", "dbo.NotificationTags");
             DropForeignKey("dbo.AspNetUserLogins", "UserId", "dbo.AspNetUsers");
+            DropForeignKey("dbo.AspNetUsers", "HomeLocation_Id", "dbo.Locations");
             DropForeignKey("dbo.AspNetUserClaims", "UserId", "dbo.AspNetUsers");
+            DropForeignKey("dbo.AspNetUsers", "ActiveRole_Id", "dbo.AspNetRoles");
             DropForeignKey("dbo.AspNetUserRoles", "RoleId", "dbo.AspNetRoles");
             DropForeignKey("dbo.Events", "ProfileId", "dbo.Profiles");
+            DropForeignKey("dbo.Tags", "NotificationTags_Id", "dbo.NotificationTags");
+            DropForeignKey("dbo.Devices", "NotificationTags_Id", "dbo.NotificationTags");
             DropIndex("dbo.AspNetUserLogins", new[] { "UserId" });
             DropIndex("dbo.AspNetUserClaims", new[] { "UserId" });
+            DropIndex("dbo.AspNetUsers", new[] { "Subscriptions_SubscriptionId" });
+            DropIndex("dbo.AspNetUsers", new[] { "Profile_ProfileId" });
+            DropIndex("dbo.AspNetUsers", new[] { "NotificationTags_Id" });
+            DropIndex("dbo.AspNetUsers", new[] { "HomeLocation_Id" });
+            DropIndex("dbo.AspNetUsers", new[] { "ActiveRole_Id" });
             DropIndex("dbo.AspNetUsers", "UserNameIndex");
             DropIndex("dbo.AspNetUserRoles", new[] { "RoleId" });
             DropIndex("dbo.AspNetUserRoles", new[] { "UserId" });
             DropIndex("dbo.AspNetRoles", "RoleNameIndex");
+            DropIndex("dbo.Tags", new[] { "NotificationTags_Id" });
+            DropIndex("dbo.Devices", new[] { "NotificationTags_Id" });
             DropIndex("dbo.Events", new[] { "ProfileId" });
             DropTable("dbo.AspNetUserLogins");
             DropTable("dbo.AspNetUserClaims");
             DropTable("dbo.AspNetUsers");
-            DropTable("dbo.Users");
             DropTable("dbo.Subscriptions");
             DropTable("dbo.AspNetUserRoles");
             DropTable("dbo.AspNetRoles");
             DropTable("dbo.Profiles");
+            DropTable("dbo.Tags");
+            DropTable("dbo.Devices");
+            DropTable("dbo.NotificationTags");
+            DropTable("dbo.Locations");
             DropTable("dbo.Events");
         }
     }

@@ -15,6 +15,13 @@ namespace RumbleApp.Api.Models
     // You can add profile data for the user by adding more properties to your ApplicationUser class, please visit http://go.microsoft.com/fwlink/?LinkID=317594 to learn more.
     public class ApplicationUser : IdentityUser
     {
+        public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
+        {
+            // Note the authenticationType must match the one defined in CookieAuthenticationOptions.AuthenticationType
+            var userIdentity = await manager.CreateIdentityAsync(this, DefaultAuthenticationTypes.ApplicationCookie);
+            // Add custom user claims here
+            return userIdentity;
+        }
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager, string authenticationType)
         {
             // Note the authenticationType must match the one defined in CookieAuthenticationOptions.AuthenticationType
@@ -31,8 +38,8 @@ namespace RumbleApp.Api.Models
         public bool Approved { get; set; }
 
         public string PhotoUrl { get; set; }
-        public virtual Subscriptions SubscriptionId { get; set; }
-        public virtual Profile ProfileId { get; set; }
+        public virtual Subscriptions Subscriptions { get; set; }
+        public virtual Profile Profile { get; set; }
         public virtual NotificationTags NotificationTags { get; set; }
     }
 
@@ -51,5 +58,8 @@ namespace RumbleApp.Api.Models
         public DbSet<Profile> Profile { get; set; }
         public DbSet<Event> Event{ get; set; }
         public DbSet<Subscriptions> Subscriptions { get; set; }
+
+        public DbSet<NotificationTags> NotificationGroups { get; set; }
+        public DbSet<Location> Locations { get; set; }
     }
 }

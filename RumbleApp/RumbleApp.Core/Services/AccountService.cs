@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using RumbleApp.Core.Models;
+using Newtonsoft.Json;
 
 namespace RumbleApp.Core.Services
 {
@@ -61,12 +62,11 @@ namespace RumbleApp.Core.Services
             return false;
         }
 
-        public Task<bool> RegisterAsync(User user, Profile profile)
+        public async Task<UserResponse> RegisterAsync(User user, Profile profile)
         {
-            // Register the user
-            // add the profile
-            // log the user in
-            throw new NotImplementedException();
+            user.UserProfile = profile;
+            return await Rest.PostClient<UserResponse>("api/user/adduser", JsonConvert.SerializeObject(user));
+
         }
 
        

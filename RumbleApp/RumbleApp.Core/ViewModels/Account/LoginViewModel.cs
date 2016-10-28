@@ -47,8 +47,17 @@ namespace RumbleApp.Core.ViewModels
             if(success)
             {
                
-                await Navi.PopModal();
                 App.UserDialogService.HideLoading();
+                if (Settings.IsFirstRun)
+                {
+                    Settings.IsFirstRun = false;
+                    await Navi.PopModal();
+                    await Navi.PushModal(PageFac.GetPage(Pages.Guide));
+                }
+                else
+                {
+                    await Navi.PopModal();
+                }
             }
             else
             {

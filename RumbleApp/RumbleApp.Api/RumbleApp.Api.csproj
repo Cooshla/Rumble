@@ -219,9 +219,9 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helpers\ImageHelper.cs" />
-    <Compile Include="Migrations\201610261440579_InitialMigration.cs" />
-    <Compile Include="Migrations\201610261440579_InitialMigration.Designer.cs">
-      <DependentUpon>201610261440579_InitialMigration.cs</DependentUpon>
+    <Compile Include="Migrations\201610281425593_InitialMigration.cs" />
+    <Compile Include="Migrations\201610281425593_InitialMigration.Designer.cs">
+      <DependentUpon>201610281425593_InitialMigration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
@@ -308,8 +308,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201610261440579_InitialMigration.resx">
-      <DependentUpon>201610261440579_InitialMigration.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201610281425593_InitialMigration.resx">
+      <DependentUpon>201610281425593_InitialMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

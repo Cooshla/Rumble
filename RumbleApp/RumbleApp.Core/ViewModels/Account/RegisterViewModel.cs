@@ -24,17 +24,18 @@ namespace RumbleApp.Core.ViewModels
         private IAppNavigation Navi { get; set; }
         private IRestService Rest { get; set; }
         private IAccountService Acc { get; set; }
+        private IUserService Usr { get; set; }
 
         public ICommand SignupCommand { get { return new Command(SignUp); } }
         public ICommand BackCommand { get { return new Command(Back); } }
 
-        public RegisterViewModel(IPageFactory _page, IAppNavigation _navi, IRestService _rest, IAccountService _acc)
+        public RegisterViewModel(IPageFactory _page, IAppNavigation _navi, IRestService _rest, IAccountService _acc, IUserService _user)
         {
             PageFac = _page;
             Navi = _navi;
             Rest = _rest;
             Acc = _acc;
-                
+            Usr = _user;
         }
 
 
@@ -45,7 +46,16 @@ namespace RumbleApp.Core.ViewModels
                 App.UserDialogService.ShowLoading("Signing up...");
                 if (await CreateUser())
                 {
-                    await Navi.PopModal();
+                    if(Settings.IsFirstRun)
+                    {
+                        Settings.IsFirstRun = false;
+                        await Navi.PopModal();
+                        await Navi.PushModal(PageFac.GetPage(Pages.Guide));
+                    }
+                    else
+                    {
+                        await Navi.PopModal();
+                    }
                 }
                 App.UserDialogService.HideLoading();
             }
@@ -72,18 +82,8 @@ namespace RumbleApp.Core.ViewModels
                 Status = new UserStatus { ActiveStatus = Status.Active, LastUpdated = DateTime.UtcNow }
             };
 
-            UserResponse response = null;
-            if (App.Token != null)
-            {
-                //update
-                response = await Rest.PutClient<UserResponse>("api/user/update", JsonConvert.SerializeObject(user));
-            }
-            else
-            {
-                response = await Rest.PostClient<UserResponse>("api/user/add", JsonConvert.SerializeObject(user));
-            }
-
-
+            UserResponse response = await Acc.RegisterAsync(user, null);
+            
             if (response.success)
             {
                 if (await Acc.LoginAsync(Email, Password))

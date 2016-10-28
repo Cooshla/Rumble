@@ -13,7 +13,7 @@ namespace RumbleApp.Api.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201610261440579_InitialMigration"; }
+            get { return "201610281425593_InitialMigration"; }
         }
         
         string IMigrationMetadata.Source

@@ -11,7 +11,7 @@ namespace RumbleApp.Core.Interfaces
     {
         Task<bool> LoginAsync(string user, string pass);
 
-        Task<bool> RegisterAsync(User user, Profile profile);
+        Task<UserResponse> RegisterAsync(User user, Profile profile);
         
     }
 }

@@ -84,10 +84,33 @@ namespace RumbleApp.Core
 
             SetNavService(scan);
 
-            NaviService.PushModalAsync(pageFactory.GetPage(Pages.Guide),true);
+            Authenticate();
         }
 
+        public static async void Authenticate()
+        {
+            string token = Settings.Token;
+            string expires = Settings.Expires;
 
+            var pageFactory = _container.Resolve<IPageFactory>();
+            if (token == String.Empty || string.IsNullOrEmpty(expires) || DateTime.Parse(expires) < DateTime.UtcNow)
+            {
+                await NaviService.PushModalAsync(pageFactory.GetPage(Pages.LoginPage));
+                return;
+            }
+            else
+            {
+                var Acc = _container.Resolve<IAccountService>();
+                bool LoginSuccess = await Acc.LoginAsync(Settings.UserName, Settings.Password);
+                if (!LoginSuccess)
+                {
+                    await App.UserDialogService.AlertAsync("We could not log you in at this time. Please check your connectivity and try again.");
+                    await NaviService.PushModalAsync(pageFactory.GetPage(Pages.LoginPage), true);
+                }
+            }
+            
+            App.Token = token;
+        }
 
         public static void Init(AppSetup appSetup)
         {
