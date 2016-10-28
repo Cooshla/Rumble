@@ -6,6 +6,7 @@ using Xamarin.Forms;
 using RumbleApp.Core.UI.Pages.Profile;
 using RumbleApp.Core.UI.Pages.Account;
 using RumbleApp.Core.UI.Pages.Map;
+using RumbleApp.Core.UI.Pages.Guide;
 
 namespace RumbleApp.Core.Services
 {
@@ -20,6 +21,7 @@ namespace RumbleApp.Core.Services
                 case Pages.ProfilePage: return App.ProfilePage;
                 case Pages.LoginPage: return new Login();
                 case Pages.RegisterPage: return new Register();
+                case Pages.Guide: return new GuidePage();
                 case Pages.MainMapPage:return App.MainMap; 
                 case Pages.AddEventPage: return App.EventsPage;
 

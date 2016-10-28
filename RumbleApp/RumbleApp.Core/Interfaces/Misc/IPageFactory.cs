@@ -11,8 +11,9 @@ namespace RumbleApp.Core.Interfaces
         ProfilePage,
         ScanPage,
         MainMapPage,
-        AddEventPage
-        
+        AddEventPage,
+        Guide
+
     }
 
 	public interface IPageFactory

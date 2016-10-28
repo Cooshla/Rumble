@@ -15,6 +15,9 @@ namespace RumbleApp.Core
 		}
 
 
+        private const string IsFirstRunKey = "is_first_run";
+        private static readonly bool IsFirstRunDefault = false;
+
         private const string UserNameKey = "user_name";
         private static readonly string UserNameDefault = string.Empty;
 
@@ -51,7 +54,11 @@ namespace RumbleApp.Core
             set { AppSettings.AddOrUpdateValue<string>(ExpiresKey, value); }
         }
 
-
+        public static bool IsFirstRun
+        {
+            get { return AppSettings.GetValueOrDefault<bool>(IsFirstRunKey, IsFirstRunDefault); }
+            set { AppSettings.AddOrUpdateValue<bool>(IsFirstRunKey, value); }
+        }
     }
 }
 

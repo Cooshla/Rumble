@@ -83,7 +83,7 @@ namespace RumbleApp.Core
 
             SetNavService(scan);
 
-            NaviService.PushModalAsync(pageFactory.GetPage(Pages.LoginPage),true);
+            NaviService.PushModalAsync(pageFactory.GetPage(Pages.Guide),true);
         }
 
 

@@ -57,6 +57,7 @@
     <Compile Include="Models\BaseModel.cs" />
     <Compile Include="Models\Event.cs" />
     <Compile Include="Models\LocationModel.cs" />
+    <Compile Include="Models\MenuItem.cs" />
     <Compile Include="Models\Profile.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Objects\MasterPageItem.cs" />
@@ -106,6 +107,9 @@
     <Compile Include="UI\Pages\Events\Events.xaml.cs">
       <DependentUpon>Events.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UI\Pages\Guide\GuidePage.xaml.cs">
+      <DependentUpon>GuidePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UI\Pages\Map\AddEvent.xaml.cs">
       <DependentUpon>AddEvent.xaml</DependentUpon>
     </Compile>
@@ -122,6 +126,7 @@
     <Compile Include="ViewModels\Account\LoginViewModel.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="ViewModels\Events\EventsViewModel.cs" />
+    <Compile Include="ViewModels\Guide\GuideViewModel.cs" />
     <Compile Include="ViewModels\Map\AddEventViewModel.cs" />
     <Compile Include="ViewModels\Map\MainMapPageViewModel.cs" />
     <Compile Include="ViewModels\Profile\ProfileViewModel.cs" />
@@ -385,6 +390,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\Misc\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\Pages\Guide\GuidePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="..\packages\Xamarin.Insights.1.12.3\build\portable-win+net45+wp80+windows8+wpa+MonoAndroid10+MonoTouch10\Xamarin.Insights.targets" Condition="Exists('..\packages\Xamarin.Insights.1.12.3\build\portable-win+net45+wp80+windows8+wpa+MonoAndroid10+MonoTouch10\Xamarin.Insights.targets')" />
   <Import Project="..\packages\Xamarin.Forms.2.3.0.107\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.0.107\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
