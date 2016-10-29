@@ -9,5 +9,7 @@ namespace RumbleApp.Core
         public const string ProfileClicked = "ProfileClicked";
         public const string EventsClicked = "EventsClicked";
 
+        public const string MapPinsReady = "MapPinsReady";
+
     }
 }

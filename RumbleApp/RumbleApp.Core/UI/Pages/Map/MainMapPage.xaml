@@ -35,7 +35,7 @@
         </Grid.RowDefinitions>
 
 
-        <maps:Map MapType="Satellite"  VerticalOptions="FillAndExpand" IsVisible="{Binding ShowMap}" Grid.Column="0" Grid.Row="0">
+        <maps:Map x:Name="MainMap" MapType="Street"  VerticalOptions="FillAndExpand" IsVisible="{Binding ShowMap}" Grid.Column="0" Grid.Row="0">
             <maps:Map.Behaviors>
                 <behaviors:MapBehavior ItemsSource="{Binding Items}" />
             </maps:Map.Behaviors>

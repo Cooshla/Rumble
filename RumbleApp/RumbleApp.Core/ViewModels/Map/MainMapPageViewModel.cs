@@ -70,6 +70,7 @@ namespace RumbleApp.Core.ViewModels.Map
             OnPropertyChanged("ShowMap");
             OnPropertyChanged("ShowMapIcon");
             OnPropertyChanged("Items");
+            MessagingCenter.Send<MainMapPageViewModel, List<Pin>>(this, Messages.MapPinsReady, Items);
             App.UserDialogService.HideLoading();
         }
 
