@@ -1,5 +1,6 @@
 ﻿using RumbleApp.Api.Helpers;
 using RumbleApp.Api.Models;
+using RumbleApp.Models.Profiles;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -13,8 +14,7 @@ using System.Web.Http.Results;
 
 namespace RumbleApp.Api.Controllers
 {
-
-    [Authorize]
+    
     public class UserController : BaseApiController
     {
         [AllowAnonymous]
@@ -30,7 +30,8 @@ namespace RumbleApp.Api.Controllers
                 Email = user.Email,
                 NotificationTags = new NotificationTags { Tags = new List<Tag> { new Tag { tag = "appuser" }, new Tag { tag = user.Email } } },
                  
-
+                Profile = new Profile() {  Email=user.Email, FirstName=user.FirstName,LastName=user.LastName, PhoneNumber=user.PhoneNumber, IsActive=true,
+                 Created=DateTime.Now, CreatedBy="system", Updated=DateTime.Now}
                 
             };
             var result = await UserManager.CreateAsync(u, user.Password);
@@ -118,17 +119,21 @@ namespace RumbleApp.Api.Controllers
 
             var result = await db.SaveChangesAsync();
 
-            var json = await GetUser();
+            var json = await GetUser(user.Email,"");
             return Json(new UserResponse { success = result > 0, errors = errors, ReturnedUser = json.Content });
         }
 
     
 
         [HttpGet]
-        public async Task<JsonResult<AppUser>> GetUser()
+        public async Task<JsonResult<AppUser>> GetUser(string usr, string pass)
         {
-            var user = db.Users.SingleOrDefault(u => u.UserName == RequestContext.Principal.Identity.Name);
+            var user = db.Users.SingleOrDefault(u => u.UserName == usr);
+
+            Profile prof = new Profile();
+
             AppUser appuser = new AppUser();
+
             AutoMapper.Mapper.Map(user, appuser);
 
             return Json(appuser);

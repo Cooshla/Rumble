@@ -45,6 +45,9 @@ namespace RumbleApp.Core.ViewModels.Map
             evt.StartDate = Time;
             evt.Location = Location;
             evt.Places = Places;
+            evt.ProfileId = App.ThisUser.Profile.ProfileId;
+            evt.IsActive = true;
+            
 
             await Evnt.AddEvent(evt);
             ResetForm();

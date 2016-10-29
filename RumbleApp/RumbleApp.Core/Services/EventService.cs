@@ -22,7 +22,7 @@ namespace RumbleApp.Core.Services
         {
             var json = JsonConvert.SerializeObject(evnt);
             var result = await Rest.PostClient<HttpResponseMessage>("api/events/postevent", json);
-            var user = await Rest.GetClient<User>("api/profile");
+
         }
 
         public void DeleteEvent(int id)

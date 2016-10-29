@@ -42,7 +42,7 @@ namespace RumbleApp.Core.Services
                         Settings.UserName = user;
                         Settings.Password = pass;
 
-                        App.ThisUser = await User.GetUserViewModel();
+                        App.ThisUser = await User.GetUserViewModel(user,pass);
 
                         // Fire messaging center to map page to show modal
                         MessagingCenter.Send<AccountService, bool>(this, Messages.LoginSuccessful, true);
@@ -64,7 +64,7 @@ namespace RumbleApp.Core.Services
 
         public async Task<UserResponse> RegisterAsync(User user, Profile profile)
         {
-            user.UserProfile = profile;
+            user.Profile = profile;
             return await Rest.PostClient<UserResponse>("api/user/adduser", JsonConvert.SerializeObject(user));
 
         }

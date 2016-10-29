@@ -51,7 +51,7 @@ namespace RumbleApp.Core.ViewModels
         {
             App.UserDialogService.ShowLoading();
 
-            ThisProfile = App.ThisUser.UserProfile;
+            ThisProfile = App.ThisUser.Profile;
 
             if (string.IsNullOrWhiteSpace(ThisProfile.ImageUrl))
             {

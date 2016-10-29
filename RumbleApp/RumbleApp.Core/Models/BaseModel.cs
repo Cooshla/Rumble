@@ -10,7 +10,7 @@ namespace RumbleApp.Core.Models
     {
         public DateTime Created { get; set; }
         public DateTime Updated { get; set; }
-        public int LastEditBy { get; set; }
-        public int CreatedBy { get; set; }
+        public string LastEditBy { get; set; }
+        public string CreatedBy { get; set; }
     }
 }

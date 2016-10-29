@@ -23,7 +23,7 @@ namespace RumbleApp.Core.Services
                 case Pages.RegisterPage: return new Register();
                 case Pages.Guide: return new GuidePage();
                 case Pages.MainMapPage:return App.MainMap; 
-                case Pages.AddEventPage: return App.EventsPage;
+                case Pages.AddEventPage: return new AddEvent();
 
                 default: throw new ArgumentException(string.Format("Unknown page type {0}", page));
 			}

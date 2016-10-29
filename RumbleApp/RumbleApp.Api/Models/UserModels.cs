@@ -1,4 +1,5 @@
 ﻿using RumbleApp.Models.Profiles;
+using RumbleApp.Models.Users;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,7 @@ namespace RumbleApp.Api.Models
 {
     public class AppUser
     {
-        public Profile UserProfile { get; set; }
+        public Profile Profile { get; set; }
 
         public string Id { get; set; }
         public string FirstName { get; set; }

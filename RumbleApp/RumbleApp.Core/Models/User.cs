@@ -10,7 +10,7 @@ namespace RumbleApp.Core.Models
     public class User : BaseViewModel
     {
      
-        public Profile UserProfile { get; set; }
+        public Profile Profile { get; set; }
 
         public string ID { get; set; }
         public string FirstName { get; set; }
