@@ -2,6 +2,7 @@ using Autofac;
 using RumbleApp.Core.Interfaces;
 using RumbleApp.Core.Services;
 using RumbleApp.Core.ViewModels;
+using RumbleApp.Core.ViewModels.AutoComplete;
 using RumbleApp.Core.ViewModels.Events;
 using RumbleApp.Core.ViewModels.Guide;
 using RumbleApp.Core.ViewModels.Map;
@@ -42,6 +43,7 @@ namespace RumbleApp.Core
             cb.RegisterType<ProfileService>().As<IProfileService>().SingleInstance();
             cb.RegisterType<EventService>().As<IEventService>().SingleInstance();
             cb.RegisterType<UserService>().As<IUserService>().SingleInstance();
+            cb.RegisterType<LocationServices>().As<ILocationServices>().SingleInstance();
 
             // View Models
             cb.RegisterType<MasterPageViewModel>().SingleInstance();
@@ -54,6 +56,7 @@ namespace RumbleApp.Core
             cb.RegisterType<AddEventViewModel>().SingleInstance();
             cb.RegisterType<EventsViewModel>().SingleInstance();
             cb.RegisterType<GuideViewModel>().SingleInstance();
+            cb.RegisterType<LocationLookupViewModel>().SingleInstance();
             
         }
     }

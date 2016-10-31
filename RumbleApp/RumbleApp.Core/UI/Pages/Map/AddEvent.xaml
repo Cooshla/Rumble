@@ -25,7 +25,7 @@
             <BoxView Style="{DynamicResource hrStyle}" />
 
 
-            <Entry Placeholder="Location (google lookup to come)"  Keyboard="Default"  Text="{Binding Location}" Style="{DynamicResource entryStyle}"/>
+            <Entry Placeholder="Location (google lookup to come)" x:Name="LocationEntry"   Keyboard="Default"  Text="{Binding Location}" Style="{DynamicResource entryStyle}"/>
             <BoxView Style="{DynamicResource hrStyle}" />
 
 

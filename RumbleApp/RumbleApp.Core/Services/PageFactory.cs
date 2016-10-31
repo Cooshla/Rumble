@@ -7,6 +7,8 @@ using RumbleApp.Core.UI.Pages.Profile;
 using RumbleApp.Core.UI.Pages.Account;
 using RumbleApp.Core.UI.Pages.Map;
 using RumbleApp.Core.UI.Pages.Guide;
+using RumbleApp.Core.ViewModels.AutoComplete;
+using RumbleApp.Core.UI.Pages.AutoComplete;
 
 namespace RumbleApp.Core.Services
 {
@@ -22,8 +24,12 @@ namespace RumbleApp.Core.Services
                 case Pages.LoginPage: return new Login();
                 case Pages.RegisterPage: return new Register();
                 case Pages.Guide: return new GuidePage();
-                case Pages.MainMapPage:return App.MainMap; 
-                case Pages.AddEventPage: return new AddEvent();
+                case Pages.MainMapPage:return App.MainMap;
+                case Pages.AddEventPage:
+                    return new AddEvent();
+                case Pages.AddressLookup:
+                    return new LocationLookup();
+                    
 
                 default: throw new ArgumentException(string.Format("Unknown page type {0}", page));
 			}

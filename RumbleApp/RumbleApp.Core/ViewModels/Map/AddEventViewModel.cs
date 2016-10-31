@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using Xamarin.Forms;
 
 namespace RumbleApp.Core.ViewModels.Map
 {
@@ -23,8 +24,8 @@ namespace RumbleApp.Core.ViewModels.Map
         private IAppNavigation Navi { get; set; }
         private IEventService Evnt { get; set; }
 
-        public ICommand AddEventCommand { get { return new Command(AddEvent); } }
-        public ICommand BackCommand { get { return new Command(Back); } }
+        public ICommand AddEventCommand { get { return new Xamarin.Forms.Command(AddEvent); } }
+        public ICommand BackCommand { get { return new Xamarin.Forms.Command(Back); } }
 
         public AddEventViewModel(IPageFactory _page, IAppNavigation _navi, IEventService _envt)
         {
@@ -32,8 +33,15 @@ namespace RumbleApp.Core.ViewModels.Map
             Navi = _navi;
             Evnt = _envt;
 
+            RegisterMessaging();
         }
 
+        private void RegisterMessaging()
+        {
+            MessagingCenter.Subscribe<AddEventViewModel, bool>(this, Messages.AddressLookupCalled, (sender, arg) => {
+                Navi.PushModal(PageFac.GetPage(Pages.AddressLookup));
+            });
+        }
         
 
         public async void AddEvent()

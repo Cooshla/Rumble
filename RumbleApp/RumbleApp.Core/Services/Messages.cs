@@ -11,5 +11,6 @@ namespace RumbleApp.Core
 
         public const string MapPinsReady = "MapPinsReady";
 
+        public const string AddressLookupCalled = "AddressLookupCalled";
     }
 }

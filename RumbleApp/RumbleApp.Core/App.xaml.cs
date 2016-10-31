@@ -19,6 +19,7 @@ using XLabs.Platform.Services.Media;
 using RumbleApp.Core.Models;
 using RumbleApp.Core.UI.Pages.Map;
 using RumbleApp.Core.ViewModels.Guide;
+using RumbleApp.Core.ViewModels.AutoComplete;
 
 namespace RumbleApp.Core
 {
@@ -93,7 +94,7 @@ namespace RumbleApp.Core
             string expires = Settings.Expires;
 
             var pageFactory = _container.Resolve<IPageFactory>();
-            if (token == String.Empty || string.IsNullOrEmpty(expires) || DateTime.Parse(expires) < DateTime.UtcNow)
+            if (token == String.Empty)// || string.IsNullOrEmpty(expires) || DateTime.Parse(expires) < DateTime.UtcNow)
             {
                 await NaviService.PushModalAsync(pageFactory.GetPage(Pages.LoginPage));
                 return;
@@ -127,6 +128,7 @@ namespace RumbleApp.Core
             AddEventViewModel = _container.Resolve<AddEventViewModel>();
             EventsViewModel = _container.Resolve<EventsViewModel>();
             GuideViewModel = _container.Resolve<GuideViewModel>();
+            LocationLookupViewModel = _container.Resolve<LocationLookupViewModel>();
             
 
             // static pages
@@ -167,7 +169,10 @@ namespace RumbleApp.Core
         
         public static MainMapPageViewModel MainMapPageViewModel { get; set; }
         public static AddEventViewModel AddEventViewModel { get; set; }
-        public static GuideViewModel GuideViewModel{ get; set;        }
+        public static GuideViewModel GuideViewModel { get; set; }
+
+
+        public static LocationLookupViewModel LocationLookupViewModel { get; set; }
 
         //public static FavouritesViewModel FavouritesViewModel { get { return Resolve<FavouritesViewModel>(); } }
         // static pages

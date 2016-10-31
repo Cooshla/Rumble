@@ -48,6 +48,7 @@
     <Compile Include="Helpers\PhoneValidator.cs" />
     <Compile Include="Interfaces\IAccountService.cs" />
     <Compile Include="Interfaces\IEventService.cs" />
+    <Compile Include="Interfaces\ILocationServices.cs" />
     <Compile Include="Interfaces\IUserService.cs" />
     <Compile Include="Interfaces\Misc\ILocationViewModel.cs" />
     <Compile Include="Interfaces\IProfileService.cs" />
@@ -56,6 +57,7 @@
     <Compile Include="Models\Account\AuthResponse.cs" />
     <Compile Include="Models\BaseModel.cs" />
     <Compile Include="Models\Event.cs" />
+    <Compile Include="Models\GoogleModel.cs" />
     <Compile Include="Models\LocationModel.cs" />
     <Compile Include="Models\MenuItem.cs" />
     <Compile Include="Models\Profile.cs" />
@@ -63,6 +65,7 @@
     <Compile Include="Objects\MasterPageItem.cs" />
     <Compile Include="Services\AccountService.cs" />
     <Compile Include="Services\EventService.cs" />
+    <Compile Include="Services\LocationServices.cs" />
     <Compile Include="Services\PageFactory.cs" />
     <Compile Include="PreserveAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -104,6 +107,9 @@
     <Compile Include="UI\Pages\Account\Register.xaml.cs">
       <DependentUpon>Register.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UI\Pages\AutoComplete\LocationLookup.xaml.cs">
+      <DependentUpon>LocationLookup.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UI\Pages\Events\Events.xaml.cs">
       <DependentUpon>Events.xaml</DependentUpon>
     </Compile>
@@ -124,6 +130,7 @@
     </Compile>
     <Compile Include="ViewModels\Account\RegisterViewModel.cs" />
     <Compile Include="ViewModels\Account\LoginViewModel.cs" />
+    <Compile Include="ViewModels\AutoComplete\LocationLookupViewModel.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="ViewModels\Events\EventsViewModel.cs" />
     <Compile Include="ViewModels\Guide\GuideViewModel.cs" />
@@ -393,6 +400,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="UI\Pages\Guide\GuidePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\Pages\AutoComplete\LocationLookup.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

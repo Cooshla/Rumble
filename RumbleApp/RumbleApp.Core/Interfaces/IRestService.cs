@@ -11,5 +11,7 @@ namespace RumbleApp.Core.Interfaces
         Task<T> GetClient<T>(string resource, string jsonRequest = "");
         Task<T> PostClient<T>(string resource, string jsonRequest = "");
         Task<T> PutClient<T>(string resource, string jsonRequest = "");
+
+        Task<T> GoogleGetClient<T>(string resource, string jsonRequest = "");
     }
 }

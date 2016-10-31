@@ -107,5 +107,33 @@ namespace RumbleApp.Core.Services
             });
             return result;
         }
+
+
+
+
+        Uri googleBaseUrl = new Uri("https://maps.googleapis.com/maps/api/");
+        string googleApikey = "AIzaSyDi3jJZBasQ7Mj1bVSNu2ydrGlbQkRxOyM";
+        
+
+
+
+        public async Task<T> GoogleGetClient<T>(string resource, string jsonRequest = "")
+        {
+            T result = default(T);
+
+            await Task.Run(async () =>
+            {
+                var client = new System.Net.Http.HttpClient();
+                client.BaseAddress = googleBaseUrl;
+                resource += "&key=" + googleApikey;
+
+                var response = await client.GetAsync(resource.Replace(" ", "+"));
+
+                var responseJson = response.Content.ReadAsStringAsync().Result;
+
+                result = JsonConvert.DeserializeObject<T>(responseJson);
+            });
+            return result;
+        }
     }
 }

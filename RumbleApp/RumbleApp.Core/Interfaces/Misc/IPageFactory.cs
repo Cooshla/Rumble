@@ -12,11 +12,11 @@ namespace RumbleApp.Core.Interfaces
         ScanPage,
         MainMapPage,
         AddEventPage,
-        Guide
-
+        Guide,
+        AddressLookup
     }
 
-	public interface IPageFactory
+    public interface IPageFactory
 	{
 		Page GetPage(Pages page);
 	}

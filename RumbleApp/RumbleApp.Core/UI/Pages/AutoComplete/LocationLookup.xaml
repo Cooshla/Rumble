@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
+             x:Class="RumbleApp.Core.UI.Pages.AutoComplete.LocationLookup">
+<ContentPage.Resources>
+        <ResourceDictionary>
+            <!--  this isn't working yet  -->
+            <DataTemplate x:Key="SugestionItemTemplate">
+                <ViewCell Height="60">
+                    <ViewCell.View>
+                        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                            <Label HorizontalOptions="Start"
+                                   Text="{Binding Address}"
+                                   VerticalOptions="Center" />
+                          
+                        </StackLayout>
+                    </ViewCell.View>
+                </ViewCell>
+            </DataTemplate>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <controls:AutoCompleteView x:Name="Autocomplete" 
+                                   Placeholder="Look up address"
+                                   SearchBackgroundColor="Blue"
+                                   SearchBorderColor="Yellow"
+                                   SearchCommand="{Binding SearchCommand}"
+                                   SearchTextColor="Yellow"
+                                   SelectedCommand="{Binding CellSelectedCommand}"
+                                   SelectedItem="{Binding SelectedItem}"
+                                   ShowSearchButton="True"
+                                   SuggestionBackgroundColor="Green"
+                                   SuggestionItemDataTemplate="{StaticResource SugestionItemTemplate}"
+                                   Suggestions="{Binding Items,
+                                                         Mode=TwoWay}" />
+    </ContentPage.Content>
+  </ContentPage>
