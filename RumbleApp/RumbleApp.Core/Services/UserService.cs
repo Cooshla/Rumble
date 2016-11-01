@@ -19,6 +19,8 @@ namespace RumbleApp.Core.Services
             Rest = _rest;
         }
 
+        
+
         public async Task<User> GetUserViewModel(string usr, string pass)
         {
             var user = await Rest.GetClient<User>(string.Format("api/user/getuser?usr={0}&pass={1}",usr,pass));
@@ -68,6 +70,6 @@ namespace RumbleApp.Core.Services
 
             return changed;
         }
-        
+
     }
 }

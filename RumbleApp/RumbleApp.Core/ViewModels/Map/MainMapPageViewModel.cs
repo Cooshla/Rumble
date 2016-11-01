@@ -1,3 +1,4 @@
+using RumbleApp.Core.Abstracts;
 using RumbleApp.Core.Interfaces;
 using RumbleApp.Core.Models;
 using RumbleApp.Core.Services;
@@ -20,22 +21,25 @@ namespace RumbleApp.Core.ViewModels.Map
         public ICommand ShowMapCommand { get { return new Command(ShowMapEvent); } }
 
 
-        public List<Pin> Items { get; set; }
+        public List<CustomPin> Items { get; set; }
         public bool ShowMap { get; set; }
         public ImageSource ShowMapIcon { get; set; }
         public List<Event> AllEvents { get; set; }
+        public List<Profile> AllProfiles { get; set; }
 
         private IAppNavigation Navi { get; set; }
         private IPageFactory Page { get; set; }
         private IEventService Evnt { get; set; }
+        private IProfileService Prof { get; set; }
 
-
-        public MainMapPageViewModel(IPageFactory _page, IAppNavigation _navi, IEventService _evnt)
+        public MainMapPageViewModel(IPageFactory _page, IAppNavigation _navi, IEventService _evnt, IProfileService _prof)
         {
             Navi = _navi;
             Page = _page;
             Evnt = _evnt;
+            Prof = _prof;
             RegisterMessageCenter();
+            
         }
 
 
@@ -51,30 +55,67 @@ namespace RumbleApp.Core.ViewModels.Map
             {
                 await GetData();
             });
+
+
+            MessagingCenter.Subscribe<MainMapPageViewModel, string>(this, Messages.MapEventsClicked, async (sends, arg) =>
+            {
+                // Navigate to the event page
+                await Navi.PushModal(Page.GetPage(Pages.Guide));
+            });
+
+
+            MessagingCenter.Subscribe<MainMapPageViewModel, string>(this, Messages.MapProfileClicked, async (sends, arg) =>
+            {
+                // Navigate to the profile page
+                await Navi.PushModal(Page.GetPage(Pages.AddressLookup));
+            });
         }
 
 
         private async Task GetData()
         {
+
             App.UserDialogService.ShowLoading();
-            Items = new List<Pin>();
+            Items = new List<CustomPin>();
             ShowMap = true;
             ShowMapIcon = ImageSource.FromFile("list");
             AllEvents = await Evnt.GetAllEvents();
-
+            
             foreach(Event evt in AllEvents)
             {
-                Items.Add(new Pin() { Address = evt.Location, Label = evt.Name, Type = PinType.Place, Position = new Position(evt.Latitude, evt.Longitude) });
+                var pin = new CustomPin
+                {
+                    Pin = new Pin() { Address = evt.Location, Label = evt.Name, Type = PinType.Place, Position = new Position(evt.Latitude, evt.Longitude) },
+                    Id = evt.EventId.ToString(),
+                    Type="Event"
+                };
+
+                
+                Items.Add(pin);
+            }
+
+            AllProfiles = await Prof.GetAllProfiles();
+
+            foreach (Profile usr in AllProfiles)
+            {
+                var pin = new CustomPin
+                {
+                    Pin = new Pin() { Address = usr.Location, Label = string.Format("{0} {1}", usr.FirstName, usr.LastName), Type = PinType.Place, Position = new Position(usr.Latitude, usr.Longitude) },
+                    Id = usr.ProfileId.ToString(),
+                    Type = "Profile"
+                };
+                
+                Items.Add(pin);
+
             }
 
             OnPropertyChanged("ShowMap");
             OnPropertyChanged("ShowMapIcon");
             OnPropertyChanged("Items");
-            MessagingCenter.Send<MainMapPageViewModel, List<Pin>>(this, Messages.MapPinsReady, Items);
+            MessagingCenter.Send<MainMapPageViewModel, List<CustomPin>>(this, Messages.MapPinsReady, Items);
             App.UserDialogService.HideLoading();
         }
-
-
+        
 
         public async void AddEvent()
         {

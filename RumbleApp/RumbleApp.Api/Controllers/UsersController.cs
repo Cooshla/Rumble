@@ -123,7 +123,7 @@ namespace RumbleApp.Api.Controllers
             return Json(new UserResponse { success = result > 0, errors = errors, ReturnedUser = json.Content });
         }
 
-    
+
 
         [HttpGet]
         public async Task<JsonResult<AppUser>> GetUser(string usr, string pass)
@@ -139,6 +139,7 @@ namespace RumbleApp.Api.Controllers
             return Json(appuser);
         }
 
+        
 
         /*
         [HttpPost]

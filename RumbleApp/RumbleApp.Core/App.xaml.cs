@@ -20,11 +20,15 @@ using RumbleApp.Core.Models;
 using RumbleApp.Core.UI.Pages.Map;
 using RumbleApp.Core.ViewModels.Guide;
 using RumbleApp.Core.ViewModels.AutoComplete;
+using RumbleApp.Core.ViewModels.Profile;
 
 namespace RumbleApp.Core
 {
     public partial class App : Application
     {
+        public static double ScreenHeight;
+        public static double ScreenWidth;
+
         public static User ThisUser { get; set; }
         public static string DeviceId { get; set; }
         public static string Version { get; set; }
@@ -129,8 +133,9 @@ namespace RumbleApp.Core
             EventsViewModel = _container.Resolve<EventsViewModel>();
             GuideViewModel = _container.Resolve<GuideViewModel>();
             LocationLookupViewModel = _container.Resolve<LocationLookupViewModel>();
+            EventDetailViewModel = _container.Resolve<EventDetailViewModel>();
+            ViewProfileViewModel = _container.Resolve<ViewProfileViewModel>();
             
-
             // static pages
             MainMap = new MainMapPage();
             ProfilePage = new UI.Pages.Profile.Profile();
@@ -170,8 +175,10 @@ namespace RumbleApp.Core
         public static MainMapPageViewModel MainMapPageViewModel { get; set; }
         public static AddEventViewModel AddEventViewModel { get; set; }
         public static GuideViewModel GuideViewModel { get; set; }
+        public static EventDetailViewModel EventDetailViewModel { get; set; }
+        public static ViewProfileViewModel ViewProfileViewModel { get; set; }
 
-
+        
         public static LocationLookupViewModel LocationLookupViewModel { get; set; }
 
         //public static FavouritesViewModel FavouritesViewModel { get { return Resolve<FavouritesViewModel>(); } }

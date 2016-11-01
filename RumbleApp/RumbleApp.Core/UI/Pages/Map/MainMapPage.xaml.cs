@@ -1,3 +1,4 @@
+using RumbleApp.Core.Abstracts;
 using RumbleApp.Core.ViewModels.Map;
 using System;
 using System.Collections.Generic;
@@ -16,18 +17,15 @@ namespace RumbleApp.Core.UI.Pages.Map
         {
             BindingContext = App.MainMapPageViewModel;
 
-            InitializeComponent(); MessagingCenter.Subscribe<MainMapPageViewModel,List<Pin>>(this,Messages.MapPinsReady, (sends, arg) =>
-                {
-                    Device.BeginInvokeOnMainThread(() =>
-                    {
-                        MainMap.Pins.Clear();
-                        foreach (Pin p in arg)
-                        {
-                            MainMap.Pins.Add(p);
-                        }
-                    });
-                    
-                });
+            InitializeComponent();
+
+
+            MessagingCenter.Subscribe<MainMapPageViewModel, List<CustomPin>>(this, Messages.MapPinsReady, (sends, arg) =>
+                  {
+                      MainMap.CustomPins = arg;
+                      MainMap.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(51.5074, -0.1278), Distance.FromMiles(1.0)));
+                  });
+
         }
     }
 }

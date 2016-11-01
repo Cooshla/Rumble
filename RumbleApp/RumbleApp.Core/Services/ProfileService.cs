@@ -37,7 +37,7 @@ namespace RumbleApp.Core.Services
         {
             return await Rest.GetClient<Profile>("api/Profile/getuser?id=" + id);
         }
-        public async Task<List<Profile>> GetAllProfiles(int id)
+        public async Task<List<Profile>> GetAllProfiles()
         {
             return await Rest.GetClient<List<Profile>>("api/Profile/GetAllProfiles");
         }

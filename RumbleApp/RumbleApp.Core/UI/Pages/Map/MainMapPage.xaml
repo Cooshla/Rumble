@@ -5,6 +5,7 @@
              xmlns:converters="clr-namespace:RumbleApp.Core.Converters;assembly=RumbleApp.Core"
              xmlns:behaviors="clr-namespace:RumbleApp.Core.Maps;assembly=RumbleApp.Core"
              
+             xmlns:abstract="clr-namespace:RumbleApp.Core.Abstracts;assembly=RumbleApp.Core"
              x:Class="RumbleApp.Core.UI.Pages.Map.MainMapPage">
 
     <ContentPage.Resources>
@@ -35,11 +36,7 @@
         </Grid.RowDefinitions>
 
 
-        <maps:Map x:Name="MainMap" MapType="Street"  VerticalOptions="FillAndExpand" IsVisible="{Binding ShowMap}" Grid.Column="0" Grid.Row="0">
-            <maps:Map.Behaviors>
-                <behaviors:MapBehavior ItemsSource="{Binding Items}" />
-            </maps:Map.Behaviors>
-        </maps:Map>
+        <abstract:CustomMap x:Name="MainMap" MapType="Street"   VerticalOptions="FillAndExpand" IsVisible="{Binding ShowMap}" Grid.Column="0" Grid.Row="0" ></abstract:CustomMap>
 
 
         <Button Text="Add an Event" Command="{Binding AddEventCommand}" Grid.Column="0" Grid.Row="1"></Button>

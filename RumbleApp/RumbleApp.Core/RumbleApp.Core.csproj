@@ -38,6 +38,7 @@
     <RunCodeAnalysis>false</RunCodeAnalysis>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Abstracts\CustomMap.cs" />
     <Compile Include="Converters\BooleanToObjectConverter.cs" />
     <Compile Include="Extensions\BindableBehavior.cs" />
     <Compile Include="Helpers\DateHelper.cs" />

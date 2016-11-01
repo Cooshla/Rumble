@@ -9,7 +9,8 @@ namespace RumbleApp.Core.Interfaces
 {
     public interface IUserService
     {
-         Task<User> GetUserViewModel(string user, string pass);
+
+        Task<User> GetUserViewModel(string user, string pass);
          Task<bool> UpdateUserViewModelAsync();
          bool ApplyNotificationGroups(string token);
     }

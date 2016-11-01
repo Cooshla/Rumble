@@ -61,7 +61,14 @@ namespace RumbleApp.Droid
             InitializeDevice();
             App.Init(new AppSetup());
             LoadApplication(new App());
-            
+
+            var width = Resources.DisplayMetrics.WidthPixels;
+            var height = Resources.DisplayMetrics.HeightPixels;
+            var density = Resources.DisplayMetrics.Density;
+
+            App.ScreenWidth = (width - 0.5f) / density;
+            App.ScreenHeight = (height - 0.5f) / density;
+
             App.AppLoadedDateTime = DateTime.UtcNow;
             
 			

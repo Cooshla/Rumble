@@ -6,12 +6,14 @@ using RumbleApp.Core.ViewModels.AutoComplete;
 using RumbleApp.Core.ViewModels.Events;
 using RumbleApp.Core.ViewModels.Guide;
 using RumbleApp.Core.ViewModels.Map;
+using RumbleApp.Core.ViewModels.Profile;
 
 namespace RumbleApp.Core
 {
     // we can inherit and override this class on each platform to make services specific
     public class AppSetup
     {
+
         public string PackageFolder { get; set; }
         public string ImportPackagePath { get; set; }
 
@@ -57,7 +59,8 @@ namespace RumbleApp.Core
             cb.RegisterType<EventsViewModel>().SingleInstance();
             cb.RegisterType<GuideViewModel>().SingleInstance();
             cb.RegisterType<LocationLookupViewModel>().SingleInstance();
-            
+            cb.RegisterType<EventDetailViewModel>().SingleInstance();
+            cb.RegisterType<ViewProfileViewModel>().SingleInstance();
         }
     }
 }

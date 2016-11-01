@@ -102,8 +102,13 @@ namespace RumbleApp.Core.ViewModels.AutoComplete
     
         public async void GetItems(string search)
         {
+            _items.Clear();
            var addresses =  await Loc.GetAddressesAsync(search);
-            
+            foreach(var loc in addresses.predictions)
+            {
+                _items.Add(new AddressLookup() { Address = loc.description });
+            }
+            OnPropertyChanged("Items");
         }
     }
 
