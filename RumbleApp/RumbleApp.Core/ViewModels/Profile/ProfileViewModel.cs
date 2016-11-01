@@ -16,7 +16,7 @@ namespace RumbleApp.Core.ViewModels
     public class ProfileViewModel: BaseViewModel
     {
 
-        public Profile ThisProfile { get; set; }
+        public RumbleApp.Core.Models.Profile ThisProfile { get; set; }
         public ImageSource UserImage { get; set; }
         public string PhotoText { get; set; }
         private IAppNavigation Navi { get; set; }
@@ -34,24 +34,16 @@ namespace RumbleApp.Core.ViewModels
             Navi = _navi;
             Page = _page;
             Prof = _prof;
-            Evnt = _evnt;
-
-            RegisterMessageCenter();                
-        }
-        public void RegisterMessageCenter()
-        {
-            MessagingCenter.Subscribe<MainPage,bool>(this,Messages.ProfileClicked, async (sends, arg) =>
-            {
-                await GetData();
-            });
+            Evnt = _evnt;              
         }
 
 
-        public async Task GetData()
+
+        public async Task GetData(string id)
         {
             App.UserDialogService.ShowLoading();
 
-            ThisProfile = App.ThisUser.Profile;
+            ThisProfile =await Prof.GetProfile(int.Parse(id));
 
             if (string.IsNullOrWhiteSpace(ThisProfile.ImageUrl))
             {

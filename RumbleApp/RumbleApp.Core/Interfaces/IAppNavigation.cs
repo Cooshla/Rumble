@@ -6,9 +6,12 @@ namespace RumbleApp.Core.Interfaces
 	public interface IAppNavigation
 	{
 		Task ShowFirstPage();
-        
-		
-		Task PopToRoot();
+
+
+        Task GoToProfilePage(string id);
+        Task GoToEventPage(string id);
+
+        Task PopToRoot();
 		Task ClearAllModals();
 		Task PushModal(Page modalPage);
 		Task PushModal (Page modalPage, bool animated);

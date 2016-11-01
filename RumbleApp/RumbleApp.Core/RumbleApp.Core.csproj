@@ -111,6 +111,9 @@
     <Compile Include="UI\Pages\AutoComplete\LocationLookup.xaml.cs">
       <DependentUpon>LocationLookup.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UI\Pages\Events\EventDetail.xaml.cs">
+      <DependentUpon>EventDetail.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UI\Pages\Events\Events.xaml.cs">
       <DependentUpon>Events.xaml</DependentUpon>
     </Compile>
@@ -123,6 +126,9 @@
     <Compile Include="UI\Pages\Map\MainMapPage.xaml.cs">
       <DependentUpon>MainMapPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UI\Pages\Profile\MyProfile.xaml.cs">
+      <DependentUpon>MyProfile.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UI\Pages\Profile\Profile.xaml.cs">
       <DependentUpon>Profile.xaml</DependentUpon>
     </Compile>
@@ -133,11 +139,13 @@
     <Compile Include="ViewModels\Account\LoginViewModel.cs" />
     <Compile Include="ViewModels\AutoComplete\LocationLookupViewModel.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
+    <Compile Include="ViewModels\Events\EventDetailViewModel.cs" />
     <Compile Include="ViewModels\Events\EventsViewModel.cs" />
     <Compile Include="ViewModels\Guide\GuideViewModel.cs" />
     <Compile Include="ViewModels\Map\AddEventViewModel.cs" />
     <Compile Include="ViewModels\Map\MainMapPageViewModel.cs" />
     <Compile Include="ViewModels\Profile\ProfileViewModel.cs" />
+    <Compile Include="ViewModels\Profile\ViewProfileViewModel.cs" />
     <Compile Include="ViewModels\ScanPageViewModel.cs" />
     <Compile Include="ViewModels\MainPageViewModel.cs" />
     <Compile Include="ViewModels\MasterPageViewModel.cs" />
@@ -407,6 +415,18 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="UI\Pages\AutoComplete\LocationLookup.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\Pages\Events\EventDetail.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\Pages\Profile\MyProfile.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

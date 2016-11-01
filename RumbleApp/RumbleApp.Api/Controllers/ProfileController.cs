@@ -4,23 +4,25 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Threading.Tasks;
 using System.Web.Http;
+using System.Web.Http.Results;
 
 namespace RumbleApp.Api.Controllers
 {
     public class ProfileController : BaseApiController
     {
         // GET: api/Profile
-        public List<Profile> GetAllProfiles()
+        public async Task<JsonResult<List<Profile>>> GetAllProfiles()
         {
-            return db.Profile.ToList();
+            return Json(db.Profile.ToList());
 
         }
 
         // GET: api/Profile/5
-        public Profile GetProfile(int id)
+        public async Task<JsonResult<Profile>> GetProfile(int id)
         {
-            return db.Profile.Where(c => c.ProfileId == id).FirstOrDefault();
+            return Json(db.Profile.Where(c => c.ProfileId == id).FirstOrDefault());
         }
 
         // POST: api/Profile

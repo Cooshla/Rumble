@@ -13,7 +13,8 @@ namespace RumbleApp.Core.Interfaces
         MainMapPage,
         AddEventPage,
         Guide,
-        AddressLookup
+        AddressLookup,
+        EventDetail
     }
 
     public interface IPageFactory

@@ -1,4 +1,5 @@
 ﻿using RumbleApp.Core.Interfaces;
+using RumbleApp.Core.Models;
 using RumbleApp.Core.UI;
 using System;
 using System.Collections.Generic;
@@ -9,8 +10,9 @@ using Xamarin.Forms;
 
 namespace RumbleApp.Core.ViewModels.Events
 {
-    public class EventDetailViewModel
+    public class EventDetailViewModel : BaseViewModel
     {
+        Event Evt { get; set; }
         private IAppNavigation Navi { get; set; }
         private IPageFactory Page { get; set; }
         private IProfileService Prof { get; set; }
@@ -25,19 +27,13 @@ namespace RumbleApp.Core.ViewModels.Events
             Page = _page;
             Prof = _prof;
             Evnt = _evnt;
-
-            RegisterMessageCenter();
+            
         }
-        public void RegisterMessageCenter()
-        {
-            MessagingCenter.Subscribe<MainPage, bool>(this, Messages.ProfileClicked, async (sends, arg) =>
-            {
-                await GetData();
-            });
-        }
-        private async Task GetData()
-        {
 
+        public async Task GetData(string id)
+        {
+            Evt = await Evnt.GetEvent(int.Parse(id));
+            OnPropertyChanged("Evt");
         }
     }
 }

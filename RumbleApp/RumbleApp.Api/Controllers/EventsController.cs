@@ -4,30 +4,35 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Threading.Tasks;
 using System.Web.Http;
+using System.Web.Http.Results;
 
 namespace RumbleApp.Api.Controllers
 {
     public class EventsController : BaseApiController
     {
         // GET: api/Events
-        public IEnumerable<Event> GetAllEvents()
+        public async Task<JsonResult<List<Event>>> GetAllEvents()
         {
-            return db.Event.ToList();
+            return Json(db.Event.ToList());
         }
 
         // GET: api/Events/5
-        public Event GetEvent(int id)
+        public async Task<JsonResult<Event>> GetEvent(int id)
         {
-            return db.Event.Where(c => c.EventId == id).FirstOrDefault();
+            var evts =  db.Event.Where(c => c.EventId == id).FirstOrDefault();
+
+            return Json(evts);
         }
        
 
         [HttpGet]
         [Route("api/events/geteventforuser")]
-        public IEnumerable<Event> GetEventForUser(int id)
+        public async Task<JsonResult<List<Event>>> GetEventForUser(int id)
         {
-            return db.Event.Where(c => c.ProfileId == id).ToList();
+            var evts = db.Event.Where(c => c.ProfileId == id).ToList();
+            return Json(evts);
         }
 
         // POST: api/Events

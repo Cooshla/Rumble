@@ -25,7 +25,7 @@ namespace RumbleApp.Core.ViewModels.Map
         public bool ShowMap { get; set; }
         public ImageSource ShowMapIcon { get; set; }
         public List<Event> AllEvents { get; set; }
-        public List<Profile> AllProfiles { get; set; }
+        public List<RumbleApp.Core.Models.Profile> AllProfiles { get; set; }
 
         private IAppNavigation Navi { get; set; }
         private IPageFactory Page { get; set; }
@@ -59,15 +59,13 @@ namespace RumbleApp.Core.ViewModels.Map
 
             MessagingCenter.Subscribe<MainMapPageViewModel, string>(this, Messages.MapEventsClicked, async (sends, arg) =>
             {
-                // Navigate to the event page
-                await Navi.PushModal(Page.GetPage(Pages.Guide));
+                await Navi.GoToProfilePage(arg);
             });
 
 
             MessagingCenter.Subscribe<MainMapPageViewModel, string>(this, Messages.MapProfileClicked, async (sends, arg) =>
             {
-                // Navigate to the profile page
-                await Navi.PushModal(Page.GetPage(Pages.AddressLookup));
+                await Navi.GoToEventPage(arg);
             });
         }
 
@@ -96,7 +94,7 @@ namespace RumbleApp.Core.ViewModels.Map
 
             AllProfiles = await Prof.GetAllProfiles();
 
-            foreach (Profile usr in AllProfiles)
+            foreach (RumbleApp.Core.Models.Profile usr in AllProfiles)
             {
                 var pin = new CustomPin
                 {

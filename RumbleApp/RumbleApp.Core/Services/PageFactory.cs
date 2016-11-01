@@ -9,6 +9,7 @@ using RumbleApp.Core.UI.Pages.Map;
 using RumbleApp.Core.UI.Pages.Guide;
 using RumbleApp.Core.ViewModels.AutoComplete;
 using RumbleApp.Core.UI.Pages.AutoComplete;
+using RumbleApp.Core.UI.Pages.Events;
 
 namespace RumbleApp.Core.Services
 {
@@ -29,7 +30,9 @@ namespace RumbleApp.Core.Services
                     return new AddEvent();
                 case Pages.AddressLookup:
                     return new LocationLookup();
-                    
+                case Pages.EventDetail:
+                    return new EventDetail();
+
 
                 default: throw new ArgumentException(string.Format("Unknown page type {0}", page));
 			}

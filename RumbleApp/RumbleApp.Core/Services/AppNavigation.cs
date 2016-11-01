@@ -6,6 +6,8 @@ using RumbleApp.Core.UI;
 using RumbleApp.Core.Abstracts;
 using System;
 using RumbleApp.Core.Interfaces;
+using RumbleApp.Core.UI.Pages.Profile;
+using RumbleApp.Core.UI.Pages.Events;
 
 namespace RumbleApp.Core.Services
 {
@@ -19,7 +21,26 @@ namespace RumbleApp.Core.Services
             _navi = navi;
             _pages = pages;
         }
-        
+
+        //TODO
+        public Task ShowFirstPage()
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task GoToProfilePage(string id)
+        {
+            Profile prof = _pages.GetPage(Pages.ProfilePage) as Profile;
+            await App.ProfileViewModel.GetData(id);
+            await PushModal(prof, true);
+        }
+
+        public async Task GoToEventPage(string id)
+        {
+            EventDetail prof = _pages.GetPage(Pages.EventDetail) as EventDetail;
+            await App.EventDetailViewModel.GetData(id);
+            await PushModal(prof, true);
+        }
 
         public async Task PopToRoot()
         {
@@ -127,10 +148,6 @@ namespace RumbleApp.Core.Services
 
 
 
-        //TODO
-        public Task ShowFirstPage()
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }
