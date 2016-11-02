@@ -61,9 +61,7 @@ namespace RumbleApp.Core.ViewModels.Profile
                 PhotoText = "Edit Image";
                 UserImage = ImageSource.FromUri(new Uri(ThisProfile.ImageUrl));
             }
-
-            ThisProfile.EventItems = await Evnt.GetAllEventsForUser(ThisProfile.ProfileId);
-
+            
             OnPropertyChanged("ThisProfile");
             OnPropertyChanged("UserImage");
             OnPropertyChanged("PhotoText");

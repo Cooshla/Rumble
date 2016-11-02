@@ -44,7 +44,7 @@ namespace RumbleApp.Core.ViewModels
             {
                 Title = "Profile",
                 IconSource = "Search.png",
-                TargetType = typeof(RumbleApp.Core.UI.Pages.Profile.Profile),
+                TargetType = typeof(RumbleApp.Core.UI.Pages.Profile.MyProfile),
                 Id="profile"
             });
 

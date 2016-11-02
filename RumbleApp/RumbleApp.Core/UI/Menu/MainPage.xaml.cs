@@ -9,6 +9,7 @@ using RumbleApp.Core.Models;
 using Xamarin.Forms;
 using RumbleApp.Core.UI.Pages.Map;
 using RumbleApp.Core.UI.Pages.Events;
+using RumbleApp.Core.UI.Pages.Profile;
 
 namespace RumbleApp.Core.UI
 {
@@ -25,31 +26,40 @@ namespace RumbleApp.Core.UI
 
         void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            var item = e.SelectedItem as Models.MenuItem;
-
-            if (item != null)
+            try
             {
-                if (item.TargetType == typeof(Profile))
-                {
-                    Detail = new NavigationPage(App.ProfilePage);
-                    MessagingCenter.Send<MainPage, bool>(this, Messages.ProfileClicked, true);
-                }
-                else if (item.TargetType == typeof(MainMapPage))
-                {
-                    Detail = new NavigationPage(App.MainMap);
-                    MessagingCenter.Send<MainPage, bool>(this, Messages.HomeClicked, true);
-                }
-                else if (item.TargetType == typeof(Events))
-                {
-                    Detail = new NavigationPage(App.EventsPage);
-                    MessagingCenter.Send<MainPage, bool>(this, Messages.EventsClicked, true);
-                }
-                else
-                    Detail = item.Args != null ? new NavigationPage((Page)Activator.CreateInstance(item.TargetType, item.Args)) : new NavigationPage((Page)Activator.CreateInstance(item.TargetType));
 
-                IsPresented = false;
-                masterPage.ListView.SelectedItem = null;
-                App.SetNavService(Detail);
+
+                var item = e.SelectedItem as Models.MenuItem;
+
+                if (item != null)
+                {
+
+                    if (item.TargetType == typeof(MainMapPage))
+                    {
+                        Detail = new NavigationPage(App.MainMap);
+                        MessagingCenter.Send<MainPage, bool>(this, Messages.HomeClicked, true);
+                    }
+                    else if (item.TargetType == typeof(Events))
+                    {
+                        Detail = new NavigationPage(App.EventsPage);
+                        MessagingCenter.Send<MainPage, bool>(this, Messages.EventsClicked, true);
+                    }
+                    else if (item.TargetType == typeof(MyProfile))
+                    {
+                        Detail = new NavigationPage(App.MyProfile);
+                        MessagingCenter.Send<MainPage, bool>(this, Messages.ProfileClicked, true);
+                    }
+                    else
+                        Detail = item.Args != null ? new NavigationPage((Page)Activator.CreateInstance(item.TargetType, item.Args)) : new NavigationPage((Page)Activator.CreateInstance(item.TargetType));
+
+                    IsPresented = false;
+                    masterPage.ListView.SelectedItem = null;
+                    App.SetNavService(Detail);
+                }
+            }catch(Exception ex)
+            {
+                string s = ex.Message;
             }
         }
     }

@@ -140,7 +140,9 @@ namespace RumbleApp.Core
             MainMap = new MainMapPage();
             ProfilePage = new UI.Pages.Profile.Profile();
             EventsPage = new UI.Pages.Events.Events();
-            
+            MyProfile = new UI.Pages.Profile.MyProfile();
+
+
         }
 
 
@@ -188,5 +190,6 @@ namespace RumbleApp.Core
         public static MainMapPage MainMap { get; set; }
         public static UI.Pages.Profile.Profile ProfilePage { get; set; }
         public static UI.Pages.Events.Events EventsPage { get; set; }
+        public static UI.Pages.Profile.MyProfile MyProfile{ get; set; }
     }
 }

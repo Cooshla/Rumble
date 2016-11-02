@@ -14,19 +14,20 @@
                     <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical">
                         <controls:CircleImage x:Name="imgPhoto" Aspect="AspectFill" Source="{Binding UserImage}" HorizontalOptions="Center" WidthRequest="100" HeightRequest="100" 
                        Margin="0, -75, 0, 0" ></controls:CircleImage>
+                        <Button Text="Edit Image" Style="{DynamicResource OrangeButton}"  />
                         <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal" Padding="0,20,0,0">
-                            <Label Text="{Binding ThisProfile.FirstName}"  Style="{DynamicResource h1LabelStyle}"/>
-                            <Label Text="{Binding ThisProfile.LastName}"  Style="{DynamicResource h1LabelStyle}"/>
+                            <Entry Text="{Binding ThisProfile.FirstName}"  />
+                            <Entry Text="{Binding ThisProfile.LastName}"  />
                         </StackLayout>
-                        <Label HorizontalOptions="FillAndExpand" Text="{Binding ThisProfile.Ranking}" Style="{DynamicResource h2LabelStyle}" />
-                        <Label HorizontalOptions="FillAndExpand" Text="{Binding ThisProfile.Location}" Style="{DynamicResource understatedItalics}"  />
-                        <Label HorizontalOptions="FillAndExpand" Text="{Binding ThisProfile.Interests}" Style="{DynamicResource understatedItalics}"  />
+                        <Entry HorizontalOptions="FillAndExpand" Text="{Binding ThisProfile.Ranking}"  />
+                        <Entry HorizontalOptions="FillAndExpand" Text="{Binding ThisProfile.Location}"   />
+                        <Entry HorizontalOptions="FillAndExpand" Text="{Binding ThisProfile.Interests}"   />
                         <BoxView HeightRequest="1" HorizontalOptions="FillAndExpand" Color="#e0e0e0" />
-                        <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal" Padding="0,20,0,0">
+                        <!--StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal" Padding="0,20,0,0">
                             <Button Text="Message" Style="{DynamicResource OrangeButton}" Image="message.png" />
                             <Button Text="Call" Image="call.png"/>
-                        </StackLayout>
-                        <Label HorizontalOptions="FillAndExpand" Text="{Binding ThisProfile.Description}" Style="{DynamicResource SmallText}"  />
+                        </-->
+                        <Entry HorizontalOptions="FillAndExpand" Text="{Binding ThisProfile.Description}"  />
                     </StackLayout>
                 </StackLayout>
             </Frame>
@@ -37,56 +38,9 @@
                 <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical">
                     <maps:Map MapType="Satellite"  VerticalOptions="FillAndExpand" Grid.Column="0" Grid.Row="0" HeightRequest="400">
                     </maps:Map>
+                    <Button Text="Set your location"  />
                 </StackLayout>
             </StackLayout>
-
-            <BoxView HeightRequest="10" HorizontalOptions="FillAndExpand" Color="Transparent" />
-
-            <Frame BackgroundColor="White" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-                <StackLayout Orientation="Vertical"  VerticalOptions="FillAndExpand" Padding="5,5,5,5" Margin="0,0,0,0"  HorizontalOptions="FillAndExpand" Spacing="10">
-                    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical">
-                        <ListView x:Name="Events" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" ItemsSource="{Binding ThisProfile.EventItems}">
-                            <DataTemplate>
-                                <ViewCell>
-                                    <Grid RowSpacing="0" BackgroundColor="White" >
-                                        <Grid.RowDefinitions>
-                                            <RowDefinition Height="120" />
-                                            <RowDefinition Height="80" />
-                                            <RowDefinition Height="40" />
-                                            <RowDefinition Height="10" />
-                                        </Grid.RowDefinitions>
-                                        <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="*" />
-                                        </Grid.ColumnDefinitions>
-
-                                        <maps:Map MapType="Satellite"  VerticalOptions="FillAndExpand" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" HeightRequest="400" ></maps:Map>
-
-                                        <Grid Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="4" >
-                                            <Grid.RowDefinitions>
-                                                <RowDefinition Height="10" />
-                                                <RowDefinition Height="*" />
-                                                <RowDefinition Height="10" />
-                                                <RowDefinition Height="*" />
-                                            </Grid.RowDefinitions>
-                                            <Grid.ColumnDefinitions>
-                                                <ColumnDefinition Width="10" />
-                                                <ColumnDefinition Width="*" />
-                                                <ColumnDefinition Width="*" />
-                                                <ColumnDefinition Width="*" />
-                                                <ColumnDefinition Width="*" />
-                                                <ColumnDefinition Width="10" />
-                                            </Grid.ColumnDefinitions>
-
-                                            <Label Grid.Column="1" Grid.Row="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Text="{Binding Name}" Style="{DynamicResource understatedItalics}"  />
-                                            <Label Grid.Column="2" Grid.Row="1"  HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Text="{Binding StartDate}" Style="{DynamicResource understatedItalics}"  />
-                                        </Grid>
-                                    </Grid>
-                                </ViewCell>
-                            </DataTemplate>
-                        </ListView>
-                    </StackLayout>
-                </StackLayout>
-            </Frame>
         </StackLayout>
 
 
