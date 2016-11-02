@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
              xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             xmlns:abstract="clr-namespace:RumbleApp.Core.Abstracts;assembly=RumbleApp.Core"
              x:Class="RumbleApp.Core.UI.Pages.Profile.Profile" BackgroundColor="Gray" >
 
     <ScrollView Padding="25,125,25,25" Orientation="Vertical" HorizontalOptions="Fill" VerticalOptions="FillAndExpand">
@@ -35,8 +36,9 @@
 
             <StackLayout Orientation="Vertical"  VerticalOptions="FillAndExpand" Padding="0" Margin="0,0,0,0"  HorizontalOptions="FillAndExpand">
                 <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical">
-                    <maps:Map MapType="Satellite"  VerticalOptions="FillAndExpand" Grid.Column="0" Grid.Row="0" HeightRequest="400">
-                    </maps:Map>
+
+                    <abstract:CustomMap x:Name="MainMap" MapType="Street"   VerticalOptions="FillAndExpand" HeightRequest="400"></abstract:CustomMap>
+
                 </StackLayout>
             </StackLayout>
 
@@ -45,45 +47,58 @@
             <Frame BackgroundColor="White" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
                 <StackLayout Orientation="Vertical"  VerticalOptions="FillAndExpand" Padding="5,5,5,5" Margin="0,0,0,0"  HorizontalOptions="FillAndExpand" Spacing="10">
                     <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical">
-                        <ListView x:Name="Events" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" ItemsSource="{Binding ThisProfile.EventItems}">
-                            <DataTemplate>
-                                <ViewCell>
-                                    <Grid RowSpacing="0" BackgroundColor="White" >
-                                        <Grid.RowDefinitions>
-                                            <RowDefinition Height="120" />
-                                            <RowDefinition Height="80" />
-                                            <RowDefinition Height="40" />
-                                            <RowDefinition Height="10" />
-                                        </Grid.RowDefinitions>
-                                        <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="*" />
-                                        </Grid.ColumnDefinitions>
 
-                                        <maps:Map MapType="Satellite"  VerticalOptions="FillAndExpand" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" HeightRequest="400" ></maps:Map>
-
-                                        <Grid Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="4" >
+                        <ListView x:Name="Events" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" RowHeight="250" ItemsSource="{Binding ThisProfile.EventItems}">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <Grid RowSpacing="0" BackgroundColor="White" >
                                             <Grid.RowDefinitions>
+                                                <RowDefinition Height="120" />
+                                                <RowDefinition Height="80" />
+                                                <RowDefinition Height="40" />
                                                 <RowDefinition Height="10" />
-                                                <RowDefinition Height="*" />
-                                                <RowDefinition Height="10" />
-                                                <RowDefinition Height="*" />
                                             </Grid.RowDefinitions>
                                             <Grid.ColumnDefinitions>
-                                                <ColumnDefinition Width="10" />
                                                 <ColumnDefinition Width="*" />
-                                                <ColumnDefinition Width="*" />
-                                                <ColumnDefinition Width="*" />
-                                                <ColumnDefinition Width="*" />
-                                                <ColumnDefinition Width="10" />
                                             </Grid.ColumnDefinitions>
 
-                                            <Label Grid.Column="1" Grid.Row="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Text="{Binding Name}" Style="{DynamicResource understatedItalics}"  />
-                                            <Label Grid.Column="2" Grid.Row="1"  HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Text="{Binding StartDate}" Style="{DynamicResource understatedItalics}"  />
+                                            <maps:Map MapType="Street"  VerticalOptions="FillAndExpand" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" HeightRequest="200" ></maps:Map>
+
+                                            <Grid Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="4" >
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="10" />
+                                                    <RowDefinition Height="*" />
+                                                    <RowDefinition Height="10" />
+                                                    <RowDefinition Height="*" />
+                                                </Grid.RowDefinitions>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*" />
+                                                    <ColumnDefinition Width="*" />
+                                                    <ColumnDefinition Width="*" />
+                                                    <ColumnDefinition Width="*" />
+                                                    <ColumnDefinition Width="*" />
+                                                </Grid.ColumnDefinitions>
+                                                
+                                                <Label Grid.Column="0" Grid.Row="1"  HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Text="Name:" Style="{DynamicResource understatedItalics}"  />
+                                                <Label Grid.Column="1" Grid.Row="1" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Text="{Binding Name}" Style="{DynamicResource understatedItalics}"  />
+                                                
+                                                <Label Grid.Column="3" Grid.Row="1"  HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Text="Start:" Style="{DynamicResource understatedItalics}"  />
+                                                <Label Grid.Column="4" Grid.Row="1"  HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Text="{Binding StartDate}" Style="{DynamicResource understatedItalics}"  />
+
+                                                <Label Grid.Column="0" Grid.Row="3"  HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Text="Location:" Style="{DynamicResource understatedItalics}"  />
+                                                <Label Grid.Column="1" Grid.Row="3" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Text="{Binding Location}" Style="{DynamicResource understatedItalics}"  />
+
+                                                <Label Grid.Column="3" Grid.Row="3"  HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Text=" places" Style="{DynamicResource understatedItalics}"  />
+                                                <Label Grid.Column="4" Grid.Row="3"  HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Text="{Binding Places}" Style="{DynamicResource understatedItalics}"  />
+                                                
+                                            </Grid>
                                         </Grid>
-                                    </Grid>
-                                </ViewCell>
-                            </DataTemplate>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
                         </ListView>
+
                     </StackLayout>
                 </StackLayout>
             </Frame>

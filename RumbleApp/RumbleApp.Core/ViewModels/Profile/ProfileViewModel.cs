@@ -10,6 +10,8 @@ using Xamarin.Forms;
 using RumbleApp.Core.Helpers;
 using RumbleApp.Core.Models;
 using RumbleApp.Core.UI;
+using RumbleApp.Core.Abstracts;
+using Xamarin.Forms.Maps;
 
 namespace RumbleApp.Core.ViewModels
 {
@@ -62,7 +64,16 @@ namespace RumbleApp.Core.ViewModels
             OnPropertyChanged("UserImage");
             OnPropertyChanged("PhotoText");
 
-            App.UserDialogService.HideLoading();
+            var pin = new CustomPin
+            {
+                Pin = new Pin() { Address = ThisProfile.Location, Label = ThisProfile.FirstName, Type = PinType.Place, Position = new Position(ThisProfile.Latitude, ThisProfile.Longitude) },
+                Id = ThisProfile.ProfileId.ToString(),
+                Type = "nothing"
+            };
+            
+            MessagingCenter.Send<ProfileViewModel, CustomPin>(this, Messages.MapPinsReady, pin);
+
+                App.UserDialogService.HideLoading();
         }
        
 
