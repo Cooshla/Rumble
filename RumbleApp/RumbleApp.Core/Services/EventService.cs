@@ -52,9 +52,9 @@ namespace RumbleApp.Core.Services
         }
 
         
-        public async Task<List<Event>> GetAllEventsForUser(string id)
+        public async Task<List<Event>> GetAllEventsForUser(int id)
         {
-            return await Rest.GetClient<List<Event>>(String.Format("api/Events/GetEventForUser?{0}", id));
+            return await Rest.GetClient<List<Event>>(String.Format("api/Events/GetEventForUser?id={0}", id));
 
         }
     }

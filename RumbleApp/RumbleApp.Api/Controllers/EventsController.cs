@@ -31,8 +31,7 @@ namespace RumbleApp.Api.Controllers
         [Route("api/events/geteventforuser")]
         public async Task<JsonResult<List<Event>>> GetEventForUser(int id)
         {
-            var evts = db.Event.Where(c => c.ProfileId == id).ToList();
-            return Json(evts);
+            return Json(db.Event.Where(c => c.ProfileId == id).ToList());
         }
 
         // POST: api/Events

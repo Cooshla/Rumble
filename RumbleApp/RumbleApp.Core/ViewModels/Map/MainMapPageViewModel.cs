@@ -59,13 +59,13 @@ namespace RumbleApp.Core.ViewModels.Map
 
             MessagingCenter.Subscribe<MainMapPageViewModel, string>(this, Messages.MapEventsClicked, async (sends, arg) =>
             {
-                await Navi.GoToProfilePage(arg);
+                await Navi.GoToEventPage(arg);
             });
 
 
             MessagingCenter.Subscribe<MainMapPageViewModel, string>(this, Messages.MapProfileClicked, async (sends, arg) =>
             {
-                await Navi.GoToEventPage(arg);
+                await Navi.GoToProfilePage(arg);
             });
         }
 

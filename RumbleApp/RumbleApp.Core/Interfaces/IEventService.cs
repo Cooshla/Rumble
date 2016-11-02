@@ -11,7 +11,7 @@ namespace RumbleApp.Core.Interfaces
     {
         Task<Event> GetEvent(int id);
         Task<List<Event>> GetAllEvents();
-        Task<List<Event>> GetAllEventsForUser(string id);
+        Task<List<Event>> GetAllEventsForUser(int id);
         Task<List<Event>> GetAllEventsAttendedByUser(string id);
         Task AddEvent(Event evnt);
         void UpdateEvent(Event Event);

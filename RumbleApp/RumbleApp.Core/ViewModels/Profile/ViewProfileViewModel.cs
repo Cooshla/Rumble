@@ -62,7 +62,7 @@ namespace RumbleApp.Core.ViewModels.Profile
                 UserImage = ImageSource.FromUri(new Uri(ThisProfile.ImageUrl));
             }
 
-            ThisProfile.EventItems = await Evnt.GetAllEventsForUser(App.ThisUser.ID);
+            ThisProfile.EventItems = await Evnt.GetAllEventsForUser(ThisProfile.ProfileId);
 
             OnPropertyChanged("ThisProfile");
             OnPropertyChanged("UserImage");
