@@ -40,6 +40,8 @@
   <ItemGroup>
     <Compile Include="Abstracts\CustomMap.cs" />
     <Compile Include="Converters\BooleanToObjectConverter.cs" />
+    <Compile Include="Converters\DateTimeToDateTimeOffsetConverter.cs" />
+    <Compile Include="Converters\DateTimeToTimeSpanConverter.cs" />
     <Compile Include="Extensions\BindableBehavior.cs" />
     <Compile Include="Helpers\DateHelper.cs" />
     <Compile Include="Helpers\GATimeHelper.cs" />

@@ -21,7 +21,9 @@ using RumbleApp.Core.UI.Pages.Map;
 using RumbleApp.Core.ViewModels.Guide;
 using RumbleApp.Core.ViewModels.AutoComplete;
 using RumbleApp.Core.ViewModels.Profile;
+using Xamarin.Forms.Xaml;
 
+[assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace RumbleApp.Core
 {
     public partial class App : Application

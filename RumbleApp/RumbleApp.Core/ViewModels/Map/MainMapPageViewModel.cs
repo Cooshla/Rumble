@@ -117,7 +117,7 @@ namespace RumbleApp.Core.ViewModels.Map
 
         public async void AddEvent()
         {
-            await Navi.PushModal(Page.GetPage(Pages.AddEventPage));
+            await Navi.PushPage(Page.GetPage(Pages.AddEventPage));
         }
 
         public  void ShowMapEvent()

@@ -3,40 +3,100 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
              xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
-             x:Class="RumbleApp.Core.UI.Pages.Map.AddEvent" BackgroundColor="#60000000">
-   
+             xmlns:converters="clr-namespace:RumbleApp.Core.Converters;assembly=RumbleApp.Core"
+             x:Class="RumbleApp.Core.UI.Pages.Map.AddEvent"  BackgroundColor="White">
+
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:DateTimeToTimeSpanConverter x:Key="DateTimeToTimeSpanConverter"/>
+            <converters:DateTimeToDateTimeOffsetConverter x:Key="DateTimeToDateTimeOffsetConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
     
     <ScrollView Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-        <Frame >
-            <StackLayout Orientation="Vertical"  Padding="20,20,20,20" VerticalOptions="End"  HorizontalOptions="FillAndExpand" Spacing="10" BackgroundColor="White">
+
+        <StackLayout Orientation="Vertical"  Padding="10,10,10,10"  VerticalOptions="StartAndExpand"  HorizontalOptions="CenterAndExpand" BackgroundColor="White">
 
 
 
-            <Label Text="Please add your event details" />
-            <BoxView HeightRequest="20" WidthRequest="0" />
+            <Entry Placeholder="Event Name" Keyboard="Default" Text="{Binding EventName}" Style="{DynamicResource entryStyle}" FontSize="Large" HeightRequest="50"  />
+    
 
-            <Entry Placeholder="Event Name" Keyboard="Default" Text="{Binding EventName}" Style="{DynamicResource entryStyle}"  />
-            <BoxView Style="{DynamicResource hrStyle}" /> 
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="20" />
+                    <ColumnDefinition Width="20" />
+                    <ColumnDefinition Width="125" />
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="125" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="10" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="2" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="2" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="2" />
+                    <RowDefinition Height="40" />
+                </Grid.RowDefinitions>
 
-            <Entry Placeholder="Time" Keyboard="Default"  Text="{Binding Time}" Style="{DynamicResource entryStyle}"/>
-            <BoxView Style="{DynamicResource hrStyle}" />
+                
+                
 
-            <Entry Placeholder="Number Places"  Keyboard="Numeric"  Text="{Binding Places}" Style="{DynamicResource entryStyle}" />
-            <BoxView Style="{DynamicResource hrStyle}" />
+                <Image Grid.Row="0" Grid.Column="0" Source="clock.png" WidthRequest="20"></Image>
+                <DatePicker
+                        Grid.Row="0" Grid.Column="2" 
+                        Date="{Binding StartDateTime, Converter={StaticResource DateTimeToDateTimeOffsetConverter}, Mode=TwoWay}"/>
+
+                
+                <TimePicker
+                        Grid.Row="0" Grid.Column="4"  
+                        Time="{Binding StartDateTime, Converter={StaticResource DateTimeToTimeSpanConverter}}"/>
 
 
-            <Entry Placeholder="Location (google lookup to come)" x:Name="LocationEntry"   Keyboard="Default"  Text="{Binding Location}" Style="{DynamicResource entryStyle}"/>
-            <BoxView Style="{DynamicResource hrStyle}" />
+                
+                
+
+                <DatePicker
+                        Grid.Row="2" Grid.Column="2" WidthRequest="100"
+                        Date="{Binding EndDateTime, Converter={StaticResource DateTimeToDateTimeOffsetConverter}, Mode=TwoWay}"/>
+
+                <TimePicker
+                        Grid.Row="2" Grid.Column="4"  WidthRequest="100"
+                        Time="{Binding EndDateTime, Converter={StaticResource DateTimeToTimeSpanConverter}}"/>
 
 
-            <Button x:Name="btnSignUp" Text="Add Event Up" TextColor="White" Command="{Binding AddEventCommand}" Style="{DynamicResource greenButtonStyle}" />
 
-            <Button Command="{Binding BackCommand}" Text="Back" VerticalOptions="End" Style="{DynamicResource plainButtonStyle}" />
-            <BoxView Style="{DynamicResource hrStyle}" />
+
+
+
+
+
+
+                <Image Grid.Row="4" Grid.Column="0" Source="location.png" WidthRequest="20"></Image>
+                <Entry Grid.Row="4" Grid.Column="2"  Grid.ColumnSpan="3"  Placeholder="Location" x:Name="LocationEntry"   Keyboard="Default"  Text="{Binding Location}" Style="{DynamicResource entryStyle}"/>
+
+
+
+                <Image Grid.Row="6" Grid.Column="0" Source="places.png" WidthRequest="20"></Image>
+                <Entry Grid.Row="6" Grid.Column="2"  Grid.ColumnSpan="3"  Placeholder="Number of places" Keyboard="Numeric" Text="{Binding Places}" Style="{DynamicResource entryStyle}"/>
+
+                
+                <Image Grid.Row="8" Grid.Column="0" Source="pencil.png" WidthRequest="20"></Image>
+                <Entry Grid.Row="8" Grid.Column="2"  Grid.ColumnSpan="3"  Placeholder="Description" Keyboard="Default" Text="{Binding Description}" Style="{DynamicResource entryStyle}"/>
+
+            </Grid>
+
+            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand">
+                <Button x:Name="btnSignUp"  Text="Add Event" TextColor="White" Command="{Binding AddEventCommand}" Style="{DynamicResource greenButtonStyle}" />
+            </StackLayout>
 
         </StackLayout>
-        </Frame>
     </ScrollView>
-    
-    
+
+
 </ContentPage>

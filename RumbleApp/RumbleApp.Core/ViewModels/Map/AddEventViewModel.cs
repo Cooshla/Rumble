@@ -14,10 +14,28 @@ namespace RumbleApp.Core.ViewModels.Map
     public class AddEventViewModel :BaseViewModel
     {
         public string EventName { get; set; }
-        public DateTime Time { get; set; }
-        public int Places { get; set; }
+
+        public string Places { get; set; }
         public string Location { get; set; }
 
+        public string Description { get; set; }
+
+
+        private DateTime startDateTime = DateTime.Now;
+
+        public DateTime StartDateTime
+        {
+            get { return startDateTime; }
+            set { startDateTime = value; OnPropertyChanged("StartDateTime"); }
+        }
+
+        private DateTime endDateTime = DateTime.Now;
+
+        public DateTime EndDateTime
+        {
+            get { return endDateTime; }
+            set { endDateTime = value; OnPropertyChanged("EndDateTime"); }
+        }
 
 
         private IPageFactory PageFac { get; set; }
@@ -50,9 +68,9 @@ namespace RumbleApp.Core.ViewModels.Map
 
             Event evt = new Event();
             evt.Name = EventName;
-            evt.StartDate = Time;
+            evt.StartDate = StartDateTime;
             evt.Location = Location;
-            evt.Places = Places;
+            evt.Places = int.Parse(Places);
             evt.ProfileId = App.ThisUser.Profile.ProfileId;
             evt.IsActive = true;
             
@@ -68,14 +86,18 @@ namespace RumbleApp.Core.ViewModels.Map
         {
 
             EventName = string.Empty;
-            Time = DateTime.Today;
+            StartDateTime = DateTime.Today;
+            EndDateTime = DateTime.Today;
             Location = string.Empty;
-            Places = 0;
+            Places = string.Empty;
+            Description = string.Empty;
 
             OnPropertyChanged("EventName");
-            OnPropertyChanged("Time");
             OnPropertyChanged("Location");
             OnPropertyChanged("Places");
+            OnPropertyChanged("StartDateTime");
+            OnPropertyChanged("EndDateTime");
+            OnPropertyChanged("Description");
 
         }
         public async void Back()
