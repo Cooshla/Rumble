@@ -36,7 +36,7 @@ namespace RumbleApp.Core.ViewModels.Events
 
         public void RegisterMessageCenter()
         {
-            MessagingCenter.Subscribe<MainPage, bool>(this, Messages.ProfileClicked, async (sends, arg) =>
+            MessagingCenter.Subscribe<MainPage, bool>(this, Messages.EventsClicked, async (sends, arg) =>
             {
                 await GetData();
             });

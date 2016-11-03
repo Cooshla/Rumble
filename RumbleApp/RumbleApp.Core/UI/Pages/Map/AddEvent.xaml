@@ -91,10 +91,11 @@
 
             </Grid>
 
-            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand">
+
+
+            <StackLayout Orientation="Vertical"  Padding="10,10,10,10"  VerticalOptions="EndAndExpand"  HorizontalOptions="FillAndExpand" BackgroundColor="White">
                 <Button x:Name="btnSignUp"  Text="Add Event" TextColor="White" Command="{Binding AddEventCommand}" Style="{DynamicResource greenButtonStyle}" />
             </StackLayout>
-
         </StackLayout>
     </ScrollView>
 

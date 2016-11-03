@@ -3,7 +3,6 @@
 			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 			 x:Class="RumbleApp.Core.UI.MasterPage"
 			 Padding="0,40,0,0"
-			 Icon="hamburger.png"
              Title="Rumble">
   <ContentPage.Content>
     <StackLayout VerticalOptions="FillAndExpand">

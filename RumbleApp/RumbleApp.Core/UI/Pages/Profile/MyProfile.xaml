@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
              xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
-             x:Class="RumbleApp.Core.UI.Pages.Profile.MyProfile" BackgroundColor="Gray" >
+             x:Class="RumbleApp.Core.UI.Pages.Profile.MyProfile" BackgroundColor="White" >
 
     <ScrollView Padding="25,125,25,25" Orientation="Vertical" HorizontalOptions="Fill" VerticalOptions="FillAndExpand">
 
@@ -14,20 +14,28 @@
                     <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical">
                         <controls:CircleImage x:Name="imgPhoto" Aspect="AspectFill" Source="{Binding UserImage}" HorizontalOptions="Center" WidthRequest="100" HeightRequest="100" 
                        Margin="0, -75, 0, 0" ></controls:CircleImage>
-                        <Button Text="Edit Image" Style="{DynamicResource OrangeButton}"  />
+                        <Button Text="Edit profile image" Style="{DynamicResource OrangeButton}"  />
+
                         <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal" Padding="0,20,0,0">
-                            <Entry Text="{Binding ThisProfile.FirstName}"  />
-                            <Entry Text="{Binding ThisProfile.LastName}"  />
+                            <Entry Text="{Binding ThisProfile.FirstName}" Placeholder="First Name" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+                            <Entry Text="{Binding ThisProfile.LastName}" Placeholder="Last Name"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
                         </StackLayout>
-                        <Entry HorizontalOptions="FillAndExpand" Text="{Binding ThisProfile.Ranking}"  />
-                        <Entry HorizontalOptions="FillAndExpand" Text="{Binding ThisProfile.Location}"   />
-                        <Entry HorizontalOptions="FillAndExpand" Text="{Binding ThisProfile.Interests}"   />
-                        <BoxView HeightRequest="1" HorizontalOptions="FillAndExpand" Color="#e0e0e0" />
-                        <!--StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal" Padding="0,20,0,0">
-                            <Button Text="Message" Style="{DynamicResource OrangeButton}" Image="message.png" />
-                            <Button Text="Call" Image="call.png"/>
-                        </-->
-                        <Entry HorizontalOptions="FillAndExpand" Text="{Binding ThisProfile.Description}"  />
+
+                        <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal" Padding="0,20,0,0">
+                            <Label HorizontalOptions="FillAndExpand"  Text="Show my exact location to other users?"   />
+                            <Switch IsToggled="{Binding ShowExactLocation}"></Switch>
+                        </StackLayout>
+
+
+                        <Entry HorizontalOptions="FillAndExpand" Placeholder="Your Rank e.g White Belt, Blue Belt" Text="{Binding ThisProfile.Ranking}"  />
+                        <Entry HorizontalOptions="FillAndExpand" Placeholder="Your Interests e.g. Open Mats" Text="{Binding ThisProfile.Interests}"   />
+                        <Entry HorizontalOptions="FillAndExpand" Placeholder="Your phone number" Text="{Binding ThisProfile.PhoneNumber}"  />
+
+                        <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal" Padding="0,20,0,0">
+                            <Label HorizontalOptions="FillAndExpand"  Text="Description"   />
+                            <Editor HorizontalOptions="FillAndExpand" Text="{Binding ThisProfile.Description}"  />
+                        </StackLayout>
+                        
                     </StackLayout>
                 </StackLayout>
             </Frame>
@@ -38,9 +46,15 @@
                 <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical">
                     <maps:Map MapType="Satellite"  VerticalOptions="FillAndExpand" Grid.Column="0" Grid.Row="0" HeightRequest="400">
                     </maps:Map>
-                    <Button Text="Set your location"  />
+
+                    <Label HorizontalOptions="FillAndExpand"  Text="{Binding ThisProfile.Location}"   />
+                    <Button Text="Set your location"  ></Button>
+                    
                 </StackLayout>
             </StackLayout>
+
+
+            <Button Text="Save"  ></Button>
         </StackLayout>
 
 
