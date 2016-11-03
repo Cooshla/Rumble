@@ -5,7 +5,7 @@
     <ScrollView Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
         <StackLayout Orientation="Vertical" Padding="50,100,50,50" Spacing="10">
 
-            <Image Source="full_logo" HorizontalOptions="FillAndExpand" />
+            <Image Source="icon.png" HorizontalOptions="FillAndExpand" />
             <BoxView HeightRequest="20" WidthRequest="0" />
 
             <Entry Placeholder="Username" x:Name="txtUsername" Keyboard="Email" Text="{Binding UserName}" Style="{DynamicResource entryStyle}" />

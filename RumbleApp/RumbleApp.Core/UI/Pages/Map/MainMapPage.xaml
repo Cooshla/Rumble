@@ -21,9 +21,9 @@
         </ResourceDictionary> 
     </ContentPage.Resources>
     
-    <ContentPage.ToolbarItems>
+    <!--ContentPage.ToolbarItems>
         <ToolbarItem Icon="{Binding ShowMapIcon}" Command="{Binding ShowMapCommand}" />
-    </ContentPage.ToolbarItems>
+    </-->
 
 
     <Grid Padding="5,5,5,5">

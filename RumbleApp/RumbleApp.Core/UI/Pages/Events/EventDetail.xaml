@@ -1,6 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
              x:Class="RumbleApp.Core.UI.Pages.Events.EventDetail">
-	<Label Text="Event Details Page" VerticalOptions="Center" HorizontalOptions="Center" />
+
+
+    <ScrollView Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <StackLayout Orientation="Vertical"   VerticalOptions="StartAndExpand"  HorizontalOptions="CenterAndExpand" BackgroundColor="White">
+            <Image HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" Source="back.png" ></Image>
+            
+            <StackLayout Orientation="Vertical"  Padding="10,10,10,10"  VerticalOptions="StartAndExpand"  HorizontalOptions="CenterAndExpand" BackgroundColor="White">
+
+
+                <Label Text="Event Name" Style="{DynamicResource h1LabelStyle}" HorizontalOptions="Center" />
+                <BoxView Style="{DynamicResource hrStyle}" />
+                <Label Text="Sat, 10 Dec at 7 a.m. - 7 p.m." Style="{DynamicResource h2LabelStyle}" HorizontalOptions="Start" />
+                <Label Text="Next month" Style="{DynamicResource understatedItalics}" HorizontalOptions="Start" />
+
+                <Label Text="Brighton Dome Theatre" Style="{DynamicResource h2LabelStyle}" HorizontalOptions="Start" />
+                <Label Text="Church Street, Brighton, BN1 1UE, United Kingdom" Style="{DynamicResource understatedItalics}" HorizontalOptions="Start" />
+
+
+                <Label Text="Details" Style="{DynamicResource h2LabelStyle}" HorizontalOptions="Start" />
+                <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida dictum feugiat. Vivamus tincidunt arcu eu sodales posuere. Fusce et enim odio. Vestibulum porttitor blandit bibendum. Sed pulvinar arcu ut rutrum rutrum. Phasellus porta vulputate lectus vel imperdiet. Nulla facilisi. Ut ultricies sollicitudin est et ornare. Sed cursus libero lectus, ut ultrices lacus vestibulum et. Quisque tincidunt venenatis velit vel volutpat" Style="{DynamicResource SmallText}" HorizontalOptions="Start" />
+
+                <maps:Map MapType="Satellite"  VerticalOptions="FillAndExpand" Grid.Column="0" Grid.Row="0" HeightRequest="400">
+                </maps:Map>
+
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+
 </ContentPage>
