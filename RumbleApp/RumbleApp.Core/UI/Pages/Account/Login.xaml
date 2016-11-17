@@ -5,9 +5,9 @@
     <ScrollView Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
         <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
 
-            <StackLayout Orientation="Vertical" Padding="35,70,35,0" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand">
+            <StackLayout Orientation="Vertical" Padding="35,90,35,0" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand">
                 <Image Source="Icon_Inverse.png" HorizontalOptions="FillAndExpand" WidthRequest="50" VerticalOptions="FillAndExpand" />
-                <BoxView HeightRequest="80" WidthRequest="0" />
+                <BoxView HeightRequest="20" WidthRequest="0" />
 
                 <Entry Placeholder="Username" x:Name="txtUsername"  Keyboard="Email" Text="{Binding UserName}"   />
                 <Entry Placeholder="Password" IsPassword="true" x:Name="txtPassword" Text="{Binding Password}" Margin="0,20,0,0" />
