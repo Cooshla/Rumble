@@ -5,7 +5,7 @@
     <ScrollView Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
         <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
 
-            <StackLayout Orientation="Vertical" Padding="35,35,35,0" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand">
+            <StackLayout Orientation="Vertical" Padding="35,70,35,0" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand">
                 <Image Source="Icon_Inverse.png" HorizontalOptions="FillAndExpand" WidthRequest="50" VerticalOptions="FillAndExpand" />
                 <BoxView HeightRequest="80" WidthRequest="0" />
 
@@ -13,11 +13,12 @@
                 <Entry Placeholder="Password" IsPassword="true" x:Name="txtPassword" Text="{Binding Password}" Margin="0,20,0,0" />
 
 
-                <Button x:Name="btnLogin" HeightRequest="40" Text="Login" BackgroundColor="White" TextColor="#8C0000" Image="right.png" BorderRadius="30" Command="{Binding LoginCommand}" Margin="0,20,0,0" />
+                <Button x:Name="btnLogin" HeightRequest="40" BackgroundColor="White"  Image="right.png" BorderRadius="30" Command="{Binding LoginCommand}" Margin="0,20,0,0" />
             </StackLayout>
 
             <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand">
-                <Button x:Name="btnSignUp" Text="Create Account"  Command="{Binding SignupCommand}" BorderRadius="0" HorizontalOptions="FillAndExpand" HeightRequest="75" FontAttributes="Bold" FontSize="Medium" BackgroundColor="White" TextColor="#8C0000" />
+                <Button x:Name="btnSignUp" Text="Create Account"  Command="{Binding SignupCommand}" BorderRadius="0" HorizontalOptions="FillAndExpand" 
+                        HeightRequest="75" FontAttributes="Bold" FontSize="Medium" BackgroundColor="White" TextColor="#8C0000" />
             </StackLayout>
         </StackLayout>
     </ScrollView>

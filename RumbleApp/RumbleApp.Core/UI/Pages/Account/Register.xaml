@@ -2,36 +2,37 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="RumbleApp.Core.UI.Pages.Account.Register">
+
     <ScrollView Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-        <StackLayout Orientation="Vertical" Padding="50,100,50,50" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Spacing="10">
+        <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+
+            <Button Command="{Binding BackCommand}" Image="left.png" VerticalOptions="Start" HorizontalOptions="Start" Style="{DynamicResource plainButtonStyle}" />
+            
+            <StackLayout Orientation="Vertical" Padding="35,35,35,0" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand">
+                
+                <Image Source="icon.png" HorizontalOptions="FillAndExpand" WidthRequest="50" VerticalOptions="FillAndExpand" />
+
+                <BoxView HeightRequest="20" WidthRequest="0" />
+
+                <Entry Placeholder="First Name" x:Name="txtFirstName" Keyboard="Default" Text="{Binding FirstName}"  Margin="0,20,0,0" />
+
+                <Entry Placeholder="Last Name" x:Name="txtLastName" Keyboard="Default"  Text="{Binding LastName}" Margin="0,20,0,0" />
+
+                <Entry Placeholder="Email"  x:Name="txtEmail" Keyboard="Email" Text="{Binding Email}"  Margin="0,20,0,0" />
+
+                <Entry Placeholder="Password"  x:Name="txtPass" Keyboard="Default" IsPassword="True" Text="{Binding Password}"  Margin="0,20,0,0" />
+
+                <Entry Placeholder="Phone" x:Name="txtPhone" Keyboard="Telephone" Text="{Binding Phone}"  Margin="0,20,0,0" />
 
 
 
-            <Label Text="Rumble, please fill in your details below" />
-            <BoxView HeightRequest="20" WidthRequest="0" />
+            </StackLayout>
 
-            <Entry Placeholder="First Name" x:Name="txtFirstName" Keyboard="Default" Text="{Binding FirstName}" Style="{DynamicResource entryStyle}"  />
-            <BoxView Style="{DynamicResource hrStyle}" /> 
+            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand">
+                <Button x:Name="btnSignUp"  Image="right_white.png"   Command="{Binding SignupCommand}" BorderRadius="0" HorizontalOptions="FillAndExpand" HeightRequest="75" FontAttributes="Bold"
+                        FontSize="Medium" BackgroundColor="#8C0000" TextColor="#ffffff" />
+            </StackLayout>
 
-            <Entry Placeholder="Last Name" x:Name="txtLastName" Keyboard="Default"  Text="{Binding LastName}" Style="{DynamicResource entryStyle}"/>
-
-            <BoxView Style="{DynamicResource hrStyle}" />
-
-            <Entry Placeholder="Email"  x:Name="txtEmail" Keyboard="Email" Text="{Binding Email}" Style="{DynamicResource entryStyle}" />
-            <BoxView Style="{DynamicResource hrStyle}" />
-
-            <Entry Placeholder="Password"  x:Name="txtPass" Keyboard="Default" IsPassword="True" Text="{Binding Password}" Style="{DynamicResource entryStyle}" />
-            <BoxView Style="{DynamicResource hrStyle}" />
-
-            <Entry Placeholder="Phone" x:Name="txtPhone" Keyboard="Telephone" Text="{Binding Phone}" Style="{DynamicResource entryStyle}" />
-            <BoxView Style="{DynamicResource hrStyle}" />
-            <BoxView HeightRequest="20" WidthRequest="0" />
-
-
-            <Button x:Name="btnSignUp" Text="Sign Up" TextColor="White" Command="{Binding SignupCommand}" Style="{DynamicResource greenButtonStyle}" />
-
-            <Button Command="{Binding BackCommand}" Text="Back" VerticalOptions="End" Style="{DynamicResource plainButtonStyle}" />
-            <BoxView Style="{DynamicResource hrStyle}" />
 
         </StackLayout>
     </ScrollView>

@@ -80,7 +80,7 @@ namespace RumbleApp.Droid.Renderers
         #endregion
 
         #region Utility methods
-
+        
         private void UpdateBackground(Entry entryEx)
         {
             if (_renderer != null)
@@ -90,8 +90,9 @@ namespace RumbleApp.Droid.Renderers
             }
             _renderer = new BorderRenderer();
 
-            Control.Background = _renderer.GetBorderBackground(Color.FromHex("#e4e4e4"), Color.FromHex("#818181"),1, 30);
+            Control.Background = _renderer.GetBorderBackground(Color.FromHex("#5C5C5C"), Color.FromHex("#e4e4e4"),1, 30);
             Control.InputType = InputTypes.TextFlagNoSuggestions;
+            Control.SetTextColor(Android.Graphics.Color.ParseColor("#5C5C5C"));
         }
 
         private void UpdatePadding(Entry entryEx)
