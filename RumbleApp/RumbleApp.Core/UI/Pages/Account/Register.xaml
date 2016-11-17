@@ -14,7 +14,7 @@
 
                 <BoxView HeightRequest="20" WidthRequest="0" />
 
-                <Entry Placeholder="First Name" x:Name="txtFirstName" Keyboard="Default" Text="{Binding FirstName}"  Margin="0,20,0,0" />
+                <Entry Placeholder="First Name" x:Name="txtFirstName" Keyboard="Default" Text="{Binding FirstName}"  />
 
                 <Entry Placeholder="Last Name" x:Name="txtLastName" Keyboard="Default"  Text="{Binding LastName}" Margin="0,20,0,0" />
 
