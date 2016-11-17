@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="RumbleApp.Core.UI.Pages.Account.Login">
+             x:Class="RumbleApp.Core.UI.Pages.Account.Login" BackgroundColor="#8C0000">
     <ScrollView Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-        <StackLayout Orientation="Vertical" Padding="50,100,50,50" Spacing="10">
+        <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
 
-            <Image Source="icon.png" HorizontalOptions="FillAndExpand" />
-            <BoxView HeightRequest="20" WidthRequest="0" />
+            <StackLayout Orientation="Vertical" Padding="35,35,35,0" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand">
+                <Image Source="Icon_Inverse.png" HorizontalOptions="FillAndExpand" WidthRequest="50" VerticalOptions="FillAndExpand" />
+                <BoxView HeightRequest="80" WidthRequest="0" />
 
-            <Entry Placeholder="Username" x:Name="txtUsername" Keyboard="Email" Text="{Binding UserName}" Style="{DynamicResource entryStyle}" />
-
-            <BoxView Style="{DynamicResource hrStyle}" /> 
-            <Entry Placeholder="Password" IsPassword="true" x:Name="txtPassword" Text="{Binding Password}" Style="{DynamicResource entryStyle}" />
-
-            <BoxView Style="{DynamicResource hrStyle}" />
+                <Entry Placeholder="Username" x:Name="txtUsername"  Keyboard="Email" Text="{Binding UserName}"   />
+                <Entry Placeholder="Password" IsPassword="true" x:Name="txtPassword" Text="{Binding Password}" Margin="0,20,0,0" />
 
 
-            <BoxView HeightRequest="20" WidthRequest="0" />
+                <Button x:Name="btnLogin" HeightRequest="40" Text="Login" BackgroundColor="White" TextColor="#8C0000" Image="right.png" BorderRadius="30" Command="{Binding LoginCommand}" Margin="0,20,0,0" />
+            </StackLayout>
 
-            <Button x:Name="btnLogin" Text="Login" Command="{Binding LoginCommand}" />
-            <Button x:Name="btnSignUp" Text="Sign Up"  Command="{Binding SignupCommand}" />
-
+            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand">
+                <Button x:Name="btnSignUp" Text="Create Account"  Command="{Binding SignupCommand}" BorderRadius="0" HorizontalOptions="FillAndExpand" HeightRequest="75" FontAttributes="Bold" FontSize="Medium" BackgroundColor="White" TextColor="#8C0000" />
+            </StackLayout>
         </StackLayout>
     </ScrollView>
 </ContentPage>

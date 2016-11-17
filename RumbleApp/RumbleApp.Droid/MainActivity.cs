@@ -23,7 +23,8 @@ namespace RumbleApp.Droid
 {
     [Activity(Label = "Rumble", 
         Theme = "@android:style/Theme.Holo.Light", 
-		MainLauncher = false,
+        Icon = "@android:color/transparent",
+        MainLauncher = false,
 		ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait
 	)]
 
@@ -70,9 +71,11 @@ namespace RumbleApp.Droid
             App.ScreenHeight = (height - 0.5f) / density;
 
             App.AppLoadedDateTime = DateTime.UtcNow;
-            
-			
-		}
+
+
+            var x = typeof(Xamarin.Forms.Themes.LightThemeResources);
+            x = typeof(Xamarin.Forms.Themes.Android.UnderlineEffect);
+        }
 
         public void InitializeDatabase()
 		{

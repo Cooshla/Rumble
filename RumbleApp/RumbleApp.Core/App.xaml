@@ -1,6 +1,10 @@
-<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:abstract="clr-namespace:RumbleApp.Core.Abstracts" x:Class="RumbleApp.Core.App" xmlns:local="clr-namespace:RumbleApp.Core;assembly=RumbleApp.Core">
+<Application xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:light="clr-namespace:Xamarin.Forms.Themes;assembly=Xamarin.Forms.Theme.Light"
+             x:Class="RumbleApp.Core.App" 
+             xmlns:local="clr-namespace:RumbleApp.Core;assembly=RumbleApp.Core">
     <Application.Resources>
-        <ResourceDictionary>
+        <ResourceDictionary  MergedWith="light:LightThemeResources" >
             <Style TargetType="Button">
                 <Setter Property="HorizontalOptions" Value="FillAndExpand" />
                 <Setter Property="BackgroundColor" Value="#8C0000" />
@@ -105,6 +109,12 @@
             </Style>
             <Style x:Key="stageStackLayoutStyleOuter" TargetType="StackLayout">
                 <Setter Property="Padding" Value="5" />
+            </Style>
+
+
+
+            <Style TargetType="Entry">
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
             </Style>
         </ResourceDictionary>
     </Application.Resources>
