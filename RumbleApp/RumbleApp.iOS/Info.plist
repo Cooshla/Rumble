@@ -49,7 +49,7 @@
 		<string>AppIcon.appiconset/Icon-40@3x</string>
 	</array>
 	<key>CFBundleIdentifier</key>
-	<string>com.RumbleApp.com.RumbleApp.iPhone</string>
+	<string>com.JamnationApp.com.JamnationApp.iPhone</string>
 	<key>CFBundleVersion</key>
 	<string>19.1</string>
 	<key>CFBundleName</key>

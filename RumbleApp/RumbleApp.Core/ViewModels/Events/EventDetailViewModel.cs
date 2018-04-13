@@ -1,6 +1,6 @@
-﻿using RumbleApp.Core.Interfaces;
-using RumbleApp.Core.Models;
-using RumbleApp.Core.UI;
+﻿using JamnationApp.Core.Interfaces;
+using JamnationApp.Core.Models;
+using JamnationApp.Core.UI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace RumbleApp.Core.ViewModels.Events
+namespace JamnationApp.Core.ViewModels.Events
 {
     public class EventDetailViewModel : BaseViewModel
     {

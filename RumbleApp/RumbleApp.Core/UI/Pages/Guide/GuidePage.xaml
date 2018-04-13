@@ -1,73 +1,56 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="RumbleApp.Core.UI.Pages.Guide.GuidePage">
-    <AbsoluteLayout HorizontalOptions="FillAndExpand">
-        <ScrollView Orientation="Vertical" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
-            <Grid>
-                <Image Aspect="AspectFill" Source="home.png" IsVisible="{Binding PageVisible[0]}" />
-                <Image Aspect="AspectFill" Source="welcome1.png" IsVisible="{Binding PageVisible[1]}" />
-                <Image Aspect="AspectFill" Source="welcome2.png" IsVisible="{Binding PageVisible[2]}" />
-                <Image Aspect="AspectFill" Source="welcome3.png" IsVisible="{Binding PageVisible[3]}" />
-                
-                <StackLayout>
-                    <StackLayout Spacing="10" HorizontalOptions="FillAndExpand" Padding="20,20,20,20" x:Name="GuideWrapper" VerticalOptions="FillAndExpand" IsVisible="{Binding PageVisible[0]}">
-                        <Image x:Name="Logo" HorizontalOptions="Center" Source="logo.png" />
-                        <BoxView HeightRequest="0" x:Name="LogoSpacing" />
-                        <Label Text="Welcome to Rumble" FontSize="46" TextColor="#ffffff" XAlign="Center" />
+             xmlns:cv="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView"
+             x:Class="JamnationApp.Core.UI.Pages.Guide.GuidePage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <cv:CarouselView ItemsSource="{Binding GuideScreens}" x:Name="Carousel" >
+                <cv:CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <RelativeLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                            <StackLayout Orientation="Vertical" BackgroundColor="{Binding BackgroundColor}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" RelativeLayout.XConstraint="{ConstraintExpression Type=Constant, Constant=0}"
+                         RelativeLayout.YConstraint="{ConstraintExpression Type=Constant, Constant=0}"  RelativeLayout.WidthConstraint=
+         "{ConstraintExpression Type=RelativeToParent,
+                                Property=Width,
+                                Factor=1}"
+     RelativeLayout.HeightConstraint=
+         "{ConstraintExpression Type=RelativeToParent,
+                                Property=Height,
+                                Factor=1}" >
 
+                                <StackLayout HorizontalOptions="Center" VerticalOptions="StartAndExpand" Padding="0,50,0,0">
+                                    <Image Source="{Binding ImageUrl}" WidthRequest="500" HorizontalOptions="Center"/>
+                                </StackLayout>
 
+                                <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand" WidthRequest="600">
+                                    <Label FormattedText="{Binding LabelText}" TextColor="{Binding TextColor}" VerticalOptions="Center" LineBreakMode="WordWrap" />
+                                </StackLayout>
 
-                        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
-                            <Button Text="Let's Get Started!" FontSize="18" WidthRequest="300" TextColor="#f37e52" FontAttributes="Bold" BorderRadius="3" BackgroundColor="#ffffff" Command="{Binding NextPageCommand}" CommandParameter="1"></Button>
-                            <ContentView Padding="0,30,0,15">
-                                <Button Text="Skip the overview" StyleId="skipOverview1Btn" TextColor="White" FontSize="17" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Command="{Binding SkipPagesCommand}" BackgroundColor="Transparent" />
-                            </ContentView>
-                            <Image Source="welcome1bar.png" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" />
-                        </StackLayout>
-                    </StackLayout>
-                    
-                    <StackLayout Spacing="10" x:Name="GuideWrapper2" HorizontalOptions="FillAndExpand" Padding="20,130,20,20" VerticalOptions="FillAndExpand" IsVisible="{Binding PageVisible[1]}">
-                        <Label Text="Lorem ipsum dollar sit amet etc..." FontSize="20" XAlign="Center" TextColor="#ffffff" x:Name="LargeTextPage2"   />
-                        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
-                            <Button Text="Ok, got it"  FontSize="18" WidthRequest="300" TextColor="#f37e52" FontAttributes="Bold" BorderRadius="3" BackgroundColor="#ffffff" Command="{Binding NextPageCommand}" CommandParameter="2">
+                                <StackLayout HorizontalOptions="Center" VerticalOptions="EndAndExpand" Padding="0,0,0,50">
+                                    <Button Text="{Binding NextText}" Command="{Binding CommandFunction}" HorizontalOptions="CenterAndExpand"  Style="{StaticResource buttonStyle}" WidthRequest="700" />
+                                </StackLayout>
 
-                            </Button>
-                            <ContentView Padding="0,30,0,15">
-                                <Button Text="Skip the overview" TextColor="White" FontSize="17" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Command="{Binding SkipPagesCommand}" BackgroundColor="Transparent" />
-                            </ContentView>
-                            <Image Source="welcome2bar.png" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" />
-                        </StackLayout>
-                    </StackLayout>
-                    
-                    <StackLayout Spacing="10" x:Name="GuideWrapper3" HorizontalOptions="FillAndExpand" Padding="20,130,20,20" VerticalOptions="FillAndExpand" IsVisible="{Binding PageVisible[2]}">
-                        <Label Text="Lorem ipsum dollar sit amet etc..." FontSize="20" XAlign="Center" TextColor="#ffffff" x:Name="LargeTextPage3"   />
-                        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
-                            <Button Text="Sounds great!" FontSize="18" WidthRequest="300" TextColor="#f37e52" FontAttributes="Bold" BorderRadius="3" BackgroundColor="#ffffff" Command="{Binding NextPageCommand}" CommandParameter="3">
+                            </StackLayout>
 
-                            </Button>
-                            <ContentView Padding="0,30,0,15">
-                                <Button Text="Skip the overview" TextColor="White" FontSize="17" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Command="{Binding SkipPagesCommand}" BackgroundColor="Transparent" />
-                            </ContentView>
-                            <Image Source="welcome3bar.png" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" />
-                        </StackLayout>
-                    </StackLayout>
-                    
-                    <StackLayout Spacing="10" x:Name="GuideWrapper4" HorizontalOptions="FillAndExpand" Padding="20,130,20,20" VerticalOptions="FillAndExpand" IsVisible="{Binding PageVisible[3]}">
-                        <Label Text="Lorem ipsum dollar sit amet etc..." FontSize="20" XAlign="Center" TextColor="#ffffff" x:Name="LargeTextPage4"  />
-                        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
-                            <Button Text="Lets get started!" FontSize="18" WidthRequest="300" TextColor="#f37e52" FontAttributes="Bold" BorderRadius="3" BackgroundColor="#ffffff" Command="{Binding SkipPagesCommand}" CommandParameter="4">
-
-                            </Button>
-                            <ContentView Padding="0,30,0,15">
-                                <Button Text="Skip the overview" TextColor="White" FontSize="17" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Command="{Binding SkipPagesCommand}" BackgroundColor="Transparent" />
-                            </ContentView>
-                            <Image Source="welcome4bar.png" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" />
-                        </StackLayout>
-                    </StackLayout>
-                    
-                </StackLayout>
-            </Grid>
-        </ScrollView>
-    </AbsoluteLayout>
+                            <StackLayout HorizontalOptions="EndAndExpand" VerticalOptions="StartAndExpand" Padding="0,20,20,0"  RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=0}" 
+                             RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0}"  
+                             RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,
+                                Property=Width,
+                                Factor=1}"
+                            RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,
+                                Property=Height,
+                                Factor=1}">
+                                <Image Source="CloseButtonsWhite.png" HorizontalOptions="End" VerticalOptions="Start" WidthRequest="75">
+                                    <Image.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding CloseCommand}"></TapGestureRecognizer>
+                                    </Image.GestureRecognizers>
+                                </Image>
+                            </StackLayout>
+                        </RelativeLayout>
+                    </DataTemplate>
+                </cv:CarouselView.ItemTemplate>
+            </cv:CarouselView>
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>

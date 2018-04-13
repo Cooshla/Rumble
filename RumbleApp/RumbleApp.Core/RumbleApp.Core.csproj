@@ -8,8 +8,8 @@
     <ProjectGuid>{67F9D3A8-F71E-4428-913F-C37AE82CDB24}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RumbleApp.Core</RootNamespace>
-    <AssemblyName>RumbleApp.Core</AssemblyName>
+    <RootNamespace>JamnationApp.Core</RootNamespace>
+    <AssemblyName>JamnationApp.Core</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Profile7</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -61,6 +61,7 @@
     <Compile Include="Models\BaseModel.cs" />
     <Compile Include="Models\Event.cs" />
     <Compile Include="Models\GoogleModel.cs" />
+    <Compile Include="Models\GuidePages.cs" />
     <Compile Include="Models\LocationModel.cs" />
     <Compile Include="Models\MenuItem.cs" />
     <Compile Include="Models\Profile.cs" />
@@ -98,6 +99,7 @@
     <Compile Include="Services\ProfileService.cs" />
     <Compile Include="Services\RestService.cs" />
     <Compile Include="Services\UserService.cs" />
+    <Compile Include="UIPageLocator.cs" />
     <Compile Include="UI\Menu\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -134,9 +136,13 @@
     <Compile Include="UI\Pages\Profile\Profile.xaml.cs">
       <DependentUpon>Profile.xaml</DependentUpon>
     </Compile>
-    <Compile Include="UI\Pages\ScanPage.xaml.cs">
-      <DependentUpon>ScanPage.xaml</DependentUpon>
+    <Compile Include="UI\Pages\Search\ListView.xaml.cs">
+      <DependentUpon>ListView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UI\Pages\Search\Search.xaml.cs">
+      <DependentUpon>Search.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModelLocator.cs" />
     <Compile Include="ViewModels\Account\RegisterViewModel.cs" />
     <Compile Include="ViewModels\Account\LoginViewModel.cs" />
     <Compile Include="ViewModels\AutoComplete\LocationLookupViewModel.cs" />
@@ -148,9 +154,11 @@
     <Compile Include="ViewModels\Map\MainMapPageViewModel.cs" />
     <Compile Include="ViewModels\Profile\ProfileViewModel.cs" />
     <Compile Include="ViewModels\Profile\ViewProfileViewModel.cs" />
-    <Compile Include="ViewModels\ScanPageViewModel.cs" />
     <Compile Include="ViewModels\MainPageViewModel.cs" />
     <Compile Include="ViewModels\MasterPageViewModel.cs" />
+    <Compile Include="ViewModels\Search\MapViewModel.cs" />
+    <Compile Include="ViewModels\Search\ListViewModel.cs" />
+    <Compile Include="ViewModels\Search\SearchViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Acr.DeviceInfo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -241,6 +249,9 @@
     </Reference>
     <Reference Include="Antlr3.Runtime">
       <HintPath>..\packages\Antlr3.Runtime.PCL.3.5.0.3\lib\portable-win+net40+sl40+wp\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.CarouselView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Forms.CarouselView.2.3.0-pre2\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.CarouselView.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.Forms.2.3.2.127\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.Core.dll</HintPath>
@@ -383,12 +394,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="UI\Pages\ScanPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="UI\Pages\Account\Login.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
@@ -441,6 +446,18 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="UI\Pages\Profile\MyProfile.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\Pages\Search\Search.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\Pages\Search\ListView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

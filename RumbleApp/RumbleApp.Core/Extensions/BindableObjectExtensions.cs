@@ -1,5 +1,5 @@
 using Xamarin.Forms;
-namespace RumbleApp.Core
+namespace JamnationApp.Core
 {
 
 	public static class BindableObjectExtensions

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RumbleApp.Core.Interfaces
+namespace JamnationApp.Core.Interfaces
 {
     public interface IRestService
     {

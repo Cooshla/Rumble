@@ -1,4 +1,4 @@
-namespace RumbleApp.Core
+namespace JamnationApp.Core
 {
     public sealed class PreserveAttribute : System.Attribute
     {

@@ -1,4 +1,4 @@
-namespace RumbleApp.Api.Migrations
+namespace JamnationApp.Api.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;

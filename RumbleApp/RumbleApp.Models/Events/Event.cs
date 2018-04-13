@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RumbleApp.Models.Events
+namespace JamnationApp.Models.Events
 {
     public class Event: BaseModel
     {

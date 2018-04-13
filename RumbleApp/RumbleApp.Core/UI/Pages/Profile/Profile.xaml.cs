@@ -1,5 +1,5 @@
-using RumbleApp.Core.Abstracts;
-using RumbleApp.Core.ViewModels;
+using JamnationApp.Core.Abstracts;
+using JamnationApp.Core.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,14 +10,13 @@ using Xamarin.Forms;
 using Xamarin.Forms.Maps;
 using Xamarin.Forms.Xaml;
 
-namespace RumbleApp.Core.UI.Pages.Profile
+namespace JamnationApp.Core.UI.Pages.Profile
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Profile : ContentPage
     {
         public Profile()
         {
-            BindingContext = App.ProfileViewModel;
             InitializeComponent();
 
             MessagingCenter.Subscribe<ProfileViewModel, CustomPin>(this, Messages.MapPinsReady, (sends, arg) =>

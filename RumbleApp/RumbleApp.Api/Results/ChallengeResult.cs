@@ -7,7 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Http;
 
-namespace RumbleApp.Api.Results
+namespace JamnationApp.Api.Results
 {
     public class ChallengeResult : IHttpActionResult
     {

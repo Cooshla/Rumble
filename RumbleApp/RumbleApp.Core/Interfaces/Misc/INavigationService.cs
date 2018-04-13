@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace RumbleApp.Core.Interfaces
+namespace JamnationApp.Core.Interfaces
 {
 	public interface INavigationService : INavigation
 	{

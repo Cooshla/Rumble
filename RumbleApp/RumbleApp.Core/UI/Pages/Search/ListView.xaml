@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JamnationApp.Core.UI.Pages.Search.ListView">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="filter.png" />
+        <ToolbarItem Icon="location.png" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="0,0,0,0" Spacing="0">
+            <BoxView HeightRequest="20" BackgroundColor="#EEEEEE" HorizontalOptions="FillAndExpand"/>
+            <ListView x:Name="list" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" RowHeight="100" SeparatorColor="{StaticResource BackgroundColor}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="20,20,20,20">
+                            <StackLayout Orientation="Vertical" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand">
+                                <Image Source="guy.png" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="75" />
+                            </StackLayout>
+
+                            <StackLayout Orientation="Vertical" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand">
+                                <Label Text="Robert Pickerson" FontAttributes="Bold" FontSize="Large"></Label>
+                                <Label Text="Jazz, Rock, Blues"  FontSize="Small"></Label>
+                                <Label Text="Fermoy" FontAttributes="Italic" FontSize="Small"></Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

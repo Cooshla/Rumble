@@ -2,7 +2,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using Newtonsoft.Json;
 
-namespace RumbleApp.Api.Models
+namespace JamnationApp.Api.Models
 {
     // Models used as parameters to AccountController actions.
 

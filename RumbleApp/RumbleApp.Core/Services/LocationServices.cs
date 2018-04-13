@@ -1,12 +1,12 @@
-﻿using RumbleApp.Core.Interfaces;
-using RumbleApp.Core.Models;
+﻿using JamnationApp.Core.Interfaces;
+using JamnationApp.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RumbleApp.Core.Services
+namespace JamnationApp.Core.Services
 {
     public class LocationServices : ILocationServices
     {

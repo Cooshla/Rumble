@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
-namespace RumbleApp.Core.UI.Pages.AutoComplete
+namespace JamnationApp.Core.UI.Pages.AutoComplete
 {
     public partial class LocationLookup : ContentPage
     {
         public LocationLookup()
         {
-            BindingContext = App.LocationLookupViewModel;
             InitializeComponent();
             Autocomplete.TextChanged += Autocomplete_TextChanged;
         }
@@ -20,7 +19,7 @@ namespace RumbleApp.Core.UI.Pages.AutoComplete
         private void Autocomplete_TextChanged(object sender, TextChangedEventArgs e)
         {
             if (e.NewTextValue.Length > 3)
-                App.LocationLookupViewModel.GetItems(e.NewTextValue);
+                App.ViewModelLocator.LocationLookup.GetItems(e.NewTextValue);
         }
     }
 }

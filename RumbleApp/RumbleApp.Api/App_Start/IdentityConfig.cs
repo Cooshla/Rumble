@@ -3,11 +3,11 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
-using RumbleApp.Api.Models;
+using JamnationApp.Api.Models;
 using Microsoft.Owin.Security;
 using System.Security.Claims;
 
-namespace RumbleApp.Api
+namespace JamnationApp.Api
 {
     // Configure the application user manager used in this application. UserManager is defined in ASP.NET Identity and is used by the application.
 

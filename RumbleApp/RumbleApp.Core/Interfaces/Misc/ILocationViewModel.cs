@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace RumbleApp.Core.Interfaces
+namespace JamnationApp.Core.Interfaces
 {
     public interface ILocationViewModel
     {

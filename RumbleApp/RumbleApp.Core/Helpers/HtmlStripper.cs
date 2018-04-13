@@ -1,7 +1,7 @@
 using System;
 using System.Text.RegularExpressions;
 
-namespace RumbleApp.Core.Helpers
+namespace JamnationApp.Core.Helpers
 {
     public class HtmlStripper
     {

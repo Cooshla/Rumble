@@ -1,13 +1,13 @@
 using System;
-using RumbleApp.Core;
+using JamnationApp.Core;
 using SQLite.Net;
 using System.IO;
 using Xamarin.Forms;
-using RumbleApp.iOS;
+using JamnationApp.iOS;
 
 
 [assembly: Dependency (typeof (SQLite_iOS))]
-namespace RumbleApp.iOS
+namespace JamnationApp.iOS
 {
     public class SQLite_iOS : ISQLite
     {
@@ -17,7 +17,7 @@ namespace RumbleApp.iOS
 
         public SQLiteConnection GetConnection ()
         {
-            var fileName = "RumbleApp.db3";
+            var fileName = "JamnationApp.db3";
             var documentsPath = Environment.GetFolderPath (Environment.SpecialFolder.Personal);
             var libraryPath = Path.Combine (documentsPath, "..", "Library");
             var path = Path.Combine (libraryPath, fileName);

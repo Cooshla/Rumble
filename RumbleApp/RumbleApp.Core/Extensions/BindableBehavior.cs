@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace RumbleApp.Core.Extensions
+namespace JamnationApp.Core.Extensions
 {
     public class BindableBehavior<T> : Behavior<T> where T : BindableObject
     {

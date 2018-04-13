@@ -1,7 +1,7 @@
 using System;
-using RumbleApp.Core;
+using JamnationApp.Core;
 
-namespace RumbleApp.iOS.Services
+namespace JamnationApp.iOS.Services
 {
 	public class IOSLogger
 	{

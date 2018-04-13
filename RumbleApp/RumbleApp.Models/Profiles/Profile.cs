@@ -1,4 +1,4 @@
-using RumbleApp.Models.Events;
+using JamnationApp.Models.Events;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RumbleApp.Models.Profiles
+namespace JamnationApp.Models.Profiles
 {
     public class Profile: BaseModel
     {

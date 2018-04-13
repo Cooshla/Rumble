@@ -1,6 +1,6 @@
 using System;
 
-namespace RumbleApp.Core.Helpers
+namespace JamnationApp.Core.Helpers
 {
 // ReSharper disable once InconsistentNaming
     public class GATimeHelper

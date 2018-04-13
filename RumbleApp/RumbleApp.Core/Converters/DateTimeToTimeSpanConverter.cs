@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace RumbleApp.Core.Converters
+namespace JamnationApp.Core.Converters
 {
     public class DateTimeToTimeSpanConverter : IValueConverter
     {

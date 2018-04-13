@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Web;
 
 
-namespace RumbleApp.Api.Helpers
+namespace JamnationApp.Api.Helpers
 {
 
     public static class ImageHelper

@@ -7,7 +7,7 @@ using System.Collections.ObjectModel;
 using System.Text;
 using Xamarin;
 
-namespace RumbleApp.Core
+namespace JamnationApp.Core
 {
 	public class DatabaseManager
 	{

@@ -13,11 +13,11 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
-using RumbleApp.Api.Models;
-using RumbleApp.Api.Providers;
-using RumbleApp.Api.Results;
+using JamnationApp.Api.Models;
+using JamnationApp.Api.Providers;
+using JamnationApp.Api.Results;
 
-namespace RumbleApp.Api.Controllers
+namespace JamnationApp.Api.Controllers
 {
     [Authorize]
     [RoutePrefix("api/Account")]

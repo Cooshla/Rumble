@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
-             x:Class="RumbleApp.Core.UI.Pages.AutoComplete.LocationLookup">
+             x:Class="JamnationApp.Core.UI.Pages.AutoComplete.LocationLookup">
 <ContentPage.Resources>
         <ResourceDictionary>
             <!--  this isn't working yet  -->

@@ -1,6 +1,6 @@
 using System;
 
-namespace RumbleApp.Core
+namespace JamnationApp.Core
 {
 	public class WebProxy : System.Net.IWebProxy
 	{

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Maps;
 
-namespace RumbleApp.Core.Abstracts
+namespace JamnationApp.Core.Abstracts
 {
     public class CustomMap : Map
     {

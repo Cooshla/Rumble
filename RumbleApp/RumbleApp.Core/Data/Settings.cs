@@ -2,7 +2,7 @@ using System;
 using Refractored.Xam.Settings.Abstractions;
 using Refractored.Xam.Settings;
 
-namespace RumbleApp.Core
+namespace JamnationApp.Core
 {
 	public static class Settings
 	{

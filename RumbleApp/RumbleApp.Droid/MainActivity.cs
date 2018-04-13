@@ -5,7 +5,7 @@ using Android.App;
 using Android.OS;
 using Android.Locations;
 using Android.Content;
-using RumbleApp.Core;
+using JamnationApp.Core;
 using Xamarin;
 using Xamarin.Forms;
 using XLabs.Forms;
@@ -14,14 +14,14 @@ using XLabs.Platform.Device;
 using Android.Runtime;
 using System.IO;
 using Acr.UserDialogs;
-using RumbleApp.Core.ViewModels;
+using JamnationApp.Core.ViewModels;
 using XLabs.Platform.Services.Geolocation;
 using ImageCircle.Forms.Plugin.Droid;
 using RoundedBoxView.Forms.Plugin.Droid;
 
-namespace RumbleApp.Droid
+namespace JamnationApp.Droid
 {
-    [Activity(Label = "Rumble", 
+    [Activity(Label = "Jamnation", 
         Theme = "@android:style/Theme.Holo.Light", 
         Icon = "@android:color/transparent",
         MainLauncher = false,
@@ -80,7 +80,7 @@ namespace RumbleApp.Droid
         public void InitializeDatabase()
 		{
 			
-			string dbName = "RumbleApp.db3";
+			string dbName = "JamnationApp.db3";
             
             string dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), dbName);
             //string dbPath = Path.Combine(Android.OS.Environment.ExternalStorageDirectory.AbsolutePath, dbName);

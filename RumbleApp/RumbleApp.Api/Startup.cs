@@ -4,9 +4,9 @@ using System.Linq;
 using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(RumbleApp.Api.Startup))]
+[assembly: OwinStartup(typeof(JamnationApp.Api.Startup))]
 
-namespace RumbleApp.Api
+namespace JamnationApp.Api
 {
     public partial class Startup
     {

@@ -1,6 +1,6 @@
-﻿using RumbleApp.Core.Helpers;
-using RumbleApp.Core.Interfaces;
-using RumbleApp.Core.UI;
+﻿using JamnationApp.Core.Helpers;
+using JamnationApp.Core.Interfaces;
+using JamnationApp.Core.UI;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
 
-namespace RumbleApp.Core.ViewModels.Profile
+namespace JamnationApp.Core.ViewModels.Profile
 {
     public class ViewProfileViewModel: BaseViewModel
     {
-        public RumbleApp.Core.Models.Profile ThisProfile { get; set; }
+        public JamnationApp.Core.Models.Profile ThisProfile { get; set; }
         public ImageSource UserImage { get; set; }
         public string PhotoText { get; set; }
         private IAppNavigation Navi { get; set; }

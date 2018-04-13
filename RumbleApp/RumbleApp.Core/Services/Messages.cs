@@ -1,4 +1,4 @@
-namespace RumbleApp.Core
+namespace JamnationApp.Core
 {
 	public static class Messages
 	{
@@ -16,5 +16,8 @@ namespace RumbleApp.Core
         public const string MapPinsReady = "MapPinsReady";
 
         public const string AddressLookupCalled = "AddressLookupCalled";
+
+
+        public const string Walkthrough = "Walkthrough";
     }
 }

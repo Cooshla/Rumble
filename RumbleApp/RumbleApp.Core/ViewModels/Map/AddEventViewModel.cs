@@ -1,6 +1,6 @@
 using Acr;
-using RumbleApp.Core.Interfaces;
-using RumbleApp.Core.Models;
+using JamnationApp.Core.Interfaces;
+using JamnationApp.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
 
-namespace RumbleApp.Core.ViewModels.Map
+namespace JamnationApp.Core.ViewModels.Map
 {
     public class AddEventViewModel :BaseViewModel
     {

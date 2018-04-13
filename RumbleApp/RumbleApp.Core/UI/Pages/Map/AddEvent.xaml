@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
              xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
-             xmlns:converters="clr-namespace:RumbleApp.Core.Converters;assembly=RumbleApp.Core"
-             x:Class="RumbleApp.Core.UI.Pages.Map.AddEvent"  BackgroundColor="White">
+             xmlns:converters="clr-namespace:JamnationApp.Core.Converters;assembly=JamnationApp.Core"
+             x:Class="JamnationApp.Core.UI.Pages.Map.AddEvent"  BackgroundColor="White">
 
 
     <ContentPage.Resources>
@@ -21,7 +21,7 @@
 
 
 
-            <Entry Placeholder="Event Name" Keyboard="Default" Text="{Binding EventName}" Style="{DynamicResource entryStyle}" FontSize="Large" HeightRequest="50"  />
+            <Entry Placeholder="Event Name" Keyboard="Default" Text="{Binding EventName}" FontSize="Large" HeightRequest="50"  />
     
 
             <Grid >
@@ -78,23 +78,23 @@
 
 
                 <Image Grid.Row="4" Grid.Column="0" Source="location.png" WidthRequest="20"></Image>
-                <Entry Grid.Row="4" Grid.Column="2"  Grid.ColumnSpan="3"  Placeholder="Location" x:Name="LocationEntry"   Keyboard="Default"  Text="{Binding Location}" Style="{DynamicResource entryStyle}"/>
+                <Entry Grid.Row="4" Grid.Column="2"  Grid.ColumnSpan="3"  Placeholder="Location" x:Name="LocationEntry"   Keyboard="Default"  Text="{Binding Location}" />
 
 
 
                 <Image Grid.Row="6" Grid.Column="0" Source="places.png" WidthRequest="20"></Image>
-                <Entry Grid.Row="6" Grid.Column="2"  Grid.ColumnSpan="3"  Placeholder="Number of places" Keyboard="Numeric" Text="{Binding Places}" Style="{DynamicResource entryStyle}"/>
+                <Entry Grid.Row="6" Grid.Column="2"  Grid.ColumnSpan="3"  Placeholder="Number of places" Keyboard="Numeric" Text="{Binding Places}"/>
 
                 
                 <Image Grid.Row="8" Grid.Column="0" Source="pencil.png" WidthRequest="20"></Image>
-                <Entry Grid.Row="8" Grid.Column="2"  Grid.ColumnSpan="3"  Placeholder="Description" Keyboard="Default" Text="{Binding Description}" Style="{DynamicResource entryStyle}"/>
+                <Entry Grid.Row="8" Grid.Column="2"  Grid.ColumnSpan="3"  Placeholder="Description" Keyboard="Default" Text="{Binding Description}" />
 
             </Grid>
 
 
 
             <StackLayout Orientation="Vertical"  Padding="10,10,10,10"  VerticalOptions="EndAndExpand"  HorizontalOptions="FillAndExpand" BackgroundColor="White">
-                <Button x:Name="btnSignUp"  Text="Add Event" TextColor="White" Command="{Binding AddEventCommand}" Style="{DynamicResource greenButtonStyle}" />
+                <Button x:Name="btnSignUp"  Text="Add Event" TextColor="White" Command="{Binding AddEventCommand}"  />
             </StackLayout>
         </StackLayout>
     </ScrollView>

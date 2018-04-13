@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RumbleApp.Models.Subscriptions
+namespace JamnationApp.Models.Subscriptions
 {
     public class Subscriptions
     {

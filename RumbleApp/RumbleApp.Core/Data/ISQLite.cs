@@ -1,6 +1,6 @@
 using SQLite.Net;
 
-namespace RumbleApp.Core
+namespace JamnationApp.Core
 {
     public interface ISQLite
     {

@@ -1,4 +1,4 @@
-using RumbleApp.Models.Events;
+using JamnationApp.Models.Events;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Results;
 
-namespace RumbleApp.Api.Controllers
+namespace JamnationApp.Api.Controllers
 {
     public class EventsController : BaseApiController
     {

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace RumbleApp.Api.Models
+namespace JamnationApp.Api.Models
 {
     // Models returned by AccountController actions.
 

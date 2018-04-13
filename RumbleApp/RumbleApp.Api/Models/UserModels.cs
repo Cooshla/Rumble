@@ -1,11 +1,11 @@
-﻿using RumbleApp.Models.Profiles;
-using RumbleApp.Models.Users;
+﻿using JamnationApp.Models.Profiles;
+using JamnationApp.Models.Users;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace RumbleApp.Api.Models
+namespace JamnationApp.Api.Models
 {
     public class AppUser
     {

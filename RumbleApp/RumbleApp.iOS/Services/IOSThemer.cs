@@ -1,7 +1,7 @@
-//using RumbleApp.Core;
+//using JamnationApp.Core;
 //using Xamarin.Forms;
 
-//namespace RumbleApp.iOS.Services
+//namespace JamnationApp.iOS.Services
 //{
 //	public class IOSThemer : IThemer
 //	{

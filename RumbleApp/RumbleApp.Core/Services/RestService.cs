@@ -1,4 +1,4 @@
-using RumbleApp.Core.Interfaces;
+using JamnationApp.Core.Interfaces;
 using ModernHttpClient;
 using Newtonsoft.Json;
 using System;
@@ -9,13 +9,13 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RumbleApp.Core.Services
+namespace JamnationApp.Core.Services
 {
 
     public class RestService : IRestService
     {
         
-        Uri baseUrl = new Uri("http://rumbleapi.cooshla.com/");
+        Uri baseUrl = new Uri("http://Jamnationapi.cooshla.com/");
 
 
         public RestService()

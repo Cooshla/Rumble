@@ -2,9 +2,9 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using System;
 using Xamarin;
-using RumbleApp.Core.Interfaces;
+using JamnationApp.Core.Interfaces;
 
-namespace RumbleApp.Core.Services
+namespace JamnationApp.Core.Services
 {
 	public class NavigationService : INavigationService
 	{

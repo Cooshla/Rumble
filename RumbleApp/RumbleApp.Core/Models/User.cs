@@ -1,11 +1,11 @@
-using RumbleApp.Core.ViewModels;
+using JamnationApp.Core.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RumbleApp.Core.Models
+namespace JamnationApp.Core.Models
 {
     public class User : BaseViewModel
     {

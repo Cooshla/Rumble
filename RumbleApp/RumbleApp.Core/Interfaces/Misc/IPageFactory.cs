@@ -1,6 +1,6 @@
 using Xamarin.Forms;
 
-namespace RumbleApp.Core.Interfaces
+namespace JamnationApp.Core.Interfaces
 {
 	public enum Pages
 	{
@@ -14,7 +14,9 @@ namespace RumbleApp.Core.Interfaces
         AddEventPage,
         Guide,
         AddressLookup,
-        EventDetail
+        EventDetail,
+        Search,
+        List
     }
 
     public interface IPageFactory

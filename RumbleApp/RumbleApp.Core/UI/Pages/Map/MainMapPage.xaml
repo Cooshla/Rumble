@@ -2,11 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
-             xmlns:converters="clr-namespace:RumbleApp.Core.Converters;assembly=RumbleApp.Core"
-             xmlns:behaviors="clr-namespace:RumbleApp.Core.Maps;assembly=RumbleApp.Core"
+             xmlns:converters="clr-namespace:JamnationApp.Core.Converters;assembly=JamnationApp.Core"
+             xmlns:behaviors="clr-namespace:JamnationApp.Core.Maps;assembly=JamnationApp.Core"
              
-             xmlns:abstract="clr-namespace:RumbleApp.Core.Abstracts;assembly=RumbleApp.Core"
-             x:Class="RumbleApp.Core.UI.Pages.Map.MainMapPage">
+             xmlns:abstract="clr-namespace:JamnationApp.Core.Abstracts;assembly=JamnationApp.Core"
+             x:Class="JamnationApp.Core.UI.Pages.Map.MainMapPage">
 
     <ContentPage.Resources>
         <ResourceDictionary>

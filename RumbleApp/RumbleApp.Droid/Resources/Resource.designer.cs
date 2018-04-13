@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("RumbleApp.Droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("JamnationApp.Droid.Resource", IsApplication=true)]
 
-namespace RumbleApp.Droid
+namespace JamnationApp.Droid
 {
 	
 	
@@ -26,1986 +26,1986 @@ namespace RumbleApp.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::AndroidHUD.Resource.Attribute.ahBarColor = global::RumbleApp.Droid.Resource.Attribute.ahBarColor;
-			global::AndroidHUD.Resource.Attribute.ahBarLength = global::RumbleApp.Droid.Resource.Attribute.ahBarLength;
-			global::AndroidHUD.Resource.Attribute.ahBarWidth = global::RumbleApp.Droid.Resource.Attribute.ahBarWidth;
-			global::AndroidHUD.Resource.Attribute.ahCircleColor = global::RumbleApp.Droid.Resource.Attribute.ahCircleColor;
-			global::AndroidHUD.Resource.Attribute.ahDelayMillis = global::RumbleApp.Droid.Resource.Attribute.ahDelayMillis;
-			global::AndroidHUD.Resource.Attribute.ahRadius = global::RumbleApp.Droid.Resource.Attribute.ahRadius;
-			global::AndroidHUD.Resource.Attribute.ahRimColor = global::RumbleApp.Droid.Resource.Attribute.ahRimColor;
-			global::AndroidHUD.Resource.Attribute.ahRimWidth = global::RumbleApp.Droid.Resource.Attribute.ahRimWidth;
-			global::AndroidHUD.Resource.Attribute.ahSpinSpeed = global::RumbleApp.Droid.Resource.Attribute.ahSpinSpeed;
-			global::AndroidHUD.Resource.Attribute.ahText = global::RumbleApp.Droid.Resource.Attribute.ahText;
-			global::AndroidHUD.Resource.Attribute.ahTextColor = global::RumbleApp.Droid.Resource.Attribute.ahTextColor;
-			global::AndroidHUD.Resource.Attribute.ahTextSize = global::RumbleApp.Droid.Resource.Attribute.ahTextSize;
-			global::AndroidHUD.Resource.Drawable.ic_errorstatus = global::RumbleApp.Droid.Resource.Drawable.ic_errorstatus;
-			global::AndroidHUD.Resource.Drawable.ic_successstatus = global::RumbleApp.Droid.Resource.Drawable.ic_successstatus;
-			global::AndroidHUD.Resource.Drawable.roundedbg = global::RumbleApp.Droid.Resource.Drawable.roundedbg;
-			global::AndroidHUD.Resource.Drawable.roundedbgdark = global::RumbleApp.Droid.Resource.Drawable.roundedbgdark;
-			global::AndroidHUD.Resource.Id.loadingImage = global::RumbleApp.Droid.Resource.Id.loadingImage;
-			global::AndroidHUD.Resource.Id.loadingProgressBar = global::RumbleApp.Droid.Resource.Id.loadingProgressBar;
-			global::AndroidHUD.Resource.Id.loadingProgressWheel = global::RumbleApp.Droid.Resource.Id.loadingProgressWheel;
-			global::AndroidHUD.Resource.Id.textViewStatus = global::RumbleApp.Droid.Resource.Id.textViewStatus;
-			global::AndroidHUD.Resource.Layout.loading = global::RumbleApp.Droid.Resource.Layout.loading;
-			global::AndroidHUD.Resource.Layout.loadingimage = global::RumbleApp.Droid.Resource.Layout.loadingimage;
-			global::AndroidHUD.Resource.Layout.loadingprogress = global::RumbleApp.Droid.Resource.Layout.loadingprogress;
-			global::AndroidHUD.Resource.String.library_name = global::RumbleApp.Droid.Resource.String.library_name;
-			global::AndroidHUD.Resource.Styleable.ProgressWheel = global::RumbleApp.Droid.Resource.Styleable.ProgressWheel;
-			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarColor = global::RumbleApp.Droid.Resource.Styleable.ProgressWheel_ahBarColor;
-			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarLength = global::RumbleApp.Droid.Resource.Styleable.ProgressWheel_ahBarLength;
-			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarWidth = global::RumbleApp.Droid.Resource.Styleable.ProgressWheel_ahBarWidth;
-			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahCircleColor = global::RumbleApp.Droid.Resource.Styleable.ProgressWheel_ahCircleColor;
-			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahDelayMillis = global::RumbleApp.Droid.Resource.Styleable.ProgressWheel_ahDelayMillis;
-			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRadius = global::RumbleApp.Droid.Resource.Styleable.ProgressWheel_ahRadius;
-			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimColor = global::RumbleApp.Droid.Resource.Styleable.ProgressWheel_ahRimColor;
-			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimWidth = global::RumbleApp.Droid.Resource.Styleable.ProgressWheel_ahRimWidth;
-			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahSpinSpeed = global::RumbleApp.Droid.Resource.Styleable.ProgressWheel_ahSpinSpeed;
-			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahText = global::RumbleApp.Droid.Resource.Styleable.ProgressWheel_ahText;
-			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextColor = global::RumbleApp.Droid.Resource.Styleable.ProgressWheel_ahTextColor;
-			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextSize = global::RumbleApp.Droid.Resource.Styleable.ProgressWheel_ahTextSize;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.circleColor = global::RumbleApp.Droid.Resource.Attribute.circleColor;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.circularProgressBarStyle = global::RumbleApp.Droid.Resource.Attribute.circularProgressBarStyle;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_gravity = global::RumbleApp.Droid.Resource.Attribute.circular_gravity;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_indeterminate = global::RumbleApp.Droid.Resource.Attribute.circular_indeterminate;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_indeterminate_interval = global::RumbleApp.Droid.Resource.Attribute.circular_indeterminate_interval;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_marker_progress = global::RumbleApp.Droid.Resource.Attribute.circular_marker_progress;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_progress = global::RumbleApp.Droid.Resource.Attribute.circular_progress;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_progress_background_color = global::RumbleApp.Droid.Resource.Attribute.circular_progress_background_color;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_progress_color = global::RumbleApp.Droid.Resource.Attribute.circular_progress_color;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_stroke_width = global::RumbleApp.Droid.Resource.Attribute.circular_stroke_width;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.indeterminate = global::RumbleApp.Droid.Resource.Attribute.indeterminate;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.indeterminate_interval = global::RumbleApp.Droid.Resource.Attribute.indeterminate_interval;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.innerSize = global::RumbleApp.Droid.Resource.Attribute.innerSize;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.max = global::RumbleApp.Droid.Resource.Attribute.max;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.pinned = global::RumbleApp.Droid.Resource.Attribute.pinned;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.pinnedDrawable = global::RumbleApp.Droid.Resource.Attribute.pinnedDrawable;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.progress = global::RumbleApp.Droid.Resource.Attribute.progress;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.progressButtonStyle = global::RumbleApp.Droid.Resource.Attribute.progressButtonStyle;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.progressColor = global::RumbleApp.Droid.Resource.Attribute.progressColor;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.shadowDrawable = global::RumbleApp.Droid.Resource.Attribute.shadowDrawable;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.unpinnedDrawable = global::RumbleApp.Droid.Resource.Attribute.unpinnedDrawable;
-			global::com.refractored.monodroidtoolkit.Resource.Color.progress_default_circle_color = global::RumbleApp.Droid.Resource.Color.progress_default_circle_color;
-			global::com.refractored.monodroidtoolkit.Resource.Color.progress_default_progress_color = global::RumbleApp.Droid.Resource.Color.progress_default_progress_color;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_background_dark = global::RumbleApp.Droid.Resource.Color.refractored_background_dark;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_background_holo_dark = global::RumbleApp.Droid.Resource.Color.refractored_background_holo_dark;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_background_holo_light = global::RumbleApp.Droid.Resource.Color.refractored_background_holo_light;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_background_light = global::RumbleApp.Droid.Resource.Color.refractored_background_light;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_dark = global::RumbleApp.Droid.Resource.Color.refractored_bright_foreground_dark;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_dark_disabled = global::RumbleApp.Droid.Resource.Color.refractored_bright_foreground_dark_disabled;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_disabled_holo_dark = global::RumbleApp.Droid.Resource.Color.refractored_bright_foreground_disabled_holo_dark;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_disabled_holo_light = global::RumbleApp.Droid.Resource.Color.refractored_bright_foreground_disabled_holo_light;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_holo_dark = global::RumbleApp.Droid.Resource.Color.refractored_bright_foreground_holo_dark;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_holo_light = global::RumbleApp.Droid.Resource.Color.refractored_bright_foreground_holo_light;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_light = global::RumbleApp.Droid.Resource.Color.refractored_bright_foreground_light;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_dim_foreground_disabled_holo_dark = global::RumbleApp.Droid.Resource.Color.refractored_dim_foreground_disabled_holo_dark;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_dim_foreground_disabled_holo_light = global::RumbleApp.Droid.Resource.Color.refractored_dim_foreground_disabled_holo_light;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_dim_foreground_holo_dark = global::RumbleApp.Droid.Resource.Color.refractored_dim_foreground_holo_dark;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_dim_foreground_holo_light = global::RumbleApp.Droid.Resource.Color.refractored_dim_foreground_holo_light;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_highlighted_text_holo_dark = global::RumbleApp.Droid.Resource.Color.refractored_highlighted_text_holo_dark;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_highlighted_text_holo_light = global::RumbleApp.Droid.Resource.Color.refractored_highlighted_text_holo_light;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_hint_foreground_holo_dark = global::RumbleApp.Droid.Resource.Color.refractored_hint_foreground_holo_dark;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_hint_foreground_holo_light = global::RumbleApp.Droid.Resource.Color.refractored_hint_foreground_holo_light;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_blue_bright = global::RumbleApp.Droid.Resource.Color.refractored_holo_blue_bright;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_blue_dark = global::RumbleApp.Droid.Resource.Color.refractored_holo_blue_dark;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_blue_light = global::RumbleApp.Droid.Resource.Color.refractored_holo_blue_light;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_green_dark = global::RumbleApp.Droid.Resource.Color.refractored_holo_green_dark;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_green_light = global::RumbleApp.Droid.Resource.Color.refractored_holo_green_light;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_orange_dark = global::RumbleApp.Droid.Resource.Color.refractored_holo_orange_dark;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_orange_light = global::RumbleApp.Droid.Resource.Color.refractored_holo_orange_light;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_purple = global::RumbleApp.Droid.Resource.Color.refractored_holo_purple;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_red_dark = global::RumbleApp.Droid.Resource.Color.refractored_holo_red_dark;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_red_light = global::RumbleApp.Droid.Resource.Color.refractored_holo_red_light;
-			global::com.refractored.monodroidtoolkit.Resource.Dimension.progress_inner_size = global::RumbleApp.Droid.Resource.Dimension.progress_inner_size;
-			global::com.refractored.monodroidtoolkit.Resource.Drawable.pin_progress_pinned = global::RumbleApp.Droid.Resource.Drawable.pin_progress_pinned;
-			global::com.refractored.monodroidtoolkit.Resource.Drawable.pin_progress_shadow = global::RumbleApp.Droid.Resource.Drawable.pin_progress_shadow;
-			global::com.refractored.monodroidtoolkit.Resource.Drawable.pin_progress_unpinned = global::RumbleApp.Droid.Resource.Drawable.pin_progress_unpinned;
-			global::com.refractored.monodroidtoolkit.Resource.Drawable.scrubber_control_normal_holo = global::RumbleApp.Droid.Resource.Drawable.scrubber_control_normal_holo;
-			global::com.refractored.monodroidtoolkit.Resource.Drawable.scrubber_control_pressed_holo = global::RumbleApp.Droid.Resource.Drawable.scrubber_control_pressed_holo;
-			global::com.refractored.monodroidtoolkit.Resource.Id.bottom = global::RumbleApp.Droid.Resource.Id.bottom;
-			global::com.refractored.monodroidtoolkit.Resource.Id.center = global::RumbleApp.Droid.Resource.Id.center;
-			global::com.refractored.monodroidtoolkit.Resource.Id.center_horizontal = global::RumbleApp.Droid.Resource.Id.center_horizontal;
-			global::com.refractored.monodroidtoolkit.Resource.Id.center_vertical = global::RumbleApp.Droid.Resource.Id.center_vertical;
-			global::com.refractored.monodroidtoolkit.Resource.Id.clip = global::RumbleApp.Droid.Resource.Id.clip;
-			global::com.refractored.monodroidtoolkit.Resource.Id.clip_horizontal = global::RumbleApp.Droid.Resource.Id.clip_horizontal;
-			global::com.refractored.monodroidtoolkit.Resource.Id.clip_vertical = global::RumbleApp.Droid.Resource.Id.clip_vertical;
-			global::com.refractored.monodroidtoolkit.Resource.Id.end = global::RumbleApp.Droid.Resource.Id.end;
-			global::com.refractored.monodroidtoolkit.Resource.Id.fill = global::RumbleApp.Droid.Resource.Id.fill;
-			global::com.refractored.monodroidtoolkit.Resource.Id.fill_horizontal = global::RumbleApp.Droid.Resource.Id.fill_horizontal;
-			global::com.refractored.monodroidtoolkit.Resource.Id.fill_vertical = global::RumbleApp.Droid.Resource.Id.fill_vertical;
-			global::com.refractored.monodroidtoolkit.Resource.Id.left = global::RumbleApp.Droid.Resource.Id.left;
-			global::com.refractored.monodroidtoolkit.Resource.Id.right = global::RumbleApp.Droid.Resource.Id.right;
-			global::com.refractored.monodroidtoolkit.Resource.Id.start = global::RumbleApp.Droid.Resource.Id.start;
-			global::com.refractored.monodroidtoolkit.Resource.Id.top = global::RumbleApp.Droid.Resource.Id.top;
-			global::com.refractored.monodroidtoolkit.Resource.Integer.circular_indeterminent_interval = global::RumbleApp.Droid.Resource.Integer.circular_indeterminent_interval;
-			global::com.refractored.monodroidtoolkit.Resource.Integer.progressbutton_indeterminent_interval = global::RumbleApp.Droid.Resource.Integer.progressbutton_indeterminent_interval;
-			global::com.refractored.monodroidtoolkit.Resource.Style.CircularProgressBar = global::RumbleApp.Droid.Resource.Style.CircularProgressBar;
-			global::com.refractored.monodroidtoolkit.Resource.Style.CircularProgressBarLight = global::RumbleApp.Droid.Resource.Style.CircularProgressBarLight;
-			global::com.refractored.monodroidtoolkit.Resource.Style.ProgressButton = global::RumbleApp.Droid.Resource.Style.ProgressButton;
-			global::com.refractored.monodroidtoolkit.Resource.Style.ProgressButton_Pin = global::RumbleApp.Droid.Resource.Style.ProgressButton_Pin;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar = global::RumbleApp.Droid.Resource.Styleable.HoloCircularProgressBar;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_gravity = global::RumbleApp.Droid.Resource.Styleable.HoloCircularProgressBar_circular_gravity;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_indeterminate = global::RumbleApp.Droid.Resource.Styleable.HoloCircularProgressBar_circular_indeterminate;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_indeterminate_interval = global::RumbleApp.Droid.Resource.Styleable.HoloCircularProgressBar_circular_indeterminate_interval;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_marker_progress = global::RumbleApp.Droid.Resource.Styleable.HoloCircularProgressBar_circular_marker_progress;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_progress = global::RumbleApp.Droid.Resource.Styleable.HoloCircularProgressBar_circular_progress;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_progress_background_color = global::RumbleApp.Droid.Resource.Styleable.HoloCircularProgressBar_circular_progress_background_color;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_progress_color = global::RumbleApp.Droid.Resource.Styleable.HoloCircularProgressBar_circular_progress_color;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_stroke_width = global::RumbleApp.Droid.Resource.Styleable.HoloCircularProgressBar_circular_stroke_width;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton = global::RumbleApp.Droid.Resource.Styleable.ProgressButton;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_android_clickable = global::RumbleApp.Droid.Resource.Styleable.ProgressButton_android_clickable;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_android_focusable = global::RumbleApp.Droid.Resource.Styleable.ProgressButton_android_focusable;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_android_selectableItemBackground = global::RumbleApp.Droid.Resource.Styleable.ProgressButton_android_selectableItemBackground;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_circleColor = global::RumbleApp.Droid.Resource.Styleable.ProgressButton_circleColor;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_indeterminate = global::RumbleApp.Droid.Resource.Styleable.ProgressButton_indeterminate;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_indeterminate_interval = global::RumbleApp.Droid.Resource.Styleable.ProgressButton_indeterminate_interval;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_innerSize = global::RumbleApp.Droid.Resource.Styleable.ProgressButton_innerSize;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_max = global::RumbleApp.Droid.Resource.Styleable.ProgressButton_max;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_pinned = global::RumbleApp.Droid.Resource.Styleable.ProgressButton_pinned;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_pinnedDrawable = global::RumbleApp.Droid.Resource.Styleable.ProgressButton_pinnedDrawable;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_progress = global::RumbleApp.Droid.Resource.Styleable.ProgressButton_progress;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_progressColor = global::RumbleApp.Droid.Resource.Styleable.ProgressButton_progressColor;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_shadowDrawable = global::RumbleApp.Droid.Resource.Styleable.ProgressButton_shadowDrawable;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_unpinnedDrawable = global::RumbleApp.Droid.Resource.Styleable.ProgressButton_unpinnedDrawable;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.Theme = global::RumbleApp.Droid.Resource.Styleable.Theme;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.Theme_circularProgressBarStyle = global::RumbleApp.Droid.Resource.Styleable.Theme_circularProgressBarStyle;
-			global::ModernHttpClient.Resource.String.library_name = global::RumbleApp.Droid.Resource.String.library_name;
-			global::Splat.Resource.String.library_name = global::RumbleApp.Droid.Resource.String.library_name;
-			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.ApplicationName = global::RumbleApp.Droid.Resource.String.ApplicationName;
-			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.Hello = global::RumbleApp.Droid.Resource.String.Hello;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::RumbleApp.Droid.Resource.Attribute.actionBarSize;
-			global::XLabs.Forms.Droid.Resource.Animation.abc_fade_in = global::RumbleApp.Droid.Resource.Animation.abc_fade_in;
-			global::XLabs.Forms.Droid.Resource.Animation.abc_fade_out = global::RumbleApp.Droid.Resource.Animation.abc_fade_out;
-			global::XLabs.Forms.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::RumbleApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::XLabs.Forms.Droid.Resource.Animation.abc_popup_enter = global::RumbleApp.Droid.Resource.Animation.abc_popup_enter;
-			global::XLabs.Forms.Droid.Resource.Animation.abc_popup_exit = global::RumbleApp.Droid.Resource.Animation.abc_popup_exit;
-			global::XLabs.Forms.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::RumbleApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::XLabs.Forms.Droid.Resource.Animation.abc_slide_in_bottom = global::RumbleApp.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::XLabs.Forms.Droid.Resource.Animation.abc_slide_in_top = global::RumbleApp.Droid.Resource.Animation.abc_slide_in_top;
-			global::XLabs.Forms.Droid.Resource.Animation.abc_slide_out_bottom = global::RumbleApp.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::XLabs.Forms.Droid.Resource.Animation.abc_slide_out_top = global::RumbleApp.Droid.Resource.Animation.abc_slide_out_top;
-			global::XLabs.Forms.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::RumbleApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
-			global::XLabs.Forms.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::RumbleApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
-			global::XLabs.Forms.Droid.Resource.Animation.design_fab_in = global::RumbleApp.Droid.Resource.Animation.design_fab_in;
-			global::XLabs.Forms.Droid.Resource.Animation.design_fab_out = global::RumbleApp.Droid.Resource.Animation.design_fab_out;
-			global::XLabs.Forms.Droid.Resource.Animation.design_snackbar_in = global::RumbleApp.Droid.Resource.Animation.design_snackbar_in;
-			global::XLabs.Forms.Droid.Resource.Animation.design_snackbar_out = global::RumbleApp.Droid.Resource.Animation.design_snackbar_out;
-			global::XLabs.Forms.Droid.Resource.Attribute.MediaRouteControllerWindowBackground = global::RumbleApp.Droid.Resource.Attribute.MediaRouteControllerWindowBackground;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionBarDivider = global::RumbleApp.Droid.Resource.Attribute.actionBarDivider;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionBarItemBackground = global::RumbleApp.Droid.Resource.Attribute.actionBarItemBackground;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionBarPopupTheme = global::RumbleApp.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionBarSize = global::RumbleApp.Droid.Resource.Attribute.actionBarSize;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionBarSplitStyle = global::RumbleApp.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionBarStyle = global::RumbleApp.Droid.Resource.Attribute.actionBarStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionBarTabBarStyle = global::RumbleApp.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionBarTabStyle = global::RumbleApp.Droid.Resource.Attribute.actionBarTabStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionBarTabTextStyle = global::RumbleApp.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionBarTheme = global::RumbleApp.Droid.Resource.Attribute.actionBarTheme;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionBarWidgetTheme = global::RumbleApp.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionButtonStyle = global::RumbleApp.Droid.Resource.Attribute.actionButtonStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionDropDownStyle = global::RumbleApp.Droid.Resource.Attribute.actionDropDownStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionLayout = global::RumbleApp.Droid.Resource.Attribute.actionLayout;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionMenuTextAppearance = global::RumbleApp.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionMenuTextColor = global::RumbleApp.Droid.Resource.Attribute.actionMenuTextColor;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionModeBackground = global::RumbleApp.Droid.Resource.Attribute.actionModeBackground;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::RumbleApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionModeCloseDrawable = global::RumbleApp.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionModeCopyDrawable = global::RumbleApp.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionModeCutDrawable = global::RumbleApp.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionModeFindDrawable = global::RumbleApp.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionModePasteDrawable = global::RumbleApp.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionModePopupWindowStyle = global::RumbleApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::RumbleApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionModeShareDrawable = global::RumbleApp.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionModeSplitBackground = global::RumbleApp.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionModeStyle = global::RumbleApp.Droid.Resource.Attribute.actionModeStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::RumbleApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionOverflowButtonStyle = global::RumbleApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionOverflowMenuStyle = global::RumbleApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionProviderClass = global::RumbleApp.Droid.Resource.Attribute.actionProviderClass;
-			global::XLabs.Forms.Droid.Resource.Attribute.actionViewClass = global::RumbleApp.Droid.Resource.Attribute.actionViewClass;
-			global::XLabs.Forms.Droid.Resource.Attribute.activityChooserViewStyle = global::RumbleApp.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::RumbleApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.alertDialogCenterButtons = global::RumbleApp.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::XLabs.Forms.Droid.Resource.Attribute.alertDialogStyle = global::RumbleApp.Droid.Resource.Attribute.alertDialogStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.alertDialogTheme = global::RumbleApp.Droid.Resource.Attribute.alertDialogTheme;
-			global::XLabs.Forms.Droid.Resource.Attribute.allowStacking = global::RumbleApp.Droid.Resource.Attribute.allowStacking;
-			global::XLabs.Forms.Droid.Resource.Attribute.arrowHeadLength = global::RumbleApp.Droid.Resource.Attribute.arrowHeadLength;
-			global::XLabs.Forms.Droid.Resource.Attribute.arrowShaftLength = global::RumbleApp.Droid.Resource.Attribute.arrowShaftLength;
-			global::XLabs.Forms.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::RumbleApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.background = global::RumbleApp.Droid.Resource.Attribute.background;
-			global::XLabs.Forms.Droid.Resource.Attribute.backgroundSplit = global::RumbleApp.Droid.Resource.Attribute.backgroundSplit;
-			global::XLabs.Forms.Droid.Resource.Attribute.backgroundStacked = global::RumbleApp.Droid.Resource.Attribute.backgroundStacked;
-			global::XLabs.Forms.Droid.Resource.Attribute.backgroundTint = global::RumbleApp.Droid.Resource.Attribute.backgroundTint;
-			global::XLabs.Forms.Droid.Resource.Attribute.backgroundTintMode = global::RumbleApp.Droid.Resource.Attribute.backgroundTintMode;
-			global::XLabs.Forms.Droid.Resource.Attribute.barLength = global::RumbleApp.Droid.Resource.Attribute.barLength;
-			global::XLabs.Forms.Droid.Resource.Attribute.behavior_hideable = global::RumbleApp.Droid.Resource.Attribute.behavior_hideable;
-			global::XLabs.Forms.Droid.Resource.Attribute.behavior_overlapTop = global::RumbleApp.Droid.Resource.Attribute.behavior_overlapTop;
-			global::XLabs.Forms.Droid.Resource.Attribute.behavior_peekHeight = global::RumbleApp.Droid.Resource.Attribute.behavior_peekHeight;
-			global::XLabs.Forms.Droid.Resource.Attribute.borderWidth = global::RumbleApp.Droid.Resource.Attribute.borderWidth;
-			global::XLabs.Forms.Droid.Resource.Attribute.borderlessButtonStyle = global::RumbleApp.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.bottomSheetDialogTheme = global::RumbleApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
-			global::XLabs.Forms.Droid.Resource.Attribute.bottomSheetStyle = global::RumbleApp.Droid.Resource.Attribute.bottomSheetStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.buttonBarButtonStyle = global::RumbleApp.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::RumbleApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::RumbleApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::RumbleApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.buttonBarStyle = global::RumbleApp.Droid.Resource.Attribute.buttonBarStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.buttonPanelSideLayout = global::RumbleApp.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::XLabs.Forms.Droid.Resource.Attribute.buttonStyle = global::RumbleApp.Droid.Resource.Attribute.buttonStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.buttonStyleSmall = global::RumbleApp.Droid.Resource.Attribute.buttonStyleSmall;
-			global::XLabs.Forms.Droid.Resource.Attribute.buttonTint = global::RumbleApp.Droid.Resource.Attribute.buttonTint;
-			global::XLabs.Forms.Droid.Resource.Attribute.buttonTintMode = global::RumbleApp.Droid.Resource.Attribute.buttonTintMode;
-			global::XLabs.Forms.Droid.Resource.Attribute.cardBackgroundColor = global::RumbleApp.Droid.Resource.Attribute.cardBackgroundColor;
-			global::XLabs.Forms.Droid.Resource.Attribute.cardCornerRadius = global::RumbleApp.Droid.Resource.Attribute.cardCornerRadius;
-			global::XLabs.Forms.Droid.Resource.Attribute.cardElevation = global::RumbleApp.Droid.Resource.Attribute.cardElevation;
-			global::XLabs.Forms.Droid.Resource.Attribute.cardMaxElevation = global::RumbleApp.Droid.Resource.Attribute.cardMaxElevation;
-			global::XLabs.Forms.Droid.Resource.Attribute.cardPreventCornerOverlap = global::RumbleApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
-			global::XLabs.Forms.Droid.Resource.Attribute.cardUseCompatPadding = global::RumbleApp.Droid.Resource.Attribute.cardUseCompatPadding;
-			global::XLabs.Forms.Droid.Resource.Attribute.checkboxStyle = global::RumbleApp.Droid.Resource.Attribute.checkboxStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.checkedTextViewStyle = global::RumbleApp.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.closeIcon = global::RumbleApp.Droid.Resource.Attribute.closeIcon;
-			global::XLabs.Forms.Droid.Resource.Attribute.closeItemLayout = global::RumbleApp.Droid.Resource.Attribute.closeItemLayout;
-			global::XLabs.Forms.Droid.Resource.Attribute.collapseContentDescription = global::RumbleApp.Droid.Resource.Attribute.collapseContentDescription;
-			global::XLabs.Forms.Droid.Resource.Attribute.collapseIcon = global::RumbleApp.Droid.Resource.Attribute.collapseIcon;
-			global::XLabs.Forms.Droid.Resource.Attribute.collapsedTitleGravity = global::RumbleApp.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::XLabs.Forms.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::RumbleApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::XLabs.Forms.Droid.Resource.Attribute.color = global::RumbleApp.Droid.Resource.Attribute.color;
-			global::XLabs.Forms.Droid.Resource.Attribute.colorAccent = global::RumbleApp.Droid.Resource.Attribute.colorAccent;
-			global::XLabs.Forms.Droid.Resource.Attribute.colorButtonNormal = global::RumbleApp.Droid.Resource.Attribute.colorButtonNormal;
-			global::XLabs.Forms.Droid.Resource.Attribute.colorControlActivated = global::RumbleApp.Droid.Resource.Attribute.colorControlActivated;
-			global::XLabs.Forms.Droid.Resource.Attribute.colorControlHighlight = global::RumbleApp.Droid.Resource.Attribute.colorControlHighlight;
-			global::XLabs.Forms.Droid.Resource.Attribute.colorControlNormal = global::RumbleApp.Droid.Resource.Attribute.colorControlNormal;
-			global::XLabs.Forms.Droid.Resource.Attribute.colorPrimary = global::RumbleApp.Droid.Resource.Attribute.colorPrimary;
-			global::XLabs.Forms.Droid.Resource.Attribute.colorPrimaryDark = global::RumbleApp.Droid.Resource.Attribute.colorPrimaryDark;
-			global::XLabs.Forms.Droid.Resource.Attribute.colorSwitchThumbNormal = global::RumbleApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::XLabs.Forms.Droid.Resource.Attribute.commitIcon = global::RumbleApp.Droid.Resource.Attribute.commitIcon;
-			global::XLabs.Forms.Droid.Resource.Attribute.contentInsetEnd = global::RumbleApp.Droid.Resource.Attribute.contentInsetEnd;
-			global::XLabs.Forms.Droid.Resource.Attribute.contentInsetLeft = global::RumbleApp.Droid.Resource.Attribute.contentInsetLeft;
-			global::XLabs.Forms.Droid.Resource.Attribute.contentInsetRight = global::RumbleApp.Droid.Resource.Attribute.contentInsetRight;
-			global::XLabs.Forms.Droid.Resource.Attribute.contentInsetStart = global::RumbleApp.Droid.Resource.Attribute.contentInsetStart;
-			global::XLabs.Forms.Droid.Resource.Attribute.contentPadding = global::RumbleApp.Droid.Resource.Attribute.contentPadding;
-			global::XLabs.Forms.Droid.Resource.Attribute.contentPaddingBottom = global::RumbleApp.Droid.Resource.Attribute.contentPaddingBottom;
-			global::XLabs.Forms.Droid.Resource.Attribute.contentPaddingLeft = global::RumbleApp.Droid.Resource.Attribute.contentPaddingLeft;
-			global::XLabs.Forms.Droid.Resource.Attribute.contentPaddingRight = global::RumbleApp.Droid.Resource.Attribute.contentPaddingRight;
-			global::XLabs.Forms.Droid.Resource.Attribute.contentPaddingTop = global::RumbleApp.Droid.Resource.Attribute.contentPaddingTop;
-			global::XLabs.Forms.Droid.Resource.Attribute.contentScrim = global::RumbleApp.Droid.Resource.Attribute.contentScrim;
-			global::XLabs.Forms.Droid.Resource.Attribute.controlBackground = global::RumbleApp.Droid.Resource.Attribute.controlBackground;
-			global::XLabs.Forms.Droid.Resource.Attribute.counterEnabled = global::RumbleApp.Droid.Resource.Attribute.counterEnabled;
-			global::XLabs.Forms.Droid.Resource.Attribute.counterMaxLength = global::RumbleApp.Droid.Resource.Attribute.counterMaxLength;
-			global::XLabs.Forms.Droid.Resource.Attribute.counterOverflowTextAppearance = global::RumbleApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
-			global::XLabs.Forms.Droid.Resource.Attribute.counterTextAppearance = global::RumbleApp.Droid.Resource.Attribute.counterTextAppearance;
-			global::XLabs.Forms.Droid.Resource.Attribute.customNavigationLayout = global::RumbleApp.Droid.Resource.Attribute.customNavigationLayout;
-			global::XLabs.Forms.Droid.Resource.Attribute.defaultQueryHint = global::RumbleApp.Droid.Resource.Attribute.defaultQueryHint;
-			global::XLabs.Forms.Droid.Resource.Attribute.dialogPreferredPadding = global::RumbleApp.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::XLabs.Forms.Droid.Resource.Attribute.dialogTheme = global::RumbleApp.Droid.Resource.Attribute.dialogTheme;
-			global::XLabs.Forms.Droid.Resource.Attribute.displayOptions = global::RumbleApp.Droid.Resource.Attribute.displayOptions;
-			global::XLabs.Forms.Droid.Resource.Attribute.divider = global::RumbleApp.Droid.Resource.Attribute.divider;
-			global::XLabs.Forms.Droid.Resource.Attribute.dividerHorizontal = global::RumbleApp.Droid.Resource.Attribute.dividerHorizontal;
-			global::XLabs.Forms.Droid.Resource.Attribute.dividerPadding = global::RumbleApp.Droid.Resource.Attribute.dividerPadding;
-			global::XLabs.Forms.Droid.Resource.Attribute.dividerVertical = global::RumbleApp.Droid.Resource.Attribute.dividerVertical;
-			global::XLabs.Forms.Droid.Resource.Attribute.drawableSize = global::RumbleApp.Droid.Resource.Attribute.drawableSize;
-			global::XLabs.Forms.Droid.Resource.Attribute.drawerArrowStyle = global::RumbleApp.Droid.Resource.Attribute.drawerArrowStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.dropDownListViewStyle = global::RumbleApp.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::RumbleApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::XLabs.Forms.Droid.Resource.Attribute.editTextBackground = global::RumbleApp.Droid.Resource.Attribute.editTextBackground;
-			global::XLabs.Forms.Droid.Resource.Attribute.editTextColor = global::RumbleApp.Droid.Resource.Attribute.editTextColor;
-			global::XLabs.Forms.Droid.Resource.Attribute.editTextStyle = global::RumbleApp.Droid.Resource.Attribute.editTextStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.elevation = global::RumbleApp.Droid.Resource.Attribute.elevation;
-			global::XLabs.Forms.Droid.Resource.Attribute.errorEnabled = global::RumbleApp.Droid.Resource.Attribute.errorEnabled;
-			global::XLabs.Forms.Droid.Resource.Attribute.errorTextAppearance = global::RumbleApp.Droid.Resource.Attribute.errorTextAppearance;
-			global::XLabs.Forms.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::RumbleApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::XLabs.Forms.Droid.Resource.Attribute.expanded = global::RumbleApp.Droid.Resource.Attribute.expanded;
-			global::XLabs.Forms.Droid.Resource.Attribute.expandedTitleGravity = global::RumbleApp.Droid.Resource.Attribute.expandedTitleGravity;
-			global::XLabs.Forms.Droid.Resource.Attribute.expandedTitleMargin = global::RumbleApp.Droid.Resource.Attribute.expandedTitleMargin;
-			global::XLabs.Forms.Droid.Resource.Attribute.expandedTitleMarginBottom = global::RumbleApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
-			global::XLabs.Forms.Droid.Resource.Attribute.expandedTitleMarginEnd = global::RumbleApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
-			global::XLabs.Forms.Droid.Resource.Attribute.expandedTitleMarginStart = global::RumbleApp.Droid.Resource.Attribute.expandedTitleMarginStart;
-			global::XLabs.Forms.Droid.Resource.Attribute.expandedTitleMarginTop = global::RumbleApp.Droid.Resource.Attribute.expandedTitleMarginTop;
-			global::XLabs.Forms.Droid.Resource.Attribute.expandedTitleTextAppearance = global::RumbleApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::XLabs.Forms.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::RumbleApp.Droid.Resource.Attribute.externalRouteEnabledDrawable;
-			global::XLabs.Forms.Droid.Resource.Attribute.fabSize = global::RumbleApp.Droid.Resource.Attribute.fabSize;
-			global::XLabs.Forms.Droid.Resource.Attribute.foregroundInsidePadding = global::RumbleApp.Droid.Resource.Attribute.foregroundInsidePadding;
-			global::XLabs.Forms.Droid.Resource.Attribute.gapBetweenBars = global::RumbleApp.Droid.Resource.Attribute.gapBetweenBars;
-			global::XLabs.Forms.Droid.Resource.Attribute.goIcon = global::RumbleApp.Droid.Resource.Attribute.goIcon;
-			global::XLabs.Forms.Droid.Resource.Attribute.headerLayout = global::RumbleApp.Droid.Resource.Attribute.headerLayout;
-			global::XLabs.Forms.Droid.Resource.Attribute.height = global::RumbleApp.Droid.Resource.Attribute.height;
-			global::XLabs.Forms.Droid.Resource.Attribute.hideOnContentScroll = global::RumbleApp.Droid.Resource.Attribute.hideOnContentScroll;
-			global::XLabs.Forms.Droid.Resource.Attribute.hintAnimationEnabled = global::RumbleApp.Droid.Resource.Attribute.hintAnimationEnabled;
-			global::XLabs.Forms.Droid.Resource.Attribute.hintEnabled = global::RumbleApp.Droid.Resource.Attribute.hintEnabled;
-			global::XLabs.Forms.Droid.Resource.Attribute.hintTextAppearance = global::RumbleApp.Droid.Resource.Attribute.hintTextAppearance;
-			global::XLabs.Forms.Droid.Resource.Attribute.homeAsUpIndicator = global::RumbleApp.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::XLabs.Forms.Droid.Resource.Attribute.homeLayout = global::RumbleApp.Droid.Resource.Attribute.homeLayout;
-			global::XLabs.Forms.Droid.Resource.Attribute.icon = global::RumbleApp.Droid.Resource.Attribute.icon;
-			global::XLabs.Forms.Droid.Resource.Attribute.iconifiedByDefault = global::RumbleApp.Droid.Resource.Attribute.iconifiedByDefault;
-			global::XLabs.Forms.Droid.Resource.Attribute.imageButtonStyle = global::RumbleApp.Droid.Resource.Attribute.imageButtonStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.indeterminateProgressStyle = global::RumbleApp.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.initialActivityCount = global::RumbleApp.Droid.Resource.Attribute.initialActivityCount;
-			global::XLabs.Forms.Droid.Resource.Attribute.insetForeground = global::RumbleApp.Droid.Resource.Attribute.insetForeground;
-			global::XLabs.Forms.Droid.Resource.Attribute.isLightTheme = global::RumbleApp.Droid.Resource.Attribute.isLightTheme;
-			global::XLabs.Forms.Droid.Resource.Attribute.itemBackground = global::RumbleApp.Droid.Resource.Attribute.itemBackground;
-			global::XLabs.Forms.Droid.Resource.Attribute.itemIconTint = global::RumbleApp.Droid.Resource.Attribute.itemIconTint;
-			global::XLabs.Forms.Droid.Resource.Attribute.itemPadding = global::RumbleApp.Droid.Resource.Attribute.itemPadding;
-			global::XLabs.Forms.Droid.Resource.Attribute.itemTextAppearance = global::RumbleApp.Droid.Resource.Attribute.itemTextAppearance;
-			global::XLabs.Forms.Droid.Resource.Attribute.itemTextColor = global::RumbleApp.Droid.Resource.Attribute.itemTextColor;
-			global::XLabs.Forms.Droid.Resource.Attribute.keylines = global::RumbleApp.Droid.Resource.Attribute.keylines;
-			global::XLabs.Forms.Droid.Resource.Attribute.layout = global::RumbleApp.Droid.Resource.Attribute.layout;
-			global::XLabs.Forms.Droid.Resource.Attribute.layoutManager = global::RumbleApp.Droid.Resource.Attribute.layoutManager;
-			global::XLabs.Forms.Droid.Resource.Attribute.layout_anchor = global::RumbleApp.Droid.Resource.Attribute.layout_anchor;
-			global::XLabs.Forms.Droid.Resource.Attribute.layout_anchorGravity = global::RumbleApp.Droid.Resource.Attribute.layout_anchorGravity;
-			global::XLabs.Forms.Droid.Resource.Attribute.layout_behavior = global::RumbleApp.Droid.Resource.Attribute.layout_behavior;
-			global::XLabs.Forms.Droid.Resource.Attribute.layout_collapseMode = global::RumbleApp.Droid.Resource.Attribute.layout_collapseMode;
-			global::XLabs.Forms.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::RumbleApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::XLabs.Forms.Droid.Resource.Attribute.layout_keyline = global::RumbleApp.Droid.Resource.Attribute.layout_keyline;
-			global::XLabs.Forms.Droid.Resource.Attribute.layout_scrollFlags = global::RumbleApp.Droid.Resource.Attribute.layout_scrollFlags;
-			global::XLabs.Forms.Droid.Resource.Attribute.layout_scrollInterpolator = global::RumbleApp.Droid.Resource.Attribute.layout_scrollInterpolator;
-			global::XLabs.Forms.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::RumbleApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::XLabs.Forms.Droid.Resource.Attribute.listDividerAlertDialog = global::RumbleApp.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::XLabs.Forms.Droid.Resource.Attribute.listItemLayout = global::RumbleApp.Droid.Resource.Attribute.listItemLayout;
-			global::XLabs.Forms.Droid.Resource.Attribute.listLayout = global::RumbleApp.Droid.Resource.Attribute.listLayout;
-			global::XLabs.Forms.Droid.Resource.Attribute.listPopupWindowStyle = global::RumbleApp.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.listPreferredItemHeight = global::RumbleApp.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::XLabs.Forms.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::RumbleApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::XLabs.Forms.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::RumbleApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::XLabs.Forms.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::RumbleApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::XLabs.Forms.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::RumbleApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::XLabs.Forms.Droid.Resource.Attribute.logo = global::RumbleApp.Droid.Resource.Attribute.logo;
-			global::XLabs.Forms.Droid.Resource.Attribute.logoDescription = global::RumbleApp.Droid.Resource.Attribute.logoDescription;
-			global::XLabs.Forms.Droid.Resource.Attribute.maxActionInlineWidth = global::RumbleApp.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::XLabs.Forms.Droid.Resource.Attribute.maxButtonHeight = global::RumbleApp.Droid.Resource.Attribute.maxButtonHeight;
-			global::XLabs.Forms.Droid.Resource.Attribute.measureWithLargestChild = global::RumbleApp.Droid.Resource.Attribute.measureWithLargestChild;
-			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::RumbleApp.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
-			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteBluetoothIconDrawable = global::RumbleApp.Droid.Resource.Attribute.mediaRouteBluetoothIconDrawable;
-			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteButtonStyle = global::RumbleApp.Droid.Resource.Attribute.mediaRouteButtonStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteCastDrawable = global::RumbleApp.Droid.Resource.Attribute.mediaRouteCastDrawable;
-			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteChooserPrimaryTextStyle = global::RumbleApp.Droid.Resource.Attribute.mediaRouteChooserPrimaryTextStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteChooserSecondaryTextStyle = global::RumbleApp.Droid.Resource.Attribute.mediaRouteChooserSecondaryTextStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::RumbleApp.Droid.Resource.Attribute.mediaRouteCloseDrawable;
-			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteCollapseGroupDrawable = global::RumbleApp.Droid.Resource.Attribute.mediaRouteCollapseGroupDrawable;
-			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteConnectingDrawable = global::RumbleApp.Droid.Resource.Attribute.mediaRouteConnectingDrawable;
-			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteControllerPrimaryTextStyle = global::RumbleApp.Droid.Resource.Attribute.mediaRouteControllerPrimaryTextStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteControllerSecondaryTextStyle = global::RumbleApp.Droid.Resource.Attribute.mediaRouteControllerSecondaryTextStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteControllerTitleTextStyle = global::RumbleApp.Droid.Resource.Attribute.mediaRouteControllerTitleTextStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::RumbleApp.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
-			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteExpandGroupDrawable = global::RumbleApp.Droid.Resource.Attribute.mediaRouteExpandGroupDrawable;
-			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteOffDrawable = global::RumbleApp.Droid.Resource.Attribute.mediaRouteOffDrawable;
-			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteOnDrawable = global::RumbleApp.Droid.Resource.Attribute.mediaRouteOnDrawable;
-			global::XLabs.Forms.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::RumbleApp.Droid.Resource.Attribute.mediaRoutePauseDrawable;
-			global::XLabs.Forms.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::RumbleApp.Droid.Resource.Attribute.mediaRoutePlayDrawable;
-			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::RumbleApp.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
-			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::RumbleApp.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
-			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::RumbleApp.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
-			global::XLabs.Forms.Droid.Resource.Attribute.menu = global::RumbleApp.Droid.Resource.Attribute.menu;
-			global::XLabs.Forms.Droid.Resource.Attribute.multiChoiceItemLayout = global::RumbleApp.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::XLabs.Forms.Droid.Resource.Attribute.navigationContentDescription = global::RumbleApp.Droid.Resource.Attribute.navigationContentDescription;
-			global::XLabs.Forms.Droid.Resource.Attribute.navigationIcon = global::RumbleApp.Droid.Resource.Attribute.navigationIcon;
-			global::XLabs.Forms.Droid.Resource.Attribute.navigationMode = global::RumbleApp.Droid.Resource.Attribute.navigationMode;
-			global::XLabs.Forms.Droid.Resource.Attribute.overlapAnchor = global::RumbleApp.Droid.Resource.Attribute.overlapAnchor;
-			global::XLabs.Forms.Droid.Resource.Attribute.paddingEnd = global::RumbleApp.Droid.Resource.Attribute.paddingEnd;
-			global::XLabs.Forms.Droid.Resource.Attribute.paddingStart = global::RumbleApp.Droid.Resource.Attribute.paddingStart;
-			global::XLabs.Forms.Droid.Resource.Attribute.panelBackground = global::RumbleApp.Droid.Resource.Attribute.panelBackground;
-			global::XLabs.Forms.Droid.Resource.Attribute.panelMenuListTheme = global::RumbleApp.Droid.Resource.Attribute.panelMenuListTheme;
-			global::XLabs.Forms.Droid.Resource.Attribute.panelMenuListWidth = global::RumbleApp.Droid.Resource.Attribute.panelMenuListWidth;
-			global::XLabs.Forms.Droid.Resource.Attribute.popupMenuStyle = global::RumbleApp.Droid.Resource.Attribute.popupMenuStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.popupTheme = global::RumbleApp.Droid.Resource.Attribute.popupTheme;
-			global::XLabs.Forms.Droid.Resource.Attribute.popupWindowStyle = global::RumbleApp.Droid.Resource.Attribute.popupWindowStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.preserveIconSpacing = global::RumbleApp.Droid.Resource.Attribute.preserveIconSpacing;
-			global::XLabs.Forms.Droid.Resource.Attribute.pressedTranslationZ = global::RumbleApp.Droid.Resource.Attribute.pressedTranslationZ;
-			global::XLabs.Forms.Droid.Resource.Attribute.progressBarPadding = global::RumbleApp.Droid.Resource.Attribute.progressBarPadding;
-			global::XLabs.Forms.Droid.Resource.Attribute.progressBarStyle = global::RumbleApp.Droid.Resource.Attribute.progressBarStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.queryBackground = global::RumbleApp.Droid.Resource.Attribute.queryBackground;
-			global::XLabs.Forms.Droid.Resource.Attribute.queryHint = global::RumbleApp.Droid.Resource.Attribute.queryHint;
-			global::XLabs.Forms.Droid.Resource.Attribute.radioButtonStyle = global::RumbleApp.Droid.Resource.Attribute.radioButtonStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.ratingBarStyle = global::RumbleApp.Droid.Resource.Attribute.ratingBarStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.ratingBarStyleIndicator = global::RumbleApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::XLabs.Forms.Droid.Resource.Attribute.ratingBarStyleSmall = global::RumbleApp.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::XLabs.Forms.Droid.Resource.Attribute.reverseLayout = global::RumbleApp.Droid.Resource.Attribute.reverseLayout;
-			global::XLabs.Forms.Droid.Resource.Attribute.rippleColor = global::RumbleApp.Droid.Resource.Attribute.rippleColor;
-			global::XLabs.Forms.Droid.Resource.Attribute.searchHintIcon = global::RumbleApp.Droid.Resource.Attribute.searchHintIcon;
-			global::XLabs.Forms.Droid.Resource.Attribute.searchIcon = global::RumbleApp.Droid.Resource.Attribute.searchIcon;
-			global::XLabs.Forms.Droid.Resource.Attribute.searchViewStyle = global::RumbleApp.Droid.Resource.Attribute.searchViewStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.seekBarStyle = global::RumbleApp.Droid.Resource.Attribute.seekBarStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.selectableItemBackground = global::RumbleApp.Droid.Resource.Attribute.selectableItemBackground;
-			global::XLabs.Forms.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::RumbleApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::XLabs.Forms.Droid.Resource.Attribute.showAsAction = global::RumbleApp.Droid.Resource.Attribute.showAsAction;
-			global::XLabs.Forms.Droid.Resource.Attribute.showDividers = global::RumbleApp.Droid.Resource.Attribute.showDividers;
-			global::XLabs.Forms.Droid.Resource.Attribute.showText = global::RumbleApp.Droid.Resource.Attribute.showText;
-			global::XLabs.Forms.Droid.Resource.Attribute.singleChoiceItemLayout = global::RumbleApp.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::XLabs.Forms.Droid.Resource.Attribute.spanCount = global::RumbleApp.Droid.Resource.Attribute.spanCount;
-			global::XLabs.Forms.Droid.Resource.Attribute.spinBars = global::RumbleApp.Droid.Resource.Attribute.spinBars;
-			global::XLabs.Forms.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::RumbleApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.spinnerStyle = global::RumbleApp.Droid.Resource.Attribute.spinnerStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.splitTrack = global::RumbleApp.Droid.Resource.Attribute.splitTrack;
-			global::XLabs.Forms.Droid.Resource.Attribute.srcCompat = global::RumbleApp.Droid.Resource.Attribute.srcCompat;
-			global::XLabs.Forms.Droid.Resource.Attribute.stackFromEnd = global::RumbleApp.Droid.Resource.Attribute.stackFromEnd;
-			global::XLabs.Forms.Droid.Resource.Attribute.state_above_anchor = global::RumbleApp.Droid.Resource.Attribute.state_above_anchor;
-			global::XLabs.Forms.Droid.Resource.Attribute.statusBarBackground = global::RumbleApp.Droid.Resource.Attribute.statusBarBackground;
-			global::XLabs.Forms.Droid.Resource.Attribute.statusBarScrim = global::RumbleApp.Droid.Resource.Attribute.statusBarScrim;
-			global::XLabs.Forms.Droid.Resource.Attribute.submitBackground = global::RumbleApp.Droid.Resource.Attribute.submitBackground;
-			global::XLabs.Forms.Droid.Resource.Attribute.subtitle = global::RumbleApp.Droid.Resource.Attribute.subtitle;
-			global::XLabs.Forms.Droid.Resource.Attribute.subtitleTextAppearance = global::RumbleApp.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::XLabs.Forms.Droid.Resource.Attribute.subtitleTextColor = global::RumbleApp.Droid.Resource.Attribute.subtitleTextColor;
-			global::XLabs.Forms.Droid.Resource.Attribute.subtitleTextStyle = global::RumbleApp.Droid.Resource.Attribute.subtitleTextStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.suggestionRowLayout = global::RumbleApp.Droid.Resource.Attribute.suggestionRowLayout;
-			global::XLabs.Forms.Droid.Resource.Attribute.switchMinWidth = global::RumbleApp.Droid.Resource.Attribute.switchMinWidth;
-			global::XLabs.Forms.Droid.Resource.Attribute.switchPadding = global::RumbleApp.Droid.Resource.Attribute.switchPadding;
-			global::XLabs.Forms.Droid.Resource.Attribute.switchStyle = global::RumbleApp.Droid.Resource.Attribute.switchStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.switchTextAppearance = global::RumbleApp.Droid.Resource.Attribute.switchTextAppearance;
-			global::XLabs.Forms.Droid.Resource.Attribute.tabBackground = global::RumbleApp.Droid.Resource.Attribute.tabBackground;
-			global::XLabs.Forms.Droid.Resource.Attribute.tabContentStart = global::RumbleApp.Droid.Resource.Attribute.tabContentStart;
-			global::XLabs.Forms.Droid.Resource.Attribute.tabGravity = global::RumbleApp.Droid.Resource.Attribute.tabGravity;
-			global::XLabs.Forms.Droid.Resource.Attribute.tabIndicatorColor = global::RumbleApp.Droid.Resource.Attribute.tabIndicatorColor;
-			global::XLabs.Forms.Droid.Resource.Attribute.tabIndicatorHeight = global::RumbleApp.Droid.Resource.Attribute.tabIndicatorHeight;
-			global::XLabs.Forms.Droid.Resource.Attribute.tabMaxWidth = global::RumbleApp.Droid.Resource.Attribute.tabMaxWidth;
-			global::XLabs.Forms.Droid.Resource.Attribute.tabMinWidth = global::RumbleApp.Droid.Resource.Attribute.tabMinWidth;
-			global::XLabs.Forms.Droid.Resource.Attribute.tabMode = global::RumbleApp.Droid.Resource.Attribute.tabMode;
-			global::XLabs.Forms.Droid.Resource.Attribute.tabPadding = global::RumbleApp.Droid.Resource.Attribute.tabPadding;
-			global::XLabs.Forms.Droid.Resource.Attribute.tabPaddingBottom = global::RumbleApp.Droid.Resource.Attribute.tabPaddingBottom;
-			global::XLabs.Forms.Droid.Resource.Attribute.tabPaddingEnd = global::RumbleApp.Droid.Resource.Attribute.tabPaddingEnd;
-			global::XLabs.Forms.Droid.Resource.Attribute.tabPaddingStart = global::RumbleApp.Droid.Resource.Attribute.tabPaddingStart;
-			global::XLabs.Forms.Droid.Resource.Attribute.tabPaddingTop = global::RumbleApp.Droid.Resource.Attribute.tabPaddingTop;
-			global::XLabs.Forms.Droid.Resource.Attribute.tabSelectedTextColor = global::RumbleApp.Droid.Resource.Attribute.tabSelectedTextColor;
-			global::XLabs.Forms.Droid.Resource.Attribute.tabTextAppearance = global::RumbleApp.Droid.Resource.Attribute.tabTextAppearance;
-			global::XLabs.Forms.Droid.Resource.Attribute.tabTextColor = global::RumbleApp.Droid.Resource.Attribute.tabTextColor;
-			global::XLabs.Forms.Droid.Resource.Attribute.textAllCaps = global::RumbleApp.Droid.Resource.Attribute.textAllCaps;
-			global::XLabs.Forms.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::RumbleApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::XLabs.Forms.Droid.Resource.Attribute.textAppearanceListItem = global::RumbleApp.Droid.Resource.Attribute.textAppearanceListItem;
-			global::XLabs.Forms.Droid.Resource.Attribute.textAppearanceListItemSmall = global::RumbleApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::XLabs.Forms.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::RumbleApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::XLabs.Forms.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::RumbleApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::XLabs.Forms.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::RumbleApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::XLabs.Forms.Droid.Resource.Attribute.textColorAlertDialogListItem = global::RumbleApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::XLabs.Forms.Droid.Resource.Attribute.textColorError = global::RumbleApp.Droid.Resource.Attribute.textColorError;
-			global::XLabs.Forms.Droid.Resource.Attribute.textColorSearchUrl = global::RumbleApp.Droid.Resource.Attribute.textColorSearchUrl;
-			global::XLabs.Forms.Droid.Resource.Attribute.theme = global::RumbleApp.Droid.Resource.Attribute.theme;
-			global::XLabs.Forms.Droid.Resource.Attribute.thickness = global::RumbleApp.Droid.Resource.Attribute.thickness;
-			global::XLabs.Forms.Droid.Resource.Attribute.thumbTextPadding = global::RumbleApp.Droid.Resource.Attribute.thumbTextPadding;
-			global::XLabs.Forms.Droid.Resource.Attribute.title = global::RumbleApp.Droid.Resource.Attribute.title;
-			global::XLabs.Forms.Droid.Resource.Attribute.titleEnabled = global::RumbleApp.Droid.Resource.Attribute.titleEnabled;
-			global::XLabs.Forms.Droid.Resource.Attribute.titleMarginBottom = global::RumbleApp.Droid.Resource.Attribute.titleMarginBottom;
-			global::XLabs.Forms.Droid.Resource.Attribute.titleMarginEnd = global::RumbleApp.Droid.Resource.Attribute.titleMarginEnd;
-			global::XLabs.Forms.Droid.Resource.Attribute.titleMarginStart = global::RumbleApp.Droid.Resource.Attribute.titleMarginStart;
-			global::XLabs.Forms.Droid.Resource.Attribute.titleMarginTop = global::RumbleApp.Droid.Resource.Attribute.titleMarginTop;
-			global::XLabs.Forms.Droid.Resource.Attribute.titleMargins = global::RumbleApp.Droid.Resource.Attribute.titleMargins;
-			global::XLabs.Forms.Droid.Resource.Attribute.titleTextAppearance = global::RumbleApp.Droid.Resource.Attribute.titleTextAppearance;
-			global::XLabs.Forms.Droid.Resource.Attribute.titleTextColor = global::RumbleApp.Droid.Resource.Attribute.titleTextColor;
-			global::XLabs.Forms.Droid.Resource.Attribute.titleTextStyle = global::RumbleApp.Droid.Resource.Attribute.titleTextStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.toolbarId = global::RumbleApp.Droid.Resource.Attribute.toolbarId;
-			global::XLabs.Forms.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::RumbleApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.toolbarStyle = global::RumbleApp.Droid.Resource.Attribute.toolbarStyle;
-			global::XLabs.Forms.Droid.Resource.Attribute.track = global::RumbleApp.Droid.Resource.Attribute.track;
-			global::XLabs.Forms.Droid.Resource.Attribute.useCompatPadding = global::RumbleApp.Droid.Resource.Attribute.useCompatPadding;
-			global::XLabs.Forms.Droid.Resource.Attribute.voiceIcon = global::RumbleApp.Droid.Resource.Attribute.voiceIcon;
-			global::XLabs.Forms.Droid.Resource.Attribute.windowActionBar = global::RumbleApp.Droid.Resource.Attribute.windowActionBar;
-			global::XLabs.Forms.Droid.Resource.Attribute.windowActionBarOverlay = global::RumbleApp.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::XLabs.Forms.Droid.Resource.Attribute.windowActionModeOverlay = global::RumbleApp.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::XLabs.Forms.Droid.Resource.Attribute.windowFixedHeightMajor = global::RumbleApp.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::XLabs.Forms.Droid.Resource.Attribute.windowFixedHeightMinor = global::RumbleApp.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::XLabs.Forms.Droid.Resource.Attribute.windowFixedWidthMajor = global::RumbleApp.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::XLabs.Forms.Droid.Resource.Attribute.windowFixedWidthMinor = global::RumbleApp.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::XLabs.Forms.Droid.Resource.Attribute.windowMinWidthMajor = global::RumbleApp.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::XLabs.Forms.Droid.Resource.Attribute.windowMinWidthMinor = global::RumbleApp.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::XLabs.Forms.Droid.Resource.Attribute.windowNoTitle = global::RumbleApp.Droid.Resource.Attribute.windowNoTitle;
-			global::XLabs.Forms.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::RumbleApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::XLabs.Forms.Droid.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb = global::RumbleApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb;
-			global::XLabs.Forms.Droid.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive = global::RumbleApp.Droid.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive;
-			global::XLabs.Forms.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::RumbleApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::XLabs.Forms.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::RumbleApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::XLabs.Forms.Droid.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon = global::RumbleApp.Droid.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon;
-			global::XLabs.Forms.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::RumbleApp.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
-			global::XLabs.Forms.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::RumbleApp.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
-			global::XLabs.Forms.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::RumbleApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::XLabs.Forms.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::RumbleApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::XLabs.Forms.Droid.Resource.Color.abc_color_highlight_material = global::RumbleApp.Droid.Resource.Color.abc_color_highlight_material;
-			global::XLabs.Forms.Droid.Resource.Color.abc_input_method_navigation_guard = global::RumbleApp.Droid.Resource.Color.abc_input_method_navigation_guard;
-			global::XLabs.Forms.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::RumbleApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::XLabs.Forms.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::RumbleApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::XLabs.Forms.Droid.Resource.Color.abc_primary_text_material_dark = global::RumbleApp.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::XLabs.Forms.Droid.Resource.Color.abc_primary_text_material_light = global::RumbleApp.Droid.Resource.Color.abc_primary_text_material_light;
-			global::XLabs.Forms.Droid.Resource.Color.abc_search_url_text = global::RumbleApp.Droid.Resource.Color.abc_search_url_text;
-			global::XLabs.Forms.Droid.Resource.Color.abc_search_url_text_normal = global::RumbleApp.Droid.Resource.Color.abc_search_url_text_normal;
-			global::XLabs.Forms.Droid.Resource.Color.abc_search_url_text_pressed = global::RumbleApp.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::XLabs.Forms.Droid.Resource.Color.abc_search_url_text_selected = global::RumbleApp.Droid.Resource.Color.abc_search_url_text_selected;
-			global::XLabs.Forms.Droid.Resource.Color.abc_secondary_text_material_dark = global::RumbleApp.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::XLabs.Forms.Droid.Resource.Color.abc_secondary_text_material_light = global::RumbleApp.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::XLabs.Forms.Droid.Resource.Color.accent_material_dark = global::RumbleApp.Droid.Resource.Color.accent_material_dark;
-			global::XLabs.Forms.Droid.Resource.Color.accent_material_light = global::RumbleApp.Droid.Resource.Color.accent_material_light;
-			global::XLabs.Forms.Droid.Resource.Color.background_floating_material_dark = global::RumbleApp.Droid.Resource.Color.background_floating_material_dark;
-			global::XLabs.Forms.Droid.Resource.Color.background_floating_material_light = global::RumbleApp.Droid.Resource.Color.background_floating_material_light;
-			global::XLabs.Forms.Droid.Resource.Color.background_material_dark = global::RumbleApp.Droid.Resource.Color.background_material_dark;
-			global::XLabs.Forms.Droid.Resource.Color.background_material_light = global::RumbleApp.Droid.Resource.Color.background_material_light;
-			global::XLabs.Forms.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::RumbleApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::XLabs.Forms.Droid.Resource.Color.bright_foreground_disabled_material_light = global::RumbleApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::XLabs.Forms.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::RumbleApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::XLabs.Forms.Droid.Resource.Color.bright_foreground_inverse_material_light = global::RumbleApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::XLabs.Forms.Droid.Resource.Color.bright_foreground_material_dark = global::RumbleApp.Droid.Resource.Color.bright_foreground_material_dark;
-			global::XLabs.Forms.Droid.Resource.Color.bright_foreground_material_light = global::RumbleApp.Droid.Resource.Color.bright_foreground_material_light;
-			global::XLabs.Forms.Droid.Resource.Color.button_material_dark = global::RumbleApp.Droid.Resource.Color.button_material_dark;
-			global::XLabs.Forms.Droid.Resource.Color.button_material_light = global::RumbleApp.Droid.Resource.Color.button_material_light;
-			global::XLabs.Forms.Droid.Resource.Color.calendar_active_month_bg = global::RumbleApp.Droid.Resource.Color.calendar_active_month_bg;
-			global::XLabs.Forms.Droid.Resource.Color.calendar_bg = global::RumbleApp.Droid.Resource.Color.calendar_bg;
-			global::XLabs.Forms.Droid.Resource.Color.calendar_divider = global::RumbleApp.Droid.Resource.Color.calendar_divider;
-			global::XLabs.Forms.Droid.Resource.Color.calendar_highlighted_day_bg = global::RumbleApp.Droid.Resource.Color.calendar_highlighted_day_bg;
-			global::XLabs.Forms.Droid.Resource.Color.calendar_inactive_month_bg = global::RumbleApp.Droid.Resource.Color.calendar_inactive_month_bg;
-			global::XLabs.Forms.Droid.Resource.Color.calendar_selected_day_bg = global::RumbleApp.Droid.Resource.Color.calendar_selected_day_bg;
-			global::XLabs.Forms.Droid.Resource.Color.calendar_selected_range_bg = global::RumbleApp.Droid.Resource.Color.calendar_selected_range_bg;
-			global::XLabs.Forms.Droid.Resource.Color.calendar_text_active = global::RumbleApp.Droid.Resource.Color.calendar_text_active;
-			global::XLabs.Forms.Droid.Resource.Color.calendar_text_inactive = global::RumbleApp.Droid.Resource.Color.calendar_text_inactive;
-			global::XLabs.Forms.Droid.Resource.Color.calendar_text_selected = global::RumbleApp.Droid.Resource.Color.calendar_text_selected;
-			global::XLabs.Forms.Droid.Resource.Color.calendar_text_selector = global::RumbleApp.Droid.Resource.Color.calendar_text_selector;
-			global::XLabs.Forms.Droid.Resource.Color.calendar_text_unselectable = global::RumbleApp.Droid.Resource.Color.calendar_text_unselectable;
-			global::XLabs.Forms.Droid.Resource.Color.cardview_dark_background = global::RumbleApp.Droid.Resource.Color.cardview_dark_background;
-			global::XLabs.Forms.Droid.Resource.Color.cardview_light_background = global::RumbleApp.Droid.Resource.Color.cardview_light_background;
-			global::XLabs.Forms.Droid.Resource.Color.cardview_shadow_end_color = global::RumbleApp.Droid.Resource.Color.cardview_shadow_end_color;
-			global::XLabs.Forms.Droid.Resource.Color.cardview_shadow_start_color = global::RumbleApp.Droid.Resource.Color.cardview_shadow_start_color;
-			global::XLabs.Forms.Droid.Resource.Color.design_fab_shadow_end_color = global::RumbleApp.Droid.Resource.Color.design_fab_shadow_end_color;
-			global::XLabs.Forms.Droid.Resource.Color.design_fab_shadow_mid_color = global::RumbleApp.Droid.Resource.Color.design_fab_shadow_mid_color;
-			global::XLabs.Forms.Droid.Resource.Color.design_fab_shadow_start_color = global::RumbleApp.Droid.Resource.Color.design_fab_shadow_start_color;
-			global::XLabs.Forms.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::RumbleApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
-			global::XLabs.Forms.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::RumbleApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
-			global::XLabs.Forms.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::RumbleApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
-			global::XLabs.Forms.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::RumbleApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::XLabs.Forms.Droid.Resource.Color.design_snackbar_background_color = global::RumbleApp.Droid.Resource.Color.design_snackbar_background_color;
-			global::XLabs.Forms.Droid.Resource.Color.design_textinput_error_color_dark = global::RumbleApp.Droid.Resource.Color.design_textinput_error_color_dark;
-			global::XLabs.Forms.Droid.Resource.Color.design_textinput_error_color_light = global::RumbleApp.Droid.Resource.Color.design_textinput_error_color_light;
-			global::XLabs.Forms.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::RumbleApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::XLabs.Forms.Droid.Resource.Color.dim_foreground_disabled_material_light = global::RumbleApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::XLabs.Forms.Droid.Resource.Color.dim_foreground_material_dark = global::RumbleApp.Droid.Resource.Color.dim_foreground_material_dark;
-			global::XLabs.Forms.Droid.Resource.Color.dim_foreground_material_light = global::RumbleApp.Droid.Resource.Color.dim_foreground_material_light;
-			global::XLabs.Forms.Droid.Resource.Color.foreground_material_dark = global::RumbleApp.Droid.Resource.Color.foreground_material_dark;
-			global::XLabs.Forms.Droid.Resource.Color.foreground_material_light = global::RumbleApp.Droid.Resource.Color.foreground_material_light;
-			global::XLabs.Forms.Droid.Resource.Color.highlighted_text_material_dark = global::RumbleApp.Droid.Resource.Color.highlighted_text_material_dark;
-			global::XLabs.Forms.Droid.Resource.Color.highlighted_text_material_light = global::RumbleApp.Droid.Resource.Color.highlighted_text_material_light;
-			global::XLabs.Forms.Droid.Resource.Color.hint_foreground_material_dark = global::RumbleApp.Droid.Resource.Color.hint_foreground_material_dark;
-			global::XLabs.Forms.Droid.Resource.Color.hint_foreground_material_light = global::RumbleApp.Droid.Resource.Color.hint_foreground_material_light;
-			global::XLabs.Forms.Droid.Resource.Color.material_blue_grey_800 = global::RumbleApp.Droid.Resource.Color.material_blue_grey_800;
-			global::XLabs.Forms.Droid.Resource.Color.material_blue_grey_900 = global::RumbleApp.Droid.Resource.Color.material_blue_grey_900;
-			global::XLabs.Forms.Droid.Resource.Color.material_blue_grey_950 = global::RumbleApp.Droid.Resource.Color.material_blue_grey_950;
-			global::XLabs.Forms.Droid.Resource.Color.material_deep_teal_200 = global::RumbleApp.Droid.Resource.Color.material_deep_teal_200;
-			global::XLabs.Forms.Droid.Resource.Color.material_deep_teal_500 = global::RumbleApp.Droid.Resource.Color.material_deep_teal_500;
-			global::XLabs.Forms.Droid.Resource.Color.material_grey_100 = global::RumbleApp.Droid.Resource.Color.material_grey_100;
-			global::XLabs.Forms.Droid.Resource.Color.material_grey_300 = global::RumbleApp.Droid.Resource.Color.material_grey_300;
-			global::XLabs.Forms.Droid.Resource.Color.material_grey_50 = global::RumbleApp.Droid.Resource.Color.material_grey_50;
-			global::XLabs.Forms.Droid.Resource.Color.material_grey_600 = global::RumbleApp.Droid.Resource.Color.material_grey_600;
-			global::XLabs.Forms.Droid.Resource.Color.material_grey_800 = global::RumbleApp.Droid.Resource.Color.material_grey_800;
-			global::XLabs.Forms.Droid.Resource.Color.material_grey_850 = global::RumbleApp.Droid.Resource.Color.material_grey_850;
-			global::XLabs.Forms.Droid.Resource.Color.material_grey_900 = global::RumbleApp.Droid.Resource.Color.material_grey_900;
-			global::XLabs.Forms.Droid.Resource.Color.primary_dark_material_dark = global::RumbleApp.Droid.Resource.Color.primary_dark_material_dark;
-			global::XLabs.Forms.Droid.Resource.Color.primary_dark_material_light = global::RumbleApp.Droid.Resource.Color.primary_dark_material_light;
-			global::XLabs.Forms.Droid.Resource.Color.primary_material_dark = global::RumbleApp.Droid.Resource.Color.primary_material_dark;
-			global::XLabs.Forms.Droid.Resource.Color.primary_material_light = global::RumbleApp.Droid.Resource.Color.primary_material_light;
-			global::XLabs.Forms.Droid.Resource.Color.primary_text_default_material_dark = global::RumbleApp.Droid.Resource.Color.primary_text_default_material_dark;
-			global::XLabs.Forms.Droid.Resource.Color.primary_text_default_material_light = global::RumbleApp.Droid.Resource.Color.primary_text_default_material_light;
-			global::XLabs.Forms.Droid.Resource.Color.primary_text_disabled_material_dark = global::RumbleApp.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::XLabs.Forms.Droid.Resource.Color.primary_text_disabled_material_light = global::RumbleApp.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::XLabs.Forms.Droid.Resource.Color.ripple_material_dark = global::RumbleApp.Droid.Resource.Color.ripple_material_dark;
-			global::XLabs.Forms.Droid.Resource.Color.ripple_material_light = global::RumbleApp.Droid.Resource.Color.ripple_material_light;
-			global::XLabs.Forms.Droid.Resource.Color.secondary_text_default_material_dark = global::RumbleApp.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::XLabs.Forms.Droid.Resource.Color.secondary_text_default_material_light = global::RumbleApp.Droid.Resource.Color.secondary_text_default_material_light;
-			global::XLabs.Forms.Droid.Resource.Color.secondary_text_disabled_material_dark = global::RumbleApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::XLabs.Forms.Droid.Resource.Color.secondary_text_disabled_material_light = global::RumbleApp.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::XLabs.Forms.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::RumbleApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::XLabs.Forms.Droid.Resource.Color.switch_thumb_disabled_material_light = global::RumbleApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::XLabs.Forms.Droid.Resource.Color.switch_thumb_material_dark = global::RumbleApp.Droid.Resource.Color.switch_thumb_material_dark;
-			global::XLabs.Forms.Droid.Resource.Color.switch_thumb_material_light = global::RumbleApp.Droid.Resource.Color.switch_thumb_material_light;
-			global::XLabs.Forms.Droid.Resource.Color.switch_thumb_normal_material_dark = global::RumbleApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::XLabs.Forms.Droid.Resource.Color.switch_thumb_normal_material_light = global::RumbleApp.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::RumbleApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::RumbleApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::RumbleApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::RumbleApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::RumbleApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::RumbleApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::RumbleApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_bar_progress_bar_size = global::RumbleApp.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::RumbleApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::RumbleApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::RumbleApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::RumbleApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_button_min_height_material = global::RumbleApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_button_min_width_material = global::RumbleApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::RumbleApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::RumbleApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::RumbleApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::RumbleApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::RumbleApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::RumbleApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::RumbleApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_control_corner_material = global::RumbleApp.Droid.Resource.Dimension.abc_control_corner_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_control_inset_material = global::RumbleApp.Droid.Resource.Dimension.abc_control_inset_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_control_padding_material = global::RumbleApp.Droid.Resource.Dimension.abc_control_padding_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::RumbleApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::RumbleApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::RumbleApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::RumbleApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_dialog_list_padding_vertical_material = global::RumbleApp.Droid.Resource.Dimension.abc_dialog_list_padding_vertical_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_dialog_min_width_major = global::RumbleApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::RumbleApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_dialog_padding_material = global::RumbleApp.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::RumbleApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::RumbleApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::RumbleApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::RumbleApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::RumbleApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::RumbleApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::RumbleApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::RumbleApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::RumbleApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_floating_window_z = global::RumbleApp.Droid.Resource.Dimension.abc_floating_window_z;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::RumbleApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_panel_menu_list_width = global::RumbleApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_search_view_preferred_width = global::RumbleApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_search_view_text_min_width = global::RumbleApp.Droid.Resource.Dimension.abc_search_view_text_min_width;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::RumbleApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::RumbleApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::RumbleApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_switch_padding = global::RumbleApp.Droid.Resource.Dimension.abc_switch_padding;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_body_1_material = global::RumbleApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_body_2_material = global::RumbleApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_button_material = global::RumbleApp.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_caption_material = global::RumbleApp.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_display_1_material = global::RumbleApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_display_2_material = global::RumbleApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_display_3_material = global::RumbleApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_display_4_material = global::RumbleApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_headline_material = global::RumbleApp.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_large_material = global::RumbleApp.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_medium_material = global::RumbleApp.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_menu_material = global::RumbleApp.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_small_material = global::RumbleApp.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_subhead_material = global::RumbleApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::RumbleApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_title_material = global::RumbleApp.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::RumbleApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::XLabs.Forms.Droid.Resource.Dimension.calendar_day_headers_paddingbottom = global::RumbleApp.Droid.Resource.Dimension.calendar_day_headers_paddingbottom;
-			global::XLabs.Forms.Droid.Resource.Dimension.calendar_month_title_bottommargin = global::RumbleApp.Droid.Resource.Dimension.calendar_month_title_bottommargin;
-			global::XLabs.Forms.Droid.Resource.Dimension.calendar_month_topmargin = global::RumbleApp.Droid.Resource.Dimension.calendar_month_topmargin;
-			global::XLabs.Forms.Droid.Resource.Dimension.calendar_text_medium = global::RumbleApp.Droid.Resource.Dimension.calendar_text_medium;
-			global::XLabs.Forms.Droid.Resource.Dimension.calendar_text_small = global::RumbleApp.Droid.Resource.Dimension.calendar_text_small;
-			global::XLabs.Forms.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::RumbleApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
-			global::XLabs.Forms.Droid.Resource.Dimension.cardview_default_elevation = global::RumbleApp.Droid.Resource.Dimension.cardview_default_elevation;
-			global::XLabs.Forms.Droid.Resource.Dimension.cardview_default_radius = global::RumbleApp.Droid.Resource.Dimension.cardview_default_radius;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_appbar_elevation = global::RumbleApp.Droid.Resource.Dimension.design_appbar_elevation;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::RumbleApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_bottom_sheet_modal_peek_height = global::RumbleApp.Droid.Resource.Dimension.design_bottom_sheet_modal_peek_height;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_fab_border_width = global::RumbleApp.Droid.Resource.Dimension.design_fab_border_width;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_fab_elevation = global::RumbleApp.Droid.Resource.Dimension.design_fab_elevation;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_fab_image_size = global::RumbleApp.Droid.Resource.Dimension.design_fab_image_size;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_fab_size_mini = global::RumbleApp.Droid.Resource.Dimension.design_fab_size_mini;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_fab_size_normal = global::RumbleApp.Droid.Resource.Dimension.design_fab_size_normal;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::RumbleApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_navigation_elevation = global::RumbleApp.Droid.Resource.Dimension.design_navigation_elevation;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_navigation_icon_padding = global::RumbleApp.Droid.Resource.Dimension.design_navigation_icon_padding;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_navigation_icon_size = global::RumbleApp.Droid.Resource.Dimension.design_navigation_icon_size;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_navigation_max_width = global::RumbleApp.Droid.Resource.Dimension.design_navigation_max_width;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_navigation_padding_bottom = global::RumbleApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::RumbleApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::RumbleApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::RumbleApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_snackbar_elevation = global::RumbleApp.Droid.Resource.Dimension.design_snackbar_elevation;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::RumbleApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_snackbar_max_width = global::RumbleApp.Droid.Resource.Dimension.design_snackbar_max_width;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_snackbar_min_width = global::RumbleApp.Droid.Resource.Dimension.design_snackbar_min_width;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::RumbleApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::RumbleApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::RumbleApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_snackbar_text_size = global::RumbleApp.Droid.Resource.Dimension.design_snackbar_text_size;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_tab_max_width = global::RumbleApp.Droid.Resource.Dimension.design_tab_max_width;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::RumbleApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_tab_text_size = global::RumbleApp.Droid.Resource.Dimension.design_tab_text_size;
-			global::XLabs.Forms.Droid.Resource.Dimension.design_tab_text_size_2line = global::RumbleApp.Droid.Resource.Dimension.design_tab_text_size_2line;
-			global::XLabs.Forms.Droid.Resource.Dimension.disabled_alpha_material_dark = global::RumbleApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::XLabs.Forms.Droid.Resource.Dimension.disabled_alpha_material_light = global::RumbleApp.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::XLabs.Forms.Droid.Resource.Dimension.highlight_alpha_material_colored = global::RumbleApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::XLabs.Forms.Droid.Resource.Dimension.highlight_alpha_material_dark = global::RumbleApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::XLabs.Forms.Droid.Resource.Dimension.highlight_alpha_material_light = global::RumbleApp.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::XLabs.Forms.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::RumbleApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::XLabs.Forms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::RumbleApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::XLabs.Forms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::RumbleApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::XLabs.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::RumbleApp.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
-			global::XLabs.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::RumbleApp.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
-			global::XLabs.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::RumbleApp.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
-			global::XLabs.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::RumbleApp.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
-			global::XLabs.Forms.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::RumbleApp.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
-			global::XLabs.Forms.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::RumbleApp.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
-			global::XLabs.Forms.Droid.Resource.Dimension.notification_large_icon_height = global::RumbleApp.Droid.Resource.Dimension.notification_large_icon_height;
-			global::XLabs.Forms.Droid.Resource.Dimension.notification_large_icon_width = global::RumbleApp.Droid.Resource.Dimension.notification_large_icon_width;
-			global::XLabs.Forms.Droid.Resource.Dimension.notification_subtext_size = global::RumbleApp.Droid.Resource.Dimension.notification_subtext_size;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::RumbleApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_btn_borderless_material = global::RumbleApp.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_btn_check_material = global::RumbleApp.Droid.Resource.Drawable.abc_btn_check_material;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::RumbleApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::RumbleApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_btn_colored_material = global::RumbleApp.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::RumbleApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_btn_radio_material = global::RumbleApp.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::RumbleApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::RumbleApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::RumbleApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::RumbleApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::RumbleApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_cab_background_top_material = global::RumbleApp.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_control_background_material = global::RumbleApp.Droid.Resource.Drawable.abc_control_background_material;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_dialog_material_background_dark = global::RumbleApp.Droid.Resource.Drawable.abc_dialog_material_background_dark;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_dialog_material_background_light = global::RumbleApp.Droid.Resource.Drawable.abc_dialog_material_background_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_edit_text_material = global::RumbleApp.Droid.Resource.Drawable.abc_edit_text_material;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_clear_mtrl_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_ic_clear_mtrl_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_search_api_mtrl_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_ic_search_api_mtrl_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::RumbleApp.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::RumbleApp.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::RumbleApp.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::RumbleApp.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_item_background_holo_dark = global::RumbleApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_item_background_holo_light = global::RumbleApp.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_list_focused_holo = global::RumbleApp.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_list_longpressed_holo = global::RumbleApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::RumbleApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::RumbleApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::RumbleApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::RumbleApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::RumbleApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::RumbleApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::RumbleApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_list_selector_holo_light = global::RumbleApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::RumbleApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::RumbleApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_ratingbar_full_material = global::RumbleApp.Droid.Resource.Drawable.abc_ratingbar_full_material;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::RumbleApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_ratingbar_small_material = global::RumbleApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::RumbleApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::RumbleApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::RumbleApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_seekbar_track_material = global::RumbleApp.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::RumbleApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_switch_thumb_material = global::RumbleApp.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_tab_indicator_material = global::RumbleApp.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_text_cursor_material = global::RumbleApp.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::RumbleApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::XLabs.Forms.Droid.Resource.Drawable.abc_textfield_search_material = global::RumbleApp.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::XLabs.Forms.Droid.Resource.Drawable.ad16 = global::RumbleApp.Droid.Resource.Drawable.ad16;
-			global::XLabs.Forms.Droid.Resource.Drawable.calendar_bg_selector = global::RumbleApp.Droid.Resource.Drawable.calendar_bg_selector;
-			global::XLabs.Forms.Droid.Resource.Drawable.design_fab_background = global::RumbleApp.Droid.Resource.Drawable.design_fab_background;
-			global::XLabs.Forms.Droid.Resource.Drawable.design_snackbar_background = global::RumbleApp.Droid.Resource.Drawable.design_snackbar_background;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_audiotrack = global::RumbleApp.Droid.Resource.Drawable.ic_audiotrack;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_audiotrack_light = global::RumbleApp.Droid.Resource.Drawable.ic_audiotrack_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_bluetooth_grey = global::RumbleApp.Droid.Resource.Drawable.ic_bluetooth_grey;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_bluetooth_white = global::RumbleApp.Droid.Resource.Drawable.ic_bluetooth_white;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_cast_dark = global::RumbleApp.Droid.Resource.Drawable.ic_cast_dark;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_cast_disabled_light = global::RumbleApp.Droid.Resource.Drawable.ic_cast_disabled_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_cast_grey = global::RumbleApp.Droid.Resource.Drawable.ic_cast_grey;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_cast_light = global::RumbleApp.Droid.Resource.Drawable.ic_cast_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_cast_off_light = global::RumbleApp.Droid.Resource.Drawable.ic_cast_off_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_cast_on_0_light = global::RumbleApp.Droid.Resource.Drawable.ic_cast_on_0_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_cast_on_1_light = global::RumbleApp.Droid.Resource.Drawable.ic_cast_on_1_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_cast_on_2_light = global::RumbleApp.Droid.Resource.Drawable.ic_cast_on_2_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_cast_on_light = global::RumbleApp.Droid.Resource.Drawable.ic_cast_on_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_cast_white = global::RumbleApp.Droid.Resource.Drawable.ic_cast_white;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_close_dark = global::RumbleApp.Droid.Resource.Drawable.ic_close_dark;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_close_light = global::RumbleApp.Droid.Resource.Drawable.ic_close_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse = global::RumbleApp.Droid.Resource.Drawable.ic_collapse;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00000 = global::RumbleApp.Droid.Resource.Drawable.ic_collapse_00000;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00001 = global::RumbleApp.Droid.Resource.Drawable.ic_collapse_00001;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00002 = global::RumbleApp.Droid.Resource.Drawable.ic_collapse_00002;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00003 = global::RumbleApp.Droid.Resource.Drawable.ic_collapse_00003;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00004 = global::RumbleApp.Droid.Resource.Drawable.ic_collapse_00004;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00005 = global::RumbleApp.Droid.Resource.Drawable.ic_collapse_00005;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00006 = global::RumbleApp.Droid.Resource.Drawable.ic_collapse_00006;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00007 = global::RumbleApp.Droid.Resource.Drawable.ic_collapse_00007;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00008 = global::RumbleApp.Droid.Resource.Drawable.ic_collapse_00008;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00009 = global::RumbleApp.Droid.Resource.Drawable.ic_collapse_00009;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00010 = global::RumbleApp.Droid.Resource.Drawable.ic_collapse_00010;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00011 = global::RumbleApp.Droid.Resource.Drawable.ic_collapse_00011;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00012 = global::RumbleApp.Droid.Resource.Drawable.ic_collapse_00012;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00013 = global::RumbleApp.Droid.Resource.Drawable.ic_collapse_00013;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00014 = global::RumbleApp.Droid.Resource.Drawable.ic_collapse_00014;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00015 = global::RumbleApp.Droid.Resource.Drawable.ic_collapse_00015;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand = global::RumbleApp.Droid.Resource.Drawable.ic_expand;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00000 = global::RumbleApp.Droid.Resource.Drawable.ic_expand_00000;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00001 = global::RumbleApp.Droid.Resource.Drawable.ic_expand_00001;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00002 = global::RumbleApp.Droid.Resource.Drawable.ic_expand_00002;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00003 = global::RumbleApp.Droid.Resource.Drawable.ic_expand_00003;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00004 = global::RumbleApp.Droid.Resource.Drawable.ic_expand_00004;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00005 = global::RumbleApp.Droid.Resource.Drawable.ic_expand_00005;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00006 = global::RumbleApp.Droid.Resource.Drawable.ic_expand_00006;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00007 = global::RumbleApp.Droid.Resource.Drawable.ic_expand_00007;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00008 = global::RumbleApp.Droid.Resource.Drawable.ic_expand_00008;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00009 = global::RumbleApp.Droid.Resource.Drawable.ic_expand_00009;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00010 = global::RumbleApp.Droid.Resource.Drawable.ic_expand_00010;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00011 = global::RumbleApp.Droid.Resource.Drawable.ic_expand_00011;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00012 = global::RumbleApp.Droid.Resource.Drawable.ic_expand_00012;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00013 = global::RumbleApp.Droid.Resource.Drawable.ic_expand_00013;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00014 = global::RumbleApp.Droid.Resource.Drawable.ic_expand_00014;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00015 = global::RumbleApp.Droid.Resource.Drawable.ic_expand_00015;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_media_pause = global::RumbleApp.Droid.Resource.Drawable.ic_media_pause;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_media_play = global::RumbleApp.Droid.Resource.Drawable.ic_media_play;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_media_route_disabled_mono_dark = global::RumbleApp.Droid.Resource.Drawable.ic_media_route_disabled_mono_dark;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_media_route_off_mono_dark = global::RumbleApp.Droid.Resource.Drawable.ic_media_route_off_mono_dark;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_media_route_on_0_mono_dark = global::RumbleApp.Droid.Resource.Drawable.ic_media_route_on_0_mono_dark;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_media_route_on_1_mono_dark = global::RumbleApp.Droid.Resource.Drawable.ic_media_route_on_1_mono_dark;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_media_route_on_2_mono_dark = global::RumbleApp.Droid.Resource.Drawable.ic_media_route_on_2_mono_dark;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_media_route_on_mono_dark = global::RumbleApp.Droid.Resource.Drawable.ic_media_route_on_mono_dark;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_pause_dark = global::RumbleApp.Droid.Resource.Drawable.ic_pause_dark;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_pause_light = global::RumbleApp.Droid.Resource.Drawable.ic_pause_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_play_dark = global::RumbleApp.Droid.Resource.Drawable.ic_play_dark;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_play_light = global::RumbleApp.Droid.Resource.Drawable.ic_play_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_speaker_dark = global::RumbleApp.Droid.Resource.Drawable.ic_speaker_dark;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_speaker_group_dark = global::RumbleApp.Droid.Resource.Drawable.ic_speaker_group_dark;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_speaker_group_light = global::RumbleApp.Droid.Resource.Drawable.ic_speaker_group_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_speaker_light = global::RumbleApp.Droid.Resource.Drawable.ic_speaker_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_tv_dark = global::RumbleApp.Droid.Resource.Drawable.ic_tv_dark;
-			global::XLabs.Forms.Droid.Resource.Drawable.ic_tv_light = global::RumbleApp.Droid.Resource.Drawable.ic_tv_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::RumbleApp.Droid.Resource.Drawable.mr_dialog_material_background_dark;
-			global::XLabs.Forms.Droid.Resource.Drawable.mr_dialog_material_background_light = global::RumbleApp.Droid.Resource.Drawable.mr_dialog_material_background_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.mr_ic_audiotrack_light = global::RumbleApp.Droid.Resource.Drawable.mr_ic_audiotrack_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.mr_ic_cast_dark = global::RumbleApp.Droid.Resource.Drawable.mr_ic_cast_dark;
-			global::XLabs.Forms.Droid.Resource.Drawable.mr_ic_cast_light = global::RumbleApp.Droid.Resource.Drawable.mr_ic_cast_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.mr_ic_close_dark = global::RumbleApp.Droid.Resource.Drawable.mr_ic_close_dark;
-			global::XLabs.Forms.Droid.Resource.Drawable.mr_ic_close_light = global::RumbleApp.Droid.Resource.Drawable.mr_ic_close_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_dark = global::RumbleApp.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_dark;
-			global::XLabs.Forms.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_light = global::RumbleApp.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.mr_ic_media_route_mono_dark = global::RumbleApp.Droid.Resource.Drawable.mr_ic_media_route_mono_dark;
-			global::XLabs.Forms.Droid.Resource.Drawable.mr_ic_media_route_mono_light = global::RumbleApp.Droid.Resource.Drawable.mr_ic_media_route_mono_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.mr_ic_pause_dark = global::RumbleApp.Droid.Resource.Drawable.mr_ic_pause_dark;
-			global::XLabs.Forms.Droid.Resource.Drawable.mr_ic_pause_light = global::RumbleApp.Droid.Resource.Drawable.mr_ic_pause_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.mr_ic_play_dark = global::RumbleApp.Droid.Resource.Drawable.mr_ic_play_dark;
-			global::XLabs.Forms.Droid.Resource.Drawable.mr_ic_play_light = global::RumbleApp.Droid.Resource.Drawable.mr_ic_play_light;
-			global::XLabs.Forms.Droid.Resource.Drawable.notification_template_icon_bg = global::RumbleApp.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::XLabs.Forms.Droid.Resource.Id.action0 = global::RumbleApp.Droid.Resource.Id.action0;
-			global::XLabs.Forms.Droid.Resource.Id.action_bar = global::RumbleApp.Droid.Resource.Id.action_bar;
-			global::XLabs.Forms.Droid.Resource.Id.action_bar_activity_content = global::RumbleApp.Droid.Resource.Id.action_bar_activity_content;
-			global::XLabs.Forms.Droid.Resource.Id.action_bar_container = global::RumbleApp.Droid.Resource.Id.action_bar_container;
-			global::XLabs.Forms.Droid.Resource.Id.action_bar_root = global::RumbleApp.Droid.Resource.Id.action_bar_root;
-			global::XLabs.Forms.Droid.Resource.Id.action_bar_spinner = global::RumbleApp.Droid.Resource.Id.action_bar_spinner;
-			global::XLabs.Forms.Droid.Resource.Id.action_bar_subtitle = global::RumbleApp.Droid.Resource.Id.action_bar_subtitle;
-			global::XLabs.Forms.Droid.Resource.Id.action_bar_title = global::RumbleApp.Droid.Resource.Id.action_bar_title;
-			global::XLabs.Forms.Droid.Resource.Id.action_context_bar = global::RumbleApp.Droid.Resource.Id.action_context_bar;
-			global::XLabs.Forms.Droid.Resource.Id.action_divider = global::RumbleApp.Droid.Resource.Id.action_divider;
-			global::XLabs.Forms.Droid.Resource.Id.action_menu_divider = global::RumbleApp.Droid.Resource.Id.action_menu_divider;
-			global::XLabs.Forms.Droid.Resource.Id.action_menu_presenter = global::RumbleApp.Droid.Resource.Id.action_menu_presenter;
-			global::XLabs.Forms.Droid.Resource.Id.action_mode_bar = global::RumbleApp.Droid.Resource.Id.action_mode_bar;
-			global::XLabs.Forms.Droid.Resource.Id.action_mode_bar_stub = global::RumbleApp.Droid.Resource.Id.action_mode_bar_stub;
-			global::XLabs.Forms.Droid.Resource.Id.action_mode_close_button = global::RumbleApp.Droid.Resource.Id.action_mode_close_button;
-			global::XLabs.Forms.Droid.Resource.Id.activity_chooser_view_content = global::RumbleApp.Droid.Resource.Id.activity_chooser_view_content;
-			global::XLabs.Forms.Droid.Resource.Id.alertTitle = global::RumbleApp.Droid.Resource.Id.alertTitle;
-			global::XLabs.Forms.Droid.Resource.Id.always = global::RumbleApp.Droid.Resource.Id.always;
-			global::XLabs.Forms.Droid.Resource.Id.beginning = global::RumbleApp.Droid.Resource.Id.beginning;
-			global::XLabs.Forms.Droid.Resource.Id.bottom = global::RumbleApp.Droid.Resource.Id.bottom;
-			global::XLabs.Forms.Droid.Resource.Id.buttonPanel = global::RumbleApp.Droid.Resource.Id.buttonPanel;
-			global::XLabs.Forms.Droid.Resource.Id.calendar_grid = global::RumbleApp.Droid.Resource.Id.calendar_grid;
-			global::XLabs.Forms.Droid.Resource.Id.calendar_view = global::RumbleApp.Droid.Resource.Id.calendar_view;
-			global::XLabs.Forms.Droid.Resource.Id.calendarr_pager = global::RumbleApp.Droid.Resource.Id.calendarr_pager;
-			global::XLabs.Forms.Droid.Resource.Id.cancel_action = global::RumbleApp.Droid.Resource.Id.cancel_action;
-			global::XLabs.Forms.Droid.Resource.Id.center = global::RumbleApp.Droid.Resource.Id.center;
-			global::XLabs.Forms.Droid.Resource.Id.center_horizontal = global::RumbleApp.Droid.Resource.Id.center_horizontal;
-			global::XLabs.Forms.Droid.Resource.Id.center_vertical = global::RumbleApp.Droid.Resource.Id.center_vertical;
-			global::XLabs.Forms.Droid.Resource.Id.checkbox = global::RumbleApp.Droid.Resource.Id.checkbox;
-			global::XLabs.Forms.Droid.Resource.Id.chronometer = global::RumbleApp.Droid.Resource.Id.chronometer;
-			global::XLabs.Forms.Droid.Resource.Id.clip_horizontal = global::RumbleApp.Droid.Resource.Id.clip_horizontal;
-			global::XLabs.Forms.Droid.Resource.Id.clip_vertical = global::RumbleApp.Droid.Resource.Id.clip_vertical;
-			global::XLabs.Forms.Droid.Resource.Id.collapseActionView = global::RumbleApp.Droid.Resource.Id.collapseActionView;
-			global::XLabs.Forms.Droid.Resource.Id.contentPanel = global::RumbleApp.Droid.Resource.Id.contentPanel;
-			global::XLabs.Forms.Droid.Resource.Id.custom = global::RumbleApp.Droid.Resource.Id.custom;
-			global::XLabs.Forms.Droid.Resource.Id.customPanel = global::RumbleApp.Droid.Resource.Id.customPanel;
-			global::XLabs.Forms.Droid.Resource.Id.decor_content_parent = global::RumbleApp.Droid.Resource.Id.decor_content_parent;
-			global::XLabs.Forms.Droid.Resource.Id.default_activity_button = global::RumbleApp.Droid.Resource.Id.default_activity_button;
-			global::XLabs.Forms.Droid.Resource.Id.design_bottom_sheet = global::RumbleApp.Droid.Resource.Id.design_bottom_sheet;
-			global::XLabs.Forms.Droid.Resource.Id.design_menu_item_action_area = global::RumbleApp.Droid.Resource.Id.design_menu_item_action_area;
-			global::XLabs.Forms.Droid.Resource.Id.design_menu_item_action_area_stub = global::RumbleApp.Droid.Resource.Id.design_menu_item_action_area_stub;
-			global::XLabs.Forms.Droid.Resource.Id.design_menu_item_text = global::RumbleApp.Droid.Resource.Id.design_menu_item_text;
-			global::XLabs.Forms.Droid.Resource.Id.design_navigation_view = global::RumbleApp.Droid.Resource.Id.design_navigation_view;
-			global::XLabs.Forms.Droid.Resource.Id.disableHome = global::RumbleApp.Droid.Resource.Id.disableHome;
-			global::XLabs.Forms.Droid.Resource.Id.edit_query = global::RumbleApp.Droid.Resource.Id.edit_query;
-			global::XLabs.Forms.Droid.Resource.Id.end = global::RumbleApp.Droid.Resource.Id.end;
-			global::XLabs.Forms.Droid.Resource.Id.end_padder = global::RumbleApp.Droid.Resource.Id.end_padder;
-			global::XLabs.Forms.Droid.Resource.Id.enterAlways = global::RumbleApp.Droid.Resource.Id.enterAlways;
-			global::XLabs.Forms.Droid.Resource.Id.enterAlwaysCollapsed = global::RumbleApp.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::XLabs.Forms.Droid.Resource.Id.exitUntilCollapsed = global::RumbleApp.Droid.Resource.Id.exitUntilCollapsed;
-			global::XLabs.Forms.Droid.Resource.Id.expand_activities_button = global::RumbleApp.Droid.Resource.Id.expand_activities_button;
-			global::XLabs.Forms.Droid.Resource.Id.expanded_menu = global::RumbleApp.Droid.Resource.Id.expanded_menu;
-			global::XLabs.Forms.Droid.Resource.Id.fill = global::RumbleApp.Droid.Resource.Id.fill;
-			global::XLabs.Forms.Droid.Resource.Id.fill_horizontal = global::RumbleApp.Droid.Resource.Id.fill_horizontal;
-			global::XLabs.Forms.Droid.Resource.Id.fill_vertical = global::RumbleApp.Droid.Resource.Id.fill_vertical;
-			global::XLabs.Forms.Droid.Resource.Id.@fixed = global::RumbleApp.Droid.Resource.Id.@fixed;
-			global::XLabs.Forms.Droid.Resource.Id.home = global::RumbleApp.Droid.Resource.Id.home;
-			global::XLabs.Forms.Droid.Resource.Id.homeAsUp = global::RumbleApp.Droid.Resource.Id.homeAsUp;
-			global::XLabs.Forms.Droid.Resource.Id.icon = global::RumbleApp.Droid.Resource.Id.icon;
-			global::XLabs.Forms.Droid.Resource.Id.ifRoom = global::RumbleApp.Droid.Resource.Id.ifRoom;
-			global::XLabs.Forms.Droid.Resource.Id.image = global::RumbleApp.Droid.Resource.Id.image;
-			global::XLabs.Forms.Droid.Resource.Id.info = global::RumbleApp.Droid.Resource.Id.info;
-			global::XLabs.Forms.Droid.Resource.Id.item_touch_helper_previous_elevation = global::RumbleApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
-			global::XLabs.Forms.Droid.Resource.Id.left = global::RumbleApp.Droid.Resource.Id.left;
-			global::XLabs.Forms.Droid.Resource.Id.left_arrow = global::RumbleApp.Droid.Resource.Id.left_arrow;
-			global::XLabs.Forms.Droid.Resource.Id.line1 = global::RumbleApp.Droid.Resource.Id.line1;
-			global::XLabs.Forms.Droid.Resource.Id.line3 = global::RumbleApp.Droid.Resource.Id.line3;
-			global::XLabs.Forms.Droid.Resource.Id.listMode = global::RumbleApp.Droid.Resource.Id.listMode;
-			global::XLabs.Forms.Droid.Resource.Id.list_item = global::RumbleApp.Droid.Resource.Id.list_item;
-			global::XLabs.Forms.Droid.Resource.Id.media_actions = global::RumbleApp.Droid.Resource.Id.media_actions;
-			global::XLabs.Forms.Droid.Resource.Id.middle = global::RumbleApp.Droid.Resource.Id.middle;
-			global::XLabs.Forms.Droid.Resource.Id.mini = global::RumbleApp.Droid.Resource.Id.mini;
-			global::XLabs.Forms.Droid.Resource.Id.mr_art = global::RumbleApp.Droid.Resource.Id.mr_art;
-			global::XLabs.Forms.Droid.Resource.Id.mr_chooser_list = global::RumbleApp.Droid.Resource.Id.mr_chooser_list;
-			global::XLabs.Forms.Droid.Resource.Id.mr_chooser_route_desc = global::RumbleApp.Droid.Resource.Id.mr_chooser_route_desc;
-			global::XLabs.Forms.Droid.Resource.Id.mr_chooser_route_icon = global::RumbleApp.Droid.Resource.Id.mr_chooser_route_icon;
-			global::XLabs.Forms.Droid.Resource.Id.mr_chooser_route_name = global::RumbleApp.Droid.Resource.Id.mr_chooser_route_name;
-			global::XLabs.Forms.Droid.Resource.Id.mr_close = global::RumbleApp.Droid.Resource.Id.mr_close;
-			global::XLabs.Forms.Droid.Resource.Id.mr_control_divider = global::RumbleApp.Droid.Resource.Id.mr_control_divider;
-			global::XLabs.Forms.Droid.Resource.Id.mr_control_play_pause = global::RumbleApp.Droid.Resource.Id.mr_control_play_pause;
-			global::XLabs.Forms.Droid.Resource.Id.mr_control_subtitle = global::RumbleApp.Droid.Resource.Id.mr_control_subtitle;
-			global::XLabs.Forms.Droid.Resource.Id.mr_control_title = global::RumbleApp.Droid.Resource.Id.mr_control_title;
-			global::XLabs.Forms.Droid.Resource.Id.mr_control_title_container = global::RumbleApp.Droid.Resource.Id.mr_control_title_container;
-			global::XLabs.Forms.Droid.Resource.Id.mr_custom_control = global::RumbleApp.Droid.Resource.Id.mr_custom_control;
-			global::XLabs.Forms.Droid.Resource.Id.mr_default_control = global::RumbleApp.Droid.Resource.Id.mr_default_control;
-			global::XLabs.Forms.Droid.Resource.Id.mr_dialog_area = global::RumbleApp.Droid.Resource.Id.mr_dialog_area;
-			global::XLabs.Forms.Droid.Resource.Id.mr_expandable_area = global::RumbleApp.Droid.Resource.Id.mr_expandable_area;
-			global::XLabs.Forms.Droid.Resource.Id.mr_group_expand_collapse = global::RumbleApp.Droid.Resource.Id.mr_group_expand_collapse;
-			global::XLabs.Forms.Droid.Resource.Id.mr_media_main_control = global::RumbleApp.Droid.Resource.Id.mr_media_main_control;
-			global::XLabs.Forms.Droid.Resource.Id.mr_name = global::RumbleApp.Droid.Resource.Id.mr_name;
-			global::XLabs.Forms.Droid.Resource.Id.mr_playback_control = global::RumbleApp.Droid.Resource.Id.mr_playback_control;
-			global::XLabs.Forms.Droid.Resource.Id.mr_title_bar = global::RumbleApp.Droid.Resource.Id.mr_title_bar;
-			global::XLabs.Forms.Droid.Resource.Id.mr_volume_control = global::RumbleApp.Droid.Resource.Id.mr_volume_control;
-			global::XLabs.Forms.Droid.Resource.Id.mr_volume_group_list = global::RumbleApp.Droid.Resource.Id.mr_volume_group_list;
-			global::XLabs.Forms.Droid.Resource.Id.mr_volume_item_icon = global::RumbleApp.Droid.Resource.Id.mr_volume_item_icon;
-			global::XLabs.Forms.Droid.Resource.Id.mr_volume_slider = global::RumbleApp.Droid.Resource.Id.mr_volume_slider;
-			global::XLabs.Forms.Droid.Resource.Id.multiply = global::RumbleApp.Droid.Resource.Id.multiply;
-			global::XLabs.Forms.Droid.Resource.Id.navigation_header_container = global::RumbleApp.Droid.Resource.Id.navigation_header_container;
-			global::XLabs.Forms.Droid.Resource.Id.never = global::RumbleApp.Droid.Resource.Id.never;
-			global::XLabs.Forms.Droid.Resource.Id.none = global::RumbleApp.Droid.Resource.Id.none;
-			global::XLabs.Forms.Droid.Resource.Id.normal = global::RumbleApp.Droid.Resource.Id.normal;
-			global::XLabs.Forms.Droid.Resource.Id.parallax = global::RumbleApp.Droid.Resource.Id.parallax;
-			global::XLabs.Forms.Droid.Resource.Id.parentPanel = global::RumbleApp.Droid.Resource.Id.parentPanel;
-			global::XLabs.Forms.Droid.Resource.Id.pin = global::RumbleApp.Droid.Resource.Id.pin;
-			global::XLabs.Forms.Droid.Resource.Id.progress_circular = global::RumbleApp.Droid.Resource.Id.progress_circular;
-			global::XLabs.Forms.Droid.Resource.Id.progress_horizontal = global::RumbleApp.Droid.Resource.Id.progress_horizontal;
-			global::XLabs.Forms.Droid.Resource.Id.radio = global::RumbleApp.Droid.Resource.Id.radio;
-			global::XLabs.Forms.Droid.Resource.Id.right = global::RumbleApp.Droid.Resource.Id.right;
-			global::XLabs.Forms.Droid.Resource.Id.right_arrow = global::RumbleApp.Droid.Resource.Id.right_arrow;
-			global::XLabs.Forms.Droid.Resource.Id.screen = global::RumbleApp.Droid.Resource.Id.screen;
-			global::XLabs.Forms.Droid.Resource.Id.scroll = global::RumbleApp.Droid.Resource.Id.scroll;
-			global::XLabs.Forms.Droid.Resource.Id.scrollIndicatorDown = global::RumbleApp.Droid.Resource.Id.scrollIndicatorDown;
-			global::XLabs.Forms.Droid.Resource.Id.scrollIndicatorUp = global::RumbleApp.Droid.Resource.Id.scrollIndicatorUp;
-			global::XLabs.Forms.Droid.Resource.Id.scrollView = global::RumbleApp.Droid.Resource.Id.scrollView;
-			global::XLabs.Forms.Droid.Resource.Id.scrollable = global::RumbleApp.Droid.Resource.Id.scrollable;
-			global::XLabs.Forms.Droid.Resource.Id.search_badge = global::RumbleApp.Droid.Resource.Id.search_badge;
-			global::XLabs.Forms.Droid.Resource.Id.search_bar = global::RumbleApp.Droid.Resource.Id.search_bar;
-			global::XLabs.Forms.Droid.Resource.Id.search_button = global::RumbleApp.Droid.Resource.Id.search_button;
-			global::XLabs.Forms.Droid.Resource.Id.search_close_btn = global::RumbleApp.Droid.Resource.Id.search_close_btn;
-			global::XLabs.Forms.Droid.Resource.Id.search_edit_frame = global::RumbleApp.Droid.Resource.Id.search_edit_frame;
-			global::XLabs.Forms.Droid.Resource.Id.search_go_btn = global::RumbleApp.Droid.Resource.Id.search_go_btn;
-			global::XLabs.Forms.Droid.Resource.Id.search_mag_icon = global::RumbleApp.Droid.Resource.Id.search_mag_icon;
-			global::XLabs.Forms.Droid.Resource.Id.search_plate = global::RumbleApp.Droid.Resource.Id.search_plate;
-			global::XLabs.Forms.Droid.Resource.Id.search_src_text = global::RumbleApp.Droid.Resource.Id.search_src_text;
-			global::XLabs.Forms.Droid.Resource.Id.search_voice_btn = global::RumbleApp.Droid.Resource.Id.search_voice_btn;
-			global::XLabs.Forms.Droid.Resource.Id.select_dialog_listview = global::RumbleApp.Droid.Resource.Id.select_dialog_listview;
-			global::XLabs.Forms.Droid.Resource.Id.shortcut = global::RumbleApp.Droid.Resource.Id.shortcut;
-			global::XLabs.Forms.Droid.Resource.Id.showCustom = global::RumbleApp.Droid.Resource.Id.showCustom;
-			global::XLabs.Forms.Droid.Resource.Id.showHome = global::RumbleApp.Droid.Resource.Id.showHome;
-			global::XLabs.Forms.Droid.Resource.Id.showTitle = global::RumbleApp.Droid.Resource.Id.showTitle;
-			global::XLabs.Forms.Droid.Resource.Id.snackbar_action = global::RumbleApp.Droid.Resource.Id.snackbar_action;
-			global::XLabs.Forms.Droid.Resource.Id.snackbar_text = global::RumbleApp.Droid.Resource.Id.snackbar_text;
-			global::XLabs.Forms.Droid.Resource.Id.snap = global::RumbleApp.Droid.Resource.Id.snap;
-			global::XLabs.Forms.Droid.Resource.Id.spacer = global::RumbleApp.Droid.Resource.Id.spacer;
-			global::XLabs.Forms.Droid.Resource.Id.split_action_bar = global::RumbleApp.Droid.Resource.Id.split_action_bar;
-			global::XLabs.Forms.Droid.Resource.Id.src_atop = global::RumbleApp.Droid.Resource.Id.src_atop;
-			global::XLabs.Forms.Droid.Resource.Id.src_in = global::RumbleApp.Droid.Resource.Id.src_in;
-			global::XLabs.Forms.Droid.Resource.Id.src_over = global::RumbleApp.Droid.Resource.Id.src_over;
-			global::XLabs.Forms.Droid.Resource.Id.start = global::RumbleApp.Droid.Resource.Id.start;
-			global::XLabs.Forms.Droid.Resource.Id.status_bar_latest_event_content = global::RumbleApp.Droid.Resource.Id.status_bar_latest_event_content;
-			global::XLabs.Forms.Droid.Resource.Id.submit_area = global::RumbleApp.Droid.Resource.Id.submit_area;
-			global::XLabs.Forms.Droid.Resource.Id.tabMode = global::RumbleApp.Droid.Resource.Id.tabMode;
-			global::XLabs.Forms.Droid.Resource.Id.text = global::RumbleApp.Droid.Resource.Id.text;
-			global::XLabs.Forms.Droid.Resource.Id.text2 = global::RumbleApp.Droid.Resource.Id.text2;
-			global::XLabs.Forms.Droid.Resource.Id.textSpacerNoButtons = global::RumbleApp.Droid.Resource.Id.textSpacerNoButtons;
-			global::XLabs.Forms.Droid.Resource.Id.time = global::RumbleApp.Droid.Resource.Id.time;
-			global::XLabs.Forms.Droid.Resource.Id.title = global::RumbleApp.Droid.Resource.Id.title;
-			global::XLabs.Forms.Droid.Resource.Id.title_template = global::RumbleApp.Droid.Resource.Id.title_template;
-			global::XLabs.Forms.Droid.Resource.Id.top = global::RumbleApp.Droid.Resource.Id.top;
-			global::XLabs.Forms.Droid.Resource.Id.topPanel = global::RumbleApp.Droid.Resource.Id.topPanel;
-			global::XLabs.Forms.Droid.Resource.Id.touch_outside = global::RumbleApp.Droid.Resource.Id.touch_outside;
-			global::XLabs.Forms.Droid.Resource.Id.up = global::RumbleApp.Droid.Resource.Id.up;
-			global::XLabs.Forms.Droid.Resource.Id.useLogo = global::RumbleApp.Droid.Resource.Id.useLogo;
-			global::XLabs.Forms.Droid.Resource.Id.view_offset_helper = global::RumbleApp.Droid.Resource.Id.view_offset_helper;
-			global::XLabs.Forms.Droid.Resource.Id.volume_item_container = global::RumbleApp.Droid.Resource.Id.volume_item_container;
-			global::XLabs.Forms.Droid.Resource.Id.withText = global::RumbleApp.Droid.Resource.Id.withText;
-			global::XLabs.Forms.Droid.Resource.Id.wrap_content = global::RumbleApp.Droid.Resource.Id.wrap_content;
-			global::XLabs.Forms.Droid.Resource.Integer.abc_config_activityDefaultDur = global::RumbleApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::XLabs.Forms.Droid.Resource.Integer.abc_config_activityShortDur = global::RumbleApp.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::XLabs.Forms.Droid.Resource.Integer.abc_max_action_buttons = global::RumbleApp.Droid.Resource.Integer.abc_max_action_buttons;
-			global::XLabs.Forms.Droid.Resource.Integer.bottom_sheet_slide_duration = global::RumbleApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
-			global::XLabs.Forms.Droid.Resource.Integer.cancel_button_image_alpha = global::RumbleApp.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::XLabs.Forms.Droid.Resource.Integer.design_snackbar_text_max_lines = global::RumbleApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
-			global::XLabs.Forms.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::RumbleApp.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
-			global::XLabs.Forms.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::RumbleApp.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
-			global::XLabs.Forms.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::RumbleApp.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
-			global::XLabs.Forms.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::RumbleApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::XLabs.Forms.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::RumbleApp.Droid.Resource.Interpolator.mr_fast_out_slow_in;
-			global::XLabs.Forms.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::RumbleApp.Droid.Resource.Interpolator.mr_linear_out_slow_in;
-			global::XLabs.Forms.Droid.Resource.Layout.abc_action_bar_title_item = global::RumbleApp.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::XLabs.Forms.Droid.Resource.Layout.abc_action_bar_up_container = global::RumbleApp.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::XLabs.Forms.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout = global::RumbleApp.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
-			global::XLabs.Forms.Droid.Resource.Layout.abc_action_menu_item_layout = global::RumbleApp.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::XLabs.Forms.Droid.Resource.Layout.abc_action_menu_layout = global::RumbleApp.Droid.Resource.Layout.abc_action_menu_layout;
-			global::XLabs.Forms.Droid.Resource.Layout.abc_action_mode_bar = global::RumbleApp.Droid.Resource.Layout.abc_action_mode_bar;
-			global::XLabs.Forms.Droid.Resource.Layout.abc_action_mode_close_item_material = global::RumbleApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::XLabs.Forms.Droid.Resource.Layout.abc_activity_chooser_view = global::RumbleApp.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::XLabs.Forms.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::RumbleApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::XLabs.Forms.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::RumbleApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::XLabs.Forms.Droid.Resource.Layout.abc_alert_dialog_material = global::RumbleApp.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::XLabs.Forms.Droid.Resource.Layout.abc_dialog_title_material = global::RumbleApp.Droid.Resource.Layout.abc_dialog_title_material;
-			global::XLabs.Forms.Droid.Resource.Layout.abc_expanded_menu_layout = global::RumbleApp.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::XLabs.Forms.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::RumbleApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::XLabs.Forms.Droid.Resource.Layout.abc_list_menu_item_icon = global::RumbleApp.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::XLabs.Forms.Droid.Resource.Layout.abc_list_menu_item_layout = global::RumbleApp.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::XLabs.Forms.Droid.Resource.Layout.abc_list_menu_item_radio = global::RumbleApp.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::XLabs.Forms.Droid.Resource.Layout.abc_popup_menu_item_layout = global::RumbleApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::XLabs.Forms.Droid.Resource.Layout.abc_screen_content_include = global::RumbleApp.Droid.Resource.Layout.abc_screen_content_include;
-			global::XLabs.Forms.Droid.Resource.Layout.abc_screen_simple = global::RumbleApp.Droid.Resource.Layout.abc_screen_simple;
-			global::XLabs.Forms.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::RumbleApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::XLabs.Forms.Droid.Resource.Layout.abc_screen_toolbar = global::RumbleApp.Droid.Resource.Layout.abc_screen_toolbar;
-			global::XLabs.Forms.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::RumbleApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::XLabs.Forms.Droid.Resource.Layout.abc_search_view = global::RumbleApp.Droid.Resource.Layout.abc_search_view;
-			global::XLabs.Forms.Droid.Resource.Layout.abc_select_dialog_material = global::RumbleApp.Droid.Resource.Layout.abc_select_dialog_material;
-			global::XLabs.Forms.Droid.Resource.Layout.calendar_pager = global::RumbleApp.Droid.Resource.Layout.calendar_pager;
-			global::XLabs.Forms.Droid.Resource.Layout.calendar_pager_layout = global::RumbleApp.Droid.Resource.Layout.calendar_pager_layout;
-			global::XLabs.Forms.Droid.Resource.Layout.calendar_picker = global::RumbleApp.Droid.Resource.Layout.calendar_picker;
-			global::XLabs.Forms.Droid.Resource.Layout.design_bottom_sheet_dialog = global::RumbleApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
-			global::XLabs.Forms.Droid.Resource.Layout.design_layout_snackbar = global::RumbleApp.Droid.Resource.Layout.design_layout_snackbar;
-			global::XLabs.Forms.Droid.Resource.Layout.design_layout_snackbar_include = global::RumbleApp.Droid.Resource.Layout.design_layout_snackbar_include;
-			global::XLabs.Forms.Droid.Resource.Layout.design_layout_tab_icon = global::RumbleApp.Droid.Resource.Layout.design_layout_tab_icon;
-			global::XLabs.Forms.Droid.Resource.Layout.design_layout_tab_text = global::RumbleApp.Droid.Resource.Layout.design_layout_tab_text;
-			global::XLabs.Forms.Droid.Resource.Layout.design_menu_item_action_area = global::RumbleApp.Droid.Resource.Layout.design_menu_item_action_area;
-			global::XLabs.Forms.Droid.Resource.Layout.design_navigation_item = global::RumbleApp.Droid.Resource.Layout.design_navigation_item;
-			global::XLabs.Forms.Droid.Resource.Layout.design_navigation_item_header = global::RumbleApp.Droid.Resource.Layout.design_navigation_item_header;
-			global::XLabs.Forms.Droid.Resource.Layout.design_navigation_item_separator = global::RumbleApp.Droid.Resource.Layout.design_navigation_item_separator;
-			global::XLabs.Forms.Droid.Resource.Layout.design_navigation_item_subheader = global::RumbleApp.Droid.Resource.Layout.design_navigation_item_subheader;
-			global::XLabs.Forms.Droid.Resource.Layout.design_navigation_menu = global::RumbleApp.Droid.Resource.Layout.design_navigation_menu;
-			global::XLabs.Forms.Droid.Resource.Layout.design_navigation_menu_item = global::RumbleApp.Droid.Resource.Layout.design_navigation_menu_item;
-			global::XLabs.Forms.Droid.Resource.Layout.dialog = global::RumbleApp.Droid.Resource.Layout.dialog;
-			global::XLabs.Forms.Droid.Resource.Layout.month = global::RumbleApp.Droid.Resource.Layout.month;
-			global::XLabs.Forms.Droid.Resource.Layout.mr_chooser_dialog = global::RumbleApp.Droid.Resource.Layout.mr_chooser_dialog;
-			global::XLabs.Forms.Droid.Resource.Layout.mr_chooser_list_item = global::RumbleApp.Droid.Resource.Layout.mr_chooser_list_item;
-			global::XLabs.Forms.Droid.Resource.Layout.mr_controller_material_dialog_b = global::RumbleApp.Droid.Resource.Layout.mr_controller_material_dialog_b;
-			global::XLabs.Forms.Droid.Resource.Layout.mr_controller_volume_item = global::RumbleApp.Droid.Resource.Layout.mr_controller_volume_item;
-			global::XLabs.Forms.Droid.Resource.Layout.mr_playback_control = global::RumbleApp.Droid.Resource.Layout.mr_playback_control;
-			global::XLabs.Forms.Droid.Resource.Layout.mr_volume_control = global::RumbleApp.Droid.Resource.Layout.mr_volume_control;
-			global::XLabs.Forms.Droid.Resource.Layout.notification_media_action = global::RumbleApp.Droid.Resource.Layout.notification_media_action;
-			global::XLabs.Forms.Droid.Resource.Layout.notification_media_cancel_action = global::RumbleApp.Droid.Resource.Layout.notification_media_cancel_action;
-			global::XLabs.Forms.Droid.Resource.Layout.notification_template_big_media = global::RumbleApp.Droid.Resource.Layout.notification_template_big_media;
-			global::XLabs.Forms.Droid.Resource.Layout.notification_template_big_media_narrow = global::RumbleApp.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::XLabs.Forms.Droid.Resource.Layout.notification_template_lines = global::RumbleApp.Droid.Resource.Layout.notification_template_lines;
-			global::XLabs.Forms.Droid.Resource.Layout.notification_template_media = global::RumbleApp.Droid.Resource.Layout.notification_template_media;
-			global::XLabs.Forms.Droid.Resource.Layout.notification_template_part_chronometer = global::RumbleApp.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::XLabs.Forms.Droid.Resource.Layout.notification_template_part_time = global::RumbleApp.Droid.Resource.Layout.notification_template_part_time;
-			global::XLabs.Forms.Droid.Resource.Layout.select_dialog_item_material = global::RumbleApp.Droid.Resource.Layout.select_dialog_item_material;
-			global::XLabs.Forms.Droid.Resource.Layout.select_dialog_multichoice_material = global::RumbleApp.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::XLabs.Forms.Droid.Resource.Layout.select_dialog_singlechoice_material = global::RumbleApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::XLabs.Forms.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::RumbleApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::XLabs.Forms.Droid.Resource.Layout.week = global::RumbleApp.Droid.Resource.Layout.week;
-			global::XLabs.Forms.Droid.Resource.String.ApplicationName = global::RumbleApp.Droid.Resource.String.ApplicationName;
-			global::XLabs.Forms.Droid.Resource.String.Hello = global::RumbleApp.Droid.Resource.String.Hello;
-			global::XLabs.Forms.Droid.Resource.String.abc_action_bar_home_description = global::RumbleApp.Droid.Resource.String.abc_action_bar_home_description;
-			global::XLabs.Forms.Droid.Resource.String.abc_action_bar_home_description_format = global::RumbleApp.Droid.Resource.String.abc_action_bar_home_description_format;
-			global::XLabs.Forms.Droid.Resource.String.abc_action_bar_home_subtitle_description_format = global::RumbleApp.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
-			global::XLabs.Forms.Droid.Resource.String.abc_action_bar_up_description = global::RumbleApp.Droid.Resource.String.abc_action_bar_up_description;
-			global::XLabs.Forms.Droid.Resource.String.abc_action_menu_overflow_description = global::RumbleApp.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::XLabs.Forms.Droid.Resource.String.abc_action_mode_done = global::RumbleApp.Droid.Resource.String.abc_action_mode_done;
-			global::XLabs.Forms.Droid.Resource.String.abc_activity_chooser_view_see_all = global::RumbleApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::XLabs.Forms.Droid.Resource.String.abc_activitychooserview_choose_application = global::RumbleApp.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::XLabs.Forms.Droid.Resource.String.abc_capital_off = global::RumbleApp.Droid.Resource.String.abc_capital_off;
-			global::XLabs.Forms.Droid.Resource.String.abc_capital_on = global::RumbleApp.Droid.Resource.String.abc_capital_on;
-			global::XLabs.Forms.Droid.Resource.String.abc_search_hint = global::RumbleApp.Droid.Resource.String.abc_search_hint;
-			global::XLabs.Forms.Droid.Resource.String.abc_searchview_description_clear = global::RumbleApp.Droid.Resource.String.abc_searchview_description_clear;
-			global::XLabs.Forms.Droid.Resource.String.abc_searchview_description_query = global::RumbleApp.Droid.Resource.String.abc_searchview_description_query;
-			global::XLabs.Forms.Droid.Resource.String.abc_searchview_description_search = global::RumbleApp.Droid.Resource.String.abc_searchview_description_search;
-			global::XLabs.Forms.Droid.Resource.String.abc_searchview_description_submit = global::RumbleApp.Droid.Resource.String.abc_searchview_description_submit;
-			global::XLabs.Forms.Droid.Resource.String.abc_searchview_description_voice = global::RumbleApp.Droid.Resource.String.abc_searchview_description_voice;
-			global::XLabs.Forms.Droid.Resource.String.abc_shareactionprovider_share_with = global::RumbleApp.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::XLabs.Forms.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::RumbleApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::XLabs.Forms.Droid.Resource.String.abc_toolbar_collapse_description = global::RumbleApp.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::XLabs.Forms.Droid.Resource.String.appbar_scrolling_view_behavior = global::RumbleApp.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::XLabs.Forms.Droid.Resource.String.bottom_sheet_behavior = global::RumbleApp.Droid.Resource.String.bottom_sheet_behavior;
-			global::XLabs.Forms.Droid.Resource.String.character_counter_pattern = global::RumbleApp.Droid.Resource.String.character_counter_pattern;
-			global::XLabs.Forms.Droid.Resource.String.day_name_format = global::RumbleApp.Droid.Resource.String.day_name_format;
-			global::XLabs.Forms.Droid.Resource.String.full_date_format = global::RumbleApp.Droid.Resource.String.full_date_format;
-			global::XLabs.Forms.Droid.Resource.String.invalid_date = global::RumbleApp.Droid.Resource.String.invalid_date;
-			global::XLabs.Forms.Droid.Resource.String.library_name = global::RumbleApp.Droid.Resource.String.library_name;
-			global::XLabs.Forms.Droid.Resource.String.month_name_format = global::RumbleApp.Droid.Resource.String.month_name_format;
-			global::XLabs.Forms.Droid.Resource.String.mr_button_content_description = global::RumbleApp.Droid.Resource.String.mr_button_content_description;
-			global::XLabs.Forms.Droid.Resource.String.mr_chooser_searching = global::RumbleApp.Droid.Resource.String.mr_chooser_searching;
-			global::XLabs.Forms.Droid.Resource.String.mr_chooser_title = global::RumbleApp.Droid.Resource.String.mr_chooser_title;
-			global::XLabs.Forms.Droid.Resource.String.mr_controller_casting_screen = global::RumbleApp.Droid.Resource.String.mr_controller_casting_screen;
-			global::XLabs.Forms.Droid.Resource.String.mr_controller_close_description = global::RumbleApp.Droid.Resource.String.mr_controller_close_description;
-			global::XLabs.Forms.Droid.Resource.String.mr_controller_collapse_group = global::RumbleApp.Droid.Resource.String.mr_controller_collapse_group;
-			global::XLabs.Forms.Droid.Resource.String.mr_controller_disconnect = global::RumbleApp.Droid.Resource.String.mr_controller_disconnect;
-			global::XLabs.Forms.Droid.Resource.String.mr_controller_expand_group = global::RumbleApp.Droid.Resource.String.mr_controller_expand_group;
-			global::XLabs.Forms.Droid.Resource.String.mr_controller_no_info_available = global::RumbleApp.Droid.Resource.String.mr_controller_no_info_available;
-			global::XLabs.Forms.Droid.Resource.String.mr_controller_no_media_selected = global::RumbleApp.Droid.Resource.String.mr_controller_no_media_selected;
-			global::XLabs.Forms.Droid.Resource.String.mr_controller_pause = global::RumbleApp.Droid.Resource.String.mr_controller_pause;
-			global::XLabs.Forms.Droid.Resource.String.mr_controller_play = global::RumbleApp.Droid.Resource.String.mr_controller_play;
-			global::XLabs.Forms.Droid.Resource.String.mr_controller_stop = global::RumbleApp.Droid.Resource.String.mr_controller_stop;
-			global::XLabs.Forms.Droid.Resource.String.mr_system_route_name = global::RumbleApp.Droid.Resource.String.mr_system_route_name;
-			global::XLabs.Forms.Droid.Resource.String.mr_user_route_category_name = global::RumbleApp.Droid.Resource.String.mr_user_route_category_name;
-			global::XLabs.Forms.Droid.Resource.String.status_bar_notification_info_overflow = global::RumbleApp.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::XLabs.Forms.Droid.Resource.Style.AlertDialog_AppCompat = global::RumbleApp.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::XLabs.Forms.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::RumbleApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::XLabs.Forms.Droid.Resource.Style.Animation_AppCompat_Dialog = global::RumbleApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::XLabs.Forms.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::RumbleApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::XLabs.Forms.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::RumbleApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::XLabs.Forms.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::RumbleApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::XLabs.Forms.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::RumbleApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::RumbleApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::RumbleApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::XLabs.Forms.Droid.Resource.Style.Base_CardView = global::RumbleApp.Droid.Resource.Style.Base_CardView;
-			global::XLabs.Forms.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::RumbleApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::XLabs.Forms.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::RumbleApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::RumbleApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat = global::RumbleApp.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::RumbleApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::RumbleApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::RumbleApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::RumbleApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::RumbleApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::RumbleApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::RumbleApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::RumbleApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::RumbleApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::RumbleApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::RumbleApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::RumbleApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::RumbleApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::XLabs.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::RumbleApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::XLabs.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::RumbleApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::XLabs.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::RumbleApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::XLabs.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::RumbleApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::XLabs.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::RumbleApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::XLabs.Forms.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::RumbleApp.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
-			global::XLabs.Forms.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::RumbleApp.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
-			global::XLabs.Forms.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::RumbleApp.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
-			global::XLabs.Forms.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::RumbleApp.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
-			global::XLabs.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::RumbleApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::XLabs.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::RumbleApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::XLabs.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::RumbleApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::XLabs.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::RumbleApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::XLabs.Forms.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::RumbleApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::XLabs.Forms.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::RumbleApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::XLabs.Forms.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::RumbleApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::XLabs.Forms.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::RumbleApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::XLabs.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::RumbleApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::XLabs.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::RumbleApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::XLabs.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::RumbleApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::XLabs.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::RumbleApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::XLabs.Forms.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::RumbleApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::XLabs.Forms.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::RumbleApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::RumbleApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::RumbleApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
-			global::XLabs.Forms.Droid.Resource.Style.CalendarCell = global::RumbleApp.Droid.Resource.Style.CalendarCell;
-			global::XLabs.Forms.Droid.Resource.Style.CalendarCell_CalendarDate = global::RumbleApp.Droid.Resource.Style.CalendarCell_CalendarDate;
-			global::XLabs.Forms.Droid.Resource.Style.CalendarCell_DayHeader = global::RumbleApp.Droid.Resource.Style.CalendarCell_DayHeader;
-			global::XLabs.Forms.Droid.Resource.Style.CalendarTitle = global::RumbleApp.Droid.Resource.Style.CalendarTitle;
-			global::XLabs.Forms.Droid.Resource.Style.CardView = global::RumbleApp.Droid.Resource.Style.CardView;
-			global::XLabs.Forms.Droid.Resource.Style.CardView_Dark = global::RumbleApp.Droid.Resource.Style.CardView_Dark;
-			global::XLabs.Forms.Droid.Resource.Style.CardView_Light = global::RumbleApp.Droid.Resource.Style.CardView_Light;
-			global::XLabs.Forms.Droid.Resource.Style.Platform_AppCompat = global::RumbleApp.Droid.Resource.Style.Platform_AppCompat;
-			global::XLabs.Forms.Droid.Resource.Style.Platform_AppCompat_Light = global::RumbleApp.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::XLabs.Forms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::RumbleApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::XLabs.Forms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::RumbleApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::XLabs.Forms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::RumbleApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::XLabs.Forms.Droid.Resource.Style.Platform_V11_AppCompat = global::RumbleApp.Droid.Resource.Style.Platform_V11_AppCompat;
-			global::XLabs.Forms.Droid.Resource.Style.Platform_V11_AppCompat_Light = global::RumbleApp.Droid.Resource.Style.Platform_V11_AppCompat_Light;
-			global::XLabs.Forms.Droid.Resource.Style.Platform_V14_AppCompat = global::RumbleApp.Droid.Resource.Style.Platform_V14_AppCompat;
-			global::XLabs.Forms.Droid.Resource.Style.Platform_V14_AppCompat_Light = global::RumbleApp.Droid.Resource.Style.Platform_V14_AppCompat_Light;
-			global::XLabs.Forms.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::RumbleApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::XLabs.Forms.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::RumbleApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::XLabs.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::RumbleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::XLabs.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::RumbleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::XLabs.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::RumbleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::XLabs.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::RumbleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::XLabs.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::RumbleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::XLabs.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::RumbleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::XLabs.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::RumbleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::XLabs.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::RumbleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::XLabs.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::RumbleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::XLabs.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::RumbleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::XLabs.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::RumbleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::XLabs.Forms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::RumbleApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::XLabs.Forms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::RumbleApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::RumbleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::RumbleApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_Design_Counter = global::RumbleApp.Droid.Resource.Style.TextAppearance_Design_Counter;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::RumbleApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_Design_Error = global::RumbleApp.Droid.Resource.Style.TextAppearance_Design_Error;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_Design_Hint = global::RumbleApp.Droid.Resource.Style.TextAppearance_Design_Hint;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::RumbleApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_Design_Tab = global::RumbleApp.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_StatusBar_EventContent = global::RumbleApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::RumbleApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::RumbleApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::RumbleApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::RumbleApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::RumbleApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::RumbleApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::RumbleApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat = global::RumbleApp.Droid.Resource.Style.Theme_AppCompat;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::RumbleApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight = global::RumbleApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::RumbleApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::RumbleApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::RumbleApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::RumbleApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::RumbleApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::RumbleApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_Dialog = global::RumbleApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::RumbleApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::RumbleApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::RumbleApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_Light = global::RumbleApp.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::RumbleApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::RumbleApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::RumbleApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::RumbleApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::RumbleApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::RumbleApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::RumbleApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_Design = global::RumbleApp.Droid.Resource.Style.Theme_Design;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::RumbleApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_Design_Light = global::RumbleApp.Droid.Resource.Style.Theme_Design_Light;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::RumbleApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::RumbleApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_Design_NoActionBar = global::RumbleApp.Droid.Resource.Style.Theme_Design_NoActionBar;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_MediaRouter = global::RumbleApp.Droid.Resource.Style.Theme_MediaRouter;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_MediaRouter_Light = global::RumbleApp.Droid.Resource.Style.Theme_MediaRouter_Light;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::RumbleApp.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
-			global::XLabs.Forms.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::RumbleApp.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
-			global::XLabs.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat = global::RumbleApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::XLabs.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::RumbleApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::XLabs.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::RumbleApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::XLabs.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::RumbleApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::XLabs.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::RumbleApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Button = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_EditText = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ListView = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_SearchView = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::RumbleApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_Design_AppBarLayout = global::RumbleApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::RumbleApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::RumbleApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_Design_CoordinatorLayout = global::RumbleApp.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::RumbleApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_Design_NavigationView = global::RumbleApp.Droid.Resource.Style.Widget_Design_NavigationView;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::RumbleApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_Design_Snackbar = global::RumbleApp.Droid.Resource.Style.Widget_Design_Snackbar;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_Design_TabLayout = global::RumbleApp.Droid.Resource.Style.Widget_Design_TabLayout;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_Design_TextInputLayout = global::RumbleApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ChooserText = global::RumbleApp.Droid.Resource.Style.Widget_MediaRouter_ChooserText;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary = global::RumbleApp.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Dark = global::RumbleApp.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Dark;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Light = global::RumbleApp.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Light;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary = global::RumbleApp.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Dark = global::RumbleApp.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Dark;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Light = global::RumbleApp.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Light;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ControllerText = global::RumbleApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary = global::RumbleApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Dark = global::RumbleApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Dark;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Light = global::RumbleApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Light;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary = global::RumbleApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Dark = global::RumbleApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Dark;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Light = global::RumbleApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Light;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title = global::RumbleApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Dark = global::RumbleApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Dark;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Light = global::RumbleApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Light;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::RumbleApp.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
-			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::RumbleApp.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar = global::RumbleApp.Droid.Resource.Styleable.ActionBar;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_background = global::RumbleApp.Droid.Resource.Styleable.ActionBar_background;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::RumbleApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::RumbleApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::RumbleApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::RumbleApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::RumbleApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::RumbleApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::RumbleApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_displayOptions = global::RumbleApp.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_divider = global::RumbleApp.Droid.Resource.Styleable.ActionBar_divider;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_elevation = global::RumbleApp.Droid.Resource.Styleable.ActionBar_elevation;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_height = global::RumbleApp.Droid.Resource.Styleable.ActionBar_height;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::RumbleApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::RumbleApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_homeLayout = global::RumbleApp.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_icon = global::RumbleApp.Droid.Resource.Styleable.ActionBar_icon;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::RumbleApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_itemPadding = global::RumbleApp.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_logo = global::RumbleApp.Droid.Resource.Styleable.ActionBar_logo;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_navigationMode = global::RumbleApp.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_popupTheme = global::RumbleApp.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::RumbleApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::RumbleApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_subtitle = global::RumbleApp.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::RumbleApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_title = global::RumbleApp.Droid.Resource.Styleable.ActionBar_title;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::RumbleApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBarLayout = global::RumbleApp.Droid.Resource.Styleable.ActionBarLayout;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::RumbleApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionMenuItemView = global::RumbleApp.Droid.Resource.Styleable.ActionMenuItemView;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::RumbleApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionMenuView = global::RumbleApp.Droid.Resource.Styleable.ActionMenuView;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionMode = global::RumbleApp.Droid.Resource.Styleable.ActionMode;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionMode_background = global::RumbleApp.Droid.Resource.Styleable.ActionMode_background;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::RumbleApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::RumbleApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionMode_height = global::RumbleApp.Droid.Resource.Styleable.ActionMode_height;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::RumbleApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::RumbleApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActivityChooserView = global::RumbleApp.Droid.Resource.Styleable.ActivityChooserView;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::RumbleApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::XLabs.Forms.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::RumbleApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::XLabs.Forms.Droid.Resource.Styleable.AlertDialog = global::RumbleApp.Droid.Resource.Styleable.AlertDialog;
-			global::XLabs.Forms.Droid.Resource.Styleable.AlertDialog_android_layout = global::RumbleApp.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::XLabs.Forms.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::RumbleApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::XLabs.Forms.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::RumbleApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::XLabs.Forms.Droid.Resource.Styleable.AlertDialog_listLayout = global::RumbleApp.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::XLabs.Forms.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::RumbleApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::XLabs.Forms.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::RumbleApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppBarLayout = global::RumbleApp.Droid.Resource.Styleable.AppBarLayout;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppBarLayout_android_background = global::RumbleApp.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppBarLayout_elevation = global::RumbleApp.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppBarLayout_expanded = global::RumbleApp.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppBarLayout_LayoutParams = global::RumbleApp.Droid.Resource.Styleable.AppBarLayout_LayoutParams;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags = global::RumbleApp.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator = global::RumbleApp.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatImageView = global::RumbleApp.Droid.Resource.Styleable.AppCompatImageView;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatImageView_android_src = global::RumbleApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::RumbleApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTextView = global::RumbleApp.Droid.Resource.Styleable.AppCompatTextView;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::RumbleApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::RumbleApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::RumbleApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::XLabs.Forms.Droid.Resource.Styleable.BottomSheetBehavior_Params = global::RumbleApp.Droid.Resource.Styleable.BottomSheetBehavior_Params;
-			global::XLabs.Forms.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable = global::RumbleApp.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable;
-			global::XLabs.Forms.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight = global::RumbleApp.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight;
-			global::XLabs.Forms.Droid.Resource.Styleable.ButtonBarLayout = global::RumbleApp.Droid.Resource.Styleable.ButtonBarLayout;
-			global::XLabs.Forms.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::RumbleApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::XLabs.Forms.Droid.Resource.Styleable.CardView = global::RumbleApp.Droid.Resource.Styleable.CardView;
-			global::XLabs.Forms.Droid.Resource.Styleable.CardView_android_minHeight = global::RumbleApp.Droid.Resource.Styleable.CardView_android_minHeight;
-			global::XLabs.Forms.Droid.Resource.Styleable.CardView_android_minWidth = global::RumbleApp.Droid.Resource.Styleable.CardView_android_minWidth;
-			global::XLabs.Forms.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::RumbleApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
-			global::XLabs.Forms.Droid.Resource.Styleable.CardView_cardCornerRadius = global::RumbleApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
-			global::XLabs.Forms.Droid.Resource.Styleable.CardView_cardElevation = global::RumbleApp.Droid.Resource.Styleable.CardView_cardElevation;
-			global::XLabs.Forms.Droid.Resource.Styleable.CardView_cardMaxElevation = global::RumbleApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
-			global::XLabs.Forms.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::RumbleApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
-			global::XLabs.Forms.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::RumbleApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
-			global::XLabs.Forms.Droid.Resource.Styleable.CardView_contentPadding = global::RumbleApp.Droid.Resource.Styleable.CardView_contentPadding;
-			global::XLabs.Forms.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::RumbleApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
-			global::XLabs.Forms.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::RumbleApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
-			global::XLabs.Forms.Droid.Resource.Styleable.CardView_contentPaddingRight = global::RumbleApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
-			global::XLabs.Forms.Droid.Resource.Styleable.CardView_contentPaddingTop = global::RumbleApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
-			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams = global::RumbleApp.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams;
-			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode = global::RumbleApp.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode;
-			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = global::RumbleApp.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier;
-			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout = global::RumbleApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
-			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::RumbleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::RumbleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::RumbleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::RumbleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::RumbleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::RumbleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::RumbleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::RumbleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::RumbleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::RumbleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::RumbleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::RumbleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::RumbleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::RumbleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::XLabs.Forms.Droid.Resource.Styleable.CompoundButton = global::RumbleApp.Droid.Resource.Styleable.CompoundButton;
-			global::XLabs.Forms.Droid.Resource.Styleable.CompoundButton_android_button = global::RumbleApp.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::XLabs.Forms.Droid.Resource.Styleable.CompoundButton_buttonTint = global::RumbleApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::XLabs.Forms.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::RumbleApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::XLabs.Forms.Droid.Resource.Styleable.CoordinatorLayout = global::RumbleApp.Droid.Resource.Styleable.CoordinatorLayout;
-			global::XLabs.Forms.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::RumbleApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::XLabs.Forms.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::RumbleApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::XLabs.Forms.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams = global::RumbleApp.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams;
-			global::XLabs.Forms.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity = global::RumbleApp.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity;
-			global::XLabs.Forms.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor = global::RumbleApp.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor;
-			global::XLabs.Forms.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity = global::RumbleApp.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity;
-			global::XLabs.Forms.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior = global::RumbleApp.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior;
-			global::XLabs.Forms.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline = global::RumbleApp.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline;
-			global::XLabs.Forms.Droid.Resource.Styleable.DesignTheme = global::RumbleApp.Droid.Resource.Styleable.DesignTheme;
-			global::XLabs.Forms.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::RumbleApp.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
-			global::XLabs.Forms.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::RumbleApp.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.DesignTheme_textColorError = global::RumbleApp.Droid.Resource.Styleable.DesignTheme_textColorError;
-			global::XLabs.Forms.Droid.Resource.Styleable.DrawerArrowToggle = global::RumbleApp.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::XLabs.Forms.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::RumbleApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::XLabs.Forms.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::RumbleApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::XLabs.Forms.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::RumbleApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::XLabs.Forms.Droid.Resource.Styleable.DrawerArrowToggle_color = global::RumbleApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::XLabs.Forms.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::RumbleApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::XLabs.Forms.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::RumbleApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::XLabs.Forms.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::RumbleApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::XLabs.Forms.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::RumbleApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::XLabs.Forms.Droid.Resource.Styleable.FloatingActionButton = global::RumbleApp.Droid.Resource.Styleable.FloatingActionButton;
-			global::XLabs.Forms.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::RumbleApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::XLabs.Forms.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::RumbleApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::XLabs.Forms.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::RumbleApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::XLabs.Forms.Droid.Resource.Styleable.FloatingActionButton_elevation = global::RumbleApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::XLabs.Forms.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::RumbleApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
-			global::XLabs.Forms.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::RumbleApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::XLabs.Forms.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::RumbleApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::XLabs.Forms.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::RumbleApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::XLabs.Forms.Droid.Resource.Styleable.ForegroundLinearLayout = global::RumbleApp.Droid.Resource.Styleable.ForegroundLinearLayout;
-			global::XLabs.Forms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::RumbleApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
-			global::XLabs.Forms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::RumbleApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
-			global::XLabs.Forms.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::RumbleApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat = global::RumbleApp.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::RumbleApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::RumbleApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::RumbleApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::RumbleApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::RumbleApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::RumbleApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::RumbleApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::RumbleApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::RumbleApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::RumbleApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::RumbleApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::RumbleApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::RumbleApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::RumbleApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::XLabs.Forms.Droid.Resource.Styleable.ListPopupWindow = global::RumbleApp.Droid.Resource.Styleable.ListPopupWindow;
-			global::XLabs.Forms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::RumbleApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::XLabs.Forms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::RumbleApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::XLabs.Forms.Droid.Resource.Styleable.MediaRouteButton = global::RumbleApp.Droid.Resource.Styleable.MediaRouteButton;
-			global::XLabs.Forms.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::RumbleApp.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
-			global::XLabs.Forms.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::RumbleApp.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
-			global::XLabs.Forms.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::RumbleApp.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuGroup = global::RumbleApp.Droid.Resource.Styleable.MenuGroup;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::RumbleApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuGroup_android_enabled = global::RumbleApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuGroup_android_id = global::RumbleApp.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::RumbleApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::RumbleApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuGroup_android_visible = global::RumbleApp.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem = global::RumbleApp.Droid.Resource.Styleable.MenuItem;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_actionLayout = global::RumbleApp.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::RumbleApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_actionViewClass = global::RumbleApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::RumbleApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_android_checkable = global::RumbleApp.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_android_checked = global::RumbleApp.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_android_enabled = global::RumbleApp.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_android_icon = global::RumbleApp.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_android_id = global::RumbleApp.Droid.Resource.Styleable.MenuItem_android_id;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::RumbleApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::RumbleApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_android_onClick = global::RumbleApp.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::RumbleApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_android_title = global::RumbleApp.Droid.Resource.Styleable.MenuItem_android_title;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::RumbleApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_android_visible = global::RumbleApp.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_showAsAction = global::RumbleApp.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuView = global::RumbleApp.Droid.Resource.Styleable.MenuView;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuView_android_headerBackground = global::RumbleApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::RumbleApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuView_android_itemBackground = global::RumbleApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::RumbleApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::RumbleApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::RumbleApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::RumbleApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::RumbleApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::XLabs.Forms.Droid.Resource.Styleable.NavigationView = global::RumbleApp.Droid.Resource.Styleable.NavigationView;
-			global::XLabs.Forms.Droid.Resource.Styleable.NavigationView_android_background = global::RumbleApp.Droid.Resource.Styleable.NavigationView_android_background;
-			global::XLabs.Forms.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::RumbleApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::XLabs.Forms.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::RumbleApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
-			global::XLabs.Forms.Droid.Resource.Styleable.NavigationView_elevation = global::RumbleApp.Droid.Resource.Styleable.NavigationView_elevation;
-			global::XLabs.Forms.Droid.Resource.Styleable.NavigationView_headerLayout = global::RumbleApp.Droid.Resource.Styleable.NavigationView_headerLayout;
-			global::XLabs.Forms.Droid.Resource.Styleable.NavigationView_itemBackground = global::RumbleApp.Droid.Resource.Styleable.NavigationView_itemBackground;
-			global::XLabs.Forms.Droid.Resource.Styleable.NavigationView_itemIconTint = global::RumbleApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::XLabs.Forms.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::RumbleApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::XLabs.Forms.Droid.Resource.Styleable.NavigationView_itemTextColor = global::RumbleApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
-			global::XLabs.Forms.Droid.Resource.Styleable.NavigationView_menu = global::RumbleApp.Droid.Resource.Styleable.NavigationView_menu;
-			global::XLabs.Forms.Droid.Resource.Styleable.PopupWindow = global::RumbleApp.Droid.Resource.Styleable.PopupWindow;
-			global::XLabs.Forms.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::RumbleApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::XLabs.Forms.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::RumbleApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::XLabs.Forms.Droid.Resource.Styleable.PopupWindowBackgroundState = global::RumbleApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::XLabs.Forms.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::RumbleApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::XLabs.Forms.Droid.Resource.Styleable.RecyclerView = global::RumbleApp.Droid.Resource.Styleable.RecyclerView;
-			global::XLabs.Forms.Droid.Resource.Styleable.RecyclerView_android_orientation = global::RumbleApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::XLabs.Forms.Droid.Resource.Styleable.RecyclerView_layoutManager = global::RumbleApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
-			global::XLabs.Forms.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::RumbleApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
-			global::XLabs.Forms.Droid.Resource.Styleable.RecyclerView_spanCount = global::RumbleApp.Droid.Resource.Styleable.RecyclerView_spanCount;
-			global::XLabs.Forms.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::RumbleApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::XLabs.Forms.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::RumbleApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::XLabs.Forms.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::RumbleApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::XLabs.Forms.Droid.Resource.Styleable.ScrollingViewBehavior_Params = global::RumbleApp.Droid.Resource.Styleable.ScrollingViewBehavior_Params;
-			global::XLabs.Forms.Droid.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop = global::RumbleApp.Droid.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop;
-			global::XLabs.Forms.Droid.Resource.Styleable.SearchView = global::RumbleApp.Droid.Resource.Styleable.SearchView;
-			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_android_focusable = global::RumbleApp.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_android_imeOptions = global::RumbleApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_android_inputType = global::RumbleApp.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_android_maxWidth = global::RumbleApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_closeIcon = global::RumbleApp.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_commitIcon = global::RumbleApp.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::RumbleApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_goIcon = global::RumbleApp.Droid.Resource.Styleable.SearchView_goIcon;
-			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::RumbleApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_layout = global::RumbleApp.Droid.Resource.Styleable.SearchView_layout;
-			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_queryBackground = global::RumbleApp.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_queryHint = global::RumbleApp.Droid.Resource.Styleable.SearchView_queryHint;
-			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_searchHintIcon = global::RumbleApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_searchIcon = global::RumbleApp.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_submitBackground = global::RumbleApp.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::RumbleApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_voiceIcon = global::RumbleApp.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::XLabs.Forms.Droid.Resource.Styleable.SnackbarLayout = global::RumbleApp.Droid.Resource.Styleable.SnackbarLayout;
-			global::XLabs.Forms.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::RumbleApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::XLabs.Forms.Droid.Resource.Styleable.SnackbarLayout_elevation = global::RumbleApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
-			global::XLabs.Forms.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::RumbleApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::XLabs.Forms.Droid.Resource.Styleable.Spinner = global::RumbleApp.Droid.Resource.Styleable.Spinner;
-			global::XLabs.Forms.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::RumbleApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::XLabs.Forms.Droid.Resource.Styleable.Spinner_android_entries = global::RumbleApp.Droid.Resource.Styleable.Spinner_android_entries;
-			global::XLabs.Forms.Droid.Resource.Styleable.Spinner_android_popupBackground = global::RumbleApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::XLabs.Forms.Droid.Resource.Styleable.Spinner_android_prompt = global::RumbleApp.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::XLabs.Forms.Droid.Resource.Styleable.Spinner_popupTheme = global::RumbleApp.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::XLabs.Forms.Droid.Resource.Styleable.SwitchCompat = global::RumbleApp.Droid.Resource.Styleable.SwitchCompat;
-			global::XLabs.Forms.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::RumbleApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::XLabs.Forms.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::RumbleApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::XLabs.Forms.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::RumbleApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::XLabs.Forms.Droid.Resource.Styleable.SwitchCompat_showText = global::RumbleApp.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::XLabs.Forms.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::RumbleApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::XLabs.Forms.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::RumbleApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::XLabs.Forms.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::RumbleApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::XLabs.Forms.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::RumbleApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::XLabs.Forms.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::RumbleApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::XLabs.Forms.Droid.Resource.Styleable.SwitchCompat_track = global::RumbleApp.Droid.Resource.Styleable.SwitchCompat_track;
-			global::XLabs.Forms.Droid.Resource.Styleable.TabItem = global::RumbleApp.Droid.Resource.Styleable.TabItem;
-			global::XLabs.Forms.Droid.Resource.Styleable.TabItem_android_icon = global::RumbleApp.Droid.Resource.Styleable.TabItem_android_icon;
-			global::XLabs.Forms.Droid.Resource.Styleable.TabItem_android_layout = global::RumbleApp.Droid.Resource.Styleable.TabItem_android_layout;
-			global::XLabs.Forms.Droid.Resource.Styleable.TabItem_android_text = global::RumbleApp.Droid.Resource.Styleable.TabItem_android_text;
-			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout = global::RumbleApp.Droid.Resource.Styleable.TabLayout;
-			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabBackground = global::RumbleApp.Droid.Resource.Styleable.TabLayout_tabBackground;
-			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabContentStart = global::RumbleApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
-			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabGravity = global::RumbleApp.Droid.Resource.Styleable.TabLayout_tabGravity;
-			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::RumbleApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::RumbleApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::RumbleApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::RumbleApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
-			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabMode = global::RumbleApp.Droid.Resource.Styleable.TabLayout_tabMode;
-			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabPadding = global::RumbleApp.Droid.Resource.Styleable.TabLayout_tabPadding;
-			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::RumbleApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::RumbleApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::RumbleApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::RumbleApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::RumbleApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::RumbleApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabTextColor = global::RumbleApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
-			global::XLabs.Forms.Droid.Resource.Styleable.TextAppearance = global::RumbleApp.Droid.Resource.Styleable.TextAppearance;
-			global::XLabs.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::RumbleApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::XLabs.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::RumbleApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::XLabs.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::RumbleApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::XLabs.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::RumbleApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::XLabs.Forms.Droid.Resource.Styleable.TextAppearance_android_textColor = global::RumbleApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::XLabs.Forms.Droid.Resource.Styleable.TextAppearance_android_textSize = global::RumbleApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::XLabs.Forms.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::RumbleApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::XLabs.Forms.Droid.Resource.Styleable.TextAppearance_android_typeface = global::RumbleApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::XLabs.Forms.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::RumbleApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::XLabs.Forms.Droid.Resource.Styleable.TextInputLayout = global::RumbleApp.Droid.Resource.Styleable.TextInputLayout;
-			global::XLabs.Forms.Droid.Resource.Styleable.TextInputLayout_android_hint = global::RumbleApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
-			global::XLabs.Forms.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::RumbleApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::XLabs.Forms.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::RumbleApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
-			global::XLabs.Forms.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::RumbleApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
-			global::XLabs.Forms.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::RumbleApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::XLabs.Forms.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::RumbleApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::XLabs.Forms.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::RumbleApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::XLabs.Forms.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::RumbleApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::XLabs.Forms.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::RumbleApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::XLabs.Forms.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::RumbleApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
-			global::XLabs.Forms.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::RumbleApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar = global::RumbleApp.Droid.Resource.Styleable.Toolbar;
-			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_android_gravity = global::RumbleApp.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_android_minHeight = global::RumbleApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::RumbleApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_collapseIcon = global::RumbleApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::RumbleApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::RumbleApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::RumbleApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::RumbleApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_logo = global::RumbleApp.Droid.Resource.Styleable.Toolbar_logo;
-			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_logoDescription = global::RumbleApp.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::RumbleApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::RumbleApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_navigationIcon = global::RumbleApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_popupTheme = global::RumbleApp.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_subtitle = global::RumbleApp.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::RumbleApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::RumbleApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_title = global::RumbleApp.Droid.Resource.Styleable.Toolbar_title;
-			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::RumbleApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::RumbleApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::RumbleApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::RumbleApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_titleMargins = global::RumbleApp.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::RumbleApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_titleTextColor = global::RumbleApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::XLabs.Forms.Droid.Resource.Styleable.View = global::RumbleApp.Droid.Resource.Styleable.View;
-			global::XLabs.Forms.Droid.Resource.Styleable.View_android_focusable = global::RumbleApp.Droid.Resource.Styleable.View_android_focusable;
-			global::XLabs.Forms.Droid.Resource.Styleable.View_android_theme = global::RumbleApp.Droid.Resource.Styleable.View_android_theme;
-			global::XLabs.Forms.Droid.Resource.Styleable.View_paddingEnd = global::RumbleApp.Droid.Resource.Styleable.View_paddingEnd;
-			global::XLabs.Forms.Droid.Resource.Styleable.View_paddingStart = global::RumbleApp.Droid.Resource.Styleable.View_paddingStart;
-			global::XLabs.Forms.Droid.Resource.Styleable.View_theme = global::RumbleApp.Droid.Resource.Styleable.View_theme;
-			global::XLabs.Forms.Droid.Resource.Styleable.ViewBackgroundHelper = global::RumbleApp.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::XLabs.Forms.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::RumbleApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::XLabs.Forms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::RumbleApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::XLabs.Forms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::RumbleApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::XLabs.Forms.Droid.Resource.Styleable.ViewStubCompat = global::RumbleApp.Droid.Resource.Styleable.ViewStubCompat;
-			global::XLabs.Forms.Droid.Resource.Styleable.ViewStubCompat_android_id = global::RumbleApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::XLabs.Forms.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::RumbleApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::XLabs.Forms.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::RumbleApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
-			global::XLabs.Platform.Resource.String.ApplicationName = global::RumbleApp.Droid.Resource.String.ApplicationName;
-			global::XLabs.Platform.Resource.String.Hello = global::RumbleApp.Droid.Resource.String.Hello;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.zxingscanneractivitylayout = global::RumbleApp.Droid.Resource.Layout.zxingscanneractivitylayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.zxingscannerfragmentlayout = global::RumbleApp.Droid.Resource.Layout.zxingscannerfragmentlayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.library_name = global::RumbleApp.Droid.Resource.String.library_name;
-			global::ZXing.Mobile.Resource.Id.contentFrame = global::RumbleApp.Droid.Resource.Id.contentFrame;
-			global::ZXing.Mobile.Resource.Layout.zxingscanneractivitylayout = global::RumbleApp.Droid.Resource.Layout.zxingscanneractivitylayout;
-			global::ZXing.Mobile.Resource.Layout.zxingscannerfragmentlayout = global::RumbleApp.Droid.Resource.Layout.zxingscannerfragmentlayout;
+			global::AndroidHUD.Resource.Attribute.ahBarColor = global::JamnationApp.Droid.Resource.Attribute.ahBarColor;
+			global::AndroidHUD.Resource.Attribute.ahBarLength = global::JamnationApp.Droid.Resource.Attribute.ahBarLength;
+			global::AndroidHUD.Resource.Attribute.ahBarWidth = global::JamnationApp.Droid.Resource.Attribute.ahBarWidth;
+			global::AndroidHUD.Resource.Attribute.ahCircleColor = global::JamnationApp.Droid.Resource.Attribute.ahCircleColor;
+			global::AndroidHUD.Resource.Attribute.ahDelayMillis = global::JamnationApp.Droid.Resource.Attribute.ahDelayMillis;
+			global::AndroidHUD.Resource.Attribute.ahRadius = global::JamnationApp.Droid.Resource.Attribute.ahRadius;
+			global::AndroidHUD.Resource.Attribute.ahRimColor = global::JamnationApp.Droid.Resource.Attribute.ahRimColor;
+			global::AndroidHUD.Resource.Attribute.ahRimWidth = global::JamnationApp.Droid.Resource.Attribute.ahRimWidth;
+			global::AndroidHUD.Resource.Attribute.ahSpinSpeed = global::JamnationApp.Droid.Resource.Attribute.ahSpinSpeed;
+			global::AndroidHUD.Resource.Attribute.ahText = global::JamnationApp.Droid.Resource.Attribute.ahText;
+			global::AndroidHUD.Resource.Attribute.ahTextColor = global::JamnationApp.Droid.Resource.Attribute.ahTextColor;
+			global::AndroidHUD.Resource.Attribute.ahTextSize = global::JamnationApp.Droid.Resource.Attribute.ahTextSize;
+			global::AndroidHUD.Resource.Drawable.ic_errorstatus = global::JamnationApp.Droid.Resource.Drawable.ic_errorstatus;
+			global::AndroidHUD.Resource.Drawable.ic_successstatus = global::JamnationApp.Droid.Resource.Drawable.ic_successstatus;
+			global::AndroidHUD.Resource.Drawable.roundedbg = global::JamnationApp.Droid.Resource.Drawable.roundedbg;
+			global::AndroidHUD.Resource.Drawable.roundedbgdark = global::JamnationApp.Droid.Resource.Drawable.roundedbgdark;
+			global::AndroidHUD.Resource.Id.loadingImage = global::JamnationApp.Droid.Resource.Id.loadingImage;
+			global::AndroidHUD.Resource.Id.loadingProgressBar = global::JamnationApp.Droid.Resource.Id.loadingProgressBar;
+			global::AndroidHUD.Resource.Id.loadingProgressWheel = global::JamnationApp.Droid.Resource.Id.loadingProgressWheel;
+			global::AndroidHUD.Resource.Id.textViewStatus = global::JamnationApp.Droid.Resource.Id.textViewStatus;
+			global::AndroidHUD.Resource.Layout.loading = global::JamnationApp.Droid.Resource.Layout.loading;
+			global::AndroidHUD.Resource.Layout.loadingimage = global::JamnationApp.Droid.Resource.Layout.loadingimage;
+			global::AndroidHUD.Resource.Layout.loadingprogress = global::JamnationApp.Droid.Resource.Layout.loadingprogress;
+			global::AndroidHUD.Resource.String.library_name = global::JamnationApp.Droid.Resource.String.library_name;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel = global::JamnationApp.Droid.Resource.Styleable.ProgressWheel;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarColor = global::JamnationApp.Droid.Resource.Styleable.ProgressWheel_ahBarColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarLength = global::JamnationApp.Droid.Resource.Styleable.ProgressWheel_ahBarLength;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarWidth = global::JamnationApp.Droid.Resource.Styleable.ProgressWheel_ahBarWidth;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahCircleColor = global::JamnationApp.Droid.Resource.Styleable.ProgressWheel_ahCircleColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahDelayMillis = global::JamnationApp.Droid.Resource.Styleable.ProgressWheel_ahDelayMillis;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRadius = global::JamnationApp.Droid.Resource.Styleable.ProgressWheel_ahRadius;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimColor = global::JamnationApp.Droid.Resource.Styleable.ProgressWheel_ahRimColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimWidth = global::JamnationApp.Droid.Resource.Styleable.ProgressWheel_ahRimWidth;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahSpinSpeed = global::JamnationApp.Droid.Resource.Styleable.ProgressWheel_ahSpinSpeed;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahText = global::JamnationApp.Droid.Resource.Styleable.ProgressWheel_ahText;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextColor = global::JamnationApp.Droid.Resource.Styleable.ProgressWheel_ahTextColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextSize = global::JamnationApp.Droid.Resource.Styleable.ProgressWheel_ahTextSize;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circleColor = global::JamnationApp.Droid.Resource.Attribute.circleColor;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circularProgressBarStyle = global::JamnationApp.Droid.Resource.Attribute.circularProgressBarStyle;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_gravity = global::JamnationApp.Droid.Resource.Attribute.circular_gravity;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_indeterminate = global::JamnationApp.Droid.Resource.Attribute.circular_indeterminate;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_indeterminate_interval = global::JamnationApp.Droid.Resource.Attribute.circular_indeterminate_interval;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_marker_progress = global::JamnationApp.Droid.Resource.Attribute.circular_marker_progress;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_progress = global::JamnationApp.Droid.Resource.Attribute.circular_progress;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_progress_background_color = global::JamnationApp.Droid.Resource.Attribute.circular_progress_background_color;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_progress_color = global::JamnationApp.Droid.Resource.Attribute.circular_progress_color;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_stroke_width = global::JamnationApp.Droid.Resource.Attribute.circular_stroke_width;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.indeterminate = global::JamnationApp.Droid.Resource.Attribute.indeterminate;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.indeterminate_interval = global::JamnationApp.Droid.Resource.Attribute.indeterminate_interval;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.innerSize = global::JamnationApp.Droid.Resource.Attribute.innerSize;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.max = global::JamnationApp.Droid.Resource.Attribute.max;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.pinned = global::JamnationApp.Droid.Resource.Attribute.pinned;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.pinnedDrawable = global::JamnationApp.Droid.Resource.Attribute.pinnedDrawable;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.progress = global::JamnationApp.Droid.Resource.Attribute.progress;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.progressButtonStyle = global::JamnationApp.Droid.Resource.Attribute.progressButtonStyle;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.progressColor = global::JamnationApp.Droid.Resource.Attribute.progressColor;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.shadowDrawable = global::JamnationApp.Droid.Resource.Attribute.shadowDrawable;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.unpinnedDrawable = global::JamnationApp.Droid.Resource.Attribute.unpinnedDrawable;
+			global::com.refractored.monodroidtoolkit.Resource.Color.progress_default_circle_color = global::JamnationApp.Droid.Resource.Color.progress_default_circle_color;
+			global::com.refractored.monodroidtoolkit.Resource.Color.progress_default_progress_color = global::JamnationApp.Droid.Resource.Color.progress_default_progress_color;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_background_dark = global::JamnationApp.Droid.Resource.Color.refractored_background_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_background_holo_dark = global::JamnationApp.Droid.Resource.Color.refractored_background_holo_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_background_holo_light = global::JamnationApp.Droid.Resource.Color.refractored_background_holo_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_background_light = global::JamnationApp.Droid.Resource.Color.refractored_background_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_dark = global::JamnationApp.Droid.Resource.Color.refractored_bright_foreground_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_dark_disabled = global::JamnationApp.Droid.Resource.Color.refractored_bright_foreground_dark_disabled;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_disabled_holo_dark = global::JamnationApp.Droid.Resource.Color.refractored_bright_foreground_disabled_holo_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_disabled_holo_light = global::JamnationApp.Droid.Resource.Color.refractored_bright_foreground_disabled_holo_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_holo_dark = global::JamnationApp.Droid.Resource.Color.refractored_bright_foreground_holo_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_holo_light = global::JamnationApp.Droid.Resource.Color.refractored_bright_foreground_holo_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_light = global::JamnationApp.Droid.Resource.Color.refractored_bright_foreground_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_dim_foreground_disabled_holo_dark = global::JamnationApp.Droid.Resource.Color.refractored_dim_foreground_disabled_holo_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_dim_foreground_disabled_holo_light = global::JamnationApp.Droid.Resource.Color.refractored_dim_foreground_disabled_holo_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_dim_foreground_holo_dark = global::JamnationApp.Droid.Resource.Color.refractored_dim_foreground_holo_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_dim_foreground_holo_light = global::JamnationApp.Droid.Resource.Color.refractored_dim_foreground_holo_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_highlighted_text_holo_dark = global::JamnationApp.Droid.Resource.Color.refractored_highlighted_text_holo_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_highlighted_text_holo_light = global::JamnationApp.Droid.Resource.Color.refractored_highlighted_text_holo_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_hint_foreground_holo_dark = global::JamnationApp.Droid.Resource.Color.refractored_hint_foreground_holo_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_hint_foreground_holo_light = global::JamnationApp.Droid.Resource.Color.refractored_hint_foreground_holo_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_blue_bright = global::JamnationApp.Droid.Resource.Color.refractored_holo_blue_bright;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_blue_dark = global::JamnationApp.Droid.Resource.Color.refractored_holo_blue_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_blue_light = global::JamnationApp.Droid.Resource.Color.refractored_holo_blue_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_green_dark = global::JamnationApp.Droid.Resource.Color.refractored_holo_green_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_green_light = global::JamnationApp.Droid.Resource.Color.refractored_holo_green_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_orange_dark = global::JamnationApp.Droid.Resource.Color.refractored_holo_orange_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_orange_light = global::JamnationApp.Droid.Resource.Color.refractored_holo_orange_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_purple = global::JamnationApp.Droid.Resource.Color.refractored_holo_purple;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_red_dark = global::JamnationApp.Droid.Resource.Color.refractored_holo_red_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_red_light = global::JamnationApp.Droid.Resource.Color.refractored_holo_red_light;
+			global::com.refractored.monodroidtoolkit.Resource.Dimension.progress_inner_size = global::JamnationApp.Droid.Resource.Dimension.progress_inner_size;
+			global::com.refractored.monodroidtoolkit.Resource.Drawable.pin_progress_pinned = global::JamnationApp.Droid.Resource.Drawable.pin_progress_pinned;
+			global::com.refractored.monodroidtoolkit.Resource.Drawable.pin_progress_shadow = global::JamnationApp.Droid.Resource.Drawable.pin_progress_shadow;
+			global::com.refractored.monodroidtoolkit.Resource.Drawable.pin_progress_unpinned = global::JamnationApp.Droid.Resource.Drawable.pin_progress_unpinned;
+			global::com.refractored.monodroidtoolkit.Resource.Drawable.scrubber_control_normal_holo = global::JamnationApp.Droid.Resource.Drawable.scrubber_control_normal_holo;
+			global::com.refractored.monodroidtoolkit.Resource.Drawable.scrubber_control_pressed_holo = global::JamnationApp.Droid.Resource.Drawable.scrubber_control_pressed_holo;
+			global::com.refractored.monodroidtoolkit.Resource.Id.bottom = global::JamnationApp.Droid.Resource.Id.bottom;
+			global::com.refractored.monodroidtoolkit.Resource.Id.center = global::JamnationApp.Droid.Resource.Id.center;
+			global::com.refractored.monodroidtoolkit.Resource.Id.center_horizontal = global::JamnationApp.Droid.Resource.Id.center_horizontal;
+			global::com.refractored.monodroidtoolkit.Resource.Id.center_vertical = global::JamnationApp.Droid.Resource.Id.center_vertical;
+			global::com.refractored.monodroidtoolkit.Resource.Id.clip = global::JamnationApp.Droid.Resource.Id.clip;
+			global::com.refractored.monodroidtoolkit.Resource.Id.clip_horizontal = global::JamnationApp.Droid.Resource.Id.clip_horizontal;
+			global::com.refractored.monodroidtoolkit.Resource.Id.clip_vertical = global::JamnationApp.Droid.Resource.Id.clip_vertical;
+			global::com.refractored.monodroidtoolkit.Resource.Id.end = global::JamnationApp.Droid.Resource.Id.end;
+			global::com.refractored.monodroidtoolkit.Resource.Id.fill = global::JamnationApp.Droid.Resource.Id.fill;
+			global::com.refractored.monodroidtoolkit.Resource.Id.fill_horizontal = global::JamnationApp.Droid.Resource.Id.fill_horizontal;
+			global::com.refractored.monodroidtoolkit.Resource.Id.fill_vertical = global::JamnationApp.Droid.Resource.Id.fill_vertical;
+			global::com.refractored.monodroidtoolkit.Resource.Id.left = global::JamnationApp.Droid.Resource.Id.left;
+			global::com.refractored.monodroidtoolkit.Resource.Id.right = global::JamnationApp.Droid.Resource.Id.right;
+			global::com.refractored.monodroidtoolkit.Resource.Id.start = global::JamnationApp.Droid.Resource.Id.start;
+			global::com.refractored.monodroidtoolkit.Resource.Id.top = global::JamnationApp.Droid.Resource.Id.top;
+			global::com.refractored.monodroidtoolkit.Resource.Integer.circular_indeterminent_interval = global::JamnationApp.Droid.Resource.Integer.circular_indeterminent_interval;
+			global::com.refractored.monodroidtoolkit.Resource.Integer.progressbutton_indeterminent_interval = global::JamnationApp.Droid.Resource.Integer.progressbutton_indeterminent_interval;
+			global::com.refractored.monodroidtoolkit.Resource.Style.CircularProgressBar = global::JamnationApp.Droid.Resource.Style.CircularProgressBar;
+			global::com.refractored.monodroidtoolkit.Resource.Style.CircularProgressBarLight = global::JamnationApp.Droid.Resource.Style.CircularProgressBarLight;
+			global::com.refractored.monodroidtoolkit.Resource.Style.ProgressButton = global::JamnationApp.Droid.Resource.Style.ProgressButton;
+			global::com.refractored.monodroidtoolkit.Resource.Style.ProgressButton_Pin = global::JamnationApp.Droid.Resource.Style.ProgressButton_Pin;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar = global::JamnationApp.Droid.Resource.Styleable.HoloCircularProgressBar;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_gravity = global::JamnationApp.Droid.Resource.Styleable.HoloCircularProgressBar_circular_gravity;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_indeterminate = global::JamnationApp.Droid.Resource.Styleable.HoloCircularProgressBar_circular_indeterminate;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_indeterminate_interval = global::JamnationApp.Droid.Resource.Styleable.HoloCircularProgressBar_circular_indeterminate_interval;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_marker_progress = global::JamnationApp.Droid.Resource.Styleable.HoloCircularProgressBar_circular_marker_progress;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_progress = global::JamnationApp.Droid.Resource.Styleable.HoloCircularProgressBar_circular_progress;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_progress_background_color = global::JamnationApp.Droid.Resource.Styleable.HoloCircularProgressBar_circular_progress_background_color;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_progress_color = global::JamnationApp.Droid.Resource.Styleable.HoloCircularProgressBar_circular_progress_color;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_stroke_width = global::JamnationApp.Droid.Resource.Styleable.HoloCircularProgressBar_circular_stroke_width;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton = global::JamnationApp.Droid.Resource.Styleable.ProgressButton;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_android_clickable = global::JamnationApp.Droid.Resource.Styleable.ProgressButton_android_clickable;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_android_focusable = global::JamnationApp.Droid.Resource.Styleable.ProgressButton_android_focusable;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_android_selectableItemBackground = global::JamnationApp.Droid.Resource.Styleable.ProgressButton_android_selectableItemBackground;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_circleColor = global::JamnationApp.Droid.Resource.Styleable.ProgressButton_circleColor;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_indeterminate = global::JamnationApp.Droid.Resource.Styleable.ProgressButton_indeterminate;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_indeterminate_interval = global::JamnationApp.Droid.Resource.Styleable.ProgressButton_indeterminate_interval;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_innerSize = global::JamnationApp.Droid.Resource.Styleable.ProgressButton_innerSize;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_max = global::JamnationApp.Droid.Resource.Styleable.ProgressButton_max;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_pinned = global::JamnationApp.Droid.Resource.Styleable.ProgressButton_pinned;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_pinnedDrawable = global::JamnationApp.Droid.Resource.Styleable.ProgressButton_pinnedDrawable;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_progress = global::JamnationApp.Droid.Resource.Styleable.ProgressButton_progress;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_progressColor = global::JamnationApp.Droid.Resource.Styleable.ProgressButton_progressColor;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_shadowDrawable = global::JamnationApp.Droid.Resource.Styleable.ProgressButton_shadowDrawable;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_unpinnedDrawable = global::JamnationApp.Droid.Resource.Styleable.ProgressButton_unpinnedDrawable;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.Theme = global::JamnationApp.Droid.Resource.Styleable.Theme;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.Theme_circularProgressBarStyle = global::JamnationApp.Droid.Resource.Styleable.Theme_circularProgressBarStyle;
+			global::ModernHttpClient.Resource.String.library_name = global::JamnationApp.Droid.Resource.String.library_name;
+			global::Splat.Resource.String.library_name = global::JamnationApp.Droid.Resource.String.library_name;
+			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.ApplicationName = global::JamnationApp.Droid.Resource.String.ApplicationName;
+			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.Hello = global::JamnationApp.Droid.Resource.String.Hello;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::JamnationApp.Droid.Resource.Attribute.actionBarSize;
+			global::XLabs.Forms.Droid.Resource.Animation.abc_fade_in = global::JamnationApp.Droid.Resource.Animation.abc_fade_in;
+			global::XLabs.Forms.Droid.Resource.Animation.abc_fade_out = global::JamnationApp.Droid.Resource.Animation.abc_fade_out;
+			global::XLabs.Forms.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::JamnationApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::XLabs.Forms.Droid.Resource.Animation.abc_popup_enter = global::JamnationApp.Droid.Resource.Animation.abc_popup_enter;
+			global::XLabs.Forms.Droid.Resource.Animation.abc_popup_exit = global::JamnationApp.Droid.Resource.Animation.abc_popup_exit;
+			global::XLabs.Forms.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::JamnationApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::XLabs.Forms.Droid.Resource.Animation.abc_slide_in_bottom = global::JamnationApp.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::XLabs.Forms.Droid.Resource.Animation.abc_slide_in_top = global::JamnationApp.Droid.Resource.Animation.abc_slide_in_top;
+			global::XLabs.Forms.Droid.Resource.Animation.abc_slide_out_bottom = global::JamnationApp.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::XLabs.Forms.Droid.Resource.Animation.abc_slide_out_top = global::JamnationApp.Droid.Resource.Animation.abc_slide_out_top;
+			global::XLabs.Forms.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::JamnationApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::XLabs.Forms.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::JamnationApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::XLabs.Forms.Droid.Resource.Animation.design_fab_in = global::JamnationApp.Droid.Resource.Animation.design_fab_in;
+			global::XLabs.Forms.Droid.Resource.Animation.design_fab_out = global::JamnationApp.Droid.Resource.Animation.design_fab_out;
+			global::XLabs.Forms.Droid.Resource.Animation.design_snackbar_in = global::JamnationApp.Droid.Resource.Animation.design_snackbar_in;
+			global::XLabs.Forms.Droid.Resource.Animation.design_snackbar_out = global::JamnationApp.Droid.Resource.Animation.design_snackbar_out;
+			global::XLabs.Forms.Droid.Resource.Attribute.MediaRouteControllerWindowBackground = global::JamnationApp.Droid.Resource.Attribute.MediaRouteControllerWindowBackground;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionBarDivider = global::JamnationApp.Droid.Resource.Attribute.actionBarDivider;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionBarItemBackground = global::JamnationApp.Droid.Resource.Attribute.actionBarItemBackground;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionBarPopupTheme = global::JamnationApp.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionBarSize = global::JamnationApp.Droid.Resource.Attribute.actionBarSize;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionBarSplitStyle = global::JamnationApp.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionBarStyle = global::JamnationApp.Droid.Resource.Attribute.actionBarStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionBarTabBarStyle = global::JamnationApp.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionBarTabStyle = global::JamnationApp.Droid.Resource.Attribute.actionBarTabStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionBarTabTextStyle = global::JamnationApp.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionBarTheme = global::JamnationApp.Droid.Resource.Attribute.actionBarTheme;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionBarWidgetTheme = global::JamnationApp.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionButtonStyle = global::JamnationApp.Droid.Resource.Attribute.actionButtonStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionDropDownStyle = global::JamnationApp.Droid.Resource.Attribute.actionDropDownStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionLayout = global::JamnationApp.Droid.Resource.Attribute.actionLayout;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionMenuTextAppearance = global::JamnationApp.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionMenuTextColor = global::JamnationApp.Droid.Resource.Attribute.actionMenuTextColor;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionModeBackground = global::JamnationApp.Droid.Resource.Attribute.actionModeBackground;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::JamnationApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionModeCloseDrawable = global::JamnationApp.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionModeCopyDrawable = global::JamnationApp.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionModeCutDrawable = global::JamnationApp.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionModeFindDrawable = global::JamnationApp.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionModePasteDrawable = global::JamnationApp.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionModePopupWindowStyle = global::JamnationApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::JamnationApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionModeShareDrawable = global::JamnationApp.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionModeSplitBackground = global::JamnationApp.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionModeStyle = global::JamnationApp.Droid.Resource.Attribute.actionModeStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::JamnationApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionOverflowButtonStyle = global::JamnationApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionOverflowMenuStyle = global::JamnationApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionProviderClass = global::JamnationApp.Droid.Resource.Attribute.actionProviderClass;
+			global::XLabs.Forms.Droid.Resource.Attribute.actionViewClass = global::JamnationApp.Droid.Resource.Attribute.actionViewClass;
+			global::XLabs.Forms.Droid.Resource.Attribute.activityChooserViewStyle = global::JamnationApp.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::JamnationApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.alertDialogCenterButtons = global::JamnationApp.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::XLabs.Forms.Droid.Resource.Attribute.alertDialogStyle = global::JamnationApp.Droid.Resource.Attribute.alertDialogStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.alertDialogTheme = global::JamnationApp.Droid.Resource.Attribute.alertDialogTheme;
+			global::XLabs.Forms.Droid.Resource.Attribute.allowStacking = global::JamnationApp.Droid.Resource.Attribute.allowStacking;
+			global::XLabs.Forms.Droid.Resource.Attribute.arrowHeadLength = global::JamnationApp.Droid.Resource.Attribute.arrowHeadLength;
+			global::XLabs.Forms.Droid.Resource.Attribute.arrowShaftLength = global::JamnationApp.Droid.Resource.Attribute.arrowShaftLength;
+			global::XLabs.Forms.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::JamnationApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.background = global::JamnationApp.Droid.Resource.Attribute.background;
+			global::XLabs.Forms.Droid.Resource.Attribute.backgroundSplit = global::JamnationApp.Droid.Resource.Attribute.backgroundSplit;
+			global::XLabs.Forms.Droid.Resource.Attribute.backgroundStacked = global::JamnationApp.Droid.Resource.Attribute.backgroundStacked;
+			global::XLabs.Forms.Droid.Resource.Attribute.backgroundTint = global::JamnationApp.Droid.Resource.Attribute.backgroundTint;
+			global::XLabs.Forms.Droid.Resource.Attribute.backgroundTintMode = global::JamnationApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::XLabs.Forms.Droid.Resource.Attribute.barLength = global::JamnationApp.Droid.Resource.Attribute.barLength;
+			global::XLabs.Forms.Droid.Resource.Attribute.behavior_hideable = global::JamnationApp.Droid.Resource.Attribute.behavior_hideable;
+			global::XLabs.Forms.Droid.Resource.Attribute.behavior_overlapTop = global::JamnationApp.Droid.Resource.Attribute.behavior_overlapTop;
+			global::XLabs.Forms.Droid.Resource.Attribute.behavior_peekHeight = global::JamnationApp.Droid.Resource.Attribute.behavior_peekHeight;
+			global::XLabs.Forms.Droid.Resource.Attribute.borderWidth = global::JamnationApp.Droid.Resource.Attribute.borderWidth;
+			global::XLabs.Forms.Droid.Resource.Attribute.borderlessButtonStyle = global::JamnationApp.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.bottomSheetDialogTheme = global::JamnationApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::XLabs.Forms.Droid.Resource.Attribute.bottomSheetStyle = global::JamnationApp.Droid.Resource.Attribute.bottomSheetStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.buttonBarButtonStyle = global::JamnationApp.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::JamnationApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::JamnationApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::JamnationApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.buttonBarStyle = global::JamnationApp.Droid.Resource.Attribute.buttonBarStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.buttonPanelSideLayout = global::JamnationApp.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::XLabs.Forms.Droid.Resource.Attribute.buttonStyle = global::JamnationApp.Droid.Resource.Attribute.buttonStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.buttonStyleSmall = global::JamnationApp.Droid.Resource.Attribute.buttonStyleSmall;
+			global::XLabs.Forms.Droid.Resource.Attribute.buttonTint = global::JamnationApp.Droid.Resource.Attribute.buttonTint;
+			global::XLabs.Forms.Droid.Resource.Attribute.buttonTintMode = global::JamnationApp.Droid.Resource.Attribute.buttonTintMode;
+			global::XLabs.Forms.Droid.Resource.Attribute.cardBackgroundColor = global::JamnationApp.Droid.Resource.Attribute.cardBackgroundColor;
+			global::XLabs.Forms.Droid.Resource.Attribute.cardCornerRadius = global::JamnationApp.Droid.Resource.Attribute.cardCornerRadius;
+			global::XLabs.Forms.Droid.Resource.Attribute.cardElevation = global::JamnationApp.Droid.Resource.Attribute.cardElevation;
+			global::XLabs.Forms.Droid.Resource.Attribute.cardMaxElevation = global::JamnationApp.Droid.Resource.Attribute.cardMaxElevation;
+			global::XLabs.Forms.Droid.Resource.Attribute.cardPreventCornerOverlap = global::JamnationApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::XLabs.Forms.Droid.Resource.Attribute.cardUseCompatPadding = global::JamnationApp.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::XLabs.Forms.Droid.Resource.Attribute.checkboxStyle = global::JamnationApp.Droid.Resource.Attribute.checkboxStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.checkedTextViewStyle = global::JamnationApp.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.closeIcon = global::JamnationApp.Droid.Resource.Attribute.closeIcon;
+			global::XLabs.Forms.Droid.Resource.Attribute.closeItemLayout = global::JamnationApp.Droid.Resource.Attribute.closeItemLayout;
+			global::XLabs.Forms.Droid.Resource.Attribute.collapseContentDescription = global::JamnationApp.Droid.Resource.Attribute.collapseContentDescription;
+			global::XLabs.Forms.Droid.Resource.Attribute.collapseIcon = global::JamnationApp.Droid.Resource.Attribute.collapseIcon;
+			global::XLabs.Forms.Droid.Resource.Attribute.collapsedTitleGravity = global::JamnationApp.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::XLabs.Forms.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::JamnationApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::XLabs.Forms.Droid.Resource.Attribute.color = global::JamnationApp.Droid.Resource.Attribute.color;
+			global::XLabs.Forms.Droid.Resource.Attribute.colorAccent = global::JamnationApp.Droid.Resource.Attribute.colorAccent;
+			global::XLabs.Forms.Droid.Resource.Attribute.colorButtonNormal = global::JamnationApp.Droid.Resource.Attribute.colorButtonNormal;
+			global::XLabs.Forms.Droid.Resource.Attribute.colorControlActivated = global::JamnationApp.Droid.Resource.Attribute.colorControlActivated;
+			global::XLabs.Forms.Droid.Resource.Attribute.colorControlHighlight = global::JamnationApp.Droid.Resource.Attribute.colorControlHighlight;
+			global::XLabs.Forms.Droid.Resource.Attribute.colorControlNormal = global::JamnationApp.Droid.Resource.Attribute.colorControlNormal;
+			global::XLabs.Forms.Droid.Resource.Attribute.colorPrimary = global::JamnationApp.Droid.Resource.Attribute.colorPrimary;
+			global::XLabs.Forms.Droid.Resource.Attribute.colorPrimaryDark = global::JamnationApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::XLabs.Forms.Droid.Resource.Attribute.colorSwitchThumbNormal = global::JamnationApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::XLabs.Forms.Droid.Resource.Attribute.commitIcon = global::JamnationApp.Droid.Resource.Attribute.commitIcon;
+			global::XLabs.Forms.Droid.Resource.Attribute.contentInsetEnd = global::JamnationApp.Droid.Resource.Attribute.contentInsetEnd;
+			global::XLabs.Forms.Droid.Resource.Attribute.contentInsetLeft = global::JamnationApp.Droid.Resource.Attribute.contentInsetLeft;
+			global::XLabs.Forms.Droid.Resource.Attribute.contentInsetRight = global::JamnationApp.Droid.Resource.Attribute.contentInsetRight;
+			global::XLabs.Forms.Droid.Resource.Attribute.contentInsetStart = global::JamnationApp.Droid.Resource.Attribute.contentInsetStart;
+			global::XLabs.Forms.Droid.Resource.Attribute.contentPadding = global::JamnationApp.Droid.Resource.Attribute.contentPadding;
+			global::XLabs.Forms.Droid.Resource.Attribute.contentPaddingBottom = global::JamnationApp.Droid.Resource.Attribute.contentPaddingBottom;
+			global::XLabs.Forms.Droid.Resource.Attribute.contentPaddingLeft = global::JamnationApp.Droid.Resource.Attribute.contentPaddingLeft;
+			global::XLabs.Forms.Droid.Resource.Attribute.contentPaddingRight = global::JamnationApp.Droid.Resource.Attribute.contentPaddingRight;
+			global::XLabs.Forms.Droid.Resource.Attribute.contentPaddingTop = global::JamnationApp.Droid.Resource.Attribute.contentPaddingTop;
+			global::XLabs.Forms.Droid.Resource.Attribute.contentScrim = global::JamnationApp.Droid.Resource.Attribute.contentScrim;
+			global::XLabs.Forms.Droid.Resource.Attribute.controlBackground = global::JamnationApp.Droid.Resource.Attribute.controlBackground;
+			global::XLabs.Forms.Droid.Resource.Attribute.counterEnabled = global::JamnationApp.Droid.Resource.Attribute.counterEnabled;
+			global::XLabs.Forms.Droid.Resource.Attribute.counterMaxLength = global::JamnationApp.Droid.Resource.Attribute.counterMaxLength;
+			global::XLabs.Forms.Droid.Resource.Attribute.counterOverflowTextAppearance = global::JamnationApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::XLabs.Forms.Droid.Resource.Attribute.counterTextAppearance = global::JamnationApp.Droid.Resource.Attribute.counterTextAppearance;
+			global::XLabs.Forms.Droid.Resource.Attribute.customNavigationLayout = global::JamnationApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::XLabs.Forms.Droid.Resource.Attribute.defaultQueryHint = global::JamnationApp.Droid.Resource.Attribute.defaultQueryHint;
+			global::XLabs.Forms.Droid.Resource.Attribute.dialogPreferredPadding = global::JamnationApp.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::XLabs.Forms.Droid.Resource.Attribute.dialogTheme = global::JamnationApp.Droid.Resource.Attribute.dialogTheme;
+			global::XLabs.Forms.Droid.Resource.Attribute.displayOptions = global::JamnationApp.Droid.Resource.Attribute.displayOptions;
+			global::XLabs.Forms.Droid.Resource.Attribute.divider = global::JamnationApp.Droid.Resource.Attribute.divider;
+			global::XLabs.Forms.Droid.Resource.Attribute.dividerHorizontal = global::JamnationApp.Droid.Resource.Attribute.dividerHorizontal;
+			global::XLabs.Forms.Droid.Resource.Attribute.dividerPadding = global::JamnationApp.Droid.Resource.Attribute.dividerPadding;
+			global::XLabs.Forms.Droid.Resource.Attribute.dividerVertical = global::JamnationApp.Droid.Resource.Attribute.dividerVertical;
+			global::XLabs.Forms.Droid.Resource.Attribute.drawableSize = global::JamnationApp.Droid.Resource.Attribute.drawableSize;
+			global::XLabs.Forms.Droid.Resource.Attribute.drawerArrowStyle = global::JamnationApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.dropDownListViewStyle = global::JamnationApp.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::JamnationApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::XLabs.Forms.Droid.Resource.Attribute.editTextBackground = global::JamnationApp.Droid.Resource.Attribute.editTextBackground;
+			global::XLabs.Forms.Droid.Resource.Attribute.editTextColor = global::JamnationApp.Droid.Resource.Attribute.editTextColor;
+			global::XLabs.Forms.Droid.Resource.Attribute.editTextStyle = global::JamnationApp.Droid.Resource.Attribute.editTextStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.elevation = global::JamnationApp.Droid.Resource.Attribute.elevation;
+			global::XLabs.Forms.Droid.Resource.Attribute.errorEnabled = global::JamnationApp.Droid.Resource.Attribute.errorEnabled;
+			global::XLabs.Forms.Droid.Resource.Attribute.errorTextAppearance = global::JamnationApp.Droid.Resource.Attribute.errorTextAppearance;
+			global::XLabs.Forms.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::JamnationApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::XLabs.Forms.Droid.Resource.Attribute.expanded = global::JamnationApp.Droid.Resource.Attribute.expanded;
+			global::XLabs.Forms.Droid.Resource.Attribute.expandedTitleGravity = global::JamnationApp.Droid.Resource.Attribute.expandedTitleGravity;
+			global::XLabs.Forms.Droid.Resource.Attribute.expandedTitleMargin = global::JamnationApp.Droid.Resource.Attribute.expandedTitleMargin;
+			global::XLabs.Forms.Droid.Resource.Attribute.expandedTitleMarginBottom = global::JamnationApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::XLabs.Forms.Droid.Resource.Attribute.expandedTitleMarginEnd = global::JamnationApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::XLabs.Forms.Droid.Resource.Attribute.expandedTitleMarginStart = global::JamnationApp.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::XLabs.Forms.Droid.Resource.Attribute.expandedTitleMarginTop = global::JamnationApp.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::XLabs.Forms.Droid.Resource.Attribute.expandedTitleTextAppearance = global::JamnationApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::XLabs.Forms.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::JamnationApp.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::XLabs.Forms.Droid.Resource.Attribute.fabSize = global::JamnationApp.Droid.Resource.Attribute.fabSize;
+			global::XLabs.Forms.Droid.Resource.Attribute.foregroundInsidePadding = global::JamnationApp.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::XLabs.Forms.Droid.Resource.Attribute.gapBetweenBars = global::JamnationApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::XLabs.Forms.Droid.Resource.Attribute.goIcon = global::JamnationApp.Droid.Resource.Attribute.goIcon;
+			global::XLabs.Forms.Droid.Resource.Attribute.headerLayout = global::JamnationApp.Droid.Resource.Attribute.headerLayout;
+			global::XLabs.Forms.Droid.Resource.Attribute.height = global::JamnationApp.Droid.Resource.Attribute.height;
+			global::XLabs.Forms.Droid.Resource.Attribute.hideOnContentScroll = global::JamnationApp.Droid.Resource.Attribute.hideOnContentScroll;
+			global::XLabs.Forms.Droid.Resource.Attribute.hintAnimationEnabled = global::JamnationApp.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::XLabs.Forms.Droid.Resource.Attribute.hintEnabled = global::JamnationApp.Droid.Resource.Attribute.hintEnabled;
+			global::XLabs.Forms.Droid.Resource.Attribute.hintTextAppearance = global::JamnationApp.Droid.Resource.Attribute.hintTextAppearance;
+			global::XLabs.Forms.Droid.Resource.Attribute.homeAsUpIndicator = global::JamnationApp.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::XLabs.Forms.Droid.Resource.Attribute.homeLayout = global::JamnationApp.Droid.Resource.Attribute.homeLayout;
+			global::XLabs.Forms.Droid.Resource.Attribute.icon = global::JamnationApp.Droid.Resource.Attribute.icon;
+			global::XLabs.Forms.Droid.Resource.Attribute.iconifiedByDefault = global::JamnationApp.Droid.Resource.Attribute.iconifiedByDefault;
+			global::XLabs.Forms.Droid.Resource.Attribute.imageButtonStyle = global::JamnationApp.Droid.Resource.Attribute.imageButtonStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.indeterminateProgressStyle = global::JamnationApp.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.initialActivityCount = global::JamnationApp.Droid.Resource.Attribute.initialActivityCount;
+			global::XLabs.Forms.Droid.Resource.Attribute.insetForeground = global::JamnationApp.Droid.Resource.Attribute.insetForeground;
+			global::XLabs.Forms.Droid.Resource.Attribute.isLightTheme = global::JamnationApp.Droid.Resource.Attribute.isLightTheme;
+			global::XLabs.Forms.Droid.Resource.Attribute.itemBackground = global::JamnationApp.Droid.Resource.Attribute.itemBackground;
+			global::XLabs.Forms.Droid.Resource.Attribute.itemIconTint = global::JamnationApp.Droid.Resource.Attribute.itemIconTint;
+			global::XLabs.Forms.Droid.Resource.Attribute.itemPadding = global::JamnationApp.Droid.Resource.Attribute.itemPadding;
+			global::XLabs.Forms.Droid.Resource.Attribute.itemTextAppearance = global::JamnationApp.Droid.Resource.Attribute.itemTextAppearance;
+			global::XLabs.Forms.Droid.Resource.Attribute.itemTextColor = global::JamnationApp.Droid.Resource.Attribute.itemTextColor;
+			global::XLabs.Forms.Droid.Resource.Attribute.keylines = global::JamnationApp.Droid.Resource.Attribute.keylines;
+			global::XLabs.Forms.Droid.Resource.Attribute.layout = global::JamnationApp.Droid.Resource.Attribute.layout;
+			global::XLabs.Forms.Droid.Resource.Attribute.layoutManager = global::JamnationApp.Droid.Resource.Attribute.layoutManager;
+			global::XLabs.Forms.Droid.Resource.Attribute.layout_anchor = global::JamnationApp.Droid.Resource.Attribute.layout_anchor;
+			global::XLabs.Forms.Droid.Resource.Attribute.layout_anchorGravity = global::JamnationApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::XLabs.Forms.Droid.Resource.Attribute.layout_behavior = global::JamnationApp.Droid.Resource.Attribute.layout_behavior;
+			global::XLabs.Forms.Droid.Resource.Attribute.layout_collapseMode = global::JamnationApp.Droid.Resource.Attribute.layout_collapseMode;
+			global::XLabs.Forms.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::JamnationApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::XLabs.Forms.Droid.Resource.Attribute.layout_keyline = global::JamnationApp.Droid.Resource.Attribute.layout_keyline;
+			global::XLabs.Forms.Droid.Resource.Attribute.layout_scrollFlags = global::JamnationApp.Droid.Resource.Attribute.layout_scrollFlags;
+			global::XLabs.Forms.Droid.Resource.Attribute.layout_scrollInterpolator = global::JamnationApp.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::XLabs.Forms.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::JamnationApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::XLabs.Forms.Droid.Resource.Attribute.listDividerAlertDialog = global::JamnationApp.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::XLabs.Forms.Droid.Resource.Attribute.listItemLayout = global::JamnationApp.Droid.Resource.Attribute.listItemLayout;
+			global::XLabs.Forms.Droid.Resource.Attribute.listLayout = global::JamnationApp.Droid.Resource.Attribute.listLayout;
+			global::XLabs.Forms.Droid.Resource.Attribute.listPopupWindowStyle = global::JamnationApp.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.listPreferredItemHeight = global::JamnationApp.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::XLabs.Forms.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::JamnationApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::XLabs.Forms.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::JamnationApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::XLabs.Forms.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::JamnationApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::XLabs.Forms.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::JamnationApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::XLabs.Forms.Droid.Resource.Attribute.logo = global::JamnationApp.Droid.Resource.Attribute.logo;
+			global::XLabs.Forms.Droid.Resource.Attribute.logoDescription = global::JamnationApp.Droid.Resource.Attribute.logoDescription;
+			global::XLabs.Forms.Droid.Resource.Attribute.maxActionInlineWidth = global::JamnationApp.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::XLabs.Forms.Droid.Resource.Attribute.maxButtonHeight = global::JamnationApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::XLabs.Forms.Droid.Resource.Attribute.measureWithLargestChild = global::JamnationApp.Droid.Resource.Attribute.measureWithLargestChild;
+			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::JamnationApp.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteBluetoothIconDrawable = global::JamnationApp.Droid.Resource.Attribute.mediaRouteBluetoothIconDrawable;
+			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteButtonStyle = global::JamnationApp.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteCastDrawable = global::JamnationApp.Droid.Resource.Attribute.mediaRouteCastDrawable;
+			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteChooserPrimaryTextStyle = global::JamnationApp.Droid.Resource.Attribute.mediaRouteChooserPrimaryTextStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteChooserSecondaryTextStyle = global::JamnationApp.Droid.Resource.Attribute.mediaRouteChooserSecondaryTextStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::JamnationApp.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteCollapseGroupDrawable = global::JamnationApp.Droid.Resource.Attribute.mediaRouteCollapseGroupDrawable;
+			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteConnectingDrawable = global::JamnationApp.Droid.Resource.Attribute.mediaRouteConnectingDrawable;
+			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteControllerPrimaryTextStyle = global::JamnationApp.Droid.Resource.Attribute.mediaRouteControllerPrimaryTextStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteControllerSecondaryTextStyle = global::JamnationApp.Droid.Resource.Attribute.mediaRouteControllerSecondaryTextStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteControllerTitleTextStyle = global::JamnationApp.Droid.Resource.Attribute.mediaRouteControllerTitleTextStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::JamnationApp.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteExpandGroupDrawable = global::JamnationApp.Droid.Resource.Attribute.mediaRouteExpandGroupDrawable;
+			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteOffDrawable = global::JamnationApp.Droid.Resource.Attribute.mediaRouteOffDrawable;
+			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteOnDrawable = global::JamnationApp.Droid.Resource.Attribute.mediaRouteOnDrawable;
+			global::XLabs.Forms.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::JamnationApp.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::XLabs.Forms.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::JamnationApp.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::JamnationApp.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::JamnationApp.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::XLabs.Forms.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::JamnationApp.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::XLabs.Forms.Droid.Resource.Attribute.menu = global::JamnationApp.Droid.Resource.Attribute.menu;
+			global::XLabs.Forms.Droid.Resource.Attribute.multiChoiceItemLayout = global::JamnationApp.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::XLabs.Forms.Droid.Resource.Attribute.navigationContentDescription = global::JamnationApp.Droid.Resource.Attribute.navigationContentDescription;
+			global::XLabs.Forms.Droid.Resource.Attribute.navigationIcon = global::JamnationApp.Droid.Resource.Attribute.navigationIcon;
+			global::XLabs.Forms.Droid.Resource.Attribute.navigationMode = global::JamnationApp.Droid.Resource.Attribute.navigationMode;
+			global::XLabs.Forms.Droid.Resource.Attribute.overlapAnchor = global::JamnationApp.Droid.Resource.Attribute.overlapAnchor;
+			global::XLabs.Forms.Droid.Resource.Attribute.paddingEnd = global::JamnationApp.Droid.Resource.Attribute.paddingEnd;
+			global::XLabs.Forms.Droid.Resource.Attribute.paddingStart = global::JamnationApp.Droid.Resource.Attribute.paddingStart;
+			global::XLabs.Forms.Droid.Resource.Attribute.panelBackground = global::JamnationApp.Droid.Resource.Attribute.panelBackground;
+			global::XLabs.Forms.Droid.Resource.Attribute.panelMenuListTheme = global::JamnationApp.Droid.Resource.Attribute.panelMenuListTheme;
+			global::XLabs.Forms.Droid.Resource.Attribute.panelMenuListWidth = global::JamnationApp.Droid.Resource.Attribute.panelMenuListWidth;
+			global::XLabs.Forms.Droid.Resource.Attribute.popupMenuStyle = global::JamnationApp.Droid.Resource.Attribute.popupMenuStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.popupTheme = global::JamnationApp.Droid.Resource.Attribute.popupTheme;
+			global::XLabs.Forms.Droid.Resource.Attribute.popupWindowStyle = global::JamnationApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.preserveIconSpacing = global::JamnationApp.Droid.Resource.Attribute.preserveIconSpacing;
+			global::XLabs.Forms.Droid.Resource.Attribute.pressedTranslationZ = global::JamnationApp.Droid.Resource.Attribute.pressedTranslationZ;
+			global::XLabs.Forms.Droid.Resource.Attribute.progressBarPadding = global::JamnationApp.Droid.Resource.Attribute.progressBarPadding;
+			global::XLabs.Forms.Droid.Resource.Attribute.progressBarStyle = global::JamnationApp.Droid.Resource.Attribute.progressBarStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.queryBackground = global::JamnationApp.Droid.Resource.Attribute.queryBackground;
+			global::XLabs.Forms.Droid.Resource.Attribute.queryHint = global::JamnationApp.Droid.Resource.Attribute.queryHint;
+			global::XLabs.Forms.Droid.Resource.Attribute.radioButtonStyle = global::JamnationApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.ratingBarStyle = global::JamnationApp.Droid.Resource.Attribute.ratingBarStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.ratingBarStyleIndicator = global::JamnationApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::XLabs.Forms.Droid.Resource.Attribute.ratingBarStyleSmall = global::JamnationApp.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::XLabs.Forms.Droid.Resource.Attribute.reverseLayout = global::JamnationApp.Droid.Resource.Attribute.reverseLayout;
+			global::XLabs.Forms.Droid.Resource.Attribute.rippleColor = global::JamnationApp.Droid.Resource.Attribute.rippleColor;
+			global::XLabs.Forms.Droid.Resource.Attribute.searchHintIcon = global::JamnationApp.Droid.Resource.Attribute.searchHintIcon;
+			global::XLabs.Forms.Droid.Resource.Attribute.searchIcon = global::JamnationApp.Droid.Resource.Attribute.searchIcon;
+			global::XLabs.Forms.Droid.Resource.Attribute.searchViewStyle = global::JamnationApp.Droid.Resource.Attribute.searchViewStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.seekBarStyle = global::JamnationApp.Droid.Resource.Attribute.seekBarStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.selectableItemBackground = global::JamnationApp.Droid.Resource.Attribute.selectableItemBackground;
+			global::XLabs.Forms.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::JamnationApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::XLabs.Forms.Droid.Resource.Attribute.showAsAction = global::JamnationApp.Droid.Resource.Attribute.showAsAction;
+			global::XLabs.Forms.Droid.Resource.Attribute.showDividers = global::JamnationApp.Droid.Resource.Attribute.showDividers;
+			global::XLabs.Forms.Droid.Resource.Attribute.showText = global::JamnationApp.Droid.Resource.Attribute.showText;
+			global::XLabs.Forms.Droid.Resource.Attribute.singleChoiceItemLayout = global::JamnationApp.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::XLabs.Forms.Droid.Resource.Attribute.spanCount = global::JamnationApp.Droid.Resource.Attribute.spanCount;
+			global::XLabs.Forms.Droid.Resource.Attribute.spinBars = global::JamnationApp.Droid.Resource.Attribute.spinBars;
+			global::XLabs.Forms.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::JamnationApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.spinnerStyle = global::JamnationApp.Droid.Resource.Attribute.spinnerStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.splitTrack = global::JamnationApp.Droid.Resource.Attribute.splitTrack;
+			global::XLabs.Forms.Droid.Resource.Attribute.srcCompat = global::JamnationApp.Droid.Resource.Attribute.srcCompat;
+			global::XLabs.Forms.Droid.Resource.Attribute.stackFromEnd = global::JamnationApp.Droid.Resource.Attribute.stackFromEnd;
+			global::XLabs.Forms.Droid.Resource.Attribute.state_above_anchor = global::JamnationApp.Droid.Resource.Attribute.state_above_anchor;
+			global::XLabs.Forms.Droid.Resource.Attribute.statusBarBackground = global::JamnationApp.Droid.Resource.Attribute.statusBarBackground;
+			global::XLabs.Forms.Droid.Resource.Attribute.statusBarScrim = global::JamnationApp.Droid.Resource.Attribute.statusBarScrim;
+			global::XLabs.Forms.Droid.Resource.Attribute.submitBackground = global::JamnationApp.Droid.Resource.Attribute.submitBackground;
+			global::XLabs.Forms.Droid.Resource.Attribute.subtitle = global::JamnationApp.Droid.Resource.Attribute.subtitle;
+			global::XLabs.Forms.Droid.Resource.Attribute.subtitleTextAppearance = global::JamnationApp.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::XLabs.Forms.Droid.Resource.Attribute.subtitleTextColor = global::JamnationApp.Droid.Resource.Attribute.subtitleTextColor;
+			global::XLabs.Forms.Droid.Resource.Attribute.subtitleTextStyle = global::JamnationApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.suggestionRowLayout = global::JamnationApp.Droid.Resource.Attribute.suggestionRowLayout;
+			global::XLabs.Forms.Droid.Resource.Attribute.switchMinWidth = global::JamnationApp.Droid.Resource.Attribute.switchMinWidth;
+			global::XLabs.Forms.Droid.Resource.Attribute.switchPadding = global::JamnationApp.Droid.Resource.Attribute.switchPadding;
+			global::XLabs.Forms.Droid.Resource.Attribute.switchStyle = global::JamnationApp.Droid.Resource.Attribute.switchStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.switchTextAppearance = global::JamnationApp.Droid.Resource.Attribute.switchTextAppearance;
+			global::XLabs.Forms.Droid.Resource.Attribute.tabBackground = global::JamnationApp.Droid.Resource.Attribute.tabBackground;
+			global::XLabs.Forms.Droid.Resource.Attribute.tabContentStart = global::JamnationApp.Droid.Resource.Attribute.tabContentStart;
+			global::XLabs.Forms.Droid.Resource.Attribute.tabGravity = global::JamnationApp.Droid.Resource.Attribute.tabGravity;
+			global::XLabs.Forms.Droid.Resource.Attribute.tabIndicatorColor = global::JamnationApp.Droid.Resource.Attribute.tabIndicatorColor;
+			global::XLabs.Forms.Droid.Resource.Attribute.tabIndicatorHeight = global::JamnationApp.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::XLabs.Forms.Droid.Resource.Attribute.tabMaxWidth = global::JamnationApp.Droid.Resource.Attribute.tabMaxWidth;
+			global::XLabs.Forms.Droid.Resource.Attribute.tabMinWidth = global::JamnationApp.Droid.Resource.Attribute.tabMinWidth;
+			global::XLabs.Forms.Droid.Resource.Attribute.tabMode = global::JamnationApp.Droid.Resource.Attribute.tabMode;
+			global::XLabs.Forms.Droid.Resource.Attribute.tabPadding = global::JamnationApp.Droid.Resource.Attribute.tabPadding;
+			global::XLabs.Forms.Droid.Resource.Attribute.tabPaddingBottom = global::JamnationApp.Droid.Resource.Attribute.tabPaddingBottom;
+			global::XLabs.Forms.Droid.Resource.Attribute.tabPaddingEnd = global::JamnationApp.Droid.Resource.Attribute.tabPaddingEnd;
+			global::XLabs.Forms.Droid.Resource.Attribute.tabPaddingStart = global::JamnationApp.Droid.Resource.Attribute.tabPaddingStart;
+			global::XLabs.Forms.Droid.Resource.Attribute.tabPaddingTop = global::JamnationApp.Droid.Resource.Attribute.tabPaddingTop;
+			global::XLabs.Forms.Droid.Resource.Attribute.tabSelectedTextColor = global::JamnationApp.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::XLabs.Forms.Droid.Resource.Attribute.tabTextAppearance = global::JamnationApp.Droid.Resource.Attribute.tabTextAppearance;
+			global::XLabs.Forms.Droid.Resource.Attribute.tabTextColor = global::JamnationApp.Droid.Resource.Attribute.tabTextColor;
+			global::XLabs.Forms.Droid.Resource.Attribute.textAllCaps = global::JamnationApp.Droid.Resource.Attribute.textAllCaps;
+			global::XLabs.Forms.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::JamnationApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::XLabs.Forms.Droid.Resource.Attribute.textAppearanceListItem = global::JamnationApp.Droid.Resource.Attribute.textAppearanceListItem;
+			global::XLabs.Forms.Droid.Resource.Attribute.textAppearanceListItemSmall = global::JamnationApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::XLabs.Forms.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::JamnationApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::XLabs.Forms.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::JamnationApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::XLabs.Forms.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::JamnationApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::XLabs.Forms.Droid.Resource.Attribute.textColorAlertDialogListItem = global::JamnationApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::XLabs.Forms.Droid.Resource.Attribute.textColorError = global::JamnationApp.Droid.Resource.Attribute.textColorError;
+			global::XLabs.Forms.Droid.Resource.Attribute.textColorSearchUrl = global::JamnationApp.Droid.Resource.Attribute.textColorSearchUrl;
+			global::XLabs.Forms.Droid.Resource.Attribute.theme = global::JamnationApp.Droid.Resource.Attribute.theme;
+			global::XLabs.Forms.Droid.Resource.Attribute.thickness = global::JamnationApp.Droid.Resource.Attribute.thickness;
+			global::XLabs.Forms.Droid.Resource.Attribute.thumbTextPadding = global::JamnationApp.Droid.Resource.Attribute.thumbTextPadding;
+			global::XLabs.Forms.Droid.Resource.Attribute.title = global::JamnationApp.Droid.Resource.Attribute.title;
+			global::XLabs.Forms.Droid.Resource.Attribute.titleEnabled = global::JamnationApp.Droid.Resource.Attribute.titleEnabled;
+			global::XLabs.Forms.Droid.Resource.Attribute.titleMarginBottom = global::JamnationApp.Droid.Resource.Attribute.titleMarginBottom;
+			global::XLabs.Forms.Droid.Resource.Attribute.titleMarginEnd = global::JamnationApp.Droid.Resource.Attribute.titleMarginEnd;
+			global::XLabs.Forms.Droid.Resource.Attribute.titleMarginStart = global::JamnationApp.Droid.Resource.Attribute.titleMarginStart;
+			global::XLabs.Forms.Droid.Resource.Attribute.titleMarginTop = global::JamnationApp.Droid.Resource.Attribute.titleMarginTop;
+			global::XLabs.Forms.Droid.Resource.Attribute.titleMargins = global::JamnationApp.Droid.Resource.Attribute.titleMargins;
+			global::XLabs.Forms.Droid.Resource.Attribute.titleTextAppearance = global::JamnationApp.Droid.Resource.Attribute.titleTextAppearance;
+			global::XLabs.Forms.Droid.Resource.Attribute.titleTextColor = global::JamnationApp.Droid.Resource.Attribute.titleTextColor;
+			global::XLabs.Forms.Droid.Resource.Attribute.titleTextStyle = global::JamnationApp.Droid.Resource.Attribute.titleTextStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.toolbarId = global::JamnationApp.Droid.Resource.Attribute.toolbarId;
+			global::XLabs.Forms.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::JamnationApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.toolbarStyle = global::JamnationApp.Droid.Resource.Attribute.toolbarStyle;
+			global::XLabs.Forms.Droid.Resource.Attribute.track = global::JamnationApp.Droid.Resource.Attribute.track;
+			global::XLabs.Forms.Droid.Resource.Attribute.useCompatPadding = global::JamnationApp.Droid.Resource.Attribute.useCompatPadding;
+			global::XLabs.Forms.Droid.Resource.Attribute.voiceIcon = global::JamnationApp.Droid.Resource.Attribute.voiceIcon;
+			global::XLabs.Forms.Droid.Resource.Attribute.windowActionBar = global::JamnationApp.Droid.Resource.Attribute.windowActionBar;
+			global::XLabs.Forms.Droid.Resource.Attribute.windowActionBarOverlay = global::JamnationApp.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::XLabs.Forms.Droid.Resource.Attribute.windowActionModeOverlay = global::JamnationApp.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::XLabs.Forms.Droid.Resource.Attribute.windowFixedHeightMajor = global::JamnationApp.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::XLabs.Forms.Droid.Resource.Attribute.windowFixedHeightMinor = global::JamnationApp.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::XLabs.Forms.Droid.Resource.Attribute.windowFixedWidthMajor = global::JamnationApp.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::XLabs.Forms.Droid.Resource.Attribute.windowFixedWidthMinor = global::JamnationApp.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::XLabs.Forms.Droid.Resource.Attribute.windowMinWidthMajor = global::JamnationApp.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::XLabs.Forms.Droid.Resource.Attribute.windowMinWidthMinor = global::JamnationApp.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::XLabs.Forms.Droid.Resource.Attribute.windowNoTitle = global::JamnationApp.Droid.Resource.Attribute.windowNoTitle;
+			global::XLabs.Forms.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::JamnationApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::XLabs.Forms.Droid.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb = global::JamnationApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb;
+			global::XLabs.Forms.Droid.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive = global::JamnationApp.Droid.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive;
+			global::XLabs.Forms.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::JamnationApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::XLabs.Forms.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::JamnationApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::XLabs.Forms.Droid.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon = global::JamnationApp.Droid.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon;
+			global::XLabs.Forms.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::JamnationApp.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::XLabs.Forms.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::JamnationApp.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::XLabs.Forms.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::JamnationApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::XLabs.Forms.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::JamnationApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::XLabs.Forms.Droid.Resource.Color.abc_color_highlight_material = global::JamnationApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::XLabs.Forms.Droid.Resource.Color.abc_input_method_navigation_guard = global::JamnationApp.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::XLabs.Forms.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::JamnationApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::XLabs.Forms.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::JamnationApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::XLabs.Forms.Droid.Resource.Color.abc_primary_text_material_dark = global::JamnationApp.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::XLabs.Forms.Droid.Resource.Color.abc_primary_text_material_light = global::JamnationApp.Droid.Resource.Color.abc_primary_text_material_light;
+			global::XLabs.Forms.Droid.Resource.Color.abc_search_url_text = global::JamnationApp.Droid.Resource.Color.abc_search_url_text;
+			global::XLabs.Forms.Droid.Resource.Color.abc_search_url_text_normal = global::JamnationApp.Droid.Resource.Color.abc_search_url_text_normal;
+			global::XLabs.Forms.Droid.Resource.Color.abc_search_url_text_pressed = global::JamnationApp.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::XLabs.Forms.Droid.Resource.Color.abc_search_url_text_selected = global::JamnationApp.Droid.Resource.Color.abc_search_url_text_selected;
+			global::XLabs.Forms.Droid.Resource.Color.abc_secondary_text_material_dark = global::JamnationApp.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::XLabs.Forms.Droid.Resource.Color.abc_secondary_text_material_light = global::JamnationApp.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::XLabs.Forms.Droid.Resource.Color.accent_material_dark = global::JamnationApp.Droid.Resource.Color.accent_material_dark;
+			global::XLabs.Forms.Droid.Resource.Color.accent_material_light = global::JamnationApp.Droid.Resource.Color.accent_material_light;
+			global::XLabs.Forms.Droid.Resource.Color.background_floating_material_dark = global::JamnationApp.Droid.Resource.Color.background_floating_material_dark;
+			global::XLabs.Forms.Droid.Resource.Color.background_floating_material_light = global::JamnationApp.Droid.Resource.Color.background_floating_material_light;
+			global::XLabs.Forms.Droid.Resource.Color.background_material_dark = global::JamnationApp.Droid.Resource.Color.background_material_dark;
+			global::XLabs.Forms.Droid.Resource.Color.background_material_light = global::JamnationApp.Droid.Resource.Color.background_material_light;
+			global::XLabs.Forms.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::JamnationApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::XLabs.Forms.Droid.Resource.Color.bright_foreground_disabled_material_light = global::JamnationApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::XLabs.Forms.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::JamnationApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::XLabs.Forms.Droid.Resource.Color.bright_foreground_inverse_material_light = global::JamnationApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::XLabs.Forms.Droid.Resource.Color.bright_foreground_material_dark = global::JamnationApp.Droid.Resource.Color.bright_foreground_material_dark;
+			global::XLabs.Forms.Droid.Resource.Color.bright_foreground_material_light = global::JamnationApp.Droid.Resource.Color.bright_foreground_material_light;
+			global::XLabs.Forms.Droid.Resource.Color.button_material_dark = global::JamnationApp.Droid.Resource.Color.button_material_dark;
+			global::XLabs.Forms.Droid.Resource.Color.button_material_light = global::JamnationApp.Droid.Resource.Color.button_material_light;
+			global::XLabs.Forms.Droid.Resource.Color.calendar_active_month_bg = global::JamnationApp.Droid.Resource.Color.calendar_active_month_bg;
+			global::XLabs.Forms.Droid.Resource.Color.calendar_bg = global::JamnationApp.Droid.Resource.Color.calendar_bg;
+			global::XLabs.Forms.Droid.Resource.Color.calendar_divider = global::JamnationApp.Droid.Resource.Color.calendar_divider;
+			global::XLabs.Forms.Droid.Resource.Color.calendar_highlighted_day_bg = global::JamnationApp.Droid.Resource.Color.calendar_highlighted_day_bg;
+			global::XLabs.Forms.Droid.Resource.Color.calendar_inactive_month_bg = global::JamnationApp.Droid.Resource.Color.calendar_inactive_month_bg;
+			global::XLabs.Forms.Droid.Resource.Color.calendar_selected_day_bg = global::JamnationApp.Droid.Resource.Color.calendar_selected_day_bg;
+			global::XLabs.Forms.Droid.Resource.Color.calendar_selected_range_bg = global::JamnationApp.Droid.Resource.Color.calendar_selected_range_bg;
+			global::XLabs.Forms.Droid.Resource.Color.calendar_text_active = global::JamnationApp.Droid.Resource.Color.calendar_text_active;
+			global::XLabs.Forms.Droid.Resource.Color.calendar_text_inactive = global::JamnationApp.Droid.Resource.Color.calendar_text_inactive;
+			global::XLabs.Forms.Droid.Resource.Color.calendar_text_selected = global::JamnationApp.Droid.Resource.Color.calendar_text_selected;
+			global::XLabs.Forms.Droid.Resource.Color.calendar_text_selector = global::JamnationApp.Droid.Resource.Color.calendar_text_selector;
+			global::XLabs.Forms.Droid.Resource.Color.calendar_text_unselectable = global::JamnationApp.Droid.Resource.Color.calendar_text_unselectable;
+			global::XLabs.Forms.Droid.Resource.Color.cardview_dark_background = global::JamnationApp.Droid.Resource.Color.cardview_dark_background;
+			global::XLabs.Forms.Droid.Resource.Color.cardview_light_background = global::JamnationApp.Droid.Resource.Color.cardview_light_background;
+			global::XLabs.Forms.Droid.Resource.Color.cardview_shadow_end_color = global::JamnationApp.Droid.Resource.Color.cardview_shadow_end_color;
+			global::XLabs.Forms.Droid.Resource.Color.cardview_shadow_start_color = global::JamnationApp.Droid.Resource.Color.cardview_shadow_start_color;
+			global::XLabs.Forms.Droid.Resource.Color.design_fab_shadow_end_color = global::JamnationApp.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::XLabs.Forms.Droid.Resource.Color.design_fab_shadow_mid_color = global::JamnationApp.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::XLabs.Forms.Droid.Resource.Color.design_fab_shadow_start_color = global::JamnationApp.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::XLabs.Forms.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::JamnationApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::XLabs.Forms.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::JamnationApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::XLabs.Forms.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::JamnationApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::XLabs.Forms.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::JamnationApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::XLabs.Forms.Droid.Resource.Color.design_snackbar_background_color = global::JamnationApp.Droid.Resource.Color.design_snackbar_background_color;
+			global::XLabs.Forms.Droid.Resource.Color.design_textinput_error_color_dark = global::JamnationApp.Droid.Resource.Color.design_textinput_error_color_dark;
+			global::XLabs.Forms.Droid.Resource.Color.design_textinput_error_color_light = global::JamnationApp.Droid.Resource.Color.design_textinput_error_color_light;
+			global::XLabs.Forms.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::JamnationApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::XLabs.Forms.Droid.Resource.Color.dim_foreground_disabled_material_light = global::JamnationApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::XLabs.Forms.Droid.Resource.Color.dim_foreground_material_dark = global::JamnationApp.Droid.Resource.Color.dim_foreground_material_dark;
+			global::XLabs.Forms.Droid.Resource.Color.dim_foreground_material_light = global::JamnationApp.Droid.Resource.Color.dim_foreground_material_light;
+			global::XLabs.Forms.Droid.Resource.Color.foreground_material_dark = global::JamnationApp.Droid.Resource.Color.foreground_material_dark;
+			global::XLabs.Forms.Droid.Resource.Color.foreground_material_light = global::JamnationApp.Droid.Resource.Color.foreground_material_light;
+			global::XLabs.Forms.Droid.Resource.Color.highlighted_text_material_dark = global::JamnationApp.Droid.Resource.Color.highlighted_text_material_dark;
+			global::XLabs.Forms.Droid.Resource.Color.highlighted_text_material_light = global::JamnationApp.Droid.Resource.Color.highlighted_text_material_light;
+			global::XLabs.Forms.Droid.Resource.Color.hint_foreground_material_dark = global::JamnationApp.Droid.Resource.Color.hint_foreground_material_dark;
+			global::XLabs.Forms.Droid.Resource.Color.hint_foreground_material_light = global::JamnationApp.Droid.Resource.Color.hint_foreground_material_light;
+			global::XLabs.Forms.Droid.Resource.Color.material_blue_grey_800 = global::JamnationApp.Droid.Resource.Color.material_blue_grey_800;
+			global::XLabs.Forms.Droid.Resource.Color.material_blue_grey_900 = global::JamnationApp.Droid.Resource.Color.material_blue_grey_900;
+			global::XLabs.Forms.Droid.Resource.Color.material_blue_grey_950 = global::JamnationApp.Droid.Resource.Color.material_blue_grey_950;
+			global::XLabs.Forms.Droid.Resource.Color.material_deep_teal_200 = global::JamnationApp.Droid.Resource.Color.material_deep_teal_200;
+			global::XLabs.Forms.Droid.Resource.Color.material_deep_teal_500 = global::JamnationApp.Droid.Resource.Color.material_deep_teal_500;
+			global::XLabs.Forms.Droid.Resource.Color.material_grey_100 = global::JamnationApp.Droid.Resource.Color.material_grey_100;
+			global::XLabs.Forms.Droid.Resource.Color.material_grey_300 = global::JamnationApp.Droid.Resource.Color.material_grey_300;
+			global::XLabs.Forms.Droid.Resource.Color.material_grey_50 = global::JamnationApp.Droid.Resource.Color.material_grey_50;
+			global::XLabs.Forms.Droid.Resource.Color.material_grey_600 = global::JamnationApp.Droid.Resource.Color.material_grey_600;
+			global::XLabs.Forms.Droid.Resource.Color.material_grey_800 = global::JamnationApp.Droid.Resource.Color.material_grey_800;
+			global::XLabs.Forms.Droid.Resource.Color.material_grey_850 = global::JamnationApp.Droid.Resource.Color.material_grey_850;
+			global::XLabs.Forms.Droid.Resource.Color.material_grey_900 = global::JamnationApp.Droid.Resource.Color.material_grey_900;
+			global::XLabs.Forms.Droid.Resource.Color.primary_dark_material_dark = global::JamnationApp.Droid.Resource.Color.primary_dark_material_dark;
+			global::XLabs.Forms.Droid.Resource.Color.primary_dark_material_light = global::JamnationApp.Droid.Resource.Color.primary_dark_material_light;
+			global::XLabs.Forms.Droid.Resource.Color.primary_material_dark = global::JamnationApp.Droid.Resource.Color.primary_material_dark;
+			global::XLabs.Forms.Droid.Resource.Color.primary_material_light = global::JamnationApp.Droid.Resource.Color.primary_material_light;
+			global::XLabs.Forms.Droid.Resource.Color.primary_text_default_material_dark = global::JamnationApp.Droid.Resource.Color.primary_text_default_material_dark;
+			global::XLabs.Forms.Droid.Resource.Color.primary_text_default_material_light = global::JamnationApp.Droid.Resource.Color.primary_text_default_material_light;
+			global::XLabs.Forms.Droid.Resource.Color.primary_text_disabled_material_dark = global::JamnationApp.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::XLabs.Forms.Droid.Resource.Color.primary_text_disabled_material_light = global::JamnationApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::XLabs.Forms.Droid.Resource.Color.ripple_material_dark = global::JamnationApp.Droid.Resource.Color.ripple_material_dark;
+			global::XLabs.Forms.Droid.Resource.Color.ripple_material_light = global::JamnationApp.Droid.Resource.Color.ripple_material_light;
+			global::XLabs.Forms.Droid.Resource.Color.secondary_text_default_material_dark = global::JamnationApp.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::XLabs.Forms.Droid.Resource.Color.secondary_text_default_material_light = global::JamnationApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::XLabs.Forms.Droid.Resource.Color.secondary_text_disabled_material_dark = global::JamnationApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::XLabs.Forms.Droid.Resource.Color.secondary_text_disabled_material_light = global::JamnationApp.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::XLabs.Forms.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::JamnationApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::XLabs.Forms.Droid.Resource.Color.switch_thumb_disabled_material_light = global::JamnationApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::XLabs.Forms.Droid.Resource.Color.switch_thumb_material_dark = global::JamnationApp.Droid.Resource.Color.switch_thumb_material_dark;
+			global::XLabs.Forms.Droid.Resource.Color.switch_thumb_material_light = global::JamnationApp.Droid.Resource.Color.switch_thumb_material_light;
+			global::XLabs.Forms.Droid.Resource.Color.switch_thumb_normal_material_dark = global::JamnationApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::XLabs.Forms.Droid.Resource.Color.switch_thumb_normal_material_light = global::JamnationApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::JamnationApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::JamnationApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::JamnationApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::JamnationApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::JamnationApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::JamnationApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::JamnationApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_bar_progress_bar_size = global::JamnationApp.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::JamnationApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::JamnationApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::JamnationApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::JamnationApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_button_min_height_material = global::JamnationApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_button_min_width_material = global::JamnationApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::JamnationApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::JamnationApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::JamnationApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::JamnationApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::JamnationApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::JamnationApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::JamnationApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_control_corner_material = global::JamnationApp.Droid.Resource.Dimension.abc_control_corner_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_control_inset_material = global::JamnationApp.Droid.Resource.Dimension.abc_control_inset_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_control_padding_material = global::JamnationApp.Droid.Resource.Dimension.abc_control_padding_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::JamnationApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::JamnationApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::JamnationApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::JamnationApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_dialog_list_padding_vertical_material = global::JamnationApp.Droid.Resource.Dimension.abc_dialog_list_padding_vertical_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_dialog_min_width_major = global::JamnationApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::JamnationApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_dialog_padding_material = global::JamnationApp.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::JamnationApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::JamnationApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::JamnationApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::JamnationApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::JamnationApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::JamnationApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::JamnationApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::JamnationApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::JamnationApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_floating_window_z = global::JamnationApp.Droid.Resource.Dimension.abc_floating_window_z;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::JamnationApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_panel_menu_list_width = global::JamnationApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_search_view_preferred_width = global::JamnationApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_search_view_text_min_width = global::JamnationApp.Droid.Resource.Dimension.abc_search_view_text_min_width;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::JamnationApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::JamnationApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::JamnationApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_switch_padding = global::JamnationApp.Droid.Resource.Dimension.abc_switch_padding;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_body_1_material = global::JamnationApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_body_2_material = global::JamnationApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_button_material = global::JamnationApp.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_caption_material = global::JamnationApp.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_display_1_material = global::JamnationApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_display_2_material = global::JamnationApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_display_3_material = global::JamnationApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_display_4_material = global::JamnationApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_headline_material = global::JamnationApp.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_large_material = global::JamnationApp.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_medium_material = global::JamnationApp.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_menu_material = global::JamnationApp.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_small_material = global::JamnationApp.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_subhead_material = global::JamnationApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::JamnationApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_title_material = global::JamnationApp.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::XLabs.Forms.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::JamnationApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::XLabs.Forms.Droid.Resource.Dimension.calendar_day_headers_paddingbottom = global::JamnationApp.Droid.Resource.Dimension.calendar_day_headers_paddingbottom;
+			global::XLabs.Forms.Droid.Resource.Dimension.calendar_month_title_bottommargin = global::JamnationApp.Droid.Resource.Dimension.calendar_month_title_bottommargin;
+			global::XLabs.Forms.Droid.Resource.Dimension.calendar_month_topmargin = global::JamnationApp.Droid.Resource.Dimension.calendar_month_topmargin;
+			global::XLabs.Forms.Droid.Resource.Dimension.calendar_text_medium = global::JamnationApp.Droid.Resource.Dimension.calendar_text_medium;
+			global::XLabs.Forms.Droid.Resource.Dimension.calendar_text_small = global::JamnationApp.Droid.Resource.Dimension.calendar_text_small;
+			global::XLabs.Forms.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::JamnationApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::XLabs.Forms.Droid.Resource.Dimension.cardview_default_elevation = global::JamnationApp.Droid.Resource.Dimension.cardview_default_elevation;
+			global::XLabs.Forms.Droid.Resource.Dimension.cardview_default_radius = global::JamnationApp.Droid.Resource.Dimension.cardview_default_radius;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_appbar_elevation = global::JamnationApp.Droid.Resource.Dimension.design_appbar_elevation;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::JamnationApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_bottom_sheet_modal_peek_height = global::JamnationApp.Droid.Resource.Dimension.design_bottom_sheet_modal_peek_height;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_fab_border_width = global::JamnationApp.Droid.Resource.Dimension.design_fab_border_width;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_fab_elevation = global::JamnationApp.Droid.Resource.Dimension.design_fab_elevation;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_fab_image_size = global::JamnationApp.Droid.Resource.Dimension.design_fab_image_size;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_fab_size_mini = global::JamnationApp.Droid.Resource.Dimension.design_fab_size_mini;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_fab_size_normal = global::JamnationApp.Droid.Resource.Dimension.design_fab_size_normal;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::JamnationApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_navigation_elevation = global::JamnationApp.Droid.Resource.Dimension.design_navigation_elevation;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_navigation_icon_padding = global::JamnationApp.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_navigation_icon_size = global::JamnationApp.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_navigation_max_width = global::JamnationApp.Droid.Resource.Dimension.design_navigation_max_width;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_navigation_padding_bottom = global::JamnationApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::JamnationApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::JamnationApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::JamnationApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_snackbar_elevation = global::JamnationApp.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::JamnationApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_snackbar_max_width = global::JamnationApp.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_snackbar_min_width = global::JamnationApp.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::JamnationApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::JamnationApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::JamnationApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_snackbar_text_size = global::JamnationApp.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_tab_max_width = global::JamnationApp.Droid.Resource.Dimension.design_tab_max_width;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::JamnationApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_tab_text_size = global::JamnationApp.Droid.Resource.Dimension.design_tab_text_size;
+			global::XLabs.Forms.Droid.Resource.Dimension.design_tab_text_size_2line = global::JamnationApp.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::XLabs.Forms.Droid.Resource.Dimension.disabled_alpha_material_dark = global::JamnationApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::XLabs.Forms.Droid.Resource.Dimension.disabled_alpha_material_light = global::JamnationApp.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::XLabs.Forms.Droid.Resource.Dimension.highlight_alpha_material_colored = global::JamnationApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::XLabs.Forms.Droid.Resource.Dimension.highlight_alpha_material_dark = global::JamnationApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::XLabs.Forms.Droid.Resource.Dimension.highlight_alpha_material_light = global::JamnationApp.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::XLabs.Forms.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::JamnationApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::XLabs.Forms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::JamnationApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::XLabs.Forms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::JamnationApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::XLabs.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::JamnationApp.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::XLabs.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::JamnationApp.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::XLabs.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::JamnationApp.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::XLabs.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::JamnationApp.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::XLabs.Forms.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::JamnationApp.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::XLabs.Forms.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::JamnationApp.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::XLabs.Forms.Droid.Resource.Dimension.notification_large_icon_height = global::JamnationApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::XLabs.Forms.Droid.Resource.Dimension.notification_large_icon_width = global::JamnationApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::XLabs.Forms.Droid.Resource.Dimension.notification_subtext_size = global::JamnationApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::JamnationApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_btn_borderless_material = global::JamnationApp.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_btn_check_material = global::JamnationApp.Droid.Resource.Drawable.abc_btn_check_material;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::JamnationApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::JamnationApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_btn_colored_material = global::JamnationApp.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::JamnationApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_btn_radio_material = global::JamnationApp.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::JamnationApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::JamnationApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::JamnationApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::JamnationApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::JamnationApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_cab_background_top_material = global::JamnationApp.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_control_background_material = global::JamnationApp.Droid.Resource.Drawable.abc_control_background_material;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_dialog_material_background_dark = global::JamnationApp.Droid.Resource.Drawable.abc_dialog_material_background_dark;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_dialog_material_background_light = global::JamnationApp.Droid.Resource.Drawable.abc_dialog_material_background_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_edit_text_material = global::JamnationApp.Droid.Resource.Drawable.abc_edit_text_material;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_clear_mtrl_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_ic_clear_mtrl_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_search_api_mtrl_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_ic_search_api_mtrl_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::JamnationApp.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::JamnationApp.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::JamnationApp.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::JamnationApp.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_item_background_holo_dark = global::JamnationApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_item_background_holo_light = global::JamnationApp.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_list_focused_holo = global::JamnationApp.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_list_longpressed_holo = global::JamnationApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::JamnationApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::JamnationApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::JamnationApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::JamnationApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::JamnationApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::JamnationApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::JamnationApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_list_selector_holo_light = global::JamnationApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::JamnationApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::JamnationApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_ratingbar_full_material = global::JamnationApp.Droid.Resource.Drawable.abc_ratingbar_full_material;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::JamnationApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_ratingbar_small_material = global::JamnationApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::JamnationApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::JamnationApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::JamnationApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_seekbar_track_material = global::JamnationApp.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::JamnationApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_switch_thumb_material = global::JamnationApp.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_tab_indicator_material = global::JamnationApp.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_text_cursor_material = global::JamnationApp.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::JamnationApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::XLabs.Forms.Droid.Resource.Drawable.abc_textfield_search_material = global::JamnationApp.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::XLabs.Forms.Droid.Resource.Drawable.ad16 = global::JamnationApp.Droid.Resource.Drawable.ad16;
+			global::XLabs.Forms.Droid.Resource.Drawable.calendar_bg_selector = global::JamnationApp.Droid.Resource.Drawable.calendar_bg_selector;
+			global::XLabs.Forms.Droid.Resource.Drawable.design_fab_background = global::JamnationApp.Droid.Resource.Drawable.design_fab_background;
+			global::XLabs.Forms.Droid.Resource.Drawable.design_snackbar_background = global::JamnationApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_audiotrack = global::JamnationApp.Droid.Resource.Drawable.ic_audiotrack;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_audiotrack_light = global::JamnationApp.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_bluetooth_grey = global::JamnationApp.Droid.Resource.Drawable.ic_bluetooth_grey;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_bluetooth_white = global::JamnationApp.Droid.Resource.Drawable.ic_bluetooth_white;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_cast_dark = global::JamnationApp.Droid.Resource.Drawable.ic_cast_dark;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_cast_disabled_light = global::JamnationApp.Droid.Resource.Drawable.ic_cast_disabled_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_cast_grey = global::JamnationApp.Droid.Resource.Drawable.ic_cast_grey;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_cast_light = global::JamnationApp.Droid.Resource.Drawable.ic_cast_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_cast_off_light = global::JamnationApp.Droid.Resource.Drawable.ic_cast_off_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_cast_on_0_light = global::JamnationApp.Droid.Resource.Drawable.ic_cast_on_0_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_cast_on_1_light = global::JamnationApp.Droid.Resource.Drawable.ic_cast_on_1_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_cast_on_2_light = global::JamnationApp.Droid.Resource.Drawable.ic_cast_on_2_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_cast_on_light = global::JamnationApp.Droid.Resource.Drawable.ic_cast_on_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_cast_white = global::JamnationApp.Droid.Resource.Drawable.ic_cast_white;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_close_dark = global::JamnationApp.Droid.Resource.Drawable.ic_close_dark;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_close_light = global::JamnationApp.Droid.Resource.Drawable.ic_close_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse = global::JamnationApp.Droid.Resource.Drawable.ic_collapse;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00000 = global::JamnationApp.Droid.Resource.Drawable.ic_collapse_00000;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00001 = global::JamnationApp.Droid.Resource.Drawable.ic_collapse_00001;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00002 = global::JamnationApp.Droid.Resource.Drawable.ic_collapse_00002;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00003 = global::JamnationApp.Droid.Resource.Drawable.ic_collapse_00003;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00004 = global::JamnationApp.Droid.Resource.Drawable.ic_collapse_00004;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00005 = global::JamnationApp.Droid.Resource.Drawable.ic_collapse_00005;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00006 = global::JamnationApp.Droid.Resource.Drawable.ic_collapse_00006;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00007 = global::JamnationApp.Droid.Resource.Drawable.ic_collapse_00007;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00008 = global::JamnationApp.Droid.Resource.Drawable.ic_collapse_00008;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00009 = global::JamnationApp.Droid.Resource.Drawable.ic_collapse_00009;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00010 = global::JamnationApp.Droid.Resource.Drawable.ic_collapse_00010;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00011 = global::JamnationApp.Droid.Resource.Drawable.ic_collapse_00011;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00012 = global::JamnationApp.Droid.Resource.Drawable.ic_collapse_00012;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00013 = global::JamnationApp.Droid.Resource.Drawable.ic_collapse_00013;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00014 = global::JamnationApp.Droid.Resource.Drawable.ic_collapse_00014;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_collapse_00015 = global::JamnationApp.Droid.Resource.Drawable.ic_collapse_00015;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand = global::JamnationApp.Droid.Resource.Drawable.ic_expand;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00000 = global::JamnationApp.Droid.Resource.Drawable.ic_expand_00000;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00001 = global::JamnationApp.Droid.Resource.Drawable.ic_expand_00001;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00002 = global::JamnationApp.Droid.Resource.Drawable.ic_expand_00002;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00003 = global::JamnationApp.Droid.Resource.Drawable.ic_expand_00003;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00004 = global::JamnationApp.Droid.Resource.Drawable.ic_expand_00004;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00005 = global::JamnationApp.Droid.Resource.Drawable.ic_expand_00005;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00006 = global::JamnationApp.Droid.Resource.Drawable.ic_expand_00006;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00007 = global::JamnationApp.Droid.Resource.Drawable.ic_expand_00007;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00008 = global::JamnationApp.Droid.Resource.Drawable.ic_expand_00008;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00009 = global::JamnationApp.Droid.Resource.Drawable.ic_expand_00009;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00010 = global::JamnationApp.Droid.Resource.Drawable.ic_expand_00010;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00011 = global::JamnationApp.Droid.Resource.Drawable.ic_expand_00011;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00012 = global::JamnationApp.Droid.Resource.Drawable.ic_expand_00012;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00013 = global::JamnationApp.Droid.Resource.Drawable.ic_expand_00013;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00014 = global::JamnationApp.Droid.Resource.Drawable.ic_expand_00014;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_expand_00015 = global::JamnationApp.Droid.Resource.Drawable.ic_expand_00015;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_media_pause = global::JamnationApp.Droid.Resource.Drawable.ic_media_pause;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_media_play = global::JamnationApp.Droid.Resource.Drawable.ic_media_play;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_media_route_disabled_mono_dark = global::JamnationApp.Droid.Resource.Drawable.ic_media_route_disabled_mono_dark;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_media_route_off_mono_dark = global::JamnationApp.Droid.Resource.Drawable.ic_media_route_off_mono_dark;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_media_route_on_0_mono_dark = global::JamnationApp.Droid.Resource.Drawable.ic_media_route_on_0_mono_dark;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_media_route_on_1_mono_dark = global::JamnationApp.Droid.Resource.Drawable.ic_media_route_on_1_mono_dark;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_media_route_on_2_mono_dark = global::JamnationApp.Droid.Resource.Drawable.ic_media_route_on_2_mono_dark;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_media_route_on_mono_dark = global::JamnationApp.Droid.Resource.Drawable.ic_media_route_on_mono_dark;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_pause_dark = global::JamnationApp.Droid.Resource.Drawable.ic_pause_dark;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_pause_light = global::JamnationApp.Droid.Resource.Drawable.ic_pause_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_play_dark = global::JamnationApp.Droid.Resource.Drawable.ic_play_dark;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_play_light = global::JamnationApp.Droid.Resource.Drawable.ic_play_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_speaker_dark = global::JamnationApp.Droid.Resource.Drawable.ic_speaker_dark;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_speaker_group_dark = global::JamnationApp.Droid.Resource.Drawable.ic_speaker_group_dark;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_speaker_group_light = global::JamnationApp.Droid.Resource.Drawable.ic_speaker_group_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_speaker_light = global::JamnationApp.Droid.Resource.Drawable.ic_speaker_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_tv_dark = global::JamnationApp.Droid.Resource.Drawable.ic_tv_dark;
+			global::XLabs.Forms.Droid.Resource.Drawable.ic_tv_light = global::JamnationApp.Droid.Resource.Drawable.ic_tv_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::JamnationApp.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::XLabs.Forms.Droid.Resource.Drawable.mr_dialog_material_background_light = global::JamnationApp.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.mr_ic_audiotrack_light = global::JamnationApp.Droid.Resource.Drawable.mr_ic_audiotrack_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.mr_ic_cast_dark = global::JamnationApp.Droid.Resource.Drawable.mr_ic_cast_dark;
+			global::XLabs.Forms.Droid.Resource.Drawable.mr_ic_cast_light = global::JamnationApp.Droid.Resource.Drawable.mr_ic_cast_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.mr_ic_close_dark = global::JamnationApp.Droid.Resource.Drawable.mr_ic_close_dark;
+			global::XLabs.Forms.Droid.Resource.Drawable.mr_ic_close_light = global::JamnationApp.Droid.Resource.Drawable.mr_ic_close_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_dark = global::JamnationApp.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_dark;
+			global::XLabs.Forms.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_light = global::JamnationApp.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.mr_ic_media_route_mono_dark = global::JamnationApp.Droid.Resource.Drawable.mr_ic_media_route_mono_dark;
+			global::XLabs.Forms.Droid.Resource.Drawable.mr_ic_media_route_mono_light = global::JamnationApp.Droid.Resource.Drawable.mr_ic_media_route_mono_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.mr_ic_pause_dark = global::JamnationApp.Droid.Resource.Drawable.mr_ic_pause_dark;
+			global::XLabs.Forms.Droid.Resource.Drawable.mr_ic_pause_light = global::JamnationApp.Droid.Resource.Drawable.mr_ic_pause_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.mr_ic_play_dark = global::JamnationApp.Droid.Resource.Drawable.mr_ic_play_dark;
+			global::XLabs.Forms.Droid.Resource.Drawable.mr_ic_play_light = global::JamnationApp.Droid.Resource.Drawable.mr_ic_play_light;
+			global::XLabs.Forms.Droid.Resource.Drawable.notification_template_icon_bg = global::JamnationApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::XLabs.Forms.Droid.Resource.Id.action0 = global::JamnationApp.Droid.Resource.Id.action0;
+			global::XLabs.Forms.Droid.Resource.Id.action_bar = global::JamnationApp.Droid.Resource.Id.action_bar;
+			global::XLabs.Forms.Droid.Resource.Id.action_bar_activity_content = global::JamnationApp.Droid.Resource.Id.action_bar_activity_content;
+			global::XLabs.Forms.Droid.Resource.Id.action_bar_container = global::JamnationApp.Droid.Resource.Id.action_bar_container;
+			global::XLabs.Forms.Droid.Resource.Id.action_bar_root = global::JamnationApp.Droid.Resource.Id.action_bar_root;
+			global::XLabs.Forms.Droid.Resource.Id.action_bar_spinner = global::JamnationApp.Droid.Resource.Id.action_bar_spinner;
+			global::XLabs.Forms.Droid.Resource.Id.action_bar_subtitle = global::JamnationApp.Droid.Resource.Id.action_bar_subtitle;
+			global::XLabs.Forms.Droid.Resource.Id.action_bar_title = global::JamnationApp.Droid.Resource.Id.action_bar_title;
+			global::XLabs.Forms.Droid.Resource.Id.action_context_bar = global::JamnationApp.Droid.Resource.Id.action_context_bar;
+			global::XLabs.Forms.Droid.Resource.Id.action_divider = global::JamnationApp.Droid.Resource.Id.action_divider;
+			global::XLabs.Forms.Droid.Resource.Id.action_menu_divider = global::JamnationApp.Droid.Resource.Id.action_menu_divider;
+			global::XLabs.Forms.Droid.Resource.Id.action_menu_presenter = global::JamnationApp.Droid.Resource.Id.action_menu_presenter;
+			global::XLabs.Forms.Droid.Resource.Id.action_mode_bar = global::JamnationApp.Droid.Resource.Id.action_mode_bar;
+			global::XLabs.Forms.Droid.Resource.Id.action_mode_bar_stub = global::JamnationApp.Droid.Resource.Id.action_mode_bar_stub;
+			global::XLabs.Forms.Droid.Resource.Id.action_mode_close_button = global::JamnationApp.Droid.Resource.Id.action_mode_close_button;
+			global::XLabs.Forms.Droid.Resource.Id.activity_chooser_view_content = global::JamnationApp.Droid.Resource.Id.activity_chooser_view_content;
+			global::XLabs.Forms.Droid.Resource.Id.alertTitle = global::JamnationApp.Droid.Resource.Id.alertTitle;
+			global::XLabs.Forms.Droid.Resource.Id.always = global::JamnationApp.Droid.Resource.Id.always;
+			global::XLabs.Forms.Droid.Resource.Id.beginning = global::JamnationApp.Droid.Resource.Id.beginning;
+			global::XLabs.Forms.Droid.Resource.Id.bottom = global::JamnationApp.Droid.Resource.Id.bottom;
+			global::XLabs.Forms.Droid.Resource.Id.buttonPanel = global::JamnationApp.Droid.Resource.Id.buttonPanel;
+			global::XLabs.Forms.Droid.Resource.Id.calendar_grid = global::JamnationApp.Droid.Resource.Id.calendar_grid;
+			global::XLabs.Forms.Droid.Resource.Id.calendar_view = global::JamnationApp.Droid.Resource.Id.calendar_view;
+			global::XLabs.Forms.Droid.Resource.Id.calendarr_pager = global::JamnationApp.Droid.Resource.Id.calendarr_pager;
+			global::XLabs.Forms.Droid.Resource.Id.cancel_action = global::JamnationApp.Droid.Resource.Id.cancel_action;
+			global::XLabs.Forms.Droid.Resource.Id.center = global::JamnationApp.Droid.Resource.Id.center;
+			global::XLabs.Forms.Droid.Resource.Id.center_horizontal = global::JamnationApp.Droid.Resource.Id.center_horizontal;
+			global::XLabs.Forms.Droid.Resource.Id.center_vertical = global::JamnationApp.Droid.Resource.Id.center_vertical;
+			global::XLabs.Forms.Droid.Resource.Id.checkbox = global::JamnationApp.Droid.Resource.Id.checkbox;
+			global::XLabs.Forms.Droid.Resource.Id.chronometer = global::JamnationApp.Droid.Resource.Id.chronometer;
+			global::XLabs.Forms.Droid.Resource.Id.clip_horizontal = global::JamnationApp.Droid.Resource.Id.clip_horizontal;
+			global::XLabs.Forms.Droid.Resource.Id.clip_vertical = global::JamnationApp.Droid.Resource.Id.clip_vertical;
+			global::XLabs.Forms.Droid.Resource.Id.collapseActionView = global::JamnationApp.Droid.Resource.Id.collapseActionView;
+			global::XLabs.Forms.Droid.Resource.Id.contentPanel = global::JamnationApp.Droid.Resource.Id.contentPanel;
+			global::XLabs.Forms.Droid.Resource.Id.custom = global::JamnationApp.Droid.Resource.Id.custom;
+			global::XLabs.Forms.Droid.Resource.Id.customPanel = global::JamnationApp.Droid.Resource.Id.customPanel;
+			global::XLabs.Forms.Droid.Resource.Id.decor_content_parent = global::JamnationApp.Droid.Resource.Id.decor_content_parent;
+			global::XLabs.Forms.Droid.Resource.Id.default_activity_button = global::JamnationApp.Droid.Resource.Id.default_activity_button;
+			global::XLabs.Forms.Droid.Resource.Id.design_bottom_sheet = global::JamnationApp.Droid.Resource.Id.design_bottom_sheet;
+			global::XLabs.Forms.Droid.Resource.Id.design_menu_item_action_area = global::JamnationApp.Droid.Resource.Id.design_menu_item_action_area;
+			global::XLabs.Forms.Droid.Resource.Id.design_menu_item_action_area_stub = global::JamnationApp.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::XLabs.Forms.Droid.Resource.Id.design_menu_item_text = global::JamnationApp.Droid.Resource.Id.design_menu_item_text;
+			global::XLabs.Forms.Droid.Resource.Id.design_navigation_view = global::JamnationApp.Droid.Resource.Id.design_navigation_view;
+			global::XLabs.Forms.Droid.Resource.Id.disableHome = global::JamnationApp.Droid.Resource.Id.disableHome;
+			global::XLabs.Forms.Droid.Resource.Id.edit_query = global::JamnationApp.Droid.Resource.Id.edit_query;
+			global::XLabs.Forms.Droid.Resource.Id.end = global::JamnationApp.Droid.Resource.Id.end;
+			global::XLabs.Forms.Droid.Resource.Id.end_padder = global::JamnationApp.Droid.Resource.Id.end_padder;
+			global::XLabs.Forms.Droid.Resource.Id.enterAlways = global::JamnationApp.Droid.Resource.Id.enterAlways;
+			global::XLabs.Forms.Droid.Resource.Id.enterAlwaysCollapsed = global::JamnationApp.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::XLabs.Forms.Droid.Resource.Id.exitUntilCollapsed = global::JamnationApp.Droid.Resource.Id.exitUntilCollapsed;
+			global::XLabs.Forms.Droid.Resource.Id.expand_activities_button = global::JamnationApp.Droid.Resource.Id.expand_activities_button;
+			global::XLabs.Forms.Droid.Resource.Id.expanded_menu = global::JamnationApp.Droid.Resource.Id.expanded_menu;
+			global::XLabs.Forms.Droid.Resource.Id.fill = global::JamnationApp.Droid.Resource.Id.fill;
+			global::XLabs.Forms.Droid.Resource.Id.fill_horizontal = global::JamnationApp.Droid.Resource.Id.fill_horizontal;
+			global::XLabs.Forms.Droid.Resource.Id.fill_vertical = global::JamnationApp.Droid.Resource.Id.fill_vertical;
+			global::XLabs.Forms.Droid.Resource.Id.@fixed = global::JamnationApp.Droid.Resource.Id.@fixed;
+			global::XLabs.Forms.Droid.Resource.Id.home = global::JamnationApp.Droid.Resource.Id.home;
+			global::XLabs.Forms.Droid.Resource.Id.homeAsUp = global::JamnationApp.Droid.Resource.Id.homeAsUp;
+			global::XLabs.Forms.Droid.Resource.Id.icon = global::JamnationApp.Droid.Resource.Id.icon;
+			global::XLabs.Forms.Droid.Resource.Id.ifRoom = global::JamnationApp.Droid.Resource.Id.ifRoom;
+			global::XLabs.Forms.Droid.Resource.Id.image = global::JamnationApp.Droid.Resource.Id.image;
+			global::XLabs.Forms.Droid.Resource.Id.info = global::JamnationApp.Droid.Resource.Id.info;
+			global::XLabs.Forms.Droid.Resource.Id.item_touch_helper_previous_elevation = global::JamnationApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::XLabs.Forms.Droid.Resource.Id.left = global::JamnationApp.Droid.Resource.Id.left;
+			global::XLabs.Forms.Droid.Resource.Id.left_arrow = global::JamnationApp.Droid.Resource.Id.left_arrow;
+			global::XLabs.Forms.Droid.Resource.Id.line1 = global::JamnationApp.Droid.Resource.Id.line1;
+			global::XLabs.Forms.Droid.Resource.Id.line3 = global::JamnationApp.Droid.Resource.Id.line3;
+			global::XLabs.Forms.Droid.Resource.Id.listMode = global::JamnationApp.Droid.Resource.Id.listMode;
+			global::XLabs.Forms.Droid.Resource.Id.list_item = global::JamnationApp.Droid.Resource.Id.list_item;
+			global::XLabs.Forms.Droid.Resource.Id.media_actions = global::JamnationApp.Droid.Resource.Id.media_actions;
+			global::XLabs.Forms.Droid.Resource.Id.middle = global::JamnationApp.Droid.Resource.Id.middle;
+			global::XLabs.Forms.Droid.Resource.Id.mini = global::JamnationApp.Droid.Resource.Id.mini;
+			global::XLabs.Forms.Droid.Resource.Id.mr_art = global::JamnationApp.Droid.Resource.Id.mr_art;
+			global::XLabs.Forms.Droid.Resource.Id.mr_chooser_list = global::JamnationApp.Droid.Resource.Id.mr_chooser_list;
+			global::XLabs.Forms.Droid.Resource.Id.mr_chooser_route_desc = global::JamnationApp.Droid.Resource.Id.mr_chooser_route_desc;
+			global::XLabs.Forms.Droid.Resource.Id.mr_chooser_route_icon = global::JamnationApp.Droid.Resource.Id.mr_chooser_route_icon;
+			global::XLabs.Forms.Droid.Resource.Id.mr_chooser_route_name = global::JamnationApp.Droid.Resource.Id.mr_chooser_route_name;
+			global::XLabs.Forms.Droid.Resource.Id.mr_close = global::JamnationApp.Droid.Resource.Id.mr_close;
+			global::XLabs.Forms.Droid.Resource.Id.mr_control_divider = global::JamnationApp.Droid.Resource.Id.mr_control_divider;
+			global::XLabs.Forms.Droid.Resource.Id.mr_control_play_pause = global::JamnationApp.Droid.Resource.Id.mr_control_play_pause;
+			global::XLabs.Forms.Droid.Resource.Id.mr_control_subtitle = global::JamnationApp.Droid.Resource.Id.mr_control_subtitle;
+			global::XLabs.Forms.Droid.Resource.Id.mr_control_title = global::JamnationApp.Droid.Resource.Id.mr_control_title;
+			global::XLabs.Forms.Droid.Resource.Id.mr_control_title_container = global::JamnationApp.Droid.Resource.Id.mr_control_title_container;
+			global::XLabs.Forms.Droid.Resource.Id.mr_custom_control = global::JamnationApp.Droid.Resource.Id.mr_custom_control;
+			global::XLabs.Forms.Droid.Resource.Id.mr_default_control = global::JamnationApp.Droid.Resource.Id.mr_default_control;
+			global::XLabs.Forms.Droid.Resource.Id.mr_dialog_area = global::JamnationApp.Droid.Resource.Id.mr_dialog_area;
+			global::XLabs.Forms.Droid.Resource.Id.mr_expandable_area = global::JamnationApp.Droid.Resource.Id.mr_expandable_area;
+			global::XLabs.Forms.Droid.Resource.Id.mr_group_expand_collapse = global::JamnationApp.Droid.Resource.Id.mr_group_expand_collapse;
+			global::XLabs.Forms.Droid.Resource.Id.mr_media_main_control = global::JamnationApp.Droid.Resource.Id.mr_media_main_control;
+			global::XLabs.Forms.Droid.Resource.Id.mr_name = global::JamnationApp.Droid.Resource.Id.mr_name;
+			global::XLabs.Forms.Droid.Resource.Id.mr_playback_control = global::JamnationApp.Droid.Resource.Id.mr_playback_control;
+			global::XLabs.Forms.Droid.Resource.Id.mr_title_bar = global::JamnationApp.Droid.Resource.Id.mr_title_bar;
+			global::XLabs.Forms.Droid.Resource.Id.mr_volume_control = global::JamnationApp.Droid.Resource.Id.mr_volume_control;
+			global::XLabs.Forms.Droid.Resource.Id.mr_volume_group_list = global::JamnationApp.Droid.Resource.Id.mr_volume_group_list;
+			global::XLabs.Forms.Droid.Resource.Id.mr_volume_item_icon = global::JamnationApp.Droid.Resource.Id.mr_volume_item_icon;
+			global::XLabs.Forms.Droid.Resource.Id.mr_volume_slider = global::JamnationApp.Droid.Resource.Id.mr_volume_slider;
+			global::XLabs.Forms.Droid.Resource.Id.multiply = global::JamnationApp.Droid.Resource.Id.multiply;
+			global::XLabs.Forms.Droid.Resource.Id.navigation_header_container = global::JamnationApp.Droid.Resource.Id.navigation_header_container;
+			global::XLabs.Forms.Droid.Resource.Id.never = global::JamnationApp.Droid.Resource.Id.never;
+			global::XLabs.Forms.Droid.Resource.Id.none = global::JamnationApp.Droid.Resource.Id.none;
+			global::XLabs.Forms.Droid.Resource.Id.normal = global::JamnationApp.Droid.Resource.Id.normal;
+			global::XLabs.Forms.Droid.Resource.Id.parallax = global::JamnationApp.Droid.Resource.Id.parallax;
+			global::XLabs.Forms.Droid.Resource.Id.parentPanel = global::JamnationApp.Droid.Resource.Id.parentPanel;
+			global::XLabs.Forms.Droid.Resource.Id.pin = global::JamnationApp.Droid.Resource.Id.pin;
+			global::XLabs.Forms.Droid.Resource.Id.progress_circular = global::JamnationApp.Droid.Resource.Id.progress_circular;
+			global::XLabs.Forms.Droid.Resource.Id.progress_horizontal = global::JamnationApp.Droid.Resource.Id.progress_horizontal;
+			global::XLabs.Forms.Droid.Resource.Id.radio = global::JamnationApp.Droid.Resource.Id.radio;
+			global::XLabs.Forms.Droid.Resource.Id.right = global::JamnationApp.Droid.Resource.Id.right;
+			global::XLabs.Forms.Droid.Resource.Id.right_arrow = global::JamnationApp.Droid.Resource.Id.right_arrow;
+			global::XLabs.Forms.Droid.Resource.Id.screen = global::JamnationApp.Droid.Resource.Id.screen;
+			global::XLabs.Forms.Droid.Resource.Id.scroll = global::JamnationApp.Droid.Resource.Id.scroll;
+			global::XLabs.Forms.Droid.Resource.Id.scrollIndicatorDown = global::JamnationApp.Droid.Resource.Id.scrollIndicatorDown;
+			global::XLabs.Forms.Droid.Resource.Id.scrollIndicatorUp = global::JamnationApp.Droid.Resource.Id.scrollIndicatorUp;
+			global::XLabs.Forms.Droid.Resource.Id.scrollView = global::JamnationApp.Droid.Resource.Id.scrollView;
+			global::XLabs.Forms.Droid.Resource.Id.scrollable = global::JamnationApp.Droid.Resource.Id.scrollable;
+			global::XLabs.Forms.Droid.Resource.Id.search_badge = global::JamnationApp.Droid.Resource.Id.search_badge;
+			global::XLabs.Forms.Droid.Resource.Id.search_bar = global::JamnationApp.Droid.Resource.Id.search_bar;
+			global::XLabs.Forms.Droid.Resource.Id.search_button = global::JamnationApp.Droid.Resource.Id.search_button;
+			global::XLabs.Forms.Droid.Resource.Id.search_close_btn = global::JamnationApp.Droid.Resource.Id.search_close_btn;
+			global::XLabs.Forms.Droid.Resource.Id.search_edit_frame = global::JamnationApp.Droid.Resource.Id.search_edit_frame;
+			global::XLabs.Forms.Droid.Resource.Id.search_go_btn = global::JamnationApp.Droid.Resource.Id.search_go_btn;
+			global::XLabs.Forms.Droid.Resource.Id.search_mag_icon = global::JamnationApp.Droid.Resource.Id.search_mag_icon;
+			global::XLabs.Forms.Droid.Resource.Id.search_plate = global::JamnationApp.Droid.Resource.Id.search_plate;
+			global::XLabs.Forms.Droid.Resource.Id.search_src_text = global::JamnationApp.Droid.Resource.Id.search_src_text;
+			global::XLabs.Forms.Droid.Resource.Id.search_voice_btn = global::JamnationApp.Droid.Resource.Id.search_voice_btn;
+			global::XLabs.Forms.Droid.Resource.Id.select_dialog_listview = global::JamnationApp.Droid.Resource.Id.select_dialog_listview;
+			global::XLabs.Forms.Droid.Resource.Id.shortcut = global::JamnationApp.Droid.Resource.Id.shortcut;
+			global::XLabs.Forms.Droid.Resource.Id.showCustom = global::JamnationApp.Droid.Resource.Id.showCustom;
+			global::XLabs.Forms.Droid.Resource.Id.showHome = global::JamnationApp.Droid.Resource.Id.showHome;
+			global::XLabs.Forms.Droid.Resource.Id.showTitle = global::JamnationApp.Droid.Resource.Id.showTitle;
+			global::XLabs.Forms.Droid.Resource.Id.snackbar_action = global::JamnationApp.Droid.Resource.Id.snackbar_action;
+			global::XLabs.Forms.Droid.Resource.Id.snackbar_text = global::JamnationApp.Droid.Resource.Id.snackbar_text;
+			global::XLabs.Forms.Droid.Resource.Id.snap = global::JamnationApp.Droid.Resource.Id.snap;
+			global::XLabs.Forms.Droid.Resource.Id.spacer = global::JamnationApp.Droid.Resource.Id.spacer;
+			global::XLabs.Forms.Droid.Resource.Id.split_action_bar = global::JamnationApp.Droid.Resource.Id.split_action_bar;
+			global::XLabs.Forms.Droid.Resource.Id.src_atop = global::JamnationApp.Droid.Resource.Id.src_atop;
+			global::XLabs.Forms.Droid.Resource.Id.src_in = global::JamnationApp.Droid.Resource.Id.src_in;
+			global::XLabs.Forms.Droid.Resource.Id.src_over = global::JamnationApp.Droid.Resource.Id.src_over;
+			global::XLabs.Forms.Droid.Resource.Id.start = global::JamnationApp.Droid.Resource.Id.start;
+			global::XLabs.Forms.Droid.Resource.Id.status_bar_latest_event_content = global::JamnationApp.Droid.Resource.Id.status_bar_latest_event_content;
+			global::XLabs.Forms.Droid.Resource.Id.submit_area = global::JamnationApp.Droid.Resource.Id.submit_area;
+			global::XLabs.Forms.Droid.Resource.Id.tabMode = global::JamnationApp.Droid.Resource.Id.tabMode;
+			global::XLabs.Forms.Droid.Resource.Id.text = global::JamnationApp.Droid.Resource.Id.text;
+			global::XLabs.Forms.Droid.Resource.Id.text2 = global::JamnationApp.Droid.Resource.Id.text2;
+			global::XLabs.Forms.Droid.Resource.Id.textSpacerNoButtons = global::JamnationApp.Droid.Resource.Id.textSpacerNoButtons;
+			global::XLabs.Forms.Droid.Resource.Id.time = global::JamnationApp.Droid.Resource.Id.time;
+			global::XLabs.Forms.Droid.Resource.Id.title = global::JamnationApp.Droid.Resource.Id.title;
+			global::XLabs.Forms.Droid.Resource.Id.title_template = global::JamnationApp.Droid.Resource.Id.title_template;
+			global::XLabs.Forms.Droid.Resource.Id.top = global::JamnationApp.Droid.Resource.Id.top;
+			global::XLabs.Forms.Droid.Resource.Id.topPanel = global::JamnationApp.Droid.Resource.Id.topPanel;
+			global::XLabs.Forms.Droid.Resource.Id.touch_outside = global::JamnationApp.Droid.Resource.Id.touch_outside;
+			global::XLabs.Forms.Droid.Resource.Id.up = global::JamnationApp.Droid.Resource.Id.up;
+			global::XLabs.Forms.Droid.Resource.Id.useLogo = global::JamnationApp.Droid.Resource.Id.useLogo;
+			global::XLabs.Forms.Droid.Resource.Id.view_offset_helper = global::JamnationApp.Droid.Resource.Id.view_offset_helper;
+			global::XLabs.Forms.Droid.Resource.Id.volume_item_container = global::JamnationApp.Droid.Resource.Id.volume_item_container;
+			global::XLabs.Forms.Droid.Resource.Id.withText = global::JamnationApp.Droid.Resource.Id.withText;
+			global::XLabs.Forms.Droid.Resource.Id.wrap_content = global::JamnationApp.Droid.Resource.Id.wrap_content;
+			global::XLabs.Forms.Droid.Resource.Integer.abc_config_activityDefaultDur = global::JamnationApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::XLabs.Forms.Droid.Resource.Integer.abc_config_activityShortDur = global::JamnationApp.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::XLabs.Forms.Droid.Resource.Integer.abc_max_action_buttons = global::JamnationApp.Droid.Resource.Integer.abc_max_action_buttons;
+			global::XLabs.Forms.Droid.Resource.Integer.bottom_sheet_slide_duration = global::JamnationApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::XLabs.Forms.Droid.Resource.Integer.cancel_button_image_alpha = global::JamnationApp.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::XLabs.Forms.Droid.Resource.Integer.design_snackbar_text_max_lines = global::JamnationApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::XLabs.Forms.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::JamnationApp.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::XLabs.Forms.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::JamnationApp.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::XLabs.Forms.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::JamnationApp.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::XLabs.Forms.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::JamnationApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::XLabs.Forms.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::JamnationApp.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::XLabs.Forms.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::JamnationApp.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::XLabs.Forms.Droid.Resource.Layout.abc_action_bar_title_item = global::JamnationApp.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::XLabs.Forms.Droid.Resource.Layout.abc_action_bar_up_container = global::JamnationApp.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::XLabs.Forms.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout = global::JamnationApp.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::XLabs.Forms.Droid.Resource.Layout.abc_action_menu_item_layout = global::JamnationApp.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::XLabs.Forms.Droid.Resource.Layout.abc_action_menu_layout = global::JamnationApp.Droid.Resource.Layout.abc_action_menu_layout;
+			global::XLabs.Forms.Droid.Resource.Layout.abc_action_mode_bar = global::JamnationApp.Droid.Resource.Layout.abc_action_mode_bar;
+			global::XLabs.Forms.Droid.Resource.Layout.abc_action_mode_close_item_material = global::JamnationApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::XLabs.Forms.Droid.Resource.Layout.abc_activity_chooser_view = global::JamnationApp.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::XLabs.Forms.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::JamnationApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::XLabs.Forms.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::JamnationApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::XLabs.Forms.Droid.Resource.Layout.abc_alert_dialog_material = global::JamnationApp.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::XLabs.Forms.Droid.Resource.Layout.abc_dialog_title_material = global::JamnationApp.Droid.Resource.Layout.abc_dialog_title_material;
+			global::XLabs.Forms.Droid.Resource.Layout.abc_expanded_menu_layout = global::JamnationApp.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::XLabs.Forms.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::JamnationApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::XLabs.Forms.Droid.Resource.Layout.abc_list_menu_item_icon = global::JamnationApp.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::XLabs.Forms.Droid.Resource.Layout.abc_list_menu_item_layout = global::JamnationApp.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::XLabs.Forms.Droid.Resource.Layout.abc_list_menu_item_radio = global::JamnationApp.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::XLabs.Forms.Droid.Resource.Layout.abc_popup_menu_item_layout = global::JamnationApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::XLabs.Forms.Droid.Resource.Layout.abc_screen_content_include = global::JamnationApp.Droid.Resource.Layout.abc_screen_content_include;
+			global::XLabs.Forms.Droid.Resource.Layout.abc_screen_simple = global::JamnationApp.Droid.Resource.Layout.abc_screen_simple;
+			global::XLabs.Forms.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::JamnationApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::XLabs.Forms.Droid.Resource.Layout.abc_screen_toolbar = global::JamnationApp.Droid.Resource.Layout.abc_screen_toolbar;
+			global::XLabs.Forms.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::JamnationApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::XLabs.Forms.Droid.Resource.Layout.abc_search_view = global::JamnationApp.Droid.Resource.Layout.abc_search_view;
+			global::XLabs.Forms.Droid.Resource.Layout.abc_select_dialog_material = global::JamnationApp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::XLabs.Forms.Droid.Resource.Layout.calendar_pager = global::JamnationApp.Droid.Resource.Layout.calendar_pager;
+			global::XLabs.Forms.Droid.Resource.Layout.calendar_pager_layout = global::JamnationApp.Droid.Resource.Layout.calendar_pager_layout;
+			global::XLabs.Forms.Droid.Resource.Layout.calendar_picker = global::JamnationApp.Droid.Resource.Layout.calendar_picker;
+			global::XLabs.Forms.Droid.Resource.Layout.design_bottom_sheet_dialog = global::JamnationApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::XLabs.Forms.Droid.Resource.Layout.design_layout_snackbar = global::JamnationApp.Droid.Resource.Layout.design_layout_snackbar;
+			global::XLabs.Forms.Droid.Resource.Layout.design_layout_snackbar_include = global::JamnationApp.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::XLabs.Forms.Droid.Resource.Layout.design_layout_tab_icon = global::JamnationApp.Droid.Resource.Layout.design_layout_tab_icon;
+			global::XLabs.Forms.Droid.Resource.Layout.design_layout_tab_text = global::JamnationApp.Droid.Resource.Layout.design_layout_tab_text;
+			global::XLabs.Forms.Droid.Resource.Layout.design_menu_item_action_area = global::JamnationApp.Droid.Resource.Layout.design_menu_item_action_area;
+			global::XLabs.Forms.Droid.Resource.Layout.design_navigation_item = global::JamnationApp.Droid.Resource.Layout.design_navigation_item;
+			global::XLabs.Forms.Droid.Resource.Layout.design_navigation_item_header = global::JamnationApp.Droid.Resource.Layout.design_navigation_item_header;
+			global::XLabs.Forms.Droid.Resource.Layout.design_navigation_item_separator = global::JamnationApp.Droid.Resource.Layout.design_navigation_item_separator;
+			global::XLabs.Forms.Droid.Resource.Layout.design_navigation_item_subheader = global::JamnationApp.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::XLabs.Forms.Droid.Resource.Layout.design_navigation_menu = global::JamnationApp.Droid.Resource.Layout.design_navigation_menu;
+			global::XLabs.Forms.Droid.Resource.Layout.design_navigation_menu_item = global::JamnationApp.Droid.Resource.Layout.design_navigation_menu_item;
+			global::XLabs.Forms.Droid.Resource.Layout.dialog = global::JamnationApp.Droid.Resource.Layout.dialog;
+			global::XLabs.Forms.Droid.Resource.Layout.month = global::JamnationApp.Droid.Resource.Layout.month;
+			global::XLabs.Forms.Droid.Resource.Layout.mr_chooser_dialog = global::JamnationApp.Droid.Resource.Layout.mr_chooser_dialog;
+			global::XLabs.Forms.Droid.Resource.Layout.mr_chooser_list_item = global::JamnationApp.Droid.Resource.Layout.mr_chooser_list_item;
+			global::XLabs.Forms.Droid.Resource.Layout.mr_controller_material_dialog_b = global::JamnationApp.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::XLabs.Forms.Droid.Resource.Layout.mr_controller_volume_item = global::JamnationApp.Droid.Resource.Layout.mr_controller_volume_item;
+			global::XLabs.Forms.Droid.Resource.Layout.mr_playback_control = global::JamnationApp.Droid.Resource.Layout.mr_playback_control;
+			global::XLabs.Forms.Droid.Resource.Layout.mr_volume_control = global::JamnationApp.Droid.Resource.Layout.mr_volume_control;
+			global::XLabs.Forms.Droid.Resource.Layout.notification_media_action = global::JamnationApp.Droid.Resource.Layout.notification_media_action;
+			global::XLabs.Forms.Droid.Resource.Layout.notification_media_cancel_action = global::JamnationApp.Droid.Resource.Layout.notification_media_cancel_action;
+			global::XLabs.Forms.Droid.Resource.Layout.notification_template_big_media = global::JamnationApp.Droid.Resource.Layout.notification_template_big_media;
+			global::XLabs.Forms.Droid.Resource.Layout.notification_template_big_media_narrow = global::JamnationApp.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::XLabs.Forms.Droid.Resource.Layout.notification_template_lines = global::JamnationApp.Droid.Resource.Layout.notification_template_lines;
+			global::XLabs.Forms.Droid.Resource.Layout.notification_template_media = global::JamnationApp.Droid.Resource.Layout.notification_template_media;
+			global::XLabs.Forms.Droid.Resource.Layout.notification_template_part_chronometer = global::JamnationApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::XLabs.Forms.Droid.Resource.Layout.notification_template_part_time = global::JamnationApp.Droid.Resource.Layout.notification_template_part_time;
+			global::XLabs.Forms.Droid.Resource.Layout.select_dialog_item_material = global::JamnationApp.Droid.Resource.Layout.select_dialog_item_material;
+			global::XLabs.Forms.Droid.Resource.Layout.select_dialog_multichoice_material = global::JamnationApp.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::XLabs.Forms.Droid.Resource.Layout.select_dialog_singlechoice_material = global::JamnationApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::XLabs.Forms.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::JamnationApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::XLabs.Forms.Droid.Resource.Layout.week = global::JamnationApp.Droid.Resource.Layout.week;
+			global::XLabs.Forms.Droid.Resource.String.ApplicationName = global::JamnationApp.Droid.Resource.String.ApplicationName;
+			global::XLabs.Forms.Droid.Resource.String.Hello = global::JamnationApp.Droid.Resource.String.Hello;
+			global::XLabs.Forms.Droid.Resource.String.abc_action_bar_home_description = global::JamnationApp.Droid.Resource.String.abc_action_bar_home_description;
+			global::XLabs.Forms.Droid.Resource.String.abc_action_bar_home_description_format = global::JamnationApp.Droid.Resource.String.abc_action_bar_home_description_format;
+			global::XLabs.Forms.Droid.Resource.String.abc_action_bar_home_subtitle_description_format = global::JamnationApp.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::XLabs.Forms.Droid.Resource.String.abc_action_bar_up_description = global::JamnationApp.Droid.Resource.String.abc_action_bar_up_description;
+			global::XLabs.Forms.Droid.Resource.String.abc_action_menu_overflow_description = global::JamnationApp.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::XLabs.Forms.Droid.Resource.String.abc_action_mode_done = global::JamnationApp.Droid.Resource.String.abc_action_mode_done;
+			global::XLabs.Forms.Droid.Resource.String.abc_activity_chooser_view_see_all = global::JamnationApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::XLabs.Forms.Droid.Resource.String.abc_activitychooserview_choose_application = global::JamnationApp.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::XLabs.Forms.Droid.Resource.String.abc_capital_off = global::JamnationApp.Droid.Resource.String.abc_capital_off;
+			global::XLabs.Forms.Droid.Resource.String.abc_capital_on = global::JamnationApp.Droid.Resource.String.abc_capital_on;
+			global::XLabs.Forms.Droid.Resource.String.abc_search_hint = global::JamnationApp.Droid.Resource.String.abc_search_hint;
+			global::XLabs.Forms.Droid.Resource.String.abc_searchview_description_clear = global::JamnationApp.Droid.Resource.String.abc_searchview_description_clear;
+			global::XLabs.Forms.Droid.Resource.String.abc_searchview_description_query = global::JamnationApp.Droid.Resource.String.abc_searchview_description_query;
+			global::XLabs.Forms.Droid.Resource.String.abc_searchview_description_search = global::JamnationApp.Droid.Resource.String.abc_searchview_description_search;
+			global::XLabs.Forms.Droid.Resource.String.abc_searchview_description_submit = global::JamnationApp.Droid.Resource.String.abc_searchview_description_submit;
+			global::XLabs.Forms.Droid.Resource.String.abc_searchview_description_voice = global::JamnationApp.Droid.Resource.String.abc_searchview_description_voice;
+			global::XLabs.Forms.Droid.Resource.String.abc_shareactionprovider_share_with = global::JamnationApp.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::XLabs.Forms.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::JamnationApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::XLabs.Forms.Droid.Resource.String.abc_toolbar_collapse_description = global::JamnationApp.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::XLabs.Forms.Droid.Resource.String.appbar_scrolling_view_behavior = global::JamnationApp.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::XLabs.Forms.Droid.Resource.String.bottom_sheet_behavior = global::JamnationApp.Droid.Resource.String.bottom_sheet_behavior;
+			global::XLabs.Forms.Droid.Resource.String.character_counter_pattern = global::JamnationApp.Droid.Resource.String.character_counter_pattern;
+			global::XLabs.Forms.Droid.Resource.String.day_name_format = global::JamnationApp.Droid.Resource.String.day_name_format;
+			global::XLabs.Forms.Droid.Resource.String.full_date_format = global::JamnationApp.Droid.Resource.String.full_date_format;
+			global::XLabs.Forms.Droid.Resource.String.invalid_date = global::JamnationApp.Droid.Resource.String.invalid_date;
+			global::XLabs.Forms.Droid.Resource.String.library_name = global::JamnationApp.Droid.Resource.String.library_name;
+			global::XLabs.Forms.Droid.Resource.String.month_name_format = global::JamnationApp.Droid.Resource.String.month_name_format;
+			global::XLabs.Forms.Droid.Resource.String.mr_button_content_description = global::JamnationApp.Droid.Resource.String.mr_button_content_description;
+			global::XLabs.Forms.Droid.Resource.String.mr_chooser_searching = global::JamnationApp.Droid.Resource.String.mr_chooser_searching;
+			global::XLabs.Forms.Droid.Resource.String.mr_chooser_title = global::JamnationApp.Droid.Resource.String.mr_chooser_title;
+			global::XLabs.Forms.Droid.Resource.String.mr_controller_casting_screen = global::JamnationApp.Droid.Resource.String.mr_controller_casting_screen;
+			global::XLabs.Forms.Droid.Resource.String.mr_controller_close_description = global::JamnationApp.Droid.Resource.String.mr_controller_close_description;
+			global::XLabs.Forms.Droid.Resource.String.mr_controller_collapse_group = global::JamnationApp.Droid.Resource.String.mr_controller_collapse_group;
+			global::XLabs.Forms.Droid.Resource.String.mr_controller_disconnect = global::JamnationApp.Droid.Resource.String.mr_controller_disconnect;
+			global::XLabs.Forms.Droid.Resource.String.mr_controller_expand_group = global::JamnationApp.Droid.Resource.String.mr_controller_expand_group;
+			global::XLabs.Forms.Droid.Resource.String.mr_controller_no_info_available = global::JamnationApp.Droid.Resource.String.mr_controller_no_info_available;
+			global::XLabs.Forms.Droid.Resource.String.mr_controller_no_media_selected = global::JamnationApp.Droid.Resource.String.mr_controller_no_media_selected;
+			global::XLabs.Forms.Droid.Resource.String.mr_controller_pause = global::JamnationApp.Droid.Resource.String.mr_controller_pause;
+			global::XLabs.Forms.Droid.Resource.String.mr_controller_play = global::JamnationApp.Droid.Resource.String.mr_controller_play;
+			global::XLabs.Forms.Droid.Resource.String.mr_controller_stop = global::JamnationApp.Droid.Resource.String.mr_controller_stop;
+			global::XLabs.Forms.Droid.Resource.String.mr_system_route_name = global::JamnationApp.Droid.Resource.String.mr_system_route_name;
+			global::XLabs.Forms.Droid.Resource.String.mr_user_route_category_name = global::JamnationApp.Droid.Resource.String.mr_user_route_category_name;
+			global::XLabs.Forms.Droid.Resource.String.status_bar_notification_info_overflow = global::JamnationApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::XLabs.Forms.Droid.Resource.Style.AlertDialog_AppCompat = global::JamnationApp.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::XLabs.Forms.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::JamnationApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::XLabs.Forms.Droid.Resource.Style.Animation_AppCompat_Dialog = global::JamnationApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::XLabs.Forms.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::JamnationApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::XLabs.Forms.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::JamnationApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::XLabs.Forms.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::JamnationApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::XLabs.Forms.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::JamnationApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::JamnationApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::JamnationApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::XLabs.Forms.Droid.Resource.Style.Base_CardView = global::JamnationApp.Droid.Resource.Style.Base_CardView;
+			global::XLabs.Forms.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::JamnationApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::XLabs.Forms.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::JamnationApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::XLabs.Forms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::JamnationApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat = global::JamnationApp.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::JamnationApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::JamnationApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::JamnationApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::JamnationApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::JamnationApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::JamnationApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::JamnationApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::JamnationApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::JamnationApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::JamnationApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::JamnationApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::JamnationApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::JamnationApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::XLabs.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::JamnationApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::XLabs.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::JamnationApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::XLabs.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::JamnationApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::XLabs.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::JamnationApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::XLabs.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::JamnationApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::XLabs.Forms.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::JamnationApp.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::XLabs.Forms.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::JamnationApp.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::XLabs.Forms.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::JamnationApp.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::XLabs.Forms.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::JamnationApp.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::XLabs.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::JamnationApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::XLabs.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::JamnationApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::XLabs.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::JamnationApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::XLabs.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::JamnationApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::XLabs.Forms.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::JamnationApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::XLabs.Forms.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::JamnationApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::XLabs.Forms.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::JamnationApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::XLabs.Forms.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::JamnationApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::XLabs.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::JamnationApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::XLabs.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::JamnationApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::XLabs.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::JamnationApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::XLabs.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::JamnationApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::XLabs.Forms.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::JamnationApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::XLabs.Forms.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::JamnationApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::JamnationApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::XLabs.Forms.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::JamnationApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::XLabs.Forms.Droid.Resource.Style.CalendarCell = global::JamnationApp.Droid.Resource.Style.CalendarCell;
+			global::XLabs.Forms.Droid.Resource.Style.CalendarCell_CalendarDate = global::JamnationApp.Droid.Resource.Style.CalendarCell_CalendarDate;
+			global::XLabs.Forms.Droid.Resource.Style.CalendarCell_DayHeader = global::JamnationApp.Droid.Resource.Style.CalendarCell_DayHeader;
+			global::XLabs.Forms.Droid.Resource.Style.CalendarTitle = global::JamnationApp.Droid.Resource.Style.CalendarTitle;
+			global::XLabs.Forms.Droid.Resource.Style.CardView = global::JamnationApp.Droid.Resource.Style.CardView;
+			global::XLabs.Forms.Droid.Resource.Style.CardView_Dark = global::JamnationApp.Droid.Resource.Style.CardView_Dark;
+			global::XLabs.Forms.Droid.Resource.Style.CardView_Light = global::JamnationApp.Droid.Resource.Style.CardView_Light;
+			global::XLabs.Forms.Droid.Resource.Style.Platform_AppCompat = global::JamnationApp.Droid.Resource.Style.Platform_AppCompat;
+			global::XLabs.Forms.Droid.Resource.Style.Platform_AppCompat_Light = global::JamnationApp.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::XLabs.Forms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::JamnationApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::XLabs.Forms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::JamnationApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::XLabs.Forms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::JamnationApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::XLabs.Forms.Droid.Resource.Style.Platform_V11_AppCompat = global::JamnationApp.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::XLabs.Forms.Droid.Resource.Style.Platform_V11_AppCompat_Light = global::JamnationApp.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::XLabs.Forms.Droid.Resource.Style.Platform_V14_AppCompat = global::JamnationApp.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::XLabs.Forms.Droid.Resource.Style.Platform_V14_AppCompat_Light = global::JamnationApp.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::XLabs.Forms.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::JamnationApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::XLabs.Forms.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::JamnationApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::XLabs.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::JamnationApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::XLabs.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::JamnationApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::XLabs.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::JamnationApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::XLabs.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::JamnationApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::XLabs.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::JamnationApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::XLabs.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::JamnationApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::XLabs.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::JamnationApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::XLabs.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::JamnationApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::XLabs.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::JamnationApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::XLabs.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::JamnationApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::XLabs.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::JamnationApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::XLabs.Forms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::JamnationApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::XLabs.Forms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::JamnationApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::JamnationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::JamnationApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_Design_Counter = global::JamnationApp.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::JamnationApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_Design_Error = global::JamnationApp.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_Design_Hint = global::JamnationApp.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::JamnationApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_Design_Tab = global::JamnationApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_StatusBar_EventContent = global::JamnationApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::JamnationApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::JamnationApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::JamnationApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::JamnationApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::JamnationApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::JamnationApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::XLabs.Forms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::JamnationApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat = global::JamnationApp.Droid.Resource.Style.Theme_AppCompat;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::JamnationApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight = global::JamnationApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::JamnationApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::JamnationApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::JamnationApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::JamnationApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::JamnationApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::JamnationApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_Dialog = global::JamnationApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::JamnationApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::JamnationApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::JamnationApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_Light = global::JamnationApp.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::JamnationApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::JamnationApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::JamnationApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::JamnationApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::JamnationApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::JamnationApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::JamnationApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_Design = global::JamnationApp.Droid.Resource.Style.Theme_Design;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::JamnationApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_Design_Light = global::JamnationApp.Droid.Resource.Style.Theme_Design_Light;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::JamnationApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::JamnationApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_Design_NoActionBar = global::JamnationApp.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_MediaRouter = global::JamnationApp.Droid.Resource.Style.Theme_MediaRouter;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_MediaRouter_Light = global::JamnationApp.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::JamnationApp.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::XLabs.Forms.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::JamnationApp.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::XLabs.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat = global::JamnationApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::XLabs.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::JamnationApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::XLabs.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::JamnationApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::XLabs.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::JamnationApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::XLabs.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::JamnationApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Button = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_EditText = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ListView = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_SearchView = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::JamnationApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_Design_AppBarLayout = global::JamnationApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::JamnationApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::JamnationApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_Design_CoordinatorLayout = global::JamnationApp.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::JamnationApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_Design_NavigationView = global::JamnationApp.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::JamnationApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_Design_Snackbar = global::JamnationApp.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_Design_TabLayout = global::JamnationApp.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_Design_TextInputLayout = global::JamnationApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ChooserText = global::JamnationApp.Droid.Resource.Style.Widget_MediaRouter_ChooserText;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary = global::JamnationApp.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Dark = global::JamnationApp.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Dark;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Light = global::JamnationApp.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Light;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary = global::JamnationApp.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Dark = global::JamnationApp.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Dark;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Light = global::JamnationApp.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Light;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ControllerText = global::JamnationApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary = global::JamnationApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Dark = global::JamnationApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Dark;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Light = global::JamnationApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Light;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary = global::JamnationApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Dark = global::JamnationApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Dark;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Light = global::JamnationApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Light;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title = global::JamnationApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Dark = global::JamnationApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Dark;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Light = global::JamnationApp.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Light;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::JamnationApp.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::XLabs.Forms.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::JamnationApp.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar = global::JamnationApp.Droid.Resource.Styleable.ActionBar;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_background = global::JamnationApp.Droid.Resource.Styleable.ActionBar_background;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::JamnationApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::JamnationApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::JamnationApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::JamnationApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::JamnationApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::JamnationApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::JamnationApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_displayOptions = global::JamnationApp.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_divider = global::JamnationApp.Droid.Resource.Styleable.ActionBar_divider;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_elevation = global::JamnationApp.Droid.Resource.Styleable.ActionBar_elevation;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_height = global::JamnationApp.Droid.Resource.Styleable.ActionBar_height;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::JamnationApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::JamnationApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_homeLayout = global::JamnationApp.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_icon = global::JamnationApp.Droid.Resource.Styleable.ActionBar_icon;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::JamnationApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_itemPadding = global::JamnationApp.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_logo = global::JamnationApp.Droid.Resource.Styleable.ActionBar_logo;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_navigationMode = global::JamnationApp.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_popupTheme = global::JamnationApp.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::JamnationApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::JamnationApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_subtitle = global::JamnationApp.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::JamnationApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_title = global::JamnationApp.Droid.Resource.Styleable.ActionBar_title;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::JamnationApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBarLayout = global::JamnationApp.Droid.Resource.Styleable.ActionBarLayout;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::JamnationApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionMenuItemView = global::JamnationApp.Droid.Resource.Styleable.ActionMenuItemView;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::JamnationApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionMenuView = global::JamnationApp.Droid.Resource.Styleable.ActionMenuView;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionMode = global::JamnationApp.Droid.Resource.Styleable.ActionMode;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionMode_background = global::JamnationApp.Droid.Resource.Styleable.ActionMode_background;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::JamnationApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::JamnationApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionMode_height = global::JamnationApp.Droid.Resource.Styleable.ActionMode_height;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::JamnationApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::JamnationApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActivityChooserView = global::JamnationApp.Droid.Resource.Styleable.ActivityChooserView;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::JamnationApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::XLabs.Forms.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::JamnationApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::XLabs.Forms.Droid.Resource.Styleable.AlertDialog = global::JamnationApp.Droid.Resource.Styleable.AlertDialog;
+			global::XLabs.Forms.Droid.Resource.Styleable.AlertDialog_android_layout = global::JamnationApp.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::XLabs.Forms.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::JamnationApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::XLabs.Forms.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::JamnationApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::XLabs.Forms.Droid.Resource.Styleable.AlertDialog_listLayout = global::JamnationApp.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::XLabs.Forms.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::JamnationApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::XLabs.Forms.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::JamnationApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppBarLayout = global::JamnationApp.Droid.Resource.Styleable.AppBarLayout;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppBarLayout_android_background = global::JamnationApp.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppBarLayout_elevation = global::JamnationApp.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppBarLayout_expanded = global::JamnationApp.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppBarLayout_LayoutParams = global::JamnationApp.Droid.Resource.Styleable.AppBarLayout_LayoutParams;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags = global::JamnationApp.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator = global::JamnationApp.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatImageView = global::JamnationApp.Droid.Resource.Styleable.AppCompatImageView;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatImageView_android_src = global::JamnationApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::JamnationApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTextView = global::JamnationApp.Droid.Resource.Styleable.AppCompatTextView;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::JamnationApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::JamnationApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::XLabs.Forms.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::JamnationApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::XLabs.Forms.Droid.Resource.Styleable.BottomSheetBehavior_Params = global::JamnationApp.Droid.Resource.Styleable.BottomSheetBehavior_Params;
+			global::XLabs.Forms.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable = global::JamnationApp.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable;
+			global::XLabs.Forms.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight = global::JamnationApp.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight;
+			global::XLabs.Forms.Droid.Resource.Styleable.ButtonBarLayout = global::JamnationApp.Droid.Resource.Styleable.ButtonBarLayout;
+			global::XLabs.Forms.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::JamnationApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::XLabs.Forms.Droid.Resource.Styleable.CardView = global::JamnationApp.Droid.Resource.Styleable.CardView;
+			global::XLabs.Forms.Droid.Resource.Styleable.CardView_android_minHeight = global::JamnationApp.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::XLabs.Forms.Droid.Resource.Styleable.CardView_android_minWidth = global::JamnationApp.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::XLabs.Forms.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::JamnationApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::XLabs.Forms.Droid.Resource.Styleable.CardView_cardCornerRadius = global::JamnationApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::XLabs.Forms.Droid.Resource.Styleable.CardView_cardElevation = global::JamnationApp.Droid.Resource.Styleable.CardView_cardElevation;
+			global::XLabs.Forms.Droid.Resource.Styleable.CardView_cardMaxElevation = global::JamnationApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::XLabs.Forms.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::JamnationApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::XLabs.Forms.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::JamnationApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::XLabs.Forms.Droid.Resource.Styleable.CardView_contentPadding = global::JamnationApp.Droid.Resource.Styleable.CardView_contentPadding;
+			global::XLabs.Forms.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::JamnationApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::XLabs.Forms.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::JamnationApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::XLabs.Forms.Droid.Resource.Styleable.CardView_contentPaddingRight = global::JamnationApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::XLabs.Forms.Droid.Resource.Styleable.CardView_contentPaddingTop = global::JamnationApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams = global::JamnationApp.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams;
+			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode = global::JamnationApp.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode;
+			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = global::JamnationApp.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier;
+			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout = global::JamnationApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::JamnationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::JamnationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::JamnationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::JamnationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::JamnationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::JamnationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::JamnationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::JamnationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::JamnationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::JamnationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::JamnationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::JamnationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::JamnationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::XLabs.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::JamnationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::XLabs.Forms.Droid.Resource.Styleable.CompoundButton = global::JamnationApp.Droid.Resource.Styleable.CompoundButton;
+			global::XLabs.Forms.Droid.Resource.Styleable.CompoundButton_android_button = global::JamnationApp.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::XLabs.Forms.Droid.Resource.Styleable.CompoundButton_buttonTint = global::JamnationApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::XLabs.Forms.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::JamnationApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::XLabs.Forms.Droid.Resource.Styleable.CoordinatorLayout = global::JamnationApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::XLabs.Forms.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::JamnationApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::XLabs.Forms.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::JamnationApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::XLabs.Forms.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams = global::JamnationApp.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams;
+			global::XLabs.Forms.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity = global::JamnationApp.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity;
+			global::XLabs.Forms.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor = global::JamnationApp.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor;
+			global::XLabs.Forms.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity = global::JamnationApp.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity;
+			global::XLabs.Forms.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior = global::JamnationApp.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior;
+			global::XLabs.Forms.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline = global::JamnationApp.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline;
+			global::XLabs.Forms.Droid.Resource.Styleable.DesignTheme = global::JamnationApp.Droid.Resource.Styleable.DesignTheme;
+			global::XLabs.Forms.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::JamnationApp.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::XLabs.Forms.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::JamnationApp.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.DesignTheme_textColorError = global::JamnationApp.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::XLabs.Forms.Droid.Resource.Styleable.DrawerArrowToggle = global::JamnationApp.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::XLabs.Forms.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::JamnationApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::XLabs.Forms.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::JamnationApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::XLabs.Forms.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::JamnationApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::XLabs.Forms.Droid.Resource.Styleable.DrawerArrowToggle_color = global::JamnationApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::XLabs.Forms.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::JamnationApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::XLabs.Forms.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::JamnationApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::XLabs.Forms.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::JamnationApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::XLabs.Forms.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::JamnationApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::XLabs.Forms.Droid.Resource.Styleable.FloatingActionButton = global::JamnationApp.Droid.Resource.Styleable.FloatingActionButton;
+			global::XLabs.Forms.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::JamnationApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::XLabs.Forms.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::JamnationApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::XLabs.Forms.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::JamnationApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::XLabs.Forms.Droid.Resource.Styleable.FloatingActionButton_elevation = global::JamnationApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::XLabs.Forms.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::JamnationApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::XLabs.Forms.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::JamnationApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::XLabs.Forms.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::JamnationApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::XLabs.Forms.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::JamnationApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::XLabs.Forms.Droid.Resource.Styleable.ForegroundLinearLayout = global::JamnationApp.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::XLabs.Forms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::JamnationApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::XLabs.Forms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::JamnationApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::XLabs.Forms.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::JamnationApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat = global::JamnationApp.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::JamnationApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::JamnationApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::JamnationApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::JamnationApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::JamnationApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::JamnationApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::JamnationApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::JamnationApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::JamnationApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::JamnationApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::JamnationApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::JamnationApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::JamnationApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::XLabs.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::JamnationApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::XLabs.Forms.Droid.Resource.Styleable.ListPopupWindow = global::JamnationApp.Droid.Resource.Styleable.ListPopupWindow;
+			global::XLabs.Forms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::JamnationApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::XLabs.Forms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::JamnationApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::XLabs.Forms.Droid.Resource.Styleable.MediaRouteButton = global::JamnationApp.Droid.Resource.Styleable.MediaRouteButton;
+			global::XLabs.Forms.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::JamnationApp.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::XLabs.Forms.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::JamnationApp.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::XLabs.Forms.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::JamnationApp.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuGroup = global::JamnationApp.Droid.Resource.Styleable.MenuGroup;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::JamnationApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuGroup_android_enabled = global::JamnationApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuGroup_android_id = global::JamnationApp.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::JamnationApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::JamnationApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuGroup_android_visible = global::JamnationApp.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem = global::JamnationApp.Droid.Resource.Styleable.MenuItem;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_actionLayout = global::JamnationApp.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::JamnationApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_actionViewClass = global::JamnationApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::JamnationApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_android_checkable = global::JamnationApp.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_android_checked = global::JamnationApp.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_android_enabled = global::JamnationApp.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_android_icon = global::JamnationApp.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_android_id = global::JamnationApp.Droid.Resource.Styleable.MenuItem_android_id;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::JamnationApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::JamnationApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_android_onClick = global::JamnationApp.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::JamnationApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_android_title = global::JamnationApp.Droid.Resource.Styleable.MenuItem_android_title;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::JamnationApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_android_visible = global::JamnationApp.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuItem_showAsAction = global::JamnationApp.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuView = global::JamnationApp.Droid.Resource.Styleable.MenuView;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuView_android_headerBackground = global::JamnationApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::JamnationApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuView_android_itemBackground = global::JamnationApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::JamnationApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::JamnationApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::JamnationApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::JamnationApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::JamnationApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::XLabs.Forms.Droid.Resource.Styleable.NavigationView = global::JamnationApp.Droid.Resource.Styleable.NavigationView;
+			global::XLabs.Forms.Droid.Resource.Styleable.NavigationView_android_background = global::JamnationApp.Droid.Resource.Styleable.NavigationView_android_background;
+			global::XLabs.Forms.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::JamnationApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::XLabs.Forms.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::JamnationApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::XLabs.Forms.Droid.Resource.Styleable.NavigationView_elevation = global::JamnationApp.Droid.Resource.Styleable.NavigationView_elevation;
+			global::XLabs.Forms.Droid.Resource.Styleable.NavigationView_headerLayout = global::JamnationApp.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::XLabs.Forms.Droid.Resource.Styleable.NavigationView_itemBackground = global::JamnationApp.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::XLabs.Forms.Droid.Resource.Styleable.NavigationView_itemIconTint = global::JamnationApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::XLabs.Forms.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::JamnationApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::XLabs.Forms.Droid.Resource.Styleable.NavigationView_itemTextColor = global::JamnationApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::XLabs.Forms.Droid.Resource.Styleable.NavigationView_menu = global::JamnationApp.Droid.Resource.Styleable.NavigationView_menu;
+			global::XLabs.Forms.Droid.Resource.Styleable.PopupWindow = global::JamnationApp.Droid.Resource.Styleable.PopupWindow;
+			global::XLabs.Forms.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::JamnationApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::XLabs.Forms.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::JamnationApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::XLabs.Forms.Droid.Resource.Styleable.PopupWindowBackgroundState = global::JamnationApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::XLabs.Forms.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::JamnationApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::XLabs.Forms.Droid.Resource.Styleable.RecyclerView = global::JamnationApp.Droid.Resource.Styleable.RecyclerView;
+			global::XLabs.Forms.Droid.Resource.Styleable.RecyclerView_android_orientation = global::JamnationApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::XLabs.Forms.Droid.Resource.Styleable.RecyclerView_layoutManager = global::JamnationApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::XLabs.Forms.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::JamnationApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::XLabs.Forms.Droid.Resource.Styleable.RecyclerView_spanCount = global::JamnationApp.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::XLabs.Forms.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::JamnationApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::XLabs.Forms.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::JamnationApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::XLabs.Forms.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::JamnationApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::XLabs.Forms.Droid.Resource.Styleable.ScrollingViewBehavior_Params = global::JamnationApp.Droid.Resource.Styleable.ScrollingViewBehavior_Params;
+			global::XLabs.Forms.Droid.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop = global::JamnationApp.Droid.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop;
+			global::XLabs.Forms.Droid.Resource.Styleable.SearchView = global::JamnationApp.Droid.Resource.Styleable.SearchView;
+			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_android_focusable = global::JamnationApp.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_android_imeOptions = global::JamnationApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_android_inputType = global::JamnationApp.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_android_maxWidth = global::JamnationApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_closeIcon = global::JamnationApp.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_commitIcon = global::JamnationApp.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::JamnationApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_goIcon = global::JamnationApp.Droid.Resource.Styleable.SearchView_goIcon;
+			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::JamnationApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_layout = global::JamnationApp.Droid.Resource.Styleable.SearchView_layout;
+			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_queryBackground = global::JamnationApp.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_queryHint = global::JamnationApp.Droid.Resource.Styleable.SearchView_queryHint;
+			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_searchHintIcon = global::JamnationApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_searchIcon = global::JamnationApp.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_submitBackground = global::JamnationApp.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::JamnationApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::XLabs.Forms.Droid.Resource.Styleable.SearchView_voiceIcon = global::JamnationApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::XLabs.Forms.Droid.Resource.Styleable.SnackbarLayout = global::JamnationApp.Droid.Resource.Styleable.SnackbarLayout;
+			global::XLabs.Forms.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::JamnationApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::XLabs.Forms.Droid.Resource.Styleable.SnackbarLayout_elevation = global::JamnationApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::XLabs.Forms.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::JamnationApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::XLabs.Forms.Droid.Resource.Styleable.Spinner = global::JamnationApp.Droid.Resource.Styleable.Spinner;
+			global::XLabs.Forms.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::JamnationApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::XLabs.Forms.Droid.Resource.Styleable.Spinner_android_entries = global::JamnationApp.Droid.Resource.Styleable.Spinner_android_entries;
+			global::XLabs.Forms.Droid.Resource.Styleable.Spinner_android_popupBackground = global::JamnationApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::XLabs.Forms.Droid.Resource.Styleable.Spinner_android_prompt = global::JamnationApp.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::XLabs.Forms.Droid.Resource.Styleable.Spinner_popupTheme = global::JamnationApp.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::XLabs.Forms.Droid.Resource.Styleable.SwitchCompat = global::JamnationApp.Droid.Resource.Styleable.SwitchCompat;
+			global::XLabs.Forms.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::JamnationApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::XLabs.Forms.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::JamnationApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::XLabs.Forms.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::JamnationApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::XLabs.Forms.Droid.Resource.Styleable.SwitchCompat_showText = global::JamnationApp.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::XLabs.Forms.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::JamnationApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::XLabs.Forms.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::JamnationApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::XLabs.Forms.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::JamnationApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::XLabs.Forms.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::JamnationApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::XLabs.Forms.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::JamnationApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::XLabs.Forms.Droid.Resource.Styleable.SwitchCompat_track = global::JamnationApp.Droid.Resource.Styleable.SwitchCompat_track;
+			global::XLabs.Forms.Droid.Resource.Styleable.TabItem = global::JamnationApp.Droid.Resource.Styleable.TabItem;
+			global::XLabs.Forms.Droid.Resource.Styleable.TabItem_android_icon = global::JamnationApp.Droid.Resource.Styleable.TabItem_android_icon;
+			global::XLabs.Forms.Droid.Resource.Styleable.TabItem_android_layout = global::JamnationApp.Droid.Resource.Styleable.TabItem_android_layout;
+			global::XLabs.Forms.Droid.Resource.Styleable.TabItem_android_text = global::JamnationApp.Droid.Resource.Styleable.TabItem_android_text;
+			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout = global::JamnationApp.Droid.Resource.Styleable.TabLayout;
+			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabBackground = global::JamnationApp.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabContentStart = global::JamnationApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabGravity = global::JamnationApp.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::JamnationApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::JamnationApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::JamnationApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::JamnationApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabMode = global::JamnationApp.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabPadding = global::JamnationApp.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::JamnationApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::JamnationApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::JamnationApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::JamnationApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::JamnationApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::JamnationApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::XLabs.Forms.Droid.Resource.Styleable.TabLayout_tabTextColor = global::JamnationApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::XLabs.Forms.Droid.Resource.Styleable.TextAppearance = global::JamnationApp.Droid.Resource.Styleable.TextAppearance;
+			global::XLabs.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::JamnationApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::XLabs.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::JamnationApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::XLabs.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::JamnationApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::XLabs.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::JamnationApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::XLabs.Forms.Droid.Resource.Styleable.TextAppearance_android_textColor = global::JamnationApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::XLabs.Forms.Droid.Resource.Styleable.TextAppearance_android_textSize = global::JamnationApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::XLabs.Forms.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::JamnationApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::XLabs.Forms.Droid.Resource.Styleable.TextAppearance_android_typeface = global::JamnationApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::XLabs.Forms.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::JamnationApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::XLabs.Forms.Droid.Resource.Styleable.TextInputLayout = global::JamnationApp.Droid.Resource.Styleable.TextInputLayout;
+			global::XLabs.Forms.Droid.Resource.Styleable.TextInputLayout_android_hint = global::JamnationApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::XLabs.Forms.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::JamnationApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::XLabs.Forms.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::JamnationApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::XLabs.Forms.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::JamnationApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::XLabs.Forms.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::JamnationApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::XLabs.Forms.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::JamnationApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::XLabs.Forms.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::JamnationApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::XLabs.Forms.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::JamnationApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::XLabs.Forms.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::JamnationApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::XLabs.Forms.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::JamnationApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::XLabs.Forms.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::JamnationApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar = global::JamnationApp.Droid.Resource.Styleable.Toolbar;
+			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_android_gravity = global::JamnationApp.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_android_minHeight = global::JamnationApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::JamnationApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_collapseIcon = global::JamnationApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::JamnationApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::JamnationApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::JamnationApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::JamnationApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_logo = global::JamnationApp.Droid.Resource.Styleable.Toolbar_logo;
+			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_logoDescription = global::JamnationApp.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::JamnationApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::JamnationApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_navigationIcon = global::JamnationApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_popupTheme = global::JamnationApp.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_subtitle = global::JamnationApp.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::JamnationApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::JamnationApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_title = global::JamnationApp.Droid.Resource.Styleable.Toolbar_title;
+			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::JamnationApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::JamnationApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::JamnationApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::JamnationApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_titleMargins = global::JamnationApp.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::JamnationApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::XLabs.Forms.Droid.Resource.Styleable.Toolbar_titleTextColor = global::JamnationApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::XLabs.Forms.Droid.Resource.Styleable.View = global::JamnationApp.Droid.Resource.Styleable.View;
+			global::XLabs.Forms.Droid.Resource.Styleable.View_android_focusable = global::JamnationApp.Droid.Resource.Styleable.View_android_focusable;
+			global::XLabs.Forms.Droid.Resource.Styleable.View_android_theme = global::JamnationApp.Droid.Resource.Styleable.View_android_theme;
+			global::XLabs.Forms.Droid.Resource.Styleable.View_paddingEnd = global::JamnationApp.Droid.Resource.Styleable.View_paddingEnd;
+			global::XLabs.Forms.Droid.Resource.Styleable.View_paddingStart = global::JamnationApp.Droid.Resource.Styleable.View_paddingStart;
+			global::XLabs.Forms.Droid.Resource.Styleable.View_theme = global::JamnationApp.Droid.Resource.Styleable.View_theme;
+			global::XLabs.Forms.Droid.Resource.Styleable.ViewBackgroundHelper = global::JamnationApp.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::XLabs.Forms.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::JamnationApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::XLabs.Forms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::JamnationApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::XLabs.Forms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::JamnationApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::XLabs.Forms.Droid.Resource.Styleable.ViewStubCompat = global::JamnationApp.Droid.Resource.Styleable.ViewStubCompat;
+			global::XLabs.Forms.Droid.Resource.Styleable.ViewStubCompat_android_id = global::JamnationApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::XLabs.Forms.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::JamnationApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::XLabs.Forms.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::JamnationApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::XLabs.Platform.Resource.String.ApplicationName = global::JamnationApp.Droid.Resource.String.ApplicationName;
+			global::XLabs.Platform.Resource.String.Hello = global::JamnationApp.Droid.Resource.String.Hello;
+			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.zxingscanneractivitylayout = global::JamnationApp.Droid.Resource.Layout.zxingscanneractivitylayout;
+			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.zxingscannerfragmentlayout = global::JamnationApp.Droid.Resource.Layout.zxingscannerfragmentlayout;
+			global::ZXing.Net.Mobile.Forms.Android.Resource.String.library_name = global::JamnationApp.Droid.Resource.String.library_name;
+			global::ZXing.Mobile.Resource.Id.contentFrame = global::JamnationApp.Droid.Resource.Id.contentFrame;
+			global::ZXing.Mobile.Resource.Layout.zxingscanneractivitylayout = global::JamnationApp.Droid.Resource.Layout.zxingscanneractivitylayout;
+			global::ZXing.Mobile.Resource.Layout.zxingscannerfragmentlayout = global::JamnationApp.Droid.Resource.Layout.zxingscannerfragmentlayout;
 		}
 		
 		public partial class Animation
@@ -3247,32 +3247,32 @@ namespace RumbleApp.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f090084
-			public const int abc_background_cache_hint_selector_material_dark = 2131296388;
-			
-			// aapt resource value: 0x7f090085
-			public const int abc_background_cache_hint_selector_material_light = 2131296389;
-			
 			// aapt resource value: 0x7f090086
-			public const int abc_color_highlight_material = 2131296390;
+			public const int abc_background_cache_hint_selector_material_dark = 2131296390;
+			
+			// aapt resource value: 0x7f090087
+			public const int abc_background_cache_hint_selector_material_light = 2131296391;
+			
+			// aapt resource value: 0x7f090088
+			public const int abc_color_highlight_material = 2131296392;
 			
 			// aapt resource value: 0x7f090015
 			public const int abc_input_method_navigation_guard = 2131296277;
 			
-			// aapt resource value: 0x7f090087
-			public const int abc_primary_text_disable_only_material_dark = 2131296391;
-			
-			// aapt resource value: 0x7f090088
-			public const int abc_primary_text_disable_only_material_light = 2131296392;
-			
 			// aapt resource value: 0x7f090089
-			public const int abc_primary_text_material_dark = 2131296393;
+			public const int abc_primary_text_disable_only_material_dark = 2131296393;
 			
 			// aapt resource value: 0x7f09008a
-			public const int abc_primary_text_material_light = 2131296394;
+			public const int abc_primary_text_disable_only_material_light = 2131296394;
 			
 			// aapt resource value: 0x7f09008b
-			public const int abc_search_url_text = 2131296395;
+			public const int abc_primary_text_material_dark = 2131296395;
+			
+			// aapt resource value: 0x7f09008c
+			public const int abc_primary_text_material_light = 2131296396;
+			
+			// aapt resource value: 0x7f09008d
+			public const int abc_search_url_text = 2131296397;
 			
 			// aapt resource value: 0x7f090016
 			public const int abc_search_url_text_normal = 2131296278;
@@ -3283,11 +3283,11 @@ namespace RumbleApp.Droid
 			// aapt resource value: 0x7f090018
 			public const int abc_search_url_text_selected = 2131296280;
 			
-			// aapt resource value: 0x7f09008c
-			public const int abc_secondary_text_material_dark = 2131296396;
+			// aapt resource value: 0x7f09008e
+			public const int abc_secondary_text_material_dark = 2131296398;
 			
-			// aapt resource value: 0x7f09008d
-			public const int abc_secondary_text_material_light = 2131296397;
+			// aapt resource value: 0x7f09008f
+			public const int abc_secondary_text_material_light = 2131296399;
 			
 			// aapt resource value: 0x7f090019
 			public const int accent_material_dark = 2131296281;
@@ -3361,8 +3361,8 @@ namespace RumbleApp.Droid
 			// aapt resource value: 0x7f090062
 			public const int calendar_text_selected = 2131296354;
 			
-			// aapt resource value: 0x7f09008e
-			public const int calendar_text_selector = 2131296398;
+			// aapt resource value: 0x7f090090
+			public const int calendar_text_selector = 2131296400;
 			
 			// aapt resource value: 0x7f090063
 			public const int calendar_text_unselectable = 2131296355;
@@ -3382,8 +3382,8 @@ namespace RumbleApp.Droid
 			// aapt resource value: 0x7f090008
 			public const int common_action_bar_splitter = 2131296264;
 			
-			// aapt resource value: 0x7f09008f
-			public const int common_google_signin_btn_text_dark = 2131296399;
+			// aapt resource value: 0x7f090091
+			public const int common_google_signin_btn_text_dark = 2131296401;
 			
 			// aapt resource value: 0x7f090009
 			public const int common_google_signin_btn_text_dark_default = 2131296265;
@@ -3397,8 +3397,8 @@ namespace RumbleApp.Droid
 			// aapt resource value: 0x7f09000a
 			public const int common_google_signin_btn_text_dark_pressed = 2131296266;
 			
-			// aapt resource value: 0x7f090090
-			public const int common_google_signin_btn_text_light = 2131296400;
+			// aapt resource value: 0x7f090092
+			public const int common_google_signin_btn_text_light = 2131296402;
 			
 			// aapt resource value: 0x7f09000d
 			public const int common_google_signin_btn_text_light_default = 2131296269;
@@ -3412,8 +3412,8 @@ namespace RumbleApp.Droid
 			// aapt resource value: 0x7f09000e
 			public const int common_google_signin_btn_text_light_pressed = 2131296270;
 			
-			// aapt resource value: 0x7f090091
-			public const int common_plus_signin_btn_text_dark = 2131296401;
+			// aapt resource value: 0x7f090093
+			public const int common_plus_signin_btn_text_dark = 2131296403;
 			
 			// aapt resource value: 0x7f090000
 			public const int common_plus_signin_btn_text_dark_default = 2131296256;
@@ -3427,8 +3427,8 @@ namespace RumbleApp.Droid
 			// aapt resource value: 0x7f090001
 			public const int common_plus_signin_btn_text_dark_pressed = 2131296257;
 			
-			// aapt resource value: 0x7f090092
-			public const int common_plus_signin_btn_text_light = 2131296402;
+			// aapt resource value: 0x7f090094
+			public const int common_plus_signin_btn_text_light = 2131296404;
 			
 			// aapt resource value: 0x7f090004
 			public const int common_plus_signin_btn_text_light_default = 2131296260;
@@ -3483,6 +3483,12 @@ namespace RumbleApp.Droid
 			
 			// aapt resource value: 0x7f09002a
 			public const int dim_foreground_material_light = 2131296298;
+			
+			// aapt resource value: 0x7f090084
+			public const int entry_background = 2131296388;
+			
+			// aapt resource value: 0x7f090085
+			public const int entry_border = 2131296389;
 			
 			// aapt resource value: 0x7f09002b
 			public const int foreground_material_dark = 2131296299;
@@ -3682,11 +3688,11 @@ namespace RumbleApp.Droid
 			// aapt resource value: 0x7f09004c
 			public const int switch_thumb_disabled_material_light = 2131296332;
 			
-			// aapt resource value: 0x7f090093
-			public const int switch_thumb_material_dark = 2131296403;
+			// aapt resource value: 0x7f090095
+			public const int switch_thumb_material_dark = 2131296405;
 			
-			// aapt resource value: 0x7f090094
-			public const int switch_thumb_material_light = 2131296404;
+			// aapt resource value: 0x7f090096
+			public const int switch_thumb_material_light = 2131296406;
 			
 			// aapt resource value: 0x7f09004d
 			public const int switch_thumb_normal_material_dark = 2131296333;
@@ -4315,529 +4321,544 @@ namespace RumbleApp.Droid
 			public const int ad16 = 2130837579;
 			
 			// aapt resource value: 0x7f02004c
-			public const int back = 2130837580;
+			public const int AddPhoto = 2130837580;
 			
 			// aapt resource value: 0x7f02004d
-			public const int calendar_bg_selector = 2130837581;
+			public const int back = 2130837581;
 			
 			// aapt resource value: 0x7f02004e
-			public const int call = 2130837582;
+			public const int calendar_bg_selector = 2130837582;
 			
 			// aapt resource value: 0x7f02004f
-			public const int clock = 2130837583;
+			public const int call = 2130837583;
 			
 			// aapt resource value: 0x7f020050
-			public const int common_full_open_on_phone = 2130837584;
+			public const int clock = 2130837584;
 			
 			// aapt resource value: 0x7f020051
-			public const int common_google_signin_btn_icon_dark = 2130837585;
+			public const int common_full_open_on_phone = 2130837585;
 			
 			// aapt resource value: 0x7f020052
-			public const int common_google_signin_btn_icon_dark_disabled = 2130837586;
+			public const int common_google_signin_btn_icon_dark = 2130837586;
 			
 			// aapt resource value: 0x7f020053
-			public const int common_google_signin_btn_icon_dark_focused = 2130837587;
+			public const int common_google_signin_btn_icon_dark_disabled = 2130837587;
 			
 			// aapt resource value: 0x7f020054
-			public const int common_google_signin_btn_icon_dark_normal = 2130837588;
+			public const int common_google_signin_btn_icon_dark_focused = 2130837588;
 			
 			// aapt resource value: 0x7f020055
-			public const int common_google_signin_btn_icon_dark_pressed = 2130837589;
+			public const int common_google_signin_btn_icon_dark_normal = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int common_google_signin_btn_icon_light = 2130837590;
+			public const int common_google_signin_btn_icon_dark_pressed = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int common_google_signin_btn_icon_light_disabled = 2130837591;
+			public const int common_google_signin_btn_icon_light = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int common_google_signin_btn_icon_light_focused = 2130837592;
+			public const int common_google_signin_btn_icon_light_disabled = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int common_google_signin_btn_icon_light_normal = 2130837593;
+			public const int common_google_signin_btn_icon_light_focused = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int common_google_signin_btn_icon_light_pressed = 2130837594;
+			public const int common_google_signin_btn_icon_light_normal = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int common_google_signin_btn_text_dark = 2130837595;
+			public const int common_google_signin_btn_icon_light_pressed = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int common_google_signin_btn_text_dark_disabled = 2130837596;
+			public const int common_google_signin_btn_text_dark = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int common_google_signin_btn_text_dark_focused = 2130837597;
+			public const int common_google_signin_btn_text_dark_disabled = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int common_google_signin_btn_text_dark_normal = 2130837598;
+			public const int common_google_signin_btn_text_dark_focused = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int common_google_signin_btn_text_dark_pressed = 2130837599;
+			public const int common_google_signin_btn_text_dark_normal = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int common_google_signin_btn_text_light = 2130837600;
+			public const int common_google_signin_btn_text_dark_pressed = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int common_google_signin_btn_text_light_disabled = 2130837601;
+			public const int common_google_signin_btn_text_light = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int common_google_signin_btn_text_light_focused = 2130837602;
+			public const int common_google_signin_btn_text_light_disabled = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int common_google_signin_btn_text_light_normal = 2130837603;
+			public const int common_google_signin_btn_text_light_focused = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int common_google_signin_btn_text_light_pressed = 2130837604;
+			public const int common_google_signin_btn_text_light_normal = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int common_ic_googleplayservices = 2130837605;
+			public const int common_google_signin_btn_text_light_pressed = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int common_plus_signin_btn_icon_dark = 2130837606;
+			public const int common_ic_googleplayservices = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int common_plus_signin_btn_icon_dark_disabled = 2130837607;
+			public const int common_plus_signin_btn_icon_dark = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int common_plus_signin_btn_icon_dark_focused = 2130837608;
+			public const int common_plus_signin_btn_icon_dark_disabled = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int common_plus_signin_btn_icon_dark_normal = 2130837609;
+			public const int common_plus_signin_btn_icon_dark_focused = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int common_plus_signin_btn_icon_dark_pressed = 2130837610;
+			public const int common_plus_signin_btn_icon_dark_normal = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int common_plus_signin_btn_icon_light = 2130837611;
+			public const int common_plus_signin_btn_icon_dark_pressed = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int common_plus_signin_btn_icon_light_disabled = 2130837612;
+			public const int common_plus_signin_btn_icon_light = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int common_plus_signin_btn_icon_light_focused = 2130837613;
+			public const int common_plus_signin_btn_icon_light_disabled = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int common_plus_signin_btn_icon_light_normal = 2130837614;
+			public const int common_plus_signin_btn_icon_light_focused = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int common_plus_signin_btn_icon_light_pressed = 2130837615;
+			public const int common_plus_signin_btn_icon_light_normal = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int common_plus_signin_btn_text_dark = 2130837616;
+			public const int common_plus_signin_btn_icon_light_pressed = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int common_plus_signin_btn_text_dark_disabled = 2130837617;
+			public const int common_plus_signin_btn_text_dark = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int common_plus_signin_btn_text_dark_focused = 2130837618;
+			public const int common_plus_signin_btn_text_dark_disabled = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int common_plus_signin_btn_text_dark_normal = 2130837619;
+			public const int common_plus_signin_btn_text_dark_focused = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int common_plus_signin_btn_text_dark_pressed = 2130837620;
+			public const int common_plus_signin_btn_text_dark_normal = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int common_plus_signin_btn_text_light = 2130837621;
+			public const int common_plus_signin_btn_text_dark_pressed = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int common_plus_signin_btn_text_light_disabled = 2130837622;
+			public const int common_plus_signin_btn_text_light = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int common_plus_signin_btn_text_light_focused = 2130837623;
+			public const int common_plus_signin_btn_text_light_disabled = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int common_plus_signin_btn_text_light_normal = 2130837624;
+			public const int common_plus_signin_btn_text_light_focused = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int common_plus_signin_btn_text_light_pressed = 2130837625;
+			public const int common_plus_signin_btn_text_light_normal = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int design_fab_background = 2130837626;
+			public const int common_plus_signin_btn_text_light_pressed = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int design_snackbar_background = 2130837627;
+			public const int design_fab_background = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int hamburger = 2130837628;
+			public const int design_snackbar_background = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int history = 2130837629;
+			public const int filter = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int home = 2130837630;
+			public const int guy = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int ic_audiotrack = 2130837631;
+			public const int hamburger = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int ic_audiotrack_light = 2130837632;
+			public const int history = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int ic_bluetooth_grey = 2130837633;
+			public const int home = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int ic_bluetooth_white = 2130837634;
+			public const int ic_audiotrack = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int ic_cast_dark = 2130837635;
+			public const int ic_audiotrack_light = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int ic_cast_disabled_light = 2130837636;
+			public const int ic_bluetooth_grey = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int ic_cast_grey = 2130837637;
+			public const int ic_bluetooth_white = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int ic_cast_light = 2130837638;
+			public const int ic_cast_dark = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int ic_cast_off_light = 2130837639;
+			public const int ic_cast_disabled_light = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int ic_cast_on_0_light = 2130837640;
+			public const int ic_cast_grey = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int ic_cast_on_1_light = 2130837641;
+			public const int ic_cast_light = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int ic_cast_on_2_light = 2130837642;
+			public const int ic_cast_off_light = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int ic_cast_on_light = 2130837643;
+			public const int ic_cast_on_0_light = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int ic_cast_white = 2130837644;
+			public const int ic_cast_on_1_light = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int ic_close_dark = 2130837645;
+			public const int ic_cast_on_2_light = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int ic_close_light = 2130837646;
+			public const int ic_cast_on_light = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int ic_collapse = 2130837647;
+			public const int ic_cast_white = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int ic_collapse_00000 = 2130837648;
+			public const int ic_close_dark = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int ic_collapse_00001 = 2130837649;
+			public const int ic_close_light = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int ic_collapse_00002 = 2130837650;
+			public const int ic_collapse = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int ic_collapse_00003 = 2130837651;
+			public const int ic_collapse_00000 = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int ic_collapse_00004 = 2130837652;
+			public const int ic_collapse_00001 = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int ic_collapse_00005 = 2130837653;
+			public const int ic_collapse_00002 = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int ic_collapse_00006 = 2130837654;
+			public const int ic_collapse_00003 = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int ic_collapse_00007 = 2130837655;
+			public const int ic_collapse_00004 = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int ic_collapse_00008 = 2130837656;
+			public const int ic_collapse_00005 = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int ic_collapse_00009 = 2130837657;
+			public const int ic_collapse_00006 = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int ic_collapse_00010 = 2130837658;
+			public const int ic_collapse_00007 = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int ic_collapse_00011 = 2130837659;
+			public const int ic_collapse_00008 = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int ic_collapse_00012 = 2130837660;
+			public const int ic_collapse_00009 = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int ic_collapse_00013 = 2130837661;
+			public const int ic_collapse_00010 = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int ic_collapse_00014 = 2130837662;
+			public const int ic_collapse_00011 = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int ic_collapse_00015 = 2130837663;
+			public const int ic_collapse_00012 = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int ic_errorstatus = 2130837664;
+			public const int ic_collapse_00013 = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int ic_expand = 2130837665;
+			public const int ic_collapse_00014 = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int ic_expand_00000 = 2130837666;
+			public const int ic_collapse_00015 = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int ic_expand_00001 = 2130837667;
+			public const int ic_errorstatus = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int ic_expand_00002 = 2130837668;
+			public const int ic_expand = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int ic_expand_00003 = 2130837669;
+			public const int ic_expand_00000 = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int ic_expand_00004 = 2130837670;
+			public const int ic_expand_00001 = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int ic_expand_00005 = 2130837671;
+			public const int ic_expand_00002 = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int ic_expand_00006 = 2130837672;
+			public const int ic_expand_00003 = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int ic_expand_00007 = 2130837673;
+			public const int ic_expand_00004 = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int ic_expand_00008 = 2130837674;
+			public const int ic_expand_00005 = 2130837674;
 			
 			// aapt resource value: 0x7f0200ab
-			public const int ic_expand_00009 = 2130837675;
+			public const int ic_expand_00006 = 2130837675;
 			
 			// aapt resource value: 0x7f0200ac
-			public const int ic_expand_00010 = 2130837676;
+			public const int ic_expand_00007 = 2130837676;
 			
 			// aapt resource value: 0x7f0200ad
-			public const int ic_expand_00011 = 2130837677;
+			public const int ic_expand_00008 = 2130837677;
 			
 			// aapt resource value: 0x7f0200ae
-			public const int ic_expand_00012 = 2130837678;
+			public const int ic_expand_00009 = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int ic_expand_00013 = 2130837679;
+			public const int ic_expand_00010 = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int ic_expand_00014 = 2130837680;
+			public const int ic_expand_00011 = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int ic_expand_00015 = 2130837681;
+			public const int ic_expand_00012 = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int ic_media_pause = 2130837682;
+			public const int ic_expand_00013 = 2130837682;
 			
 			// aapt resource value: 0x7f0200b3
-			public const int ic_media_play = 2130837683;
+			public const int ic_expand_00014 = 2130837683;
 			
 			// aapt resource value: 0x7f0200b4
-			public const int ic_media_route_disabled_mono_dark = 2130837684;
+			public const int ic_expand_00015 = 2130837684;
 			
 			// aapt resource value: 0x7f0200b5
-			public const int ic_media_route_off_mono_dark = 2130837685;
+			public const int ic_media_pause = 2130837685;
 			
 			// aapt resource value: 0x7f0200b6
-			public const int ic_media_route_on_0_mono_dark = 2130837686;
+			public const int ic_media_play = 2130837686;
 			
 			// aapt resource value: 0x7f0200b7
-			public const int ic_media_route_on_1_mono_dark = 2130837687;
+			public const int ic_media_route_disabled_mono_dark = 2130837687;
 			
 			// aapt resource value: 0x7f0200b8
-			public const int ic_media_route_on_2_mono_dark = 2130837688;
+			public const int ic_media_route_off_mono_dark = 2130837688;
 			
 			// aapt resource value: 0x7f0200b9
-			public const int ic_media_route_on_mono_dark = 2130837689;
+			public const int ic_media_route_on_0_mono_dark = 2130837689;
 			
 			// aapt resource value: 0x7f0200ba
-			public const int ic_pause_dark = 2130837690;
+			public const int ic_media_route_on_1_mono_dark = 2130837690;
 			
 			// aapt resource value: 0x7f0200bb
-			public const int ic_pause_light = 2130837691;
+			public const int ic_media_route_on_2_mono_dark = 2130837691;
 			
 			// aapt resource value: 0x7f0200bc
-			public const int ic_play_dark = 2130837692;
+			public const int ic_media_route_on_mono_dark = 2130837692;
 			
 			// aapt resource value: 0x7f0200bd
-			public const int ic_play_light = 2130837693;
+			public const int ic_pause_dark = 2130837693;
 			
 			// aapt resource value: 0x7f0200be
-			public const int ic_speaker_dark = 2130837694;
+			public const int ic_pause_light = 2130837694;
 			
 			// aapt resource value: 0x7f0200bf
-			public const int ic_speaker_group_dark = 2130837695;
+			public const int ic_play_dark = 2130837695;
 			
 			// aapt resource value: 0x7f0200c0
-			public const int ic_speaker_group_light = 2130837696;
+			public const int ic_play_light = 2130837696;
 			
 			// aapt resource value: 0x7f0200c1
-			public const int ic_speaker_light = 2130837697;
+			public const int ic_speaker_dark = 2130837697;
 			
 			// aapt resource value: 0x7f0200c2
-			public const int ic_successstatus = 2130837698;
+			public const int ic_speaker_group_dark = 2130837698;
 			
 			// aapt resource value: 0x7f0200c3
-			public const int ic_tv_dark = 2130837699;
+			public const int ic_speaker_group_light = 2130837699;
 			
 			// aapt resource value: 0x7f0200c4
-			public const int ic_tv_light = 2130837700;
+			public const int ic_speaker_light = 2130837700;
 			
 			// aapt resource value: 0x7f0200c5
-			public const int icon = 2130837701;
+			public const int ic_successstatus = 2130837701;
 			
 			// aapt resource value: 0x7f0200c6
-			public const int Icon_Inverse = 2130837702;
+			public const int ic_tv_dark = 2130837702;
 			
 			// aapt resource value: 0x7f0200c7
-			public const int info = 2130837703;
+			public const int ic_tv_light = 2130837703;
 			
 			// aapt resource value: 0x7f0200c8
-			public const int left = 2130837704;
+			public const int icon = 2130837704;
 			
 			// aapt resource value: 0x7f0200c9
-			public const int left_white = 2130837705;
+			public const int Icon_Inverse = 2130837705;
 			
 			// aapt resource value: 0x7f0200ca
-			public const int list = 2130837706;
+			public const int info = 2130837706;
 			
 			// aapt resource value: 0x7f0200cb
-			public const int location = 2130837707;
+			public const int left = 2130837707;
 			
 			// aapt resource value: 0x7f0200cc
-			public const int logo = 2130837708;
+			public const int left_white = 2130837708;
 			
 			// aapt resource value: 0x7f0200cd
-			public const int logo_inverse = 2130837709;
+			public const int list = 2130837709;
 			
 			// aapt resource value: 0x7f0200ce
-			public const int map = 2130837710;
+			public const int list_yellow = 2130837710;
 			
 			// aapt resource value: 0x7f0200cf
-			public const int message = 2130837711;
+			public const int location = 2130837711;
 			
 			// aapt resource value: 0x7f0200d0
-			public const int monkey = 2130837712;
+			public const int location_yellow = 2130837712;
 			
 			// aapt resource value: 0x7f0200d1
-			public const int mr_dialog_material_background_dark = 2130837713;
+			public const int logo = 2130837713;
 			
 			// aapt resource value: 0x7f0200d2
-			public const int mr_dialog_material_background_light = 2130837714;
+			public const int logo_inverse = 2130837714;
 			
 			// aapt resource value: 0x7f0200d3
-			public const int mr_ic_audiotrack_light = 2130837715;
+			public const int map = 2130837715;
 			
 			// aapt resource value: 0x7f0200d4
-			public const int mr_ic_cast_dark = 2130837716;
+			public const int message = 2130837716;
 			
 			// aapt resource value: 0x7f0200d5
-			public const int mr_ic_cast_light = 2130837717;
+			public const int monkey = 2130837717;
 			
 			// aapt resource value: 0x7f0200d6
-			public const int mr_ic_close_dark = 2130837718;
+			public const int mr_dialog_material_background_dark = 2130837718;
 			
 			// aapt resource value: 0x7f0200d7
-			public const int mr_ic_close_light = 2130837719;
+			public const int mr_dialog_material_background_light = 2130837719;
 			
 			// aapt resource value: 0x7f0200d8
-			public const int mr_ic_media_route_connecting_mono_dark = 2130837720;
+			public const int mr_ic_audiotrack_light = 2130837720;
 			
 			// aapt resource value: 0x7f0200d9
-			public const int mr_ic_media_route_connecting_mono_light = 2130837721;
+			public const int mr_ic_cast_dark = 2130837721;
 			
 			// aapt resource value: 0x7f0200da
-			public const int mr_ic_media_route_mono_dark = 2130837722;
+			public const int mr_ic_cast_light = 2130837722;
 			
 			// aapt resource value: 0x7f0200db
-			public const int mr_ic_media_route_mono_light = 2130837723;
+			public const int mr_ic_close_dark = 2130837723;
 			
 			// aapt resource value: 0x7f0200dc
-			public const int mr_ic_pause_dark = 2130837724;
+			public const int mr_ic_close_light = 2130837724;
 			
 			// aapt resource value: 0x7f0200dd
-			public const int mr_ic_pause_light = 2130837725;
+			public const int mr_ic_media_route_connecting_mono_dark = 2130837725;
 			
 			// aapt resource value: 0x7f0200de
-			public const int mr_ic_play_dark = 2130837726;
+			public const int mr_ic_media_route_connecting_mono_light = 2130837726;
 			
 			// aapt resource value: 0x7f0200df
-			public const int mr_ic_play_light = 2130837727;
+			public const int mr_ic_media_route_mono_dark = 2130837727;
 			
 			// aapt resource value: 0x7f0200e0
-			public const int Nearby = 2130837728;
-			
-			// aapt resource value: 0x7f0200fa
-			public const int notification_template_icon_bg = 2130837754;
+			public const int mr_ic_media_route_mono_light = 2130837728;
 			
 			// aapt resource value: 0x7f0200e1
-			public const int pencil = 2130837729;
+			public const int mr_ic_pause_dark = 2130837729;
 			
 			// aapt resource value: 0x7f0200e2
-			public const int pin = 2130837730;
+			public const int mr_ic_pause_light = 2130837730;
 			
 			// aapt resource value: 0x7f0200e3
-			public const int pin_progress_pinned = 2130837731;
+			public const int mr_ic_play_dark = 2130837731;
 			
 			// aapt resource value: 0x7f0200e4
-			public const int pin_progress_shadow = 2130837732;
+			public const int mr_ic_play_light = 2130837732;
 			
 			// aapt resource value: 0x7f0200e5
-			public const int pin_progress_unpinned = 2130837733;
+			public const int Nearby = 2130837733;
+			
+			// aapt resource value: 0x7f0200ff
+			public const int notification_template_icon_bg = 2130837759;
 			
 			// aapt resource value: 0x7f0200e6
-			public const int places = 2130837734;
+			public const int pencil = 2130837734;
 			
 			// aapt resource value: 0x7f0200e7
-			public const int right = 2130837735;
+			public const int pin = 2130837735;
 			
 			// aapt resource value: 0x7f0200e8
-			public const int right_white = 2130837736;
+			public const int pin_progress_pinned = 2130837736;
 			
 			// aapt resource value: 0x7f0200e9
-			public const int roundedbg = 2130837737;
+			public const int pin_progress_shadow = 2130837737;
 			
 			// aapt resource value: 0x7f0200ea
-			public const int roundedbgdark = 2130837738;
+			public const int pin_progress_unpinned = 2130837738;
 			
 			// aapt resource value: 0x7f0200eb
-			public const int scrubber_control_normal_holo = 2130837739;
+			public const int places = 2130837739;
 			
 			// aapt resource value: 0x7f0200ec
-			public const int scrubber_control_pressed_holo = 2130837740;
+			public const int right = 2130837740;
 			
 			// aapt resource value: 0x7f0200ed
-			public const int search = 2130837741;
+			public const int right_white = 2130837741;
 			
 			// aapt resource value: 0x7f0200ee
-			public const int splash_screen = 2130837742;
+			public const int roundedbg = 2130837742;
 			
 			// aapt resource value: 0x7f0200ef
-			public const int unknown = 2130837743;
+			public const int roundedbgdark = 2130837743;
 			
 			// aapt resource value: 0x7f0200f0
-			public const int unknown_female = 2130837744;
+			public const int scrubber_control_normal_holo = 2130837744;
 			
 			// aapt resource value: 0x7f0200f1
-			public const int unknown_male = 2130837745;
+			public const int scrubber_control_pressed_holo = 2130837745;
 			
 			// aapt resource value: 0x7f0200f2
-			public const int welcome1 = 2130837746;
+			public const int search = 2130837746;
 			
 			// aapt resource value: 0x7f0200f3
-			public const int welcome1bar = 2130837747;
+			public const int splash_screen = 2130837747;
 			
 			// aapt resource value: 0x7f0200f4
-			public const int welcome2 = 2130837748;
+			public const int unknown = 2130837748;
 			
 			// aapt resource value: 0x7f0200f5
-			public const int welcome2bar = 2130837749;
+			public const int unknown_female = 2130837749;
 			
 			// aapt resource value: 0x7f0200f6
-			public const int welcome3 = 2130837750;
+			public const int unknown_male = 2130837750;
 			
 			// aapt resource value: 0x7f0200f7
-			public const int welcome3bar = 2130837751;
+			public const int welcome1 = 2130837751;
 			
 			// aapt resource value: 0x7f0200f8
-			public const int welcome4bar = 2130837752;
+			public const int welcome1bar = 2130837752;
 			
 			// aapt resource value: 0x7f0200f9
-			public const int xamarin = 2130837753;
+			public const int welcome2 = 2130837753;
+			
+			// aapt resource value: 0x7f0200fa
+			public const int welcome2bar = 2130837754;
+			
+			// aapt resource value: 0x7f0200fb
+			public const int welcome3 = 2130837755;
+			
+			// aapt resource value: 0x7f0200fc
+			public const int welcome3bar = 2130837756;
+			
+			// aapt resource value: 0x7f0200fd
+			public const int welcome4bar = 2130837757;
+			
+			// aapt resource value: 0x7f0200fe
+			public const int xamarin = 2130837758;
 			
 			static Drawable()
 			{
@@ -5648,28 +5669,31 @@ namespace RumbleApp.Droid
 			public const int notification_template_part_time = 2130903099;
 			
 			// aapt resource value: 0x7f03003c
-			public const int select_dialog_item_material = 2130903100;
+			public const int RoundedCornerEntry = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int select_dialog_multichoice_material = 2130903101;
+			public const int select_dialog_item_material = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int select_dialog_singlechoice_material = 2130903102;
+			public const int select_dialog_multichoice_material = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int support_simple_spinner_dropdown_item = 2130903103;
+			public const int select_dialog_singlechoice_material = 2130903103;
 			
 			// aapt resource value: 0x7f030040
-			public const int week = 2130903104;
+			public const int support_simple_spinner_dropdown_item = 2130903104;
 			
 			// aapt resource value: 0x7f030041
-			public const int XamarinMapInfoWindow = 2130903105;
+			public const int week = 2130903105;
 			
 			// aapt resource value: 0x7f030042
-			public const int zxingscanneractivitylayout = 2130903106;
+			public const int XamarinMapInfoWindow = 2130903106;
 			
 			// aapt resource value: 0x7f030043
-			public const int zxingscannerfragmentlayout = 2130903107;
+			public const int zxingscanneractivitylayout = 2130903107;
+			
+			// aapt resource value: 0x7f030044
+			public const int zxingscannerfragmentlayout = 2130903108;
 			
 			static Layout()
 			{

@@ -1,7 +1,7 @@
 using Xamarin.Forms;
 using System.Threading.Tasks;
 
-namespace RumbleApp.Core.Interfaces
+namespace JamnationApp.Core.Interfaces
 {
 	public interface IAppNavigation
 	{

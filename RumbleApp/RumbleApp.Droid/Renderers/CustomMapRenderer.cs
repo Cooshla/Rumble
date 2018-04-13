@@ -8,13 +8,13 @@ using Android.Widget;
 using Xamarin.Forms;
 using Xamarin.Forms.Maps;
 using Xamarin.Forms.Maps.Android;
-using RumbleApp.Core.Abstracts;
-using RumbleApp.Droid.Renderers;
-using RumbleApp.Core;
-using RumbleApp.Core.ViewModels.Map;
+using JamnationApp.Core.Abstracts;
+using JamnationApp.Droid.Renderers;
+using JamnationApp.Core;
+using JamnationApp.Core.ViewModels.Map;
 
 [assembly: ExportRenderer(typeof(CustomMap), typeof(CustomMapRenderer))]
-namespace RumbleApp.Droid.Renderers
+namespace JamnationApp.Droid.Renderers
 {
     public class CustomMapRenderer : MapRenderer, GoogleMap.IInfoWindowAdapter, IOnMapReadyCallback
     {
@@ -93,9 +93,9 @@ namespace RumbleApp.Droid.Renderers
             if (!string.IsNullOrWhiteSpace(customPin.Id))
             {
                 if (customPin.Type.ToLower() == "event")
-                    MessagingCenter.Send<MainMapPageViewModel, string>(App.MainMapPageViewModel, Messages.MapEventsClicked, customPin.Id);
+                    MessagingCenter.Send<MainMapPageViewModel, string>(App.ViewModelLocator.MainMapPage, Messages.MapEventsClicked, customPin.Id);
                 if (customPin.Type.ToLower() == "profile")
-                    MessagingCenter.Send<MainMapPageViewModel, string>(App.MainMapPageViewModel, Messages.MapProfileClicked, customPin.Id);
+                    MessagingCenter.Send<MainMapPageViewModel, string>(App.ViewModelLocator.MainMapPage, Messages.MapProfileClicked, customPin.Id);
             }
         }
 

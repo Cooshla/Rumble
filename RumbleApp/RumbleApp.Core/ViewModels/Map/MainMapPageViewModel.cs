@@ -1,8 +1,8 @@
-using RumbleApp.Core.Abstracts;
-using RumbleApp.Core.Interfaces;
-using RumbleApp.Core.Models;
-using RumbleApp.Core.Services;
-using RumbleApp.Core.UI;
+using JamnationApp.Core.Abstracts;
+using JamnationApp.Core.Interfaces;
+using JamnationApp.Core.Models;
+using JamnationApp.Core.Services;
+using JamnationApp.Core.UI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ using System.Windows.Input;
 using Xamarin.Forms;
 using Xamarin.Forms.Maps;
 
-namespace RumbleApp.Core.ViewModels.Map
+namespace JamnationApp.Core.ViewModels.Map
 {
     public class MainMapPageViewModel:BaseViewModel
     {
@@ -25,7 +25,7 @@ namespace RumbleApp.Core.ViewModels.Map
         public bool ShowMap { get; set; }
         public ImageSource ShowMapIcon { get; set; }
         public List<Event> AllEvents { get; set; }
-        public List<RumbleApp.Core.Models.Profile> AllProfiles { get; set; }
+        public List<JamnationApp.Core.Models.Profile> AllProfiles { get; set; }
 
         private IAppNavigation Navi { get; set; }
         private IPageFactory Page { get; set; }
@@ -94,7 +94,7 @@ namespace RumbleApp.Core.ViewModels.Map
 
             AllProfiles = await Prof.GetAllProfiles();
 
-            foreach (RumbleApp.Core.Models.Profile usr in AllProfiles)
+            foreach (JamnationApp.Core.Models.Profile usr in AllProfiles)
             {
                 var pin = new CustomPin
                 {

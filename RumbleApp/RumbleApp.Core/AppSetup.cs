@@ -1,14 +1,14 @@
 using Autofac;
-using RumbleApp.Core.Interfaces;
-using RumbleApp.Core.Services;
-using RumbleApp.Core.ViewModels;
-using RumbleApp.Core.ViewModels.AutoComplete;
-using RumbleApp.Core.ViewModels.Events;
-using RumbleApp.Core.ViewModels.Guide;
-using RumbleApp.Core.ViewModels.Map;
-using RumbleApp.Core.ViewModels.Profile;
+using JamnationApp.Core.Interfaces;
+using JamnationApp.Core.Services;
+using JamnationApp.Core.ViewModels;
+using JamnationApp.Core.ViewModels.AutoComplete;
+using JamnationApp.Core.ViewModels.Events;
+using JamnationApp.Core.ViewModels.Guide;
+using JamnationApp.Core.ViewModels.Map;
+using JamnationApp.Core.ViewModels.Profile;
 
-namespace RumbleApp.Core
+namespace JamnationApp.Core
 {
     // we can inherit and override this class on each platform to make services specific
     public class AppSetup
@@ -50,7 +50,6 @@ namespace RumbleApp.Core
             // View Models
             cb.RegisterType<MasterPageViewModel>().SingleInstance();
             cb.RegisterType<MainPageViewModel>().SingleInstance();
-            cb.RegisterType<ScanPageViewModel>().SingleInstance();
             cb.RegisterType<LoginViewModel>().SingleInstance();
             cb.RegisterType<RegisterViewModel>().SingleInstance();
             cb.RegisterType<ProfileViewModel>().SingleInstance();
@@ -61,6 +60,10 @@ namespace RumbleApp.Core
             cb.RegisterType<LocationLookupViewModel>().SingleInstance();
             cb.RegisterType<EventDetailViewModel>().SingleInstance();
             cb.RegisterType<ViewProfileViewModel>().SingleInstance();
+            cb.RegisterType<SearchViewModel>().SingleInstance();
+            cb.RegisterType<ListViewModel>().SingleInstance();
+            cb.RegisterType<MapViewModel>().SingleInstance();
+            
         }
     }
 }

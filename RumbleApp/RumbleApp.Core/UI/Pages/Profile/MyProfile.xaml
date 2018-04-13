@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
              xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
-             x:Class="RumbleApp.Core.UI.Pages.Profile.MyProfile" BackgroundColor="White" >
+             x:Class="JamnationApp.Core.UI.Pages.Profile.MyProfile" BackgroundColor="White" >
 
     <ScrollView Padding="25,125,25,25" Orientation="Vertical" HorizontalOptions="Fill" VerticalOptions="FillAndExpand">
 
@@ -14,7 +14,7 @@
                     <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical">
                         <controls:CircleImage x:Name="imgPhoto" Aspect="AspectFill" Source="{Binding UserImage}" HorizontalOptions="Center" WidthRequest="100" HeightRequest="100" 
                        Margin="0, -75, 0, 0" ></controls:CircleImage>
-                        <Button Text="Edit profile image" Style="{DynamicResource OrangeButton}"  />
+                        <Button Text="Edit profile image"   />
 
                         <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal" Padding="0,20,0,0">
                             <Entry Text="{Binding ThisProfile.FirstName}" Placeholder="First Name" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />

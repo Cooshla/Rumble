@@ -2,10 +2,10 @@ using System;
 using SQLite.Net;
 using System.IO;
 using Xamarin.Forms;
-using RumbleApp.Droid;
-using RumbleApp.Core;
+using JamnationApp.Droid;
+using JamnationApp.Core;
 
-namespace RumbleApp.Droid
+namespace JamnationApp.Droid
 {
     
     public class SQLite_Android : ISQLite
@@ -17,7 +17,7 @@ namespace RumbleApp.Droid
         public SQLiteConnection GetConnection()
         {
      
-            var fileName = "RumbleApp.db3";
+            var fileName = "JamnationApp.db3";
             var documentsPath = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
             var path = Path.Combine (documentsPath, fileName);
 
@@ -30,7 +30,7 @@ namespace RumbleApp.Droid
        
             // COMMENT OUT ABOVE AND UNCOMMENT BELOW TO RECREATE THE db ON YOUR ANDROIDS LOCAL FILE FOLDER
           /*
-            var fileName = "RumbleApp.db3";
+            var fileName = "JamnationApp.db3";
             // this line of code saves the DB to the MYFiles folder on your android which you can then go to to get the DB
             var documentsPath =Android.OS.Environment.ExternalStorageDirectory.Path;
             var path = Path.Combine (documentsPath, fileName);

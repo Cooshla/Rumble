@@ -5,14 +5,14 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace RumbleApp.iOS
+namespace JamnationApp.iOS
 {
 	public class Application
 	{
 		// This is the main entry point of the application.
 		static void Main (string[] args)
 		{
-			//Xamarin.Insights.Initialize (global::RumbleApp.iOS.XamarinInsights.ApiKey);
+			//Xamarin.Insights.Initialize (global::JamnationApp.iOS.XamarinInsights.ApiKey);
 			NSUserDefaults.StandardUserDefaults ["AppleLanguages"] = NSArray.FromStrings ("en");
 			NSUserDefaults.StandardUserDefaults.Synchronize ();
 			CultureInfo.DefaultThreadCurrentCulture = CultureInfo.CreateSpecificCulture ("en-GB");

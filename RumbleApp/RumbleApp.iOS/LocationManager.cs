@@ -2,7 +2,7 @@ using System;
 using CoreLocation;
 using UIKit;
 
-namespace RumbleApp.iOS
+namespace JamnationApp.iOS
 {
     public class LocationManager
     {

@@ -2,14 +2,14 @@ using Xamarin;
 using Xamarin.Forms;
 using System.Threading.Tasks;
 using System.Linq;
-using RumbleApp.Core.UI;
-using RumbleApp.Core.Abstracts;
+using JamnationApp.Core.UI;
+using JamnationApp.Core.Abstracts;
 using System;
-using RumbleApp.Core.Interfaces;
-using RumbleApp.Core.UI.Pages.Profile;
-using RumbleApp.Core.UI.Pages.Events;
+using JamnationApp.Core.Interfaces;
+using JamnationApp.Core.UI.Pages.Profile;
+using JamnationApp.Core.UI.Pages.Events;
 
-namespace RumbleApp.Core.Services
+namespace JamnationApp.Core.Services
 {
     public class AppNavigation : IAppNavigation
     {
@@ -31,14 +31,14 @@ namespace RumbleApp.Core.Services
         public async Task GoToProfilePage(string id)
         {
             Profile prof = _pages.GetPage(Pages.ProfilePage) as Profile;
-            await App.ProfileViewModel.GetData(id);
+            await App.ViewModelLocator.Profile.GetData(id);
             await PushModal(prof, true);
         }
 
         public async Task GoToEventPage(string id)
         {
             EventDetail prof = _pages.GetPage(Pages.EventDetail) as EventDetail;
-            await App.EventDetailViewModel.GetData(id);
+            await App.ViewModelLocator.EventDetail.GetData(id);
             await PushModal(prof, true);
         }
 

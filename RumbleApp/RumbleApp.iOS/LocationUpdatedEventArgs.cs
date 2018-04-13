@@ -1,8 +1,8 @@
 using System;
 using CoreLocation;
-using RumbleApp.Core;
+using JamnationApp.Core;
 
-namespace RumbleApp.iOS
+namespace JamnationApp.iOS
 {
     public class LocationUpdatedEventArgs : EventArgs
     {

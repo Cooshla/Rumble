@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RumbleApp.Models.Users
+namespace JamnationApp.Models.Users
 {
     public class User : BaseModel
     {

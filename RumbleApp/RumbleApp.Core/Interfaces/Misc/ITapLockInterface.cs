@@ -1,4 +1,4 @@
-namespace RumbleApp.Core.Interfaces
+namespace JamnationApp.Core.Interfaces
 {
 	public interface ITapLockMixin
 	{

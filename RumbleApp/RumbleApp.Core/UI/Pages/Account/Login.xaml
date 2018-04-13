@@ -1,25 +1,83 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="RumbleApp.Core.UI.Pages.Account.Login" BackgroundColor="#8C0000">
-    <ScrollView Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-        <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+             x:Class="JamnationApp.Core.UI.Pages.Account.Login" >
+    <RelativeLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource BackgroundColor}">
 
-            <StackLayout Orientation="Vertical" Padding="35,90,35,0" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand">
-                <Image Source="Icon_Inverse.png" HorizontalOptions="FillAndExpand" WidthRequest="50" VerticalOptions="FillAndExpand" />
-                <BoxView HeightRequest="20" WidthRequest="0" />
+        <StackLayout RelativeLayout.YConstraint="{ConstraintExpression Type=Constant, Constant=0}"  RelativeLayout.WidthConstraint=
+         "{ConstraintExpression Type=RelativeToParent,
+                                Property=Width,
+                                Factor=1}"
+     RelativeLayout.HeightConstraint=
+         "{ConstraintExpression Type=RelativeToParent,
+                                Property=Height,
+                                Factor=1}"  Orientation="Vertical"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" x:Name="Start" IsVisible="True" >
 
-                <Entry Placeholder="Username" x:Name="txtUsername"  Keyboard="Email" Text="{Binding UserName}"   />
-                <Entry Placeholder="Password" IsPassword="true" x:Name="txtPassword" Text="{Binding Password}" Margin="0,20,0,0" />
-
-
-                <Button x:Name="btnLogin" HeightRequest="40" BackgroundColor="White"  Image="right.png" BorderRadius="30" Command="{Binding LoginCommand}" Margin="0,20,0,0" />
+            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <Image Source="Icon_Inverse.png"  WidthRequest="50" VerticalOptions="FillAndExpand" HorizontalOptions="Center" />
+                <Label Text="App Name" FontAttributes="Bold" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" FontSize="Large" />
+                <Label Text="Tagline" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" FontSize="Default" />
             </StackLayout>
 
-            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand">
-                <Button x:Name="btnSignUp" Text="Create Account"  Command="{Binding SignupCommand}" BorderRadius="0" HorizontalOptions="FillAndExpand" 
-                        HeightRequest="75" FontAttributes="Bold" FontSize="Medium" BackgroundColor="White" TextColor="#8C0000" />
+            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Spacing="10" Padding="0,20,0,20">
+
+                <Button x:Name="btnSignUp" Image="right.png" Text="CREATE ACCOUNT" Style="{StaticResource buttonStylePrimary}" Command="{Binding SignupCommand}" HorizontalOptions="Center" />
+                <Label HeightRequest="40" TextColor="{StaticResource PrimaryColor}" Text="You already have a login?"  HorizontalOptions="Center" >
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="LoginLink_Tapped" />
+                    </Label.GestureRecognizers>
+                </Label>
+
             </StackLayout>
         </StackLayout>
-    </ScrollView>
+
+        <StackLayout RelativeLayout.YConstraint="{ConstraintExpression Type=Constant, Constant=0}"  RelativeLayout.WidthConstraint=
+         "{ConstraintExpression Type=RelativeToParent,
+                                Property=Width,
+                                Factor=1}"
+     RelativeLayout.HeightConstraint=
+         "{ConstraintExpression Type=RelativeToParent,
+                                Property=Height,
+                                Factor=1}"  Orientation="Vertical"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" x:Name="LoginSelection" IsVisible="False" >
+
+            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <Label Text="App Name" FontAttributes="Bold" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" FontSize="Large" />
+                <Label Text="Tagline" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" FontSize="Default" />
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Padding="0,20,0,20" Spacing="10" >
+
+                <Button  Text="Sign in with e-mail"  Style="{StaticResource buttonStylePrimary}" HorizontalOptions="Center" Clicked="Email_Clicked"/>
+                <Button  Text="SIGN IN WITH FACEBOOK" Style="{StaticResource buttonStyleSecondary}" HorizontalOptions="Center" Clicked="Facebook_Clicked"/>
+
+            </StackLayout>
+            
+        </StackLayout>
+
+
+        <StackLayout RelativeLayout.YConstraint="{ConstraintExpression Type=Constant, Constant=0}"  RelativeLayout.WidthConstraint=
+         "{ConstraintExpression Type=RelativeToParent,
+                                Property=Width,
+                                Factor=1}"
+     RelativeLayout.HeightConstraint=
+         "{ConstraintExpression Type=RelativeToParent,
+                                Property=Height,
+                                Factor=1}"  Orientation="Vertical"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" x:Name="LoginEmail" IsVisible="False" >
+
+            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <Label Text="App Name" FontAttributes="Bold" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" FontSize="Large" />
+                <Label Text="Tagline" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" FontSize="Default" />
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
+                <Entry Placeholder="Username" x:Name="txtUsername"  Keyboard="Email" Text="{Binding UserName}"    />
+                <Entry Placeholder="Password" IsPassword="true" x:Name="txtPassword" Text="{Binding Password}" Margin="0,20,0,0" />
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Padding="0,20,0,20" Spacing="10" >
+                <Button  Text="Login"  Style="{StaticResource buttonStylePrimary}" Command="{Binding LoginCommand}"  HorizontalOptions="Center" />
+            </StackLayout>
+
+        </StackLayout>
+    </RelativeLayout>
 </ContentPage>

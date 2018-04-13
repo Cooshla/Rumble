@@ -1,17 +1,17 @@
 using System;
-using RumbleApp.Core;
-using RumbleApp.Core.Interfaces;
-using RumbleApp.Core.UI;
+using JamnationApp.Core;
+using JamnationApp.Core.Interfaces;
+using JamnationApp.Core.UI;
 using Xamarin.Forms;
-using RumbleApp.Core.UI.Pages.Profile;
-using RumbleApp.Core.UI.Pages.Account;
-using RumbleApp.Core.UI.Pages.Map;
-using RumbleApp.Core.UI.Pages.Guide;
-using RumbleApp.Core.ViewModels.AutoComplete;
-using RumbleApp.Core.UI.Pages.AutoComplete;
-using RumbleApp.Core.UI.Pages.Events;
+using JamnationApp.Core.UI.Pages.Profile;
+using JamnationApp.Core.UI.Pages.Account;
+using JamnationApp.Core.UI.Pages.Map;
+using JamnationApp.Core.UI.Pages.Guide;
+using JamnationApp.Core.ViewModels.AutoComplete;
+using JamnationApp.Core.UI.Pages.AutoComplete;
+using JamnationApp.Core.UI.Pages.Events;
 
-namespace RumbleApp.Core.Services
+namespace JamnationApp.Core.Services
 {
 	public class PageFactory : IPageFactory
 	{
@@ -20,20 +20,16 @@ namespace RumbleApp.Core.Services
 			switch (page)
             {
                 case Pages.MainPage: return new MainPage();
-                case Pages.ScanPage: return new ScanPage();
-                case Pages.ProfilePage: return App.ProfilePage;
-                case Pages.LoginPage: return new Login();
-                case Pages.RegisterPage: return new Register();
-                case Pages.Guide: return new GuidePage();
-                case Pages.MainMapPage:return App.MainMap;
-                case Pages.AddEventPage:
-                    return new AddEvent();
-                case Pages.AddressLookup:
-                    return new LocationLookup();
-                case Pages.EventDetail:
-                    return new EventDetail();
-
-
+                case Pages.ProfilePage: return UIPageLocator.Profile;
+                case Pages.LoginPage: return  UIPageLocator.Login;
+                case Pages.RegisterPage: return  UIPageLocator.Register;
+                case Pages.Guide: return UIPageLocator.GuidePage;
+                case Pages.MainMapPage:return UIPageLocator.MainMapPage;
+                case Pages.AddEventPage: return UIPageLocator.AddEvent;
+                case Pages.AddressLookup: return UIPageLocator.LocationLookup;
+                case Pages.EventDetail: return UIPageLocator.EventDetail;
+                case Pages.Search: return UIPageLocator.Search;
+                case Pages.List: return UIPageLocator.List;
                 default: throw new ArgumentException(string.Format("Unknown page type {0}", page));
 			}
 		}

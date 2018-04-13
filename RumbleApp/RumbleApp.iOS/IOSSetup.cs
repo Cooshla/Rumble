@@ -1,10 +1,10 @@
 using Autofac;
-using RumbleApp.Core;
-using RumbleApp.iOS.Services;
+using JamnationApp.Core;
+using JamnationApp.iOS.Services;
 using XLabs.Platform.Device;
 using XLabs.Platform.Services.Media;
 
-namespace RumbleApp.iOS
+namespace JamnationApp.iOS
 {
     public class IOSSetup : AppSetup
     {

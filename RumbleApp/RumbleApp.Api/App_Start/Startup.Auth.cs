@@ -8,11 +8,11 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Microsoft.Owin.Security.OAuth;
 using Owin;
-using RumbleApp.Api.Providers;
-using RumbleApp.Api.Models;
+using JamnationApp.Api.Providers;
+using JamnationApp.Api.Models;
 using Microsoft.AspNet.Identity.Owin;
 
-namespace RumbleApp.Api
+namespace JamnationApp.Api
 {
     public partial class Startup
     {

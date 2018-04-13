@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
-namespace RumbleApp.Core.UI.Pages.Events
+namespace JamnationApp.Core.UI.Pages.Events
 {
     public partial class EventDetail : ContentPage
     {
         public EventDetail()
         {
-            BindingContext = App.EventDetailViewModel;
             InitializeComponent();
         }
     }

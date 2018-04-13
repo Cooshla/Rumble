@@ -1,7 +1,7 @@
 using System;
 using System.Globalization;
 
-namespace RumbleApp.Core.Helpers
+namespace JamnationApp.Core.Helpers
 {
     public class DateHelper
     {

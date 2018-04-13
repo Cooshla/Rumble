@@ -1,6 +1,6 @@
-using RumbleApp.Core.Extensions;
-using RumbleApp.Core.Helpers;
-using RumbleApp.Core.Interfaces;
+using JamnationApp.Core.Extensions;
+using JamnationApp.Core.Helpers;
+using JamnationApp.Core.Interfaces;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Maps;
 
-namespace RumbleApp.Core.Maps
+namespace JamnationApp.Core.Maps
 {
     public class MapBehavior : BindableBehavior<Map>
     {

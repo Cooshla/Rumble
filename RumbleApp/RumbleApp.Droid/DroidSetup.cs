@@ -1,9 +1,9 @@
-using RumbleApp.Core;
+using JamnationApp.Core;
 using Autofac;
 using XLabs.Platform.Device;
 using XLabs.Platform.Services.Media;
 
-namespace RumbleApp.Droid
+namespace JamnationApp.Droid
 {
 	public class DroidSetup : AppSetup
 	{

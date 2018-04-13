@@ -1,4 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <resources>
   <color name="splash_background">#ffffff</color>
+
+  <color name="entry_background">#ffffff</color>
+  <color name="entry_border">#666666</color>
 </resources>

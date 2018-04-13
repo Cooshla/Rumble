@@ -1,10 +1,10 @@
-﻿using RumbleApp.Models;
+﻿using JamnationApp.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace RumbleApp.Api.Models
+namespace JamnationApp.Api.Models
 {
     public class NotificationTags : BaseModel
     {

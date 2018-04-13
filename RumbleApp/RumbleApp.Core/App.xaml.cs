@@ -1,30 +1,30 @@
 using Autofac;
 using System;
 using System.Collections.Generic;
-using RumbleApp.Core.Abstracts;
+using JamnationApp.Core.Abstracts;
 using Xamarin.Forms;
-using RumbleApp.Core.Services;
+using JamnationApp.Core.Services;
 using System.Threading.Tasks;
-using RumbleApp.Core.Helpers;
-using INavigationService = RumbleApp.Core.Interfaces.INavigationService;
+using JamnationApp.Core.Helpers;
+using INavigationService = JamnationApp.Core.Interfaces.INavigationService;
 using XLabs.Platform.Device;
 using Xamarin.Forms.Maps;
-using RumbleApp.Core.Interfaces;
-using RumbleApp.Core.UI;
-using RumbleApp.Core.ViewModels;
+using JamnationApp.Core.Interfaces;
+using JamnationApp.Core.UI;
+using JamnationApp.Core.ViewModels;
 using Acr.UserDialogs;
-using RumbleApp.Core.ViewModels.Map;
-using RumbleApp.Core.ViewModels.Events;
+using JamnationApp.Core.ViewModels.Map;
+using JamnationApp.Core.ViewModels.Events;
 using XLabs.Platform.Services.Media;
-using RumbleApp.Core.Models;
-using RumbleApp.Core.UI.Pages.Map;
-using RumbleApp.Core.ViewModels.Guide;
-using RumbleApp.Core.ViewModels.AutoComplete;
-using RumbleApp.Core.ViewModels.Profile;
+using JamnationApp.Core.Models;
+using JamnationApp.Core.UI.Pages.Map;
+using JamnationApp.Core.ViewModels.Guide;
+using JamnationApp.Core.ViewModels.AutoComplete;
+using JamnationApp.Core.ViewModels.Profile;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
-namespace RumbleApp.Core
+namespace JamnationApp.Core
 {
     public partial class App : Application
     {
@@ -67,7 +67,7 @@ namespace RumbleApp.Core
 
         public static DatabaseManager DatabaseManager { get; set; }
 
-        
+
         public static IUserDialogs UserDialogService { get; set; }
 
 
@@ -78,16 +78,17 @@ namespace RumbleApp.Core
 
             UserDialogService = UserDialogs.Instance;
 
+            UIPageLocator.Init();
             NaviService = _container.Resolve<INavigationService>() as NavigationService;
 
             var pageFactory = _container.Resolve<IPageFactory>();
             var home = pageFactory.GetPage(Pages.MainPage) as MasterDetailPage;
-            var scan = pageFactory.GetPage(Pages.MainMapPage);
+            var scan = pageFactory.GetPage(Pages.Search);
             StartupPage = scan;
             home.Detail = _firstPage;
             MainPage = home;
 
-           // DeviceId = Acr.DeviceInfo.DeviceInfo.Hardware.DeviceId;
+            // DeviceId = Acr.DeviceInfo.DeviceInfo.Hardware.DeviceId;
 
             SetNavService(scan);
 
@@ -115,39 +116,18 @@ namespace RumbleApp.Core
                     await NaviService.PushModalAsync(pageFactory.GetPage(Pages.LoginPage), true);
                 }
             }
-            
+
             App.Token = token;
         }
 
         public static void Init(AppSetup appSetup)
         {
             _container = appSetup.CreateContainer();
-
-            MasterPageViewModel = _container.Resolve<MasterPageViewModel>();
-            MainPageViewModel = _container.Resolve<MainPageViewModel>();
-            ScanPageViewModel = _container.Resolve<ScanPageViewModel>();
-            LoginViewModel = _container.Resolve<LoginViewModel>();
-            RegisterViewModel = _container.Resolve<RegisterViewModel>();
-            ProfileViewModel = _container.Resolve<ProfileViewModel>();
-
-            MainMapPageViewModel = _container.Resolve<MainMapPageViewModel>();
-            AddEventViewModel = _container.Resolve<AddEventViewModel>();
-            EventsViewModel = _container.Resolve<EventsViewModel>();
-            GuideViewModel = _container.Resolve<GuideViewModel>();
-            LocationLookupViewModel = _container.Resolve<LocationLookupViewModel>();
-            EventDetailViewModel = _container.Resolve<EventDetailViewModel>();
-            ViewProfileViewModel = _container.Resolve<ViewProfileViewModel>();
-            
-            // static pages
-            MainMap = new MainMapPage();
-            ProfilePage = new UI.Pages.Profile.Profile();
-            EventsPage = new UI.Pages.Events.Events();
-            MyProfile = new UI.Pages.Profile.MyProfile();
-
+            App.ViewModelLocator = new ViewModelLocator(_container);
 
         }
 
-
+        public static ViewModelLocator ViewModelLocator  { get; set;}
         public static IDisplay DeviceDisplay { get; set; }
 
 
@@ -166,32 +146,7 @@ namespace RumbleApp.Core
         public static DateTime PageOpenedDateTime { get; set; }
 
 
-
-        public static MasterPageViewModel MasterPageViewModel { get; set; }
-        public static MainPageViewModel MainPageViewModel { get; set; }
-        public static ScanPageViewModel ScanPageViewModel { get; set; }
-
-        public static LoginViewModel LoginViewModel { get; set; }
-        public static RegisterViewModel RegisterViewModel { get; set; }
-        public static ProfileViewModel ProfileViewModel { get; set; }
-        public static EventsViewModel EventsViewModel { get; set; }
         
-        public static MainMapPageViewModel MainMapPageViewModel { get; set; }
-        public static AddEventViewModel AddEventViewModel { get; set; }
-        public static GuideViewModel GuideViewModel { get; set; }
-        public static EventDetailViewModel EventDetailViewModel { get; set; }
-        public static ViewProfileViewModel ViewProfileViewModel { get; set; }
 
-        
-        public static LocationLookupViewModel LocationLookupViewModel { get; set; }
-
-        //public static FavouritesViewModel FavouritesViewModel { get { return Resolve<FavouritesViewModel>(); } }
-        // static pages
-
-
-        public static MainMapPage MainMap { get; set; }
-        public static UI.Pages.Profile.Profile ProfilePage { get; set; }
-        public static UI.Pages.Events.Events EventsPage { get; set; }
-        public static UI.Pages.Profile.MyProfile MyProfile{ get; set; }
     }
 }

@@ -1,39 +1,97 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="RumbleApp.Core.UI.Pages.Account.Register">
+             x:Class="JamnationApp.Core.UI.Pages.Account.Register"  BackgroundColor="{StaticResource BackgroundColor}">
+    <RelativeLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource BackgroundColor}">
 
-    <ScrollView Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-        <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
 
-            <Button Command="{Binding BackCommand}" Image="left.png" VerticalOptions="Start" HorizontalOptions="Start" Style="{DynamicResource plainButtonStyle}" />
-            
-            <StackLayout Orientation="Vertical" Padding="35,35,35,0" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand">
+        <StackLayout RelativeLayout.YConstraint="{ConstraintExpression Type=Constant, Constant=0}"  RelativeLayout.WidthConstraint=
+         "{ConstraintExpression Type=RelativeToParent,
+                                Property=Width,
+                                Factor=1}"
+     RelativeLayout.HeightConstraint=
+         "{ConstraintExpression Type=RelativeToParent,
+                                Property=Height,
+                                Factor=1}"  Orientation="Vertical"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" x:Name="Step1" IsVisible="True" >
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Start" Padding="10,10,10,10">
+                <Label Text="Back" FontAttributes="Bold" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Start" FontSize="Small" />
+                <Label Text="Sign up" FontAttributes="Bold" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" FontSize="Small" />
+                <Label Text="X" FontAttributes="Bold" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="End" FontSize="Small" />
+            </StackLayout>
+            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <Label Text="Sign up" FontAttributes="Bold" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" FontSize="Large" />
+            </StackLayout>
+            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand" Spacing="10" Padding="0,20,0,20">
+                <StackLayout Orientation="Vertical" Padding="35,35,35,0" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand">
+                    <Entry Placeholder="First Name" x:Name="txtFirstName" Keyboard="Default" Text="{Binding FirstName}"  />
+                    <Entry Placeholder="Email"  x:Name="txtEmail" Keyboard="Email" Text="{Binding Email}"  Margin="0,20,0,0" />
+                    <Entry Placeholder="Password"  x:Name="txtPass" Keyboard="Default" IsPassword="True" Text="{Binding Password}"  Margin="0,20,0,0" />
+                </StackLayout>
                 
-                <Image Source="icon.png" HorizontalOptions="FillAndExpand" WidthRequest="50" VerticalOptions="FillAndExpand" />
+                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand">
+                    <Button  Text="Next" Style="{StaticResource buttonStylePrimary}" HorizontalOptions="Center" Clicked="Step1_Clicked" />
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
 
-                <BoxView HeightRequest="20" WidthRequest="0" />
+        <StackLayout RelativeLayout.YConstraint="{ConstraintExpression Type=Constant, Constant=0}"  RelativeLayout.WidthConstraint=
+         "{ConstraintExpression Type=RelativeToParent,
+                                Property=Width,
+                                Factor=1}"
+     RelativeLayout.HeightConstraint=
+         "{ConstraintExpression Type=RelativeToParent,
+                                Property=Height,
+                                Factor=1}"  Orientation="Vertical"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" x:Name="Step2" IsVisible="False" >
 
-                <Entry Placeholder="First Name" x:Name="txtFirstName" Keyboard="Default" Text="{Binding FirstName}"  />
-
-                <Entry Placeholder="Last Name" x:Name="txtLastName" Keyboard="Default"  Text="{Binding LastName}" Margin="0,20,0,0" />
-
-                <Entry Placeholder="Email"  x:Name="txtEmail" Keyboard="Email" Text="{Binding Email}"  Margin="0,20,0,0" />
-
-                <Entry Placeholder="Password"  x:Name="txtPass" Keyboard="Default" IsPassword="True" Text="{Binding Password}"  Margin="0,20,0,0" />
-
-                <Entry Placeholder="Phone" x:Name="txtPhone" Keyboard="Telephone" Text="{Binding Phone}"  Margin="0,20,0,0" />
-
-
-
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Start" Padding="0,10,10,10">
+                <Label Text="Back" FontAttributes="Bold" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Start" FontSize="Small" />
+                <Label Text="Sign up" FontAttributes="Bold" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" FontSize="Small" />
+                <Label Text="X" FontAttributes="Bold" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="End" FontSize="Small" />
             </StackLayout>
 
-            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand">
-                <Button x:Name="btnSignUp"  Image="right_white.png"   Command="{Binding SignupCommand}" BorderRadius="0" HorizontalOptions="FillAndExpand" HeightRequest="75" FontAttributes="Bold"
-                        FontSize="Medium" BackgroundColor="#8C0000" TextColor="#ffffff" />
+            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <Image HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Source="AddPhoto.png">
+                    
+                </Image>
             </StackLayout>
 
+            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand" Spacing="10" Padding="0,20,0,20">
+
+                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand">
+                    <Button  Text="Skip" Style="{StaticResource buttonStylePrimary}" HorizontalOptions="Center" Clicked="Step2_Clicked" />
+                </StackLayout>
+            </StackLayout>
+            
+        </StackLayout>
+
+
+        <StackLayout RelativeLayout.YConstraint="{ConstraintExpression Type=Constant, Constant=0}"  RelativeLayout.WidthConstraint=
+         "{ConstraintExpression Type=RelativeToParent,
+                                Property=Width,
+                                Factor=1}"
+     RelativeLayout.HeightConstraint=
+         "{ConstraintExpression Type=RelativeToParent,
+                                Property=Height,
+                                Factor=1}"  Orientation="Vertical"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" x:Name="Step3" IsVisible="False" >
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="Start" Padding="10,10,10,10">
+                <Label Text="Back" FontAttributes="Bold" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Start" FontSize="Small" />
+                <Label Text="Sign up" FontAttributes="Bold" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" FontSize="Small" />
+                <Label Text="X" FontAttributes="Bold" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="End" FontSize="Small" />
+            </StackLayout>
+            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <Label Text="Tell us about you" FontAttributes="Bold" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" FontSize="Large" />
+            </StackLayout>
+            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand" Spacing="10" Padding="0,20,0,20">
+                <StackLayout Orientation="Vertical" Padding="35,35,35,0" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand">
+                    <Editor  x:Name="txtDescription" Keyboard="Default" HeightRequest="300" Text="{Binding FirstName}"  />
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand">
+                    <Button Text="Finish" Style="{StaticResource buttonStylePrimary}" Command="{Binding SignupCommand}" HorizontalOptions="Center" />
+                </StackLayout>
+            </StackLayout>
 
         </StackLayout>
-    </ScrollView>
+    </RelativeLayout>
+    
 </ContentPage>

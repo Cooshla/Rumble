@@ -1,108 +1,77 @@
-﻿using RumbleApp.Core.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using JamnationApp.Core.Interfaces;
+using JamnationApp.Core.Models;
+using System.Collections.ObjectModel;
+using System.Windows.Input;
 using Xamarin.Forms;
-using XLabs;
 
-namespace RumbleApp.Core.ViewModels.Guide
+namespace JamnationApp.Core.ViewModels.Guide
 {
-    public class GuideViewModel : BaseViewModel, ITapLockMixin
+    public class GuideViewModel : BaseViewModel
     {
-        TapLockMixinVars ITapLockMixin.TapLockMixinVars { get; set; }
-        private readonly IAppNavigation _navi;
-        private readonly IPageFactory _page;
-        public string OtherOutfit { get; set; }
-        public int Adults { get; set; }
-        public int Children { get; set; }
-        public bool Skipped { get; set; }
+        private readonly IAppNavigation Navi;
+        private readonly IPageFactory PageFac;
 
-        public RelayCommand SkipPagesCommand { get { return new RelayCommand(() => { GoToSkipPages(); }, () => CanSkipPagesRun); } }
-
-        public RelayCommand<object> NextPageCommand
+        public ObservableCollection<GuidePages> GuideScreens { get; set; }
+        public ICommand CloseCommand { get { return new Command(this.Close); } }
+        public GuideViewModel(IPageFactory _page, IAppNavigation _navi)
         {
-            get
-            {
-                return new RelayCommand<object>((nextPageInt) => { GoToNextPage(nextPageInt); },
-(nextPageInt) => CanNextPageRun);
-            }
-        }
-
-        //public ICommand NotificationCommand { get { return new SimpleCommand (Notifications); } }
-        private bool canSkipPagesRun;
-
-        public bool CanSkipPagesRun
-        {
-            get { return !canSkipPagesRun; }
-            set
-            {
-                canSkipPagesRun = value;
-                OnPropertyChanged("CanSkipPagesRun");
-                SkipPagesCommand.RaiseCanExecuteChanged();
-            }
-        }
-
-        private bool canNextPageRun;
-
-        public bool CanNextPageRun
-        {
-            get { return !canNextPageRun; }
-            set
-            {
-                canNextPageRun = value;
-                OnPropertyChanged("CanNextPageRun");
-                NextPageCommand.RaiseCanExecuteChanged();
-            }
-        }
-
-        private int currentPageInt { get; set; }
-
-        public bool[] PageVisible { get; set; }
-
-        public string AppVersion { get; set; }
-
-        public GuideViewModel(IAppNavigation navi, IPageFactory page)
-        {
-            App.PageOpenedDateTime = DateTime.UtcNow;
-            _navi = navi;
-            _page = page;
+            PageFac = _page;
+            Navi = _navi;
             
-            SetPageVisibility();
 
-            Skipped = false;
-            Adults = 0;
-            Children = 0;
-            OtherOutfit = string.Empty;
-        }
-
-        private void SetPageVisibility()
-        {
-            PageVisible = new bool[] { true, false, false, false };
-            OnPropertyChanged("PageVisible");
-            currentPageInt = 0;
-        }
-
-        private void GoToNextPage(object nextPage)
-        {
-            CanNextPageRun = true;
-            var nextPageInt = Convert.ToInt16(nextPage);
-            Device.BeginInvokeOnMainThread(() =>
+            GuideScreens = new ObservableCollection<GuidePages>();
+            GuideScreens.Add(new GuidePages()
             {
-                PageVisible[currentPageInt] = !PageVisible[currentPageInt];
-                PageVisible[nextPageInt] = !PageVisible[nextPageInt];
-                currentPageInt++;
-                OnPropertyChanged("PageVisible");
+                ImageUrl = ImageSource.FromFile("GuideImage1.png"),
+                BackgroundColor = Color.FromHex("#7C4ECD"),
+                TextColor = Color.White,
+                LabelText = "Guide1",
+                NextText = "Next",
+                CommandFunction = new Command(() => { NextPage(1); }),
+                CloseCommand = this.CloseCommand
             });
-            CanNextPageRun = false;
+
+            GuideScreens.Add(new GuidePages()
+            {
+                ImageUrl = ImageSource.FromFile("GuideImage1.png"),
+                BackgroundColor = Color.FromHex("#7C4ECD"),
+                TextColor = Color.White,
+                LabelText = "Guide1",
+                NextText = "Next",
+                CommandFunction = new Command(() => { NextPage(2); }),
+                CloseCommand = this.CloseCommand
+            });
+
+            GuideScreens.Add(new GuidePages()
+            {
+                ImageUrl = ImageSource.FromFile("GuideImage1.png"),
+                BackgroundColor = Color.FromHex("#7C4ECD"),
+                TextColor = Color.White,
+                LabelText = "Guide1",
+                NextText = "Finish",
+                CommandFunction = new Command(() => { NextPage(3); }),
+                CloseCommand = this.CloseCommand
+            });
+
+
         }
 
-        private async void GoToSkipPages()
+        private void Close()
         {
-            CanSkipPagesRun = true;
-            Settings.IsFirstRun = false;
-            await _navi.PopModal();            
+            Navi.PopModal();
+        }
+
+        private void NextPage(int currentPage)
+        {
+            switch (currentPage)
+            {
+                case 3:
+                    Navi.PopModal();
+                    break;
+                default:
+                    MessagingCenter.Send<GuideViewModel, int>(this, Messages.Walkthrough, currentPage);
+                    break;
+            }
         }
 
     }

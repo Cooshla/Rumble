@@ -1,5 +1,5 @@
 ﻿using Acr;
-using RumbleApp.Core.Interfaces;
+using JamnationApp.Core.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RumbleApp.Core.ViewModels.AutoComplete
+namespace JamnationApp.Core.ViewModels.AutoComplete
 {
     public class LocationLookupViewModel : BaseViewModel
     {

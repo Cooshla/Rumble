@@ -1,6 +1,6 @@
-﻿using RumbleApp.Api.Helpers;
-using RumbleApp.Api.Models;
-using RumbleApp.Models.Profiles;
+﻿using JamnationApp.Api.Helpers;
+using JamnationApp.Api.Models;
+using JamnationApp.Models.Profiles;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -12,7 +12,7 @@ using System.Web.Http;
 using System.Web.Http.Results;
 
 
-namespace RumbleApp.Api.Controllers
+namespace JamnationApp.Api.Controllers
 {
     
     public class UserController : BaseApiController

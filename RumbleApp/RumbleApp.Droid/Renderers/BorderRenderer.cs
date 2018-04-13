@@ -4,7 +4,7 @@ using Android.Graphics.Drawables;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 
-namespace RumbleApp.Droid.Renderers
+namespace JamnationApp.Droid.Renderers
 {
     public class BorderRenderer : IDisposable
     {

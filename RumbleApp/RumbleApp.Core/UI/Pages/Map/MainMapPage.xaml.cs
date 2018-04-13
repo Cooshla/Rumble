@@ -1,5 +1,5 @@
-using RumbleApp.Core.Abstracts;
-using RumbleApp.Core.ViewModels.Map;
+using JamnationApp.Core.Abstracts;
+using JamnationApp.Core.ViewModels.Map;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,16 +9,13 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Maps;
 
-namespace RumbleApp.Core.UI.Pages.Map
+namespace JamnationApp.Core.UI.Pages.Map
 {
     public partial class MainMapPage : ContentPage
     {
         public MainMapPage()
         {
-            BindingContext = App.MainMapPageViewModel;
-
             InitializeComponent();
-
 
             MessagingCenter.Subscribe<MainMapPageViewModel, List<CustomPin>>(this, Messages.MapPinsReady, (sends, arg) =>
                   {

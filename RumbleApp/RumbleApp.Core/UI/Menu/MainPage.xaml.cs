@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using RumbleApp.Core.Objects;
+using JamnationApp.Core.Objects;
 using Xamarin.Forms.Xaml;
-using RumbleApp.Core.Models;
+using JamnationApp.Core.Models;
 using Xamarin.Forms;
-using RumbleApp.Core.UI.Pages.Map;
-using RumbleApp.Core.UI.Pages.Events;
-using RumbleApp.Core.UI.Pages.Profile;
+using JamnationApp.Core.UI.Pages.Map;
+using JamnationApp.Core.UI.Pages.Events;
+using JamnationApp.Core.UI.Pages.Profile;
 
-namespace RumbleApp.Core.UI
+namespace JamnationApp.Core.UI
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainPage : MasterDetailPage
@@ -37,17 +37,17 @@ namespace RumbleApp.Core.UI
 
                     if (item.TargetType == typeof(MainMapPage))
                     {
-                        Detail = new NavigationPage(App.MainMap);
+                        Detail = new NavigationPage(UIPageLocator.MainMapPage);
                         MessagingCenter.Send<MainPage, bool>(this, Messages.HomeClicked, true);
                     }
                     else if (item.TargetType == typeof(Events))
                     {
-                        Detail = new NavigationPage(App.EventsPage);
+                        Detail = new NavigationPage(UIPageLocator.Events);
                         MessagingCenter.Send<MainPage, bool>(this, Messages.EventsClicked, true);
                     }
                     else if (item.TargetType == typeof(MyProfile))
                     {
-                        Detail = new NavigationPage(App.MyProfile);
+                        Detail = new NavigationPage(UIPageLocator.Profile);
                         MessagingCenter.Send<MainPage, bool>(this, Messages.ProfileClicked, true);
                     }
                     else

@@ -7,11 +7,11 @@ using Newtonsoft.Json.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
-using RumbleApp.Core.Helpers;
+using JamnationApp.Core.Helpers;
 using Xamarin;
 
 
-namespace RumbleApp.Core
+namespace JamnationApp.Core
 {
        [Preserve(AllMembers = true)]
     public class ApiHandler

@@ -6,7 +6,7 @@ using System.Globalization;
 using System.IO;
 using XLabs.Platform.Services.Media;
 
-namespace RumbleApp.Core.Helpers
+namespace JamnationApp.Core.Helpers
 {
 
     public class ImageHelper

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="internalOnly" android:versionName="0.0.0.01" package="co.rumbleapp.cooshla" android:versionCode="0">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="internalOnly" android:versionName="0.0.0.01" package="co.JamnationApp.cooshla" android:versionCode="1">
 	<uses-sdk android:minSdkVersion="19" />
-	<application android:label="Rumble" android:largeHeap="true" android:icon="@drawable/icon">
+	<application android:label="Jamnation" android:largeHeap="true" android:icon="@drawable/icon">
 		<meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyDi3jJZBasQ7Mj1bVSNu2ydrGlbQkRxOyM" />
 		<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
 		<receiver android:name="com.google.android.gms.analytics.AnalyticsReceiver" android:enabled="true">
@@ -26,5 +26,5 @@
 	<uses-permission android:name="android.permission.CAMERA" />
 	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-	<permission android:name="co.rumbleapp.cooshla.permission.MAPS_RECEIVE" android:protectionLevel="signature" />
+	<permission android:name="co.JamnationApp.cooshla.permission.MAPS_RECEIVE" android:protectionLevel="signature" />
 </manifest>

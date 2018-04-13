@@ -3,14 +3,14 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
-using RumbleApp.Models.Profiles;
+using JamnationApp.Models.Profiles;
 using System.Data.Entity;
-using RumbleApp.Models.Events;
-using RumbleApp.Models.Users;
-using RumbleApp.Models.Subscriptions;
+using JamnationApp.Models.Events;
+using JamnationApp.Models.Users;
+using JamnationApp.Models.Subscriptions;
 using System.Collections.Generic;
 
-namespace RumbleApp.Api.Models
+namespace JamnationApp.Api.Models
 {
     // You can add profile data for the user by adding more properties to your ApplicationUser class, please visit http://go.microsoft.com/fwlink/?LinkID=317594 to learn more.
     public class ApplicationUser : IdentityUser

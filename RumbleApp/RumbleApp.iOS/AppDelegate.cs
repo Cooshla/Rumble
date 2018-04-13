@@ -2,8 +2,8 @@
 using System;
 using System.Reflection;
 using Foundation;
-using RumbleApp.Core;
-using RumbleApp.iOS.Services;
+using JamnationApp.Core;
+using JamnationApp.iOS.Services;
 using UIKit;
 using Xamarin.Forms;
 using Xamarin;
@@ -12,9 +12,9 @@ using XLabs.Platform.Device;
 using CoreLocation;
 using XLabs.Ioc;
 using System.IO;
-using RumbleApp.Core.ViewModels;
+using JamnationApp.Core.ViewModels;
 
-namespace RumbleApp.iOS
+namespace JamnationApp.iOS
 {
 
     [Register("AppDelegate")]
@@ -96,7 +96,7 @@ namespace RumbleApp.iOS
 
         public void InitializeDatabase()
         {
-            const string dbName = "RumbleApp.db3"; 
+            const string dbName = "JamnationApp.db3"; 
             var libraryPath = Path.Combine (Environment.GetFolderPath (Environment.SpecialFolder.Personal), "..", "Library");
             var dbPath = Path.Combine (libraryPath, dbName); 
 
@@ -128,7 +128,7 @@ namespace RumbleApp.iOS
 				//---copy only if file does not exist---
 				if (!File.Exists(destinationPath))
 				{
-					Stream str = Assembly.GetExecutingAssembly().GetManifestResourceStream(@"RumbleApp.iPhone.Assets.RumbleApp.db3");
+					Stream str = Assembly.GetExecutingAssembly().GetManifestResourceStream(@"JamnationApp.iPhone.Assets.JamnationApp.db3");
 
 					var fileStream = File.Create(destinationPath);
 					str.Seek(0, SeekOrigin.Begin);

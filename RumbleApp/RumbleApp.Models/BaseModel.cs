@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RumbleApp.Models
+namespace JamnationApp.Models
 {
     public class BaseModel
     {

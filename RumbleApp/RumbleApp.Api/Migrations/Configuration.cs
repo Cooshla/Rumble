@@ -1,18 +1,18 @@
-namespace RumbleApp.Api.Migrations
+namespace JamnationApp.Api.Migrations
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<RumbleApp.Api.Models.ApplicationDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<JamnationApp.Api.Models.ApplicationDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(RumbleApp.Api.Models.ApplicationDbContext context)
+        protected override void Seed(JamnationApp.Api.Models.ApplicationDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

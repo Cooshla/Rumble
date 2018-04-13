@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using AutoMapper.QueryableExtensions;
-using RumbleApp.Api.Models;
+using JamnationApp.Api.Models;
 
-namespace RumbleApp.Api.App_Start
+namespace JamnationApp.Api.App_Start
 {
 
     public class AutoMapperConfig
@@ -25,7 +25,7 @@ namespace RumbleApp.Api.App_Start
                 cfg.CreateMap<ApplicationUser, AppUser>();
 
                 cfg.CreateMap<NotificationTags, NotificationTags>();
-                cfg.CreateMap<RumbleApp.Models.Profiles.Profile, RumbleApp.Models.Profiles.Profile>();
+                cfg.CreateMap<JamnationApp.Models.Profiles.Profile, JamnationApp.Models.Profiles.Profile>();
                 //cfg.CreateMap<AppUser, ApplicationUser>().ForMember(dest => dest.Id, opt => opt.Ignore());
 
                 //cfg.CreateMap<Tag, Tag>().ForMember(d => d.Id, opt => opt.MapFrom(s => s.Id));

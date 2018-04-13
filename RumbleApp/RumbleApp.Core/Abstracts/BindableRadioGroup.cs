@@ -6,7 +6,7 @@ using Xamarin.Forms;
 using XLabs;
 using XLabs.Forms.Controls;
 
-namespace RumbleApp.Core.Abstracts
+namespace JamnationApp.Core.Abstracts
 {
 	/// <summary>
 	/// Class BindableRadioGroup.

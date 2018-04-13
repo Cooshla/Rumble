@@ -1,6 +1,6 @@
 using Xamarin.Forms;
 
-namespace RumbleApp.Core.Abstracts
+namespace JamnationApp.Core.Abstracts
 {
 	public class AutocompleteListView : ListView
     {

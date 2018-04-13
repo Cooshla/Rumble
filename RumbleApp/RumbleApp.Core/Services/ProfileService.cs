@@ -1,14 +1,14 @@
-using RumbleApp.Core.Interfaces;
+using JamnationApp.Core.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using RumbleApp.Core.Models;
+using JamnationApp.Core.Models;
 using Newtonsoft.Json;
 using System.Net.Http;
 
-namespace RumbleApp.Core.Services
+namespace JamnationApp.Core.Services
 {
     public class ProfileService : IProfileService
     {
@@ -39,7 +39,8 @@ namespace RumbleApp.Core.Services
         }
         public async Task<List<Profile>> GetAllProfiles()
         {
-            return await Rest.GetClient<List<Profile>>("api/Profile/GetAllProfiles");
+            return new List<Profile>();
+            //return await Rest.GetClient<List<Profile>>("api/Profile/GetAllProfiles");
         }
 
         

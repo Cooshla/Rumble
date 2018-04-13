@@ -1,21 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
 			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-			 x:Class="RumbleApp.Core.UI.MasterPage"
+			 x:Class="JamnationApp.Core.UI.MasterPage"
 			Icon="hamburger.png"
-             Title="Rumble">
+             Title="Jamnation">
   <ContentPage.Content>
-    <StackLayout VerticalOptions="FillAndExpand">
-      <ListView x:Name="listView" VerticalOptions="FillAndExpand" SeparatorVisibility="None" ItemsSource="{Binding MasterPageItems}">
-        <ListView.ItemTemplate>
-          <DataTemplate>
-            <ImageCell Text="{Binding Title}" ImageSource="{Binding IconSource}" />
-          </DataTemplate>
-        </ListView.ItemTemplate>
-      </ListView>
-        <BoxView Style="{DynamicResource hrStyle}" />
-        <Button x:Name="btnLogout" Text="Log Out" HorizontalOptions="Start" Command="{Binding LogoutCommand}" Style="{StaticResource plainButtonStyle}" FontSize="18" />
-        <BoxView VerticalOptions="EndAndExpand" HeightRequest="10" />
+
+        <StackLayout VerticalOptions="FillAndExpand">
+            <Image Source="logo.png" WidthRequest="250"/>
+            <ListView x:Name="listView" VerticalOptions="FillAndExpand" SeparatorVisibility="None" ItemsSource="{Binding MasterPageItems}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="20,0,0,0">
+                                <Image Source="{Binding IconSource}" WidthRequest="30" VerticalOptions="CenterAndExpand" ></Image>
+                                <BoxView WidthRequest="20" BackgroundColor="Transparent"/>
+                                <Label Text="{Binding Title}" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <StackLayout Orientation="Vertical" VerticalOptions="EndAndExpand" HorizontalOptions="FillAndExpand">
+
+                <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" BackgroundColor="{StaticResource  TextColor}"/>
+                <StackLayout Padding="20,20,20,20" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <Label Text="{Binding LogoutText}" TextColor="{StaticResource  TextColor}" />
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding LogoutCommand}" />
+                    </StackLayout.GestureRecognizers>
+                </StackLayout>
+
+                
+
+            </StackLayout>
         </StackLayout>
+
   </ContentPage.Content>
 </ContentPage>

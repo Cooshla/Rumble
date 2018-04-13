@@ -1,9 +1,9 @@
-using RumbleApp.Core.Interfaces;
+using JamnationApp.Core.Interfaces;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace RumbleApp.Core.ViewModels
+namespace JamnationApp.Core.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged, ITapLockMixin
     {

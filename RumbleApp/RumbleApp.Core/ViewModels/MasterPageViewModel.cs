@@ -1,11 +1,11 @@
 using Acr;
-using RumbleApp.Core.Interfaces;
-using RumbleApp.Core.Models;
-using RumbleApp.Core.Objects;
-using RumbleApp.Core.UI;
-using RumbleApp.Core.UI.Pages.Events;
-using RumbleApp.Core.UI.Pages.Map;
-using RumbleApp.Core.UI.Pages.Profile;
+using JamnationApp.Core.Interfaces;
+using JamnationApp.Core.Models;
+using JamnationApp.Core.Objects;
+using JamnationApp.Core.UI;
+using JamnationApp.Core.UI.Pages.Events;
+using JamnationApp.Core.UI.Pages.Map;
+using JamnationApp.Core.UI.Pages.Profile;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +13,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace RumbleApp.Core.ViewModels
+namespace JamnationApp.Core.ViewModels
 {
     public class MasterPageViewModel
     {
@@ -44,7 +44,7 @@ namespace RumbleApp.Core.ViewModels
             {
                 Title = "Profile",
                 IconSource = "Search.png",
-                TargetType = typeof(RumbleApp.Core.UI.Pages.Profile.MyProfile),
+                TargetType = typeof(JamnationApp.Core.UI.Pages.Profile.MyProfile),
                 Id="profile"
             });
 
@@ -52,7 +52,7 @@ namespace RumbleApp.Core.ViewModels
             {
                 Title = "Events",
                 IconSource = "Search.png",
-                TargetType = typeof(RumbleApp.Core.UI.Pages.Events.Events),
+                TargetType = typeof(JamnationApp.Core.UI.Pages.Events.Events),
                 Id = "events"
             });
            

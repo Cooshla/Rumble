@@ -1,4 +1,4 @@
-using RumbleApp.Api.Models;
+using JamnationApp.Api.Models;
 using Microsoft.AspNet.Identity.Owin;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace RumbleApp.Api.Controllers
+namespace JamnationApp.Api.Controllers
 {
     public class BaseApiController : ApiController
     {

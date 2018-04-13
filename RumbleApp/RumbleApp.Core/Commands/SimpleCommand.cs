@@ -1,7 +1,7 @@
 using System;
 using System.Windows.Input;
 
-namespace RumbleApp.Core
+namespace JamnationApp.Core
 {
 	public class SimpleCommand : ICommand
 	{

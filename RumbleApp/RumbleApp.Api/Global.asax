@@ -1,1 +1,1 @@
-<%@ Application Codebehind="Global.asax.cs" Inherits="RumbleApp.Api.WebApiApplication" Language="C#" %>
+<%@ Application Codebehind="Global.asax.cs" Inherits="JamnationApp.Api.WebApiApplication" Language="C#" %>

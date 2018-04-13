@@ -9,9 +9,9 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
-using RumbleApp.Api.Models;
+using JamnationApp.Api.Models;
 
-namespace RumbleApp.Api.Providers
+namespace JamnationApp.Api.Providers
 {
     public class ApplicationOAuthProvider : OAuthAuthorizationServerProvider
     {

@@ -154,6 +154,7 @@
     <Compile Include="LocationUpdatedEventArgs.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="Renderers\EntryRenderer.cs" />
     <Compile Include="Services\IOSLogger.cs" />
     <Compile Include="Services\IOSThemer.cs" />
     <None Include="app.config" />
@@ -370,7 +371,6 @@
   <ItemGroup>
     <Folder Include="Assets\" />
     <Folder Include="Delegates\" />
-    <Folder Include="Renderers\" />
     <Folder Include="Resources\AppIcon.appiconset\" />
     <Folder Include="Resources\Fonts\" />
     <Folder Include="Resources\Images.xcassets\" />
@@ -389,13 +389,13 @@
   <Import Project="..\packages\Xamarin.Insights.1.11.1\build\Xamarin.iOS10\Xamarin.Insights.targets" Condition="Exists('..\packages\Xamarin.Insights.1.11.1\build\Xamarin.iOS10\Xamarin.Insights.targets')" />
   <ItemGroup>
     <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Contents.json">
-      <InProject>false</InProject>
+      <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json">
-      <InProject>false</InProject>
+      <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\splash320.png">
-      <InProject>false</InProject>
+      <Visible>false</Visible>
     </ImageAsset>
   </ItemGroup>
   <ItemGroup />

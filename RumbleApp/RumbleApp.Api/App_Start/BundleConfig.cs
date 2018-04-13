@@ -1,7 +1,7 @@
 using System.Web;
 using System.Web.Optimization;
 
-namespace RumbleApp.Api
+namespace JamnationApp.Api
 {
     public class BundleConfig
     {

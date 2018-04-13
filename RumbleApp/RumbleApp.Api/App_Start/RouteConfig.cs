@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace RumbleApp.Api
+namespace JamnationApp.Api
 {
     public class RouteConfig
     {
