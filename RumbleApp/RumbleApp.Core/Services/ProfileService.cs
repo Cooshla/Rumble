@@ -19,12 +19,11 @@ namespace JamnationApp.Core.Services
             Rest = _rest;
         }
 
-        public async Task AddProfile(Profile profile)
+        public async Task<HttpResponseMessage> AddProfile(Profile profile)
         {
-
             var json = JsonConvert.SerializeObject(profile);
-            var result = await Rest.PostClient<HttpResponseMessage>("api/profile/postuser", json);
-            var user = await Rest.GetClient<User>("api/profile");
+            return await Rest.PostClient<HttpResponseMessage>("api/profile/PostProfile", json);
+            
         }
 
         public async Task DeleteProfile(int id)
@@ -39,8 +38,7 @@ namespace JamnationApp.Core.Services
         }
         public async Task<List<Profile>> GetAllProfiles()
         {
-            return new List<Profile>();
-            //return await Rest.GetClient<List<Profile>>("api/Profile/GetAllProfiles");
+            return await Rest.GetClient<List<Profile>>("api/Profile/GetAllProfiles");
         }
 
         

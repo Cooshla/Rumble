@@ -18,13 +18,16 @@ namespace JamnationApp.Core.UI.Pages.Profile
         public Profile()
         {
             InitializeComponent();
-
-            MessagingCenter.Subscribe<ProfileViewModel, CustomPin>(this, Messages.MapPinsReady, (sends, arg) =>
+            
+                MyMap.Pins.Add(new Xamarin.Forms.Maps.Pin()
             {
-                MainMap.CustomPins = new List<CustomPin>() { arg };
-                MainMap.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(arg.Pin.Position.Longitude, arg.Pin.Position.Latitude), Distance.FromMiles(1.0)));
+                Position = new Xamarin.Forms.Maps.Position(52.130162, -8.278229),
+                Address = "123 fake st",
+                Label = "123 Fake street"
             });
 
+            this.MyMap.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(52.130162, -8.278229), Distance.FromKilometers(50)));
+            
         }
     }
 }

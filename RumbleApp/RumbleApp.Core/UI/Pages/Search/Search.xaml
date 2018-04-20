@@ -5,7 +5,7 @@
     <ContentPage.Content>
         <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="White" Padding="0,0,0,0" Spacing="0">
 
-
+            <ScrollView>
             <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
                 <Label Text="App Name" FontAttributes="Bold" TextColor="{StaticResource TextColor}" HorizontalOptions="Center" FontSize="Large" />
                 <Label Text="Tagline" TextColor="{StaticResource TextColor}" HorizontalOptions="Center" FontSize="Default" />
@@ -16,9 +16,13 @@
                 <Entry Placeholder="Position"   Keyboard="Default"  Text="{Binding Position}"  />
                 <Entry Placeholder="Location"   Keyboard="Default"  Text="{Binding Location}"  />
                 <Entry Placeholder="Name"   Keyboard="Default" Text="{Binding Name}" />
+                <Entry Placeholder="Name"   Keyboard="Default" Text="{Binding Name}" />
+                <Entry Placeholder="Name"   Keyboard="Default" Text="{Binding Name}" />
+                <Entry Placeholder="Name"   Keyboard="Default" Text="{Binding Name}" />
+                <Entry Placeholder="Name"   Keyboard="Default" Text="{Binding Name}" />
             </StackLayout>
 
-
+            </ScrollView>
             <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="75" VerticalOptions="End"   Spacing="0" Padding="0,0,0,0">
 
                 <StackLayout HorizontalOptions="FillAndExpand" BackgroundColor="{StaticResource PrimaryColor}" HeightRequest="75">

@@ -1,6 +1,10 @@
+using ImageResizer;
 using JamnationApp.Models.Profiles;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -34,7 +38,43 @@ namespace JamnationApp.Api.Controllers
             value.LastEditBy= "1";
             value.IsActive = true;
 
+            string fileName = string.Empty;
+            try
+            {
+                if (value.ImageBlob != null)
+                {
+                    fileName = Guid.NewGuid().ToString() + ".jpg";
+
+
+                    File.WriteAllBytes(System.Web.Hosting.HostingEnvironment.MapPath("~/profileImages/" + fileName), value.ImageBlob);
+                    /*
+                    Image img = null;
+                    using (var ms = new MemoryStream(value.ImageBlob))
+                    {
+                        img = Image.FromStream(ms);
+                    }
+
+                    img.Save(System.Web.Hosting.HostingEnvironment.MapPath("~/profileImages/" + fileName));
+                    */
+                    value.ImageUrl = fileName;
+                    value.ImageBlob = null;
+                }
+            }
+            catch(Exception ex)
+            {
+                value.ImageUrl = ex.Message+":"+ex.StackTrace;
+            }
+
             db.Profile.Add(value);
+            var prof = db.SaveChanges();
+
+
+            var usr = db.Users.Where(c => c.Id == value.UserId).FirstOrDefault();
+            value.ProfileId = prof;
+            usr.Profile = value;
+            if(fileName!=string.Empty)
+                usr.PhotoUrl = fileName;
+
             db.SaveChanges();
 
             return new HttpResponseMessage(HttpStatusCode.OK);

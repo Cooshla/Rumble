@@ -36,10 +36,10 @@ namespace JamnationApp.Core
         public static string Version { get; set; }
         public static string GooglePlayCode = "";
 
-        private static IContainer _container;
+        public static IContainer _container;
         public static IMediaPicker MediaPicker { get; set; }
 
-
+        public static ITwilioMessenger TwilioMessenger {get; set;}
         private static NavigationService NaviService;
 
         public static string Token { get; set; }
@@ -51,7 +51,9 @@ namespace JamnationApp.Core
             set
             {
                 _firstPage = new NavigationPage(value);
+                _firstPage.Parent = null;
                 // navigation page root should be search page
+                StartupPage.Parent = null;
                 NaviService.Navi = StartupPage.Navigation;
                 NaviService.myPage = StartupPage;
             }
@@ -77,7 +79,7 @@ namespace JamnationApp.Core
             InitializeComponent();
 
             UserDialogService = UserDialogs.Instance;
-
+            MediaPicker = _container.Resolve<IMediaPicker>();
             UIPageLocator.Init();
             NaviService = _container.Resolve<INavigationService>() as NavigationService;
 
@@ -90,9 +92,11 @@ namespace JamnationApp.Core
 
             // DeviceId = Acr.DeviceInfo.DeviceInfo.Hardware.DeviceId;
 
-            SetNavService(scan);
+            //SetNavService(scan);
 
             Authenticate();
+
+            App.TwilioMessenger = App._container.Resolve<ITwilioMessenger>();
         }
 
         public static async void Authenticate()
@@ -124,6 +128,7 @@ namespace JamnationApp.Core
         {
             _container = appSetup.CreateContainer();
             App.ViewModelLocator = new ViewModelLocator(_container);
+
 
         }
 

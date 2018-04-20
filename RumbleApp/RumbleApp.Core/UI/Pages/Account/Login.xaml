@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:controls="clr-namespace:JamnationApp.Core.Abstracts"              
              x:Class="JamnationApp.Core.UI.Pages.Account.Login" >
-    <RelativeLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource BackgroundColor}">
+    <Grid Padding="0" RowSpacing="0" ColumnSpacing="0">
+        <controls:BackgroundVideo x:Name="video" Source="Videos/intro.mp4" Loop="true"  HorizontalOptions="Fill" VerticalOptions="Fill" />
 
-        <StackLayout RelativeLayout.YConstraint="{ConstraintExpression Type=Constant, Constant=0}"  RelativeLayout.WidthConstraint=
+        <RelativeLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="Transparent">
+
+            <StackLayout RelativeLayout.YConstraint="{ConstraintExpression Type=Constant, Constant=0}"  RelativeLayout.WidthConstraint=
          "{ConstraintExpression Type=RelativeToParent,
                                 Property=Width,
                                 Factor=1}"
@@ -13,25 +17,25 @@
                                 Property=Height,
                                 Factor=1}"  Orientation="Vertical"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" x:Name="Start" IsVisible="True" >
 
-            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-                <Image Source="Icon_Inverse.png"  WidthRequest="50" VerticalOptions="FillAndExpand" HorizontalOptions="Center" />
-                <Label Text="App Name" FontAttributes="Bold" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" FontSize="Large" />
-                <Label Text="Tagline" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" FontSize="Default" />
+                <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                    <Image Source="Icon_Inverse.png"  WidthRequest="50" VerticalOptions="FillAndExpand" HorizontalOptions="Center" />
+                    <Label Text="App Name" FontAttributes="Bold" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" FontSize="Large" />
+                    <Label Text="Tagline" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" FontSize="Default" />
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Padding="0,20,0,50" Spacing="20" >
+
+                    <Button x:Name="btnSignUp" Text="CREATE ACCOUNT" Style="{StaticResource buttonStylePrimary}" Command="{Binding SignupCommand}" HorizontalOptions="Center" />
+                    <Label HeightRequest="40" TextColor="{StaticResource PrimaryColor}" Text="You already have a login?"  HorizontalOptions="Center" >
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="LoginLink_Tapped" />
+                        </Label.GestureRecognizers>
+                    </Label>
+
+                </StackLayout>
             </StackLayout>
 
-            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Spacing="10" Padding="0,20,0,20">
-
-                <Button x:Name="btnSignUp" Image="right.png" Text="CREATE ACCOUNT" Style="{StaticResource buttonStylePrimary}" Command="{Binding SignupCommand}" HorizontalOptions="Center" />
-                <Label HeightRequest="40" TextColor="{StaticResource PrimaryColor}" Text="You already have a login?"  HorizontalOptions="Center" >
-                    <Label.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="LoginLink_Tapped" />
-                    </Label.GestureRecognizers>
-                </Label>
-
-            </StackLayout>
-        </StackLayout>
-
-        <StackLayout RelativeLayout.YConstraint="{ConstraintExpression Type=Constant, Constant=0}"  RelativeLayout.WidthConstraint=
+            <StackLayout RelativeLayout.YConstraint="{ConstraintExpression Type=Constant, Constant=0}"  RelativeLayout.WidthConstraint=
          "{ConstraintExpression Type=RelativeToParent,
                                 Property=Width,
                                 Factor=1}"
@@ -40,22 +44,23 @@
                                 Property=Height,
                                 Factor=1}"  Orientation="Vertical"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" x:Name="LoginSelection" IsVisible="False" >
 
-            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-                <Label Text="App Name" FontAttributes="Bold" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" FontSize="Large" />
-                <Label Text="Tagline" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" FontSize="Default" />
+                <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                    <Label Text="App Name" FontAttributes="Bold" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" FontSize="Large" />
+                    <Label Text="Tagline" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" FontSize="Default" />
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Padding="0,20,0,50" Spacing="20" > 
+
+                    <Button  Text="Sign in with e-mail"  Style="{StaticResource buttonStylePrimary}" HorizontalOptions="Center" Clicked="Email_Clicked"/>
+                    <Button  Text="SIGN IN WITH FACEBOOK" Style="{StaticResource buttonStyleSecondary}" HorizontalOptions="Center" Clicked="Facebook_Clicked"/>
+                    <Button  Text="Sign Up" Style="{StaticResource buttonStyleBack}" HorizontalOptions="Center" Clicked="BackStep1_Clicked" />
+
+                </StackLayout>
+
             </StackLayout>
 
-            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Padding="0,20,0,20" Spacing="10" >
 
-                <Button  Text="Sign in with e-mail"  Style="{StaticResource buttonStylePrimary}" HorizontalOptions="Center" Clicked="Email_Clicked"/>
-                <Button  Text="SIGN IN WITH FACEBOOK" Style="{StaticResource buttonStyleSecondary}" HorizontalOptions="Center" Clicked="Facebook_Clicked"/>
-
-            </StackLayout>
-            
-        </StackLayout>
-
-
-        <StackLayout RelativeLayout.YConstraint="{ConstraintExpression Type=Constant, Constant=0}"  RelativeLayout.WidthConstraint=
+            <StackLayout RelativeLayout.YConstraint="{ConstraintExpression Type=Constant, Constant=0}"  RelativeLayout.WidthConstraint=
          "{ConstraintExpression Type=RelativeToParent,
                                 Property=Width,
                                 Factor=1}"
@@ -64,20 +69,29 @@
                                 Property=Height,
                                 Factor=1}"  Orientation="Vertical"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" x:Name="LoginEmail" IsVisible="False" >
 
-            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-                <Label Text="App Name" FontAttributes="Bold" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" FontSize="Large" />
-                <Label Text="Tagline" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" FontSize="Default" />
-            </StackLayout>
+                <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                    <Label Text="App Name" FontAttributes="Bold" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" FontSize="Large" />
+                    <Label Text="Tagline" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" FontSize="Default" />
+                </StackLayout>
 
-            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
-                <Entry Placeholder="Username" x:Name="txtUsername"  Keyboard="Email" Text="{Binding UserName}"    />
-                <Entry Placeholder="Password" IsPassword="true" x:Name="txtPassword" Text="{Binding Password}" Margin="0,20,0,0" />
-            </StackLayout>
+                
+                <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
+                    <Entry  Placeholder="Username" x:Name="txtUsername"  Keyboard="Email" Text="{Binding UserName}"   />
+                    <Entry Placeholder="Password" IsPassword="true" x:Name="txtPassword" Text="{Binding Password}"  Margin="0,20,0,0"   />
+                </StackLayout>
+                
 
-            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Padding="0,20,0,20" Spacing="10" >
-                <Button  Text="Login"  Style="{StaticResource buttonStylePrimary}" Command="{Binding LoginCommand}"  HorizontalOptions="Center" />
-            </StackLayout>
+                <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Padding="0,20,0,50" Spacing="20" >
+                    <Button  Text="Login"  Style="{StaticResource buttonStylePrimary}" Command="{Binding LoginCommand}"  HorizontalOptions="Center" />
+                    <Label Text="Forgotten password?" TextColor="White" FontSize="Small" HorizontalOptions="Center">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding ForgotPasswordCommand}" />
+                        </Label.GestureRecognizers>
+                    </Label>
+                    <Button  Text="Back"  Style="{StaticResource buttonStyleBack}" HorizontalOptions="Center" Clicked="BackStep2_Clicked" />
+                </StackLayout>
 
-        </StackLayout>
-    </RelativeLayout>
+            </StackLayout>
+        </RelativeLayout>
+    </Grid>
 </ContentPage>

@@ -24,21 +24,6 @@ namespace JamnationApp.Core.Services
 
         public async Task<bool> LoginAsync(string user, string pass)
         {
-
-            // Sort Settings
-            Settings.Token = "TESTTOKEN";
-            Settings.Expires = "TESTTOKENEXPIRES";
-            Settings.UserName = "stephen.shaw85@gmail.com";
-            Settings.Password = "password1";
-
-            App.ThisUser = await User.GetUserViewModel(user, pass);
-
-            // Fire messaging center to map page to show modal
-            MessagingCenter.Send<AccountService, bool>(this, Messages.LoginSuccessful, true);
-
-            return true;
-            /*
-
             AuthResponse response = new AuthResponse { expires_in = 0 };
 
             if (response.expires_in == 0)
@@ -74,7 +59,7 @@ namespace JamnationApp.Core.Services
             }
 
 
-            return false;*/
+            return false;
         }
 
         public async Task<UserResponse> RegisterAsync(User user, Profile profile)

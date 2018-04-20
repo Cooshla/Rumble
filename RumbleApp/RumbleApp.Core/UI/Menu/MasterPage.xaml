@@ -4,18 +4,18 @@
 			 x:Class="JamnationApp.Core.UI.MasterPage"
 			Icon="hamburger.png"
              Title="Jamnation">
-  <ContentPage.Content>
-
-        <StackLayout VerticalOptions="FillAndExpand">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
             <Image Source="logo.png" WidthRequest="250"/>
-            <ListView x:Name="listView" VerticalOptions="FillAndExpand" SeparatorVisibility="None" ItemsSource="{Binding MasterPageItems}">
+
+            <ListView x:Name="listView" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" IsVisible="True" SeparatorVisibility="None" ItemsSource="{Binding MasterPageItems}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="20,0,0,0">
                                 <Image Source="{Binding IconSource}" WidthRequest="30" VerticalOptions="CenterAndExpand" ></Image>
                                 <BoxView WidthRequest="20" BackgroundColor="Transparent"/>
-                                <Label Text="{Binding Title}" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" />
+                                <Label Text="{Binding Title}" TextColor="Black" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" />
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>
@@ -32,10 +32,9 @@
                     </StackLayout.GestureRecognizers>
                 </StackLayout>
 
-                
+
 
             </StackLayout>
         </StackLayout>
-
-  </ContentPage.Content>
+    </ContentPage.Content>
 </ContentPage>

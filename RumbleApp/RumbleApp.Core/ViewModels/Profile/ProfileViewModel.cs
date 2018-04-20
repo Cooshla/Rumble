@@ -43,6 +43,7 @@ namespace JamnationApp.Core.ViewModels
 
         public async Task GetData(string id)
         {
+            /*
             App.UserDialogService.ShowLoading();
 
             ThisProfile =await Prof.GetProfile(int.Parse(id));
@@ -74,6 +75,7 @@ namespace JamnationApp.Core.ViewModels
             MessagingCenter.Send<ProfileViewModel, CustomPin>(this, Messages.MapPinsReady, pin);
 
                 App.UserDialogService.HideLoading();
+                */
         }
        
 

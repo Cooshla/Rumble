@@ -1,11 +1,7 @@
-using Newtonsoft.Json;
+
 using JamnationApp.Core.Interfaces;
 using JamnationApp.Core.Models;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
 
@@ -30,6 +26,8 @@ namespace JamnationApp.Core.ViewModels
         public ICommand MapCommand { get { return new Command(Map); } }
         public ICommand ResetCommand { get { return new Command(Reset); } }
 
+        public List<JamnationApp.Core.Models.Profile> SearchResults { get; set; }
+
         public ListViewModel(IPageFactory _page, IAppNavigation _navi, IRestService _rest, IAccountService _acc, IUserService _user)
         {
             PageFac = _page;
@@ -38,6 +36,16 @@ namespace JamnationApp.Core.ViewModels
             Acc = _acc;
             Usr = _user;
             Reset();
+
+            
+            MessagingCenter.Subscribe<JamnationApp.Core.UI.Pages.Search.ListView, JamnationApp.Core.Models.Profile>(this, Messages.ProfileClicked, (sender, arg) => {
+                ShowProfile();
+            });
+
+            MessagingCenter.Subscribe<SearchViewModel, List<JamnationApp.Core.Models.Profile>>(this, Messages.SearchResults, (sender, arg)=> {
+                SearchResults = arg;
+                Reset();
+            });
         }
 
 
@@ -48,7 +56,14 @@ namespace JamnationApp.Core.ViewModels
 
         async void Map()
         {
-            await Navi.PushPage(PageFac.GetPage(Pages.MainMapPage));
+
+            await Navi.RemovePage(PageFac.GetPage(Pages.List));
+            await Navi.PushPage(PageFac.GetPage(Pages.Map));
+        }
+
+        async void ShowProfile()
+        {
+            await Navi.PushPage(PageFac.GetPage(Pages.ProfilePage));
         }
 
         private void Reset()
@@ -57,7 +72,10 @@ namespace JamnationApp.Core.ViewModels
             Position = string.Empty;
             Location = string.Empty;
             Name = string.Empty;
+            
 
+
+            OnPropertyChanged("SearchResults");
             OnPropertyChanged("Looking");
             OnPropertyChanged("Position");
             OnPropertyChanged("Location");

@@ -45,7 +45,7 @@ namespace JamnationApp.Api.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("APIConnection", throwIfV1Schema: false)
         {
         }
         

@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using Android.Content;
@@ -18,6 +18,7 @@ namespace JamnationApp.Droid.Renderers
 {
     public class CustomMapRenderer : MapRenderer, GoogleMap.IInfoWindowAdapter, IOnMapReadyCallback
     {
+        
         GoogleMap map;
         List<CustomPin> customPins;
         bool isDrawn;
@@ -155,5 +156,6 @@ namespace JamnationApp.Droid.Renderers
             }
             return null;
         }
+        
     }
-}
+}*/

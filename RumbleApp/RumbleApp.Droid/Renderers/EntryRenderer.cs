@@ -19,7 +19,7 @@ namespace JamnationApp.Droid.Renderers
 {
     public class CustomEntryRenderer: EntryRenderer
     {
-        /*
+        
         protected override void OnElementChanged(ElementChangedEventArgs<Xamarin.Forms.Entry> e)
         {
 
@@ -30,6 +30,6 @@ namespace JamnationApp.Droid.Renderers
                 Control.Background = this.Resources.GetDrawable(Resource.Layout.RoundedCornerEntry);
                 Control.SetPadding(20, 10, 20, 5);
             }
-        }*/
+        }
     }
 }

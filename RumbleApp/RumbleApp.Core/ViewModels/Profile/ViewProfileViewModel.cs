@@ -40,6 +40,7 @@ namespace JamnationApp.Core.ViewModels.Profile
         {
             MessagingCenter.Subscribe<MainPage, bool>(this, Messages.ProfileClicked, async (sends, arg) =>
             {
+                ThisProfile = App.ThisUser.Profile;
                 await GetData();
             });
         }

@@ -30,6 +30,9 @@ namespace JamnationApp.Core.ViewModels
         public ICommand ListCommand { get { return new Command(List); } }
         public ICommand ResetCommand { get { return new Command(Reset); } }
 
+
+        public List<JamnationApp.Core.Models.Profile> SearchResults { get; set; }
+
         public MapViewModel(IPageFactory _page, IAppNavigation _navi, IRestService _rest, IAccountService _acc, IUserService _user)
         {
             PageFac = _page;
@@ -38,6 +41,11 @@ namespace JamnationApp.Core.ViewModels
             Acc = _acc;
             Usr = _user;
             Reset();
+
+            MessagingCenter.Subscribe<SearchViewModel, List<JamnationApp.Core.Models.Profile>>(this, Messages.SearchResults, (sender, arg) => {
+                SearchResults = arg;
+                Reset();
+            });
         }
 
 
@@ -48,6 +56,8 @@ namespace JamnationApp.Core.ViewModels
 
         async void List()
         {
+
+            await Navi.RemovePage(PageFac.GetPage(Pages.Map));
             await Navi.PushPage(PageFac.GetPage(Pages.List));
         }
 
@@ -58,6 +68,7 @@ namespace JamnationApp.Core.ViewModels
             Location = string.Empty;
             Name = string.Empty;
 
+  
             OnPropertyChanged("Looking");
             OnPropertyChanged("Position");
             OnPropertyChanged("Location");

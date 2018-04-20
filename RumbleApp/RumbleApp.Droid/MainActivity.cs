@@ -38,8 +38,8 @@ namespace JamnationApp.Droid
         { 
 			AndroidEnvironment.UnhandledExceptionRaiser += HandleAndroidException;
 
-           
-			base.OnCreate(bundle);
+            Plugin.CurrentActivity.CrossCurrentActivity.Current.Activity = this;
+            base.OnCreate(bundle);
 			Forms.Init(this, bundle);
             Xamarin.FormsMaps.Init(this, bundle);
             App.Version = ApplicationContext.PackageManager.GetPackageInfo(ApplicationContext.PackageName, 0).VersionName;
@@ -60,7 +60,7 @@ namespace JamnationApp.Droid
 			// COMMENT OUT TO CREATE NEW DB
 			//InitializeDatabase ();
             InitializeDevice();
-            App.Init(new AppSetup());
+            App.Init(new DroidSetup());
             LoadApplication(new App());
 
             var width = Resources.DisplayMetrics.WidthPixels;
@@ -73,8 +73,6 @@ namespace JamnationApp.Droid
             App.AppLoadedDateTime = DateTime.UtcNow;
 
 
-            var x = typeof(Xamarin.Forms.Themes.LightThemeResources);
-            x = typeof(Xamarin.Forms.Themes.Android.UnderlineEffect);
         }
 
         public void InitializeDatabase()

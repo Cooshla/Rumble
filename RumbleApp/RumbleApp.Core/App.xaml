@@ -46,20 +46,30 @@
                 <Setter Property="FontFamily" Value="Verdana" />
                 <Setter Property="FontSize" Value="20" />
                 <Setter Property="WidthRequest" Value="300"/>
-                <Setter Property="BorderRadius" Value="20" />
+                <Setter Property="BorderRadius" Value="5" />
             </Style>
 
             <Style x:Key="buttonStylePrimary" TargetType="Button" BasedOn="{StaticResource buttonStyle}">
                 <Setter Property="BackgroundColor" Value="{StaticResource  PrimaryColor}" />
                 <Setter Property="TextColor" Value="{StaticResource TextColor}" />
-               </Style>
+            </Style>
 
             <Style x:Key="buttonStyleSecondary" TargetType="Button" BasedOn="{StaticResource buttonStyle}">
                 <Setter Property="BackgroundColor" Value="{StaticResource  SecondaryColor}" />
                 <Setter Property="TextColor" Value="{StaticResource TextColor}" />
             </Style>
 
-            
+
+            <Style x:Key="buttonStyleBack" TargetType="Button" BasedOn="{StaticResource buttonStyle}">
+                <Setter Property="BackgroundColor" Value="Transparent" />
+                <Setter Property="TextColor" Value="{StaticResource AltTextColor}" />
+                <Setter Property="WidthRequest" Value="125"/>
+                <Setter Property="BorderWidth" Value="3"/>
+                <Setter Property="BorderColor" Value="White"/>
+
+            </Style>
+
+
 
         </ResourceDictionary>
     </Application.Resources>

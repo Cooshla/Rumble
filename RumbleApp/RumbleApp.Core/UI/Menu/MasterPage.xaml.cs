@@ -15,6 +15,7 @@ namespace JamnationApp.Core.UI
         public ListView ListView { get { return listView; } }
         public MasterPage()
         {
+            BindingContext = App.ViewModelLocator.MasterPage;
             InitializeComponent();
         }
     }

@@ -8,6 +8,7 @@ namespace JamnationApp.Core.Interfaces
         MainPage,
         LoginPage,
         RegisterPage,
+        Forgot,
         ProfilePage,
         ScanPage,
         MainMapPage,
@@ -16,7 +17,9 @@ namespace JamnationApp.Core.Interfaces
         AddressLookup,
         EventDetail,
         Search,
-        List
+        List,
+        Map,
+        Chat
     }
 
     public interface IPageFactory

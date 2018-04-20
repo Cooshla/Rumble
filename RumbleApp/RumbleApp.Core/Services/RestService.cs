@@ -3,6 +3,7 @@ using ModernHttpClient;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -15,7 +16,7 @@ namespace JamnationApp.Core.Services
     public class RestService : IRestService
     {
         
-        Uri baseUrl = new Uri("http://Jamnationapi.cooshla.com/");
+        Uri baseUrl = new Uri("http://jammr.azurewebsites.net/");
 
 
         public RestService()
@@ -70,9 +71,9 @@ namespace JamnationApp.Core.Services
 
                 result = JsonConvert.DeserializeObject<T>(responseJson);
                 client.Dispose();
-                if (result == null)
+                if (result == null && response.StatusCode!= System.Net.HttpStatusCode.OK)
                 {
-                    throw new Exception();
+                    Debug.WriteLine("Rest service errored");
                 }
 
             });

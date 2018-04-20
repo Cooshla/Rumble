@@ -29,12 +29,11 @@ namespace JamnationApp.Api.Controllers
                 UserName = user.Email,
                 Email = user.Email,
                 NotificationTags = new NotificationTags { Tags = new List<Tag> { new Tag { tag = "appuser" }, new Tag { tag = user.Email } } },
-                 
-                Profile = new Profile() {  Email=user.Email, FirstName=user.FirstName,LastName=user.LastName, PhoneNumber=user.PhoneNumber, IsActive=true,
-                 Created=DateTime.Now, CreatedBy="system", Updated=DateTime.Now}
-                
+                Profile = user.Profile
             };
             var result = await UserManager.CreateAsync(u, user.Password);
+            
+            
             return Json(new UserResponse { success = result.Succeeded, errors = result.Errors });
         }
 
@@ -129,12 +128,22 @@ namespace JamnationApp.Api.Controllers
         public async Task<JsonResult<AppUser>> GetUser(string usr, string pass)
         {
             var user = db.Users.SingleOrDefault(u => u.UserName == usr);
-
-            Profile prof = new Profile();
+            
 
             AppUser appuser = new AppUser();
-
-            AutoMapper.Mapper.Map(user, appuser);
+            appuser.Email = user.Email;
+            appuser.FirstName = user.Email;
+            appuser.HomeLocation = user.HomeLocation;
+            appuser.Id= user.Id;
+            appuser.LastName= user.LastName;
+            appuser.NotificationTags= user.NotificationTags;
+            appuser.PhoneNumber = user.PhoneNumber;
+            appuser.PhotoBinary = null;
+            appuser.PhotoUrl = user.PhotoUrl;
+            appuser.Profile= db.Profile.Where(c=>c.UserId==user.Id).FirstOrDefault();
+            appuser.Status= null;
+            appuser.SubscriptionId = 0;
+            
 
             return Json(appuser);
         }

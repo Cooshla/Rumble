@@ -22,6 +22,7 @@ namespace JamnationApp.Core
             MainPage = new MainPage();
             Login = new Login();
             Register = new Register();
+            Forgot = new Forgot();
             EventDetail = new EventDetail();
             Events = new Events();
             GuidePage = new GuidePage();
@@ -32,12 +33,17 @@ namespace JamnationApp.Core
             LocationLookup = new LocationLookup();
             Search = new Search();
             List = new ListView();
+            Map = new Map();
+            Friends = new Friends();
+            ChatHistory = new ChatHistory();
+            Chat = new Chat();
         }
 
         private static MasterPage _masterPage;
         private static MainPage _mainPage;
         private static Login _login;
         private static Register _register;
+        private static Forgot _forgot;        
         private static EventDetail _eventDetail;
         private static Events _events;
         private static GuidePage _guidePage;
@@ -48,6 +54,10 @@ namespace JamnationApp.Core
         private static LocationLookup _locationLookup;
         private static Search _search;
         private static ListView _list;
+        private static Map _map;
+        private static Friends _friends;
+        private static ChatHistory _chatHistory;
+        private static Chat _chat;
 
 
 
@@ -97,7 +107,20 @@ namespace JamnationApp.Core
             set
             {
                 _register = value;
-               _register.BindingContext = App.ViewModelLocator.Register;
+                _register.BindingContext = App.ViewModelLocator.Register;
+            }
+        }
+
+        public static Forgot Forgot
+        {
+            get
+            {
+                return _forgot;
+            }
+            set
+            {
+                _forgot = value;
+                _forgot.BindingContext = App.ViewModelLocator.Forgot;
             }
         }
         public static EventDetail EventDetail
@@ -181,7 +204,7 @@ namespace JamnationApp.Core
             set
             {
                 _myProfile = value;
-                _myProfile.BindingContext = App.ViewModelLocator.Profile;
+                _myProfile.BindingContext = App.ViewModelLocator.ViewProfile;
             }
         }
         public static LocationLookup LocationLookup
@@ -219,9 +242,62 @@ namespace JamnationApp.Core
             set
             {
                 _list = value;
-                //_myProfile.BindingContext = App.ViewModelLocator.LocationLookup;
+                _list.BindingContext = App.ViewModelLocator.ListViewModel;
             }
         }
+
+        public static Map Map
+        {
+            get
+            {
+                return _map;
+            }
+            set
+            {
+                _map = value;
+                _map.BindingContext = App.ViewModelLocator.MapViewModel;
+            }
+        }
+
+        public static Friends Friends
+        {
+            get
+            {
+                return _friends;
+            }
+            set
+            {
+                _friends = value;
+                _friends.BindingContext = App.ViewModelLocator.FriendsViewModel;
+            }
+        }
+
+        public static ChatHistory ChatHistory
+        {
+            get
+            {
+                return _chatHistory;
+            }
+            set
+            {
+                _chatHistory = value;
+                _chatHistory.BindingContext = App.ViewModelLocator.ChatHistoryViewModel;
+            }
+        }
+
+        public static Chat Chat
+        {
+            get
+            {
+                return _chat;
+            }
+            set
+            {
+                _chat = value;
+                _chat.BindingContext = App.ViewModelLocator.ChatViewModel;
+            }
+        }
+
 
     }
 }

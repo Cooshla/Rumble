@@ -31,9 +31,9 @@ namespace JamnationApp.Core.ViewModels.Events
         }
 
         public async Task GetData(string id)
-        {
+        {/*
             Evt = await Evnt.GetEvent(int.Parse(id));
-            OnPropertyChanged("Evt");
+            OnPropertyChanged("Evt");*/
         }
     }
 }

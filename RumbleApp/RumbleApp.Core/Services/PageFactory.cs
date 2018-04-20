@@ -22,7 +22,8 @@ namespace JamnationApp.Core.Services
                 case Pages.MainPage: return new MainPage();
                 case Pages.ProfilePage: return UIPageLocator.Profile;
                 case Pages.LoginPage: return  UIPageLocator.Login;
-                case Pages.RegisterPage: return  UIPageLocator.Register;
+                case Pages.RegisterPage: return UIPageLocator.Register;
+                case Pages.Forgot: return UIPageLocator.Forgot;
                 case Pages.Guide: return UIPageLocator.GuidePage;
                 case Pages.MainMapPage:return UIPageLocator.MainMapPage;
                 case Pages.AddEventPage: return UIPageLocator.AddEvent;
@@ -30,6 +31,8 @@ namespace JamnationApp.Core.Services
                 case Pages.EventDetail: return UIPageLocator.EventDetail;
                 case Pages.Search: return UIPageLocator.Search;
                 case Pages.List: return UIPageLocator.List;
+                case Pages.Map: return UIPageLocator.Map;
+                case Pages.Chat: return UIPageLocator.Chat;
                 default: throw new ArgumentException(string.Format("Unknown page type {0}", page));
 			}
 		}

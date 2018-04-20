@@ -22,6 +22,13 @@ namespace JamnationApp.Core.UI
 
             masterPage.ListView.ItemSelected += OnItemSelected;
 
+            MessagingCenter.Subscribe<NavigationPage>(this, Messages.AddressLookupCalled, (pageItem) =>
+            {
+                pageItem.Parent = null; // solution
+                Detail = pageItem;
+                IsPresented = false;
+            });
+
         }
 
         void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
@@ -40,14 +47,14 @@ namespace JamnationApp.Core.UI
                         Detail = new NavigationPage(UIPageLocator.MainMapPage);
                         MessagingCenter.Send<MainPage, bool>(this, Messages.HomeClicked, true);
                     }
-                    else if (item.TargetType == typeof(Events))
+                    else if (item.TargetType == typeof(Friends))
                     {
-                        Detail = new NavigationPage(UIPageLocator.Events);
-                        MessagingCenter.Send<MainPage, bool>(this, Messages.EventsClicked, true);
+                        Detail = new NavigationPage(UIPageLocator.Friends);
+                        MessagingCenter.Send<MainPage, bool>(this, Messages.FriendsClicked, true);
                     }
                     else if (item.TargetType == typeof(MyProfile))
                     {
-                        Detail = new NavigationPage(UIPageLocator.Profile);
+                        Detail = new NavigationPage(UIPageLocator.MyProfile);
                         MessagingCenter.Send<MainPage, bool>(this, Messages.ProfileClicked, true);
                     }
                     else

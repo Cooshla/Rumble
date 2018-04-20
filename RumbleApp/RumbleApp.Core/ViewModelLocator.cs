@@ -16,6 +16,7 @@ namespace JamnationApp.Core
             MainPage = _container.Resolve<MainPageViewModel>();
             Login = _container.Resolve<LoginViewModel>();
             Register = _container.Resolve<RegisterViewModel>();
+            Forgot = _container.Resolve<ForgotViewModel>();
             Profile = _container.Resolve<ProfileViewModel>();
 
             MainMapPage = _container.Resolve<MainMapPageViewModel>();
@@ -29,6 +30,10 @@ namespace JamnationApp.Core
 
             ListViewModel = _container.Resolve<ListViewModel>();
             MapViewModel = _container.Resolve<MapViewModel>();
+            FriendsViewModel = _container.Resolve<FriendsViewModel>();
+            ChatHistoryViewModel = _container.Resolve<ChatHistoryViewModel>();
+            ChatViewModel = _container.Resolve<ChatViewModel>();
+            ChatViewModel.InitializeMock();
         }
 
         public  MasterPageViewModel MasterPage { get; set; }
@@ -36,6 +41,7 @@ namespace JamnationApp.Core
 
         public  LoginViewModel Login { get; set; }
         public  RegisterViewModel Register { get; set; }
+        public ForgotViewModel Forgot { get; set; }
         public  ProfileViewModel Profile { get; set; }
         public  EventsViewModel Events { get; set; }
 
@@ -47,6 +53,10 @@ namespace JamnationApp.Core
         public SearchViewModel SearchViewModel { get; set; }
         public ListViewModel ListViewModel { get; set; }
         public MapViewModel MapViewModel { get; set; }
+        public FriendsViewModel FriendsViewModel { get; set; }
+
+        public ChatHistoryViewModel ChatHistoryViewModel { get; set; }
+        public ChatViewModel ChatViewModel { get; set; }
 
 
         public  LocationLookupViewModel LocationLookup { get; set; }

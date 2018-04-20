@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:controls="clr-namespace:JamnationApp.Core.Abstracts"              
+             x:Class="JamnationApp.Core.UI.Pages.Account.Forgot" >
+
+
+
+    <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+
+        <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Label Text="App Name" FontAttributes="Bold" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" FontSize="Large" />
+            <Label Text="Tagline" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" FontSize="Default" />
+        </StackLayout>
+
+
+        <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
+            <Entry  Placeholder="Email" x:Name="txtUsername"  Keyboard="Email" Text="{Binding UserName}"   />
+        </StackLayout>
+
+
+        <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Padding="0,20,0,50" Spacing="20" >
+            <Button  Text="Reset Password"  Style="{StaticResource buttonStylePrimary}" Command="{Binding ResetCommand}"  HorizontalOptions="Center" />
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>

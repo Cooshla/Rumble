@@ -32,8 +32,8 @@ namespace JamnationApp.Core.Services
 
         public async Task<List<Event>> GetAllEvents()
         {
-            return new List<Event>();
-            //return await Rest.GetClient<List<Event>>("api/Events/getallevents");
+
+            return await Rest.GetClient<List<Event>>("api/Events/getallevents");
         }
 
         public async Task<List<Event>> GetAllEventsAttendedByUser(string id)

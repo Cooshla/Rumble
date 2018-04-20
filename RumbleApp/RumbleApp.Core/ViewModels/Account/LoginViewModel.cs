@@ -24,6 +24,7 @@ namespace JamnationApp.Core.ViewModels
 
         public ICommand LoginCommand { get { return new Command(Login); } }
         public ICommand SignupCommand { get { return new Command(Signup); } }
+        public ICommand ForgotPasswordCommand { get { return new Command(Forgot); } }
 
 
         public LoginViewModel(IPageFactory _page, IAppNavigation _navi, IRestService _rest, IAccountService _acc, IProfileService _prof)
@@ -37,41 +38,52 @@ namespace JamnationApp.Core.ViewModels
 
         async void Login()
         {
-            App.UserDialogService.ShowLoading("Signing in...");
-            await Task.Delay(3000);
-            User u = new User();
-            
-            u.Email = UserName;
-            u.Password = Password;
-            bool success = await Acc.LoginAsync(UserName, Password);
-            if(success)
+            if (!string.IsNullOrWhiteSpace(UserName) && !string.IsNullOrWhiteSpace(Password))
             {
-               
-                App.UserDialogService.HideLoading();
-                if (Settings.IsFirstRun)
+                App.UserDialogService.ShowLoading("Signing in...");
+                await Task.Delay(3000);
+                User u = new User();
+
+                u.Email = UserName;
+                u.Password = Password;
+                bool success = await Acc.LoginAsync(UserName, Password);
+                if (success)
                 {
-                    Settings.IsFirstRun = false;
-                    UserName = string.Empty;
-                    Password = string.Empty;
-                    OnPropertyChanged("UserName");
-                    OnPropertyChanged("Password");
-                    await Navi.PopModal();
-                    await Navi.PushModal(PageFac.GetPage(Pages.Guide));
+
+                    App.UserDialogService.HideLoading();
+                    if (Settings.IsFirstRun)
+                    {
+                        Settings.IsFirstRun = false;
+                        UserName = string.Empty;
+                        Password = string.Empty;
+                        OnPropertyChanged("UserName");
+                        OnPropertyChanged("Password");
+                        await Navi.PopModal();
+                        await Navi.PushModal(PageFac.GetPage(Pages.Guide));
+                    }
+                    else
+                    {
+                        await Navi.PopModal();
+                    }
                 }
                 else
                 {
-                    await Navi.PopModal();
+                    App.UserDialogService.HideLoading();
+                    await App.UserDialogService.AlertAsync("We could not log you in at this time, please try again");
                 }
             }
             else
             {
-                App.UserDialogService.HideLoading();
-                await App.UserDialogService.AlertAsync("We could not log you in at this time, please try again");
-            }                
+                await App.UserDialogService.AlertAsync("Please enter a username and password");
+            }
         }
         async void Signup()
         {
             await Navi.PushModal(PageFac.GetPage(Pages.RegisterPage));
+        }
+        async void Forgot()
+        {
+            await Navi.PushModal(PageFac.GetPage(Pages.Forgot));
         }
     }
 }

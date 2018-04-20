@@ -42,7 +42,22 @@ namespace JamnationApp.Core.ViewModels
 
         async void Search()
         {
-            await  Navi.PushPage(PageFac.GetPage(Pages.Search));
+
+            List<JamnationApp.Core.Models.Profile> SearchResults = new List<Models.Profile>();
+            SearchResults.Add(new Models.Profile());
+            SearchResults.Add(new Models.Profile());
+            SearchResults.Add(new Models.Profile());
+            SearchResults.Add(new Models.Profile());
+            SearchResults.Add(new Models.Profile());
+            SearchResults.Add(new Models.Profile());
+            SearchResults.Add(new Models.Profile());
+            SearchResults.Add(new Models.Profile());
+            SearchResults.Add(new Models.Profile());
+            SearchResults.Add(new Models.Profile());
+
+            MessagingCenter.Send<SearchViewModel, List<JamnationApp.Core.Models.Profile>>(this, Messages.SearchResults, SearchResults);
+
+            await Navi.PushPage(PageFac.GetPage(Pages.List));
         }
 
         private void Reset()

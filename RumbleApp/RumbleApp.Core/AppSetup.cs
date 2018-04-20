@@ -52,6 +52,8 @@ namespace JamnationApp.Core
             cb.RegisterType<MainPageViewModel>().SingleInstance();
             cb.RegisterType<LoginViewModel>().SingleInstance();
             cb.RegisterType<RegisterViewModel>().SingleInstance();
+            cb.RegisterType<ForgotViewModel>().SingleInstance();
+            
             cb.RegisterType<ProfileViewModel>().SingleInstance();
             cb.RegisterType<MainMapPageViewModel>().SingleInstance();
             cb.RegisterType<AddEventViewModel>().SingleInstance();
@@ -63,7 +65,11 @@ namespace JamnationApp.Core
             cb.RegisterType<SearchViewModel>().SingleInstance();
             cb.RegisterType<ListViewModel>().SingleInstance();
             cb.RegisterType<MapViewModel>().SingleInstance();
-            
+            cb.RegisterType<FriendsViewModel>().SingleInstance();
+            cb.RegisterType<ChatHistoryViewModel>().SingleInstance();
+            cb.RegisterType<ChatViewModel>().SingleInstance();
+
+
         }
     }
 }

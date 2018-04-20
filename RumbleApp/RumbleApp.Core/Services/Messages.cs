@@ -7,7 +7,9 @@ namespace JamnationApp.Core
 
         public const string HomeClicked = "HomeClicked";
         public const string ProfileClicked = "ProfileClicked";
+        public const string FriendsClicked = "FriendsClicked";
         public const string EventsClicked = "EventsClicked";
+        public const string ChatClicked = "ChatClicked";
 
 
         public const string MapProfileClicked = "MapProfileClicked";
@@ -19,5 +21,9 @@ namespace JamnationApp.Core
 
 
         public const string Walkthrough = "Walkthrough";
+
+        public const string Navigate = "Navigate";
+
+        public const string SearchResults = "SearchResults";
     }
 }
