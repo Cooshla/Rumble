@@ -12,6 +12,7 @@ namespace JamnationApp.Api
     {
         public void Configuration(IAppBuilder app)
         {
+            app.MapSignalR();
             ConfigureAuth(app);
         }
     }

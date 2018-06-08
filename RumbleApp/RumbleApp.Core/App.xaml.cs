@@ -30,7 +30,7 @@ namespace JamnationApp.Core
     {
         public static double ScreenHeight;
         public static double ScreenWidth;
-
+        public static string SearchTermBreadcrumbs { get; set; }
         public static User ThisUser { get; set; }
         public static string DeviceId { get; set; }
         public static string Version { get; set; }
@@ -39,7 +39,7 @@ namespace JamnationApp.Core
         public static IContainer _container;
         public static IMediaPicker MediaPicker { get; set; }
 
-        public static ITwilioMessenger TwilioMessenger {get; set;}
+        public static ISignalRService SignalRClient {get; set;}
         private static NavigationService NaviService;
 
         public static string Token { get; set; }
@@ -63,11 +63,11 @@ namespace JamnationApp.Core
         public static Position SearchFocus { get; set; }
 
 
-        public static DatabaseManager _databaseManager;
+        //public static DatabaseManager _databaseManager;
 
         public static bool IgnoreSearchLogic { get; set; }
 
-        public static DatabaseManager DatabaseManager { get; set; }
+        //public static DatabaseManager DatabaseManager { get; set; }
 
 
         public static IUserDialogs UserDialogService { get; set; }
@@ -96,7 +96,9 @@ namespace JamnationApp.Core
 
             Authenticate();
 
-            App.TwilioMessenger = App._container.Resolve<ITwilioMessenger>();
+            
+
+
         }
 
         public static async void Authenticate()

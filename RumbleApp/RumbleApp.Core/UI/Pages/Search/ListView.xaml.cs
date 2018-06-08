@@ -15,13 +15,13 @@ namespace JamnationApp.Core.UI.Pages.Search
 		public ListView ()
 		{
 			InitializeComponent ();
-            /*List<int> data = new List<int>() { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
-            list.ItemsSource = data;*/
         }
 
         private void list_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-            MessagingCenter.Send<ListView, JamnationApp.Core.Models.Profile>(this, Messages.ProfileClicked, null);
+            JamnationApp.Core.Models.Profile obj = e.Item as JamnationApp.Core.Models.Profile;
+            if (obj != null)
+                MessagingCenter.Send<ListView, JamnationApp.Core.Models.Profile>(this, Messages.ProfileClicked, obj);
         }
     }
 }

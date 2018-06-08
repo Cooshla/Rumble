@@ -31,7 +31,7 @@ namespace JamnationApp.Core.Services
         public async Task GoToProfilePage(string id)
         {
             Profile prof = _pages.GetPage(Pages.ProfilePage) as Profile;
-            await App.ViewModelLocator.Profile.GetData(id);
+            //await App.ViewModelLocator.Profile.GetData(id);
             await PushModal(prof, true);
         }
 

@@ -25,9 +25,7 @@
                       HorizontalOptions="Center"
                       VerticalOptions="Center" Source="squirrel.jpg" ></plugin:CircleImage>
         <Frame Grid.Row="0"  Grid.Column="1">
-            <Frame.HasShadow>
-                <OnPlatform x:TypeArguments="x:Boolean" iOS="false" Android="true"/>
-            </Frame.HasShadow>
+            
             <Frame.BackgroundColor>
                 <OnPlatform x:TypeArguments="Color" iOS="#F5F5F5" Android="White"/>
             </Frame.BackgroundColor>

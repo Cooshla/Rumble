@@ -51,7 +51,7 @@ namespace JamnationApp.Core.Services
             return result;
         }
 
-        public async Task<T> PostClient<T>(string resource, string jsonRequest = "")
+        public async Task<T> PostClient<T>(string resource, string jsonRequest )
         {
             T result = default(T);
 
@@ -100,7 +100,7 @@ namespace JamnationApp.Core.Services
 
                 result = JsonConvert.DeserializeObject<T>(responseJson);
                 client.Dispose();
-                if (result == null)
+                if (result == null && response.StatusCode != System.Net.HttpStatusCode.OK)
                 {
                     throw new Exception();
                 }

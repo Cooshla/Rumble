@@ -24,6 +24,7 @@ namespace JamnationApp.Api.Models
         public byte[] PhotoBinary { get; set; }
         public string DeviceId { get; set; }
         public virtual NotificationTags NotificationTags { get; set; }
+
     }
 
     public class UserResponse

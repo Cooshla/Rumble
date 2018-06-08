@@ -18,16 +18,31 @@ namespace JamnationApp.Core.UI.Pages.Profile
         public Profile()
         {
             InitializeComponent();
-            
-                MyMap.Pins.Add(new Xamarin.Forms.Maps.Pin()
-            {
-                Position = new Xamarin.Forms.Maps.Position(52.130162, -8.278229),
-                Address = "123 fake st",
-                Label = "123 Fake street"
+
+
+            MessagingCenter.Subscribe<ProfileViewModel, JamnationApp.Core.Models.Profile>(this, Messages.AddressLookupCalled, (sender, arg) => {
+                var pos = new Position(arg.Latitude, arg.Longitude);
+                MyMap.Pins.Clear();
+                MyMap.MoveToRegion(MapSpan.FromCenterAndRadius(pos, Distance.FromMiles(5)));
+                MyMap.Pins.Add(new Pin()
+                {
+                    Position = pos,
+                    Label = arg.DisplayName,
+                    Address=arg.Location,
+                    Type = PinType.Generic
+                });
+
+                InterestsLabel.Text = arg.Interests;
+                DescriptionLabel.Text = arg.Description;
+                ProfileImage.Source = arg.FullImageUrl;
+                ProfileName.Text = arg.DisplayName;
             });
 
-            this.MyMap.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(52.130162, -8.278229), Distance.FromKilometers(50)));
-            
+            MessagingCenter.Subscribe<ProfileViewModel, HtmlWebViewSource>(this, Messages.SetWebViewSource, (sender, arg) => {
+                SoundCloudEmbedLabel.Source = arg;
+            });
+
+
         }
     }
 }

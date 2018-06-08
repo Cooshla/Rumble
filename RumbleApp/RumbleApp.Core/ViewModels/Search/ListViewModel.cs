@@ -2,6 +2,7 @@
 using JamnationApp.Core.Interfaces;
 using JamnationApp.Core.Models;
 using System.Collections.Generic;
+using System.Linq;
 using System.Windows.Input;
 using Xamarin.Forms;
 
@@ -16,11 +17,9 @@ namespace JamnationApp.Core.ViewModels
         private IAccountService Acc { get; set; }
         private IUserService Usr { get; set; }
 
-        public string Looking { get; set; }
-        public string Position { get; set; }
-        public string Location { get; set; }
-        public string Name { get; set; }
 
+
+        public string SearchBreadcrumbs { get; set; }
 
         public ICommand SearchCommand { get { return new Command(Search); } }
         public ICommand MapCommand { get { return new Command(Map); } }
@@ -35,16 +34,32 @@ namespace JamnationApp.Core.ViewModels
             Rest = _rest;
             Acc = _acc;
             Usr = _user;
+
+
             Reset();
 
             
             MessagingCenter.Subscribe<JamnationApp.Core.UI.Pages.Search.ListView, JamnationApp.Core.Models.Profile>(this, Messages.ProfileClicked, (sender, arg) => {
-                ShowProfile();
+                ShowProfile(arg);
             });
 
             MessagingCenter.Subscribe<SearchViewModel, List<JamnationApp.Core.Models.Profile>>(this, Messages.SearchResults, (sender, arg)=> {
                 SearchResults = arg;
                 Reset();
+            });
+
+
+            MessagingCenter.Subscribe<ProfileViewModel, JamnationApp.Core.Models.Profile>(this, Messages.FriendRequestsent, (sender, arg) => {
+                
+                foreach(var res in SearchResults)
+                {
+                    if(res.ProfileId==arg.ProfileId)
+                    {
+                        res.Friend = arg.Friend;
+                        OnPropertyChanged("SearchResults");
+                        break;
+                    }
+                }
             });
         }
 
@@ -56,25 +71,23 @@ namespace JamnationApp.Core.ViewModels
 
         async void Map()
         {
-
-            await Navi.RemovePage(PageFac.GetPage(Pages.List));
             await Navi.PushPage(PageFac.GetPage(Pages.Map));
         }
 
-        async void ShowProfile()
+        async void ShowProfile(JamnationApp.Core.Models.Profile profile)
         {
+            MessagingCenter.Send<ListViewModel, JamnationApp.Core.Models.Profile>(this, Messages.ProfileClicked, profile);
             await Navi.PushPage(PageFac.GetPage(Pages.ProfilePage));
         }
 
         private void Reset()
         {
-            Looking = string.Empty;
-            Position = string.Empty;
-            Location = string.Empty;
-            Name = string.Empty;
-            
+
+            SearchBreadcrumbs = App.SearchTermBreadcrumbs;
 
 
+
+            OnPropertyChanged("SearchBreadcrumbs");
             OnPropertyChanged("SearchResults");
             OnPropertyChanged("Looking");
             OnPropertyChanged("Position");

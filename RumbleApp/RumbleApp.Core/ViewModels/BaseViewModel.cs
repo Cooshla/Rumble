@@ -30,14 +30,15 @@ namespace JamnationApp.Core.ViewModels
         }
         protected bool IsInternetConnection()
         {
+            
             return true;
-
-            bool returnValue = !(Acr.DeviceInfo.DeviceInfo.Connectivity.InternetReachability == Acr.DeviceInfo.NetworkReachability.NotReachable);
+            /*
+            bool returnValue = !(DeviceInfo.Connectivity.InternetReachability == Acr.DeviceInfo.NetworkReachability.NotReachable);
 
             if (!returnValue)
                 App.UserDialogService.AlertAsync("You are currently offline, please connect to the internet and try again");
 
-            return returnValue;
+            return returnValue;*/
         }
     }
 }

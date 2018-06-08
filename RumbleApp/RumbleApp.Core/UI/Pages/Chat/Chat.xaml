@@ -20,7 +20,6 @@
         <!--Messages in Row 0 -->
         <ListView 
 			x:Name="MessagesListView" 
-			ItemTemplate="{StaticResource MessageTemplateSelector}" 
 			ItemsSource="{Binding Messages}" 
 			HasUnevenRows="True" 
 			ItemSelected="MessagesListView_ItemSelected" 

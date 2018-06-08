@@ -2,8 +2,8 @@ using JamnationApp.Core;
 using Autofac;
 using XLabs.Platform.Device;
 using XLabs.Platform.Services.Media;
-using JamnationApp.Droid.Controls;
 using JamnationApp.Core.Interfaces;
+using JamnationApp.Droid.Renderers;
 
 namespace JamnationApp.Droid
 {
@@ -17,7 +17,8 @@ namespace JamnationApp.Droid
             cb.RegisterType<MediaPicker>().As<IMediaPicker>();
             cb.RegisterType<SQLite_Android>().As<ISQLite>().SingleInstance();
             cb.Register<IDevice>(t => AndroidDevice.CurrentDevice);
-            cb.RegisterType<TwilioMessenger>().As<ITwilioMessenger>().SingleInstance();
+            cb.RegisterType<DroidKeyboardHelper>().As<IKeyboardHelper>();
+            
 
         }
 	}

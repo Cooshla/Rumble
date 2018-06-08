@@ -20,7 +20,7 @@ namespace JamnationApp.Core.ViewModels.Map
         public ICommand AddEventCommand { get { return new Command(AddEvent); } }
         public ICommand ShowMapCommand { get { return new Command(ShowMapEvent); } }
 
-
+        public JamnationApp.Core.Models.Profile ThisProfile { get; set; }
         public List<CustomPin> Items { get; set; }
         public bool ShowMap { get; set; }
         public ImageSource ShowMapIcon { get; set; }
@@ -67,6 +67,9 @@ namespace JamnationApp.Core.ViewModels.Map
             {
                 await Navi.GoToProfilePage(arg);
             });
+
+            
+            
         }
 
 

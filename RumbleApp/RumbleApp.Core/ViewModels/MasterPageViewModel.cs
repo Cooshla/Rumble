@@ -24,7 +24,7 @@ namespace JamnationApp.Core.ViewModels
 
         public List<MenuItem> MasterPageItems { get; set; }
 
-        public ICommand LogoutCommand { get { return new Command(Logout); } }
+        public ICommand LogoutCommand { get { return new Xamarin.Forms.Command(Logout); } }
 
         public string LogoutText { get; set; }
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using JamnationApp.Core.CustomCells;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,6 +17,7 @@ namespace JamnationApp.Core.UI.Pages.Profile
         {
             BindingContext = App.ViewModelLocator.ChatViewModel;
             InitializeComponent();
+            MessagesListView.ItemTemplate = new DataTemplate(typeof(ChatListViewCell));
         }
 
         private void MessagesListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)

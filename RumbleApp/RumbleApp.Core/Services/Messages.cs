@@ -18,7 +18,12 @@ namespace JamnationApp.Core
         public const string MapPinsReady = "MapPinsReady";
 
         public const string AddressLookupCalled = "AddressLookupCalled";
+        public const string SetWebViewSource = "SetWebViewSource";
 
+        public const string MapPinClicked = "MapPinClicked";
+
+        public const string SetProfile = "SetProfile";
+        public const string FriendRequestsent = "FriendRequestsent";
 
         public const string Walkthrough = "Walkthrough";
 

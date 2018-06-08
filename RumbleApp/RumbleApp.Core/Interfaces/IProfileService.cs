@@ -12,6 +12,7 @@ namespace JamnationApp.Core.Interfaces
     {
         Task<Profile> GetProfile(int id);
         Task<List<Profile>> GetAllProfiles();
+        Task<List<Profile>> GetAllProfilesOfFriends(int ProfileId);
         Task<HttpResponseMessage> AddProfile(Profile profile);
         Task UpdateProfile(Profile profile);
         Task DeleteProfile(int id);

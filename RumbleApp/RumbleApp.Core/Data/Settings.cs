@@ -1,6 +1,6 @@
 using System;
-using Refractored.Xam.Settings.Abstractions;
-using Refractored.Xam.Settings;
+using Plugin.Settings;
+using Plugin.Settings.Abstractions;
 
 namespace JamnationApp.Core
 {
@@ -33,31 +33,31 @@ namespace JamnationApp.Core
 
         public static string Token
         {
-            get { return AppSettings.GetValueOrDefault<string>(TokenKey, TokenDefault); }
-            set { AppSettings.AddOrUpdateValue<string>(TokenKey, value); }
+            get { return AppSettings.GetValueOrDefault(TokenKey, TokenDefault); }
+            set { AppSettings.AddOrUpdateValue(TokenKey, value); }
         }
 
         public static string UserName
         {
-            get { return AppSettings.GetValueOrDefault<string>(UserNameKey, UserNameDefault); }
-            set { AppSettings.AddOrUpdateValue<string>(UserNameKey, value); }
+            get { return AppSettings.GetValueOrDefault(UserNameKey, UserNameDefault); }
+            set { AppSettings.AddOrUpdateValue(UserNameKey, value); }
         }
 
         public static string Password
         {
-            get { return AppSettings.GetValueOrDefault<string>(PasswordKey, PasswordDefault); }
-            set { AppSettings.AddOrUpdateValue<string>(PasswordKey, value); }
+            get { return AppSettings.GetValueOrDefault(PasswordKey, PasswordDefault); }
+            set { AppSettings.AddOrUpdateValue(PasswordKey, value); }
         }
         public static string Expires
         {
-            get { return AppSettings.GetValueOrDefault<string>(ExpiresKey, ExpiresDefault); }
-            set { AppSettings.AddOrUpdateValue<string>(ExpiresKey, value); }
+            get { return AppSettings.GetValueOrDefault(ExpiresKey, ExpiresDefault); }
+            set { AppSettings.AddOrUpdateValue(ExpiresKey, value); }
         }
 
         public static bool IsFirstRun
         {
-            get { return AppSettings.GetValueOrDefault<bool>(IsFirstRunKey, IsFirstRunDefault); }
-            set { AppSettings.AddOrUpdateValue<bool>(IsFirstRunKey, value); }
+            get { return AppSettings.GetValueOrDefault(IsFirstRunKey, IsFirstRunDefault); }
+            set { AppSettings.AddOrUpdateValue(IsFirstRunKey, value); }
         }
     }
 }

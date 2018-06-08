@@ -31,7 +31,7 @@ namespace JamnationApp.Core.UI
 
         }
 
-        void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
+        async void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             try
             {
@@ -54,8 +54,9 @@ namespace JamnationApp.Core.UI
                     }
                     else if (item.TargetType == typeof(MyProfile))
                     {
-                        Detail = new NavigationPage(UIPageLocator.MyProfile);
                         MessagingCenter.Send<MainPage, bool>(this, Messages.ProfileClicked, true);
+                        await Task.Delay(500);
+                        Detail = new NavigationPage(UIPageLocator.MyProfile);
                     }
                     else
                         Detail = item.Args != null ? new NavigationPage((Page)Activator.CreateInstance(item.TargetType, item.Args)) : new NavigationPage((Page)Activator.CreateInstance(item.TargetType));

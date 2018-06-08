@@ -204,7 +204,7 @@ namespace JamnationApp.Core
             set
             {
                 _myProfile = value;
-                _myProfile.BindingContext = App.ViewModelLocator.ViewProfile;
+                //_myProfile.BindingContext = App.ViewModelLocator.ViewProfile;
             }
         }
         public static LocationLookup LocationLookup
@@ -216,7 +216,7 @@ namespace JamnationApp.Core
             set
             {
                 _locationLookup = value;
-                _myProfile.BindingContext = App.ViewModelLocator.LocationLookup;
+                _locationLookup.BindingContext = App.ViewModelLocator.LocationLookup;
             }
         }
 

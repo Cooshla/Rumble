@@ -16,5 +16,11 @@ namespace JamnationApp.Core.UI.Pages.Search
 		{
 			InitializeComponent ();
 		}
-	}
+
+        public void InterestsFocused(object sender, FocusEventArgs e)
+        {
+            App.ViewModelLocator.SearchViewModel.ShowInterestsPopup();
+
+        }
+    }
 }

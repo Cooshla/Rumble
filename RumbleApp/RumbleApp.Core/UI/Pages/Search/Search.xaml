@@ -3,43 +3,112 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="JamnationApp.Core.UI.Pages.Search.Search" Title="Search">
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="White" Padding="0,0,0,0" Spacing="0">
+        <RelativeLayout  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
 
-            <ScrollView>
-            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-                <Label Text="App Name" FontAttributes="Bold" TextColor="{StaticResource TextColor}" HorizontalOptions="Center" FontSize="Large" />
-                <Label Text="Tagline" TextColor="{StaticResource TextColor}" HorizontalOptions="Center" FontSize="Default" />
+            <StackLayout  RelativeLayout.XConstraint="{ConstraintExpression Type=Constant, Constant=0}"
+                         RelativeLayout.YConstraint="{ConstraintExpression Type=Constant, Constant=0}"  RelativeLayout.WidthConstraint= "{ConstraintExpression Type=RelativeToParent,
+                                Property=Width,
+                                Factor=1}"
+     RelativeLayout.HeightConstraint=
+         "{ConstraintExpression Type=RelativeToParent,
+                                Property=Height,
+                                Factor=1}" Orientation="Vertical"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="White" Padding="0,0,0,0" Spacing="0">
+
+                <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="Start">
+                    <Label Text="App Name" FontAttributes="Bold" TextColor="{StaticResource TextColor}" HorizontalOptions="Center" FontSize="Large" />
+                    <Label Text="Tagline" TextColor="{StaticResource TextColor}" HorizontalOptions="Center" FontSize="Default" />
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Spacing="40" Padding="10,10,10,10">
+
+                    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                        <Label Text="Looking for a..."/>
+                        <Entry Focused="InterestsFocused" Text="{Binding Looking}" />
+                    </StackLayout>
+
+                    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                        <Label Text="Located..."/>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                            <Entry   Keyboard="Default"  Text="{Binding Location}"  HorizontalOptions="FillAndExpand" />
+                            <Button HorizontalOptions="End" VerticalOptions="Center" Text="" Image="location.png"  Style="{StaticResource buttonStyleBack}" BorderColor="{StaticResource TextColor}"  FontSize="Micro" TextColor="{StaticResource TextColor}" Command="{Binding GetCurrentLocationCommand}" HeightRequest="30"  />
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="75" VerticalOptions="End"   Spacing="0" Padding="0,0,0,0">
+
+                    <StackLayout HorizontalOptions="FillAndExpand" BackgroundColor="{StaticResource PrimaryColor}" HeightRequest="75">
+                        <Label Text="RESET" TextColor="{StaticResource TextColor}" FontAttributes="Bold" FontSize="Large" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding ResetCommand}" />
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+
+                    <StackLayout HorizontalOptions="FillAndExpand"  BackgroundColor="{StaticResource BackgroundColor}" HeightRequest="75">
+                        <Label Text="SEARCH" TextColor="{StaticResource PrimaryColor}" FontAttributes="Bold"  FontSize="Large" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding SearchCommand}" />
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+
+                </StackLayout>
+            </StackLayout>
+
+
+            <StackLayout IsVisible="{Binding ShowInterests}"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                             RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=0}" 
+                             RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0}"  
+                             RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,
+                                Property=Width,
+                                Factor=1}"
+                            RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,
+                                Property=Height,
+                                Factor=1}">
+                <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#111111" Opacity="0.5" />
+                    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="50,50,50,50" Orientation="Vertical">
+
+
+                        <Frame  BackgroundColor="White" CornerRadius="5" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+
+                            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="20,0,20,20">
+                                <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Start" Orientation="Horizontal" >
+                                    <Image Source="CloseButtons.png" WidthRequest="75" HorizontalOptions="End" VerticalOptions="Start">
+                                        <Image.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding CloseInterestsCommand}" />
+                                        </Image.GestureRecognizers>
+                                    </Image>
+                                </StackLayout>
+
+
+                                <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                                    <ListView ItemsSource="{Binding InterestsItems}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" RowHeight="30">
+                                        <ListView.ItemTemplate>
+                                            <DataTemplate>
+                                                <ViewCell>
+                                                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                                                        <Image  WidthRequest="30" Source="{Binding Image}" />
+                                                        <Label Text="{Binding Name}" />
+                                                        <StackLayout.GestureRecognizers>
+                                                            <TapGestureRecognizer Command="{Binding SelectCommand}" />
+                                                        </StackLayout.GestureRecognizers>
+                                                    </StackLayout>
+                                                </ViewCell>
+                                            </DataTemplate>
+                                        </ListView.ItemTemplate>
+                                    </ListView>
+                                </StackLayout>
+
+                                <Button Text="Done" Command="{Binding AddInterestsCommand}" Style="{StaticResource buttonStylePrimary}" HorizontalOptions="Center"/>
+                            </StackLayout>
+                        </Frame>
+
+                    </StackLayout>
+
+                </Grid>
+
             </StackLayout>
             
-            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Spacing="10" Padding="10,10,10,10">
-                <Entry Placeholder="Looking for..." Keyboard="Default" Text="{Binding Looking}"  />
-                <Entry Placeholder="Position"   Keyboard="Default"  Text="{Binding Position}"  />
-                <Entry Placeholder="Location"   Keyboard="Default"  Text="{Binding Location}"  />
-                <Entry Placeholder="Name"   Keyboard="Default" Text="{Binding Name}" />
-                <Entry Placeholder="Name"   Keyboard="Default" Text="{Binding Name}" />
-                <Entry Placeholder="Name"   Keyboard="Default" Text="{Binding Name}" />
-                <Entry Placeholder="Name"   Keyboard="Default" Text="{Binding Name}" />
-                <Entry Placeholder="Name"   Keyboard="Default" Text="{Binding Name}" />
-            </StackLayout>
-
-            </ScrollView>
-            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="75" VerticalOptions="End"   Spacing="0" Padding="0,0,0,0">
-
-                <StackLayout HorizontalOptions="FillAndExpand" BackgroundColor="{StaticResource PrimaryColor}" HeightRequest="75">
-                    <Label Text="RESET" TextColor="{StaticResource TextColor}" FontAttributes="Bold" FontSize="Large" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
-                    <StackLayout.GestureRecognizers>
-                        <TapGestureRecognizer Command="{Binding ResetCommand}" />
-                    </StackLayout.GestureRecognizers>
-                </StackLayout>
-
-                <StackLayout HorizontalOptions="FillAndExpand"  BackgroundColor="{StaticResource BackgroundColor}" HeightRequest="75">
-                    <Label Text="SEARCH" TextColor="{StaticResource PrimaryColor}" FontAttributes="Bold"  FontSize="Large" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
-                    <StackLayout.GestureRecognizers>
-                        <TapGestureRecognizer Command="{Binding SearchCommand}" />
-                    </StackLayout.GestureRecognizers>
-                </StackLayout>
-
-            </StackLayout>
-        </StackLayout>
+        </RelativeLayout>
     </ContentPage.Content>
 </ContentPage>

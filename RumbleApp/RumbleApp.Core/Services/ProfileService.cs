@@ -45,7 +45,14 @@ namespace JamnationApp.Core.Services
 
         public async Task UpdateProfile(Profile profile)
         {
-            await Rest.PutClient<Profile>(string.Format("api/Profile/putuser?id={0}",profile.ProfileId));
+            var json = JsonConvert.SerializeObject(profile);
+            await Rest.PutClient<Profile>("api/Profile/putprofile", json);
         }
+
+        public async Task<List<Profile>> GetAllProfilesOfFriends(int ProfileId)
+        {
+            return await Rest.GetClient<List<Profile>>("api/Profile/GetAllProfiles",ProfileId.ToString());
+        }
+        
     }
 }

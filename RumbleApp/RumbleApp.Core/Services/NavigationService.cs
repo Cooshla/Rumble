@@ -18,7 +18,7 @@ namespace JamnationApp.Core.Services
 			return Navi.PopAsync();
 			}
 			catch(Exception ex) {
-				Insights.Report (ex);
+				
 				return null;
 			}
 		}
@@ -32,7 +32,6 @@ namespace JamnationApp.Core.Services
 					return null;
 			}
 			catch(Exception ex) {
-				Insights.Report (ex);
 				return null;
 			}
 		}
@@ -43,7 +42,6 @@ namespace JamnationApp.Core.Services
 			return Navi.PopToRootAsync();
 			}
 			catch(Exception ex) {
-				Insights.Report (ex);
 				return null;
 			}
 		}
@@ -64,7 +62,6 @@ namespace JamnationApp.Core.Services
 			try {
 				return myPage.DisplayAlert (title, message, accept, cancel);
 			} catch (Exception ex) {
-				Insights.Report (ex);
 				return null;
 			}
 		}
@@ -75,7 +72,6 @@ namespace JamnationApp.Core.Services
 			try {
 				return myPage.DisplayAlert (title, message, accept);
 			} catch (Exception ex) {
-				Insights.Report (ex);
 				return null;
 			}
 		}

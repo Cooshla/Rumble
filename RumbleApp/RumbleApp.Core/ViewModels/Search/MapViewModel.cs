@@ -29,7 +29,10 @@ namespace JamnationApp.Core.ViewModels
         public ICommand SearchCommand { get { return new Command(Search); } }
         public ICommand ListCommand { get { return new Command(List); } }
         public ICommand ResetCommand { get { return new Command(Reset); } }
+        public ICommand ViewProfileCommand { get { return new Command(ViewProfile); } }
 
+
+        public JamnationApp.Core.Models.Profile ThisProfile { get; set; }
 
         public List<JamnationApp.Core.Models.Profile> SearchResults { get; set; }
 
@@ -46,6 +49,26 @@ namespace JamnationApp.Core.ViewModels
                 SearchResults = arg;
                 Reset();
             });
+
+
+            MessagingCenter.Subscribe<JamnationApp.Core.UI.Pages.Search.Map, int>(this, Messages.MapPinClicked, async (sends, arg) =>
+            {
+                ThisProfile = SearchResults.Where(c => c.ProfileId == arg).FirstOrDefault();
+                OnPropertyChanged("ThisProfile");
+            });
+
+            MessagingCenter.Subscribe<ProfileViewModel, JamnationApp.Core.Models.Profile>(this, Messages.FriendRequestsent, (sender, arg) => {
+
+                foreach (var res in SearchResults)
+                {
+                    if (res.ProfileId == arg.ProfileId)
+                    {
+                        res.Friend = arg.Friend;
+                        OnPropertyChanged("SearchResults");
+                        break;
+                    }
+                }
+            });
         }
 
 
@@ -56,9 +79,7 @@ namespace JamnationApp.Core.ViewModels
 
         async void List()
         {
-
             await Navi.RemovePage(PageFac.GetPage(Pages.Map));
-            await Navi.PushPage(PageFac.GetPage(Pages.List));
         }
 
         private void Reset()
@@ -67,12 +88,24 @@ namespace JamnationApp.Core.ViewModels
             Position = string.Empty;
             Location = string.Empty;
             Name = string.Empty;
+            ThisProfile = null;
 
-  
+            OnPropertyChanged("ThisProfile");
             OnPropertyChanged("Looking");
             OnPropertyChanged("Position");
             OnPropertyChanged("Location");
             OnPropertyChanged("Name");
+        }
+
+
+
+        async void ViewProfile()
+        {
+            if (ThisProfile != null)
+            {
+                MessagingCenter.Send<ListViewModel, JamnationApp.Core.Models.Profile>(App.ViewModelLocator.ListViewModel, Messages.ProfileClicked, ThisProfile);
+                await Navi.PushPage(PageFac.GetPage(Pages.ProfilePage));
+            }
         }
 
 

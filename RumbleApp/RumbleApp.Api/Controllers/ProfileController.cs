@@ -19,15 +19,45 @@ namespace JamnationApp.Api.Controllers
         // GET: api/Profile
         public async Task<JsonResult<List<Profile>>> GetAllProfiles()
         {
-            return Json(db.Profile.ToList());
+            var profs = db.Profile.ToList();
+            foreach(var prof in profs)
+            {
+
+                prof.Friend = db.Friends.Where(c => c.ProfileId == prof.ProfileId).ToList();
+            }
+
+            return Json(profs);
 
         }
 
         // GET: api/Profile/5
         public async Task<JsonResult<Profile>> GetProfile(int id)
         {
-            return Json(db.Profile.Where(c => c.ProfileId == id).FirstOrDefault());
+            var prof = db.Profile.Where(c => c.ProfileId == id).FirstOrDefault();
+            prof.Friend = db.Friends.Where(c => c.ProfileId == id).ToList();
+            return Json(prof);
         }
+
+
+        // GET: api/Profile/5
+        public async Task<JsonResult<List<Profile>>> GetProfilesOfFriends(int id)
+        {
+
+            var profs =db.Profile.Join(db.Friends,
+                                contact => contact.ProfileId,
+                                dealer => dealer.RequestId,
+                                (contact, dealer) => contact).ToList();
+
+            foreach (var prof in profs)
+            {
+
+                prof.Friend = db.Friends.Where(c => c.ProfileId == prof.ProfileId).ToList();
+            }
+
+
+            return Json(profs);
+        }
+
 
         // POST: api/Profile
         public HttpResponseMessage PostProfile([FromBody]Profile value)
@@ -81,9 +111,9 @@ namespace JamnationApp.Api.Controllers
         }
 
         // PUT: api/Profile/5
-        public void PutProfile(int id, [FromBody]Profile value)
+        public HttpResponseMessage PutProfile([FromBody]Profile value)
         {
-            var s = db.Profile.Where(c => c.ProfileId == id).FirstOrDefault();
+            var s = db.Profile.Where(c => c.ProfileId == value.ProfileId).FirstOrDefault();
             
             s.Updated = DateTime.Now;
             s.LastEditBy = "1";
@@ -91,6 +121,7 @@ namespace JamnationApp.Api.Controllers
             s.FirstName = value.FirstName;
             s.LastName = value.LastName;
             s.Description = value.Description;
+            s.Interests = value.Interests;
             s.Email = value.Email;
             s.Location = value.Location;
             s.Longitude = value.Longitude;
@@ -99,8 +130,31 @@ namespace JamnationApp.Api.Controllers
             s.PostCode = value.PostCode;
             s.Ranking = value.Ranking;
             s.ShowExactLocation = value.ShowExactLocation;
+            s.SoundCloud = value.SoundCloud;
+
+            string fileName = string.Empty;
+            try
+            {
+                if (value.ImageBlob != null)
+                {
+                    if(File.Exists(System.Web.Hosting.HostingEnvironment.MapPath("~/profileImages/" + s.ImageUrl)))
+                        File.Delete(System.Web.Hosting.HostingEnvironment.MapPath("~/profileImages/" + s.ImageUrl));
+
+                    fileName = Guid.NewGuid().ToString() + ".jpg";
+                    File.WriteAllBytes(System.Web.Hosting.HostingEnvironment.MapPath("~/profileImages/" + fileName), value.ImageBlob);
+                   
+                    s.ImageUrl = fileName;
+                    s.ImageBlob = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                value.ImageUrl = ex.Message + ":" + ex.StackTrace;
+            }
             
             db.SaveChanges();
+
+            return new HttpResponseMessage(HttpStatusCode.OK);
         }
 
         // DELETE: api/Profile/5

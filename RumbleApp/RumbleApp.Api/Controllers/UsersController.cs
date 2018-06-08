@@ -144,6 +144,7 @@ namespace JamnationApp.Api.Controllers
             appuser.Status= null;
             appuser.SubscriptionId = 0;
             
+            
 
             return Json(appuser);
         }

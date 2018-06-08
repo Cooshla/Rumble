@@ -1,3 +1,4 @@
+/*
 using System;
 using SQLite.Net;
 using SQLiteNetExtensions.Extensions;
@@ -27,7 +28,7 @@ namespace JamnationApp.Core
 		}
 
        
-        /*
+        
 		public void InsertAutoLocations(List<AutoLocation> autoLocationList)
 		{
 			lock (_connection) {
@@ -58,7 +59,8 @@ namespace JamnationApp.Core
 					InsertMemberAddress (memberDetails.Address, id);
 				}
 			}
-		}*/
+		}
         
 	}
 }
+*/

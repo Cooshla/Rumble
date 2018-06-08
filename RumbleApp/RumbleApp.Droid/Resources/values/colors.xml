@@ -4,4 +4,9 @@
 
   <color name="entry_background">#ffffff</color>
   <color name="entry_border">#666666</color>
+
+
+  <color name="primaryColor">#FFC107</color>
+  <color name="secondaryColor">#A48115</color>
+  <color name="backgroundColor">#312C28</color>
 </resources>

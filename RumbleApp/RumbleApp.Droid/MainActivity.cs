@@ -18,11 +18,12 @@ using JamnationApp.Core.ViewModels;
 using XLabs.Platform.Services.Geolocation;
 using ImageCircle.Forms.Plugin.Droid;
 using RoundedBoxView.Forms.Plugin.Droid;
+using Xamarin.Forms.Platform.Android;
 
 namespace JamnationApp.Droid
 {
-    [Activity(Label = "Jamnation", 
-        Theme = "@android:style/Theme.Holo.Light", 
+    [Activity(Label = "Jamnation",
+        Theme = "@android:style/Theme.Holo.Light",
         Icon = "@android:color/transparent",
         MainLauncher = false,
 		ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait
@@ -35,18 +36,17 @@ namespace JamnationApp.Droid
         public string locationProvider;
 
         protected override void OnCreate(Bundle bundle)
-        { 
-			AndroidEnvironment.UnhandledExceptionRaiser += HandleAndroidException;
+        {
+            AndroidEnvironment.UnhandledExceptionRaiser += HandleAndroidException;
 
             Plugin.CurrentActivity.CrossCurrentActivity.Current.Activity = this;
             base.OnCreate(bundle);
-			Forms.Init(this, bundle);
+            Forms.Init(this, bundle);
             Xamarin.FormsMaps.Init(this, bundle);
             App.Version = ApplicationContext.PackageManager.GetPackageInfo(ApplicationContext.PackageName, 0).VersionName;
-			UserDialogs.Init (this);
+            UserDialogs.Init(this);
             RoundedBoxViewRenderer.Init();
             ImageCircleRenderer.Init();
-            ZXing.Net.Mobile.Forms.Android.Platform.Init();
             //this is needed for UI testing
             Forms.ViewInitialized += (sender, e) =>
             {
@@ -55,10 +55,9 @@ namespace JamnationApp.Droid
                     e.NativeView.ContentDescription = e.View.StyleId;
                 }
             };
-
-			// App.UserDialogService = new UserDialogService(); - OLD
-			// COMMENT OUT TO CREATE NEW DB
-			//InitializeDatabase ();
+            // App.UserDialogService = new UserDialogService(); - OLD
+            // COMMENT OUT TO CREATE NEW DB
+            //InitializeDatabase ();
             InitializeDevice();
             App.Init(new DroidSetup());
             LoadApplication(new App());
@@ -71,8 +70,6 @@ namespace JamnationApp.Droid
             App.ScreenHeight = (height - 0.5f) / density;
 
             App.AppLoadedDateTime = DateTime.UtcNow;
-
-
         }
 
         public void InitializeDatabase()
@@ -186,5 +183,6 @@ namespace JamnationApp.Droid
  			}		
             */
          }
+        
     }
 }

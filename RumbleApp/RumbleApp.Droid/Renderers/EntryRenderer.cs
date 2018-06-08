@@ -24,12 +24,12 @@ namespace JamnationApp.Droid.Renderers
         {
 
             base.OnElementChanged(e);
-
+            /*
             if (Control != null)
             {
                 Control.Background = this.Resources.GetDrawable(Resource.Layout.RoundedCornerEntry);
                 Control.SetPadding(20, 10, 20, 5);
-            }
+            }*/
         }
     }
 }

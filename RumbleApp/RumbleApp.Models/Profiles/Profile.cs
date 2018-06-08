@@ -30,5 +30,17 @@ namespace JamnationApp.Models.Profiles
         public string ImageUrl { get; set; }
 
         public bool IsActive { get; set; }
+        public string SoundCloud { get; set; }
+        public virtual List<FriendRequests> Friend { get; set; }
     }
+
+    public class FriendRequests : BaseModel
+    {
+        [Key]
+        public int FriendId { get; set; }
+        public int RequestId { get; set; }
+        public int ProfileId { get; set; }
+        public bool Accepted { get; set; }
+    }
+
 }

@@ -45,7 +45,9 @@ namespace JamnationApp.Core
             cb.RegisterType<ProfileService>().As<IProfileService>().SingleInstance();
             cb.RegisterType<EventService>().As<IEventService>().SingleInstance();
             cb.RegisterType<UserService>().As<IUserService>().SingleInstance();
+            cb.RegisterType<FriendService>().As<IFriend>().SingleInstance();
             cb.RegisterType<LocationServices>().As<ILocationServices>().SingleInstance();
+            cb.RegisterType<SignalRService>().As<ISignalRService>().SingleInstance();
 
             // View Models
             cb.RegisterType<MasterPageViewModel>().SingleInstance();

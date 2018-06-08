@@ -1,92 +1,161 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:circle="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
              xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
              x:Class="JamnationApp.Core.UI.Pages.Profile.MyProfile" BackgroundColor="White" >
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Command="{Binding btnSaveClickCommand}" Text="Save"  />
+    </ContentPage.ToolbarItems>
 
-    <ScrollView  Orientation="Vertical" HorizontalOptions="Fill" VerticalOptions="FillAndExpand">
-        <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Spacing="0">
+    <RelativeLayout  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
 
-            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Vertical" HeightRequest="250" BackgroundColor="{StaticResource SecondaryColor}">
-                <controls:CircleImage BorderColor="{StaticResource PrimaryColor}" BorderThickness="2" Source="{Binding UserImage}" Aspect="AspectFill">
-                    <controls:CircleImage.WidthRequest>
-                        <OnPlatform x:TypeArguments="x:Double">
-                            <On Platform="Android, iOS">100</On>
+        <StackLayout  RelativeLayout.XConstraint="{ConstraintExpression Type=Constant, Constant=0}"
+                         RelativeLayout.YConstraint="{ConstraintExpression Type=Constant, Constant=0}"  RelativeLayout.WidthConstraint= "{ConstraintExpression Type=RelativeToParent,
+                                Property=Width,
+                                Factor=1}"
+     RelativeLayout.HeightConstraint=
+         "{ConstraintExpression Type=RelativeToParent,
+                                Property=Height,
+                                Factor=1}"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <ScrollView  Orientation="Vertical" HorizontalOptions="Fill" VerticalOptions="FillAndExpand">
+                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Spacing="0">
 
-                        </OnPlatform>
-                    </controls:CircleImage.WidthRequest>
-                    <controls:CircleImage.HeightRequest>
-                        <OnPlatform x:TypeArguments="x:Double">
-                            <On Platform="Android, iOS">100</On>
-                        </OnPlatform>
-                    </controls:CircleImage.HeightRequest>
-                </controls:CircleImage>
-            </StackLayout>
-            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Vertical" HeightRequest="50" BackgroundColor="{StaticResource BackgroundColor}" Padding="10,10,10,10" Spacing="10">
-                <!--Label Text="Send Friend Request" FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Start" TextColor="White" /-->
-            </StackLayout>
+                    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Vertical" HeightRequest="250" BackgroundColor="{StaticResource SecondaryColor}">
+
+                        <controls:CircleImage BorderColor="{StaticResource PrimaryColor}" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" BorderThickness="2" Source="{Binding UserImage}" Aspect="AspectFill" WidthRequest="100" HeightRequest="100">
+                            <controls:CircleImage.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding AddPhotoCommand}"/>
+                            </controls:CircleImage.GestureRecognizers>
+                        </controls:CircleImage>
+
+                    </StackLayout>
+
+                    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Vertical" HeightRequest="50" BackgroundColor="{StaticResource BackgroundColor}" Padding="10,10,10,10" Spacing="10">
+                        <!--Label Text="Send Friend Request" FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Start" TextColor="White" /-->
+                    </StackLayout>
 
 
-            <BoxView HeightRequest="20" BackgroundColor="Transparent"/>
-            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Vertical" Padding="10,10,10,10" Spacing="10" >
-                <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Start" Orientation="Horizontal" >
-                    <Image HorizontalOptions="Start" VerticalOptions="Center" Source="interests.png" HeightRequest="30"/>
-                    <Label Text="Interests" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Center" />
+                    <BoxView HeightRequest="20" BackgroundColor="Transparent"/>
+                    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Vertical" Padding="10,10,10,10" Spacing="10" >
+                        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Start" Orientation="Horizontal" >
+                            <Image HorizontalOptions="Start" VerticalOptions="Center" Source="interests.png" HeightRequest="30"/>
+                            <Label Text="Interests" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+                            <Button HorizontalOptions="End" VerticalOptions="Center" Text="Edit"  Style="{StaticResource buttonStyleBack}" BorderColor="{StaticResource PrimaryColor}"  FontSize="Micro" TextColor="{StaticResource PrimaryColor}" Command="{Binding ShowInterestEditCommand}" HeightRequest="30" WidthRequest="60" />
+                        </StackLayout>
+
+                        <Label x:Name="InterestsLabel" LineBreakMode="WordWrap" TextColor="Black" VerticalOptions="CenterAndExpand" HorizontalOptions="Start" HorizontalTextAlignment="Start"  />
+                        
+                    </StackLayout>
+
+                    <BoxView HeightRequest="20" BackgroundColor="Transparent"/>
+                    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Vertical"  Padding="10,10,10,10" Spacing="10">
+                        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Start" Orientation="Horizontal" >
+                            <Image HorizontalOptions="Start" VerticalOptions="Center" Source="details.png" HeightRequest="30"/>
+                            <Label Text="About Me" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+                            <Button HorizontalOptions="End" VerticalOptions="Center" Text="Edit"  Style="{StaticResource buttonStyleBack}" FontSize="Micro"  BorderColor="{StaticResource PrimaryColor}" TextColor="{StaticResource PrimaryColor}" Command="{Binding ShowDescriptionEditCommand}" HeightRequest="30" WidthRequest="60" />
+                        </StackLayout>
+
+                        <Label x:Name="DescriptionLabel" LineBreakMode="WordWrap" VerticalOptions="CenterAndExpand" HorizontalOptions="Start"  HorizontalTextAlignment="Start" Text="{Binding Description}"  />
+                        <Entry x:Name="DescriptionEntry" Placeholder="Lorem ipsum dolar sit amet..." TextChanged="DescriptionTextChanged" HeightRequest="40"   VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"  Text="{Binding Description}" />
+
+                    </StackLayout>
+                    
+                    <BoxView HeightRequest="20" BackgroundColor="Transparent"/>
+
+                    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" HeightRequest="400"   Padding="10,10,10,10" Spacing="10">
+                        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Start" Orientation="Horizontal" >
+                            <Image HorizontalOptions="Start" VerticalOptions="Center" Source="musiclibrary.png" HeightRequest="30"/>
+                            <Label Text="Tracks" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+                            <Button HorizontalOptions="End" VerticalOptions="Center" Text="Edit"  Style="{StaticResource buttonStyleBack}" FontSize="Micro"  BorderColor="{StaticResource PrimaryColor}" TextColor="{StaticResource PrimaryColor}" Command="{Binding ShowSoundCloudEditCommand}" HeightRequest="30" WidthRequest="60" />
+                        </StackLayout>
+
+
+                        <WebView x:Name="SoundCloudEmbedLabel"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" WidthRequest="300" />
+                        <Editor  VerticalOptions="FillAndExpand" x:Name="SoundCloudEmbedEntry" TextChanged="SoundCloudTextChanged" HeightRequest="100"  HorizontalOptions="FillAndExpand"  Text="{Binding SoundCloudEmbed}"  />
+
+
+                    </StackLayout>
+
+
+                    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" HeightRequest="400"   Padding="10,10,10,10" Spacing="10">
+                        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Start" Orientation="Horizontal" >
+                            <Image HorizontalOptions="Start" VerticalOptions="Center" Source="location.png" HeightRequest="30"/>
+                            <Label Text="My Location" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Center" />
+
+                        </StackLayout>
+
+
+                        <Button Style="{StaticResource buttonStylePrimary}" Text="{Binding LocataionLabel}" Command="{Binding SetLocationCommand}" />
+
+                        <maps:Map HeightRequest="400" HorizontalOptions="FillAndExpand"
+                    x:Name="MyMap"
+                    HasScrollEnabled="true" 
+                    HasZoomEnabled="true" 
+                    IsShowingUser="false"
+                    MapType="Street"  />
+
+
+                    </StackLayout>
+
+                    <BoxView HeightRequest="20" BackgroundColor="Transparent"/>
                 </StackLayout>
-                <Label LineBreakMode="WordWrap" VerticalOptions="CenterAndExpand" HorizontalOptions="Start" Text="{Binding ThisProfile.Interests}" />
-            </StackLayout>
-
-            <BoxView HeightRequest="20" BackgroundColor="Transparent"/>
-            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Vertical"  Padding="10,10,10,10" Spacing="10">
-                <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Start" Orientation="Horizontal" >
-                    <Image HorizontalOptions="Start" VerticalOptions="Center" Source="details.png" HeightRequest="30"/>
-                    <Label Text="About Me" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Center" />
-                </StackLayout>
-                <Label LineBreakMode="WordWrap" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Text="{Binding ThisProfile.Description}" />
-            </StackLayout>
-            <BoxView HeightRequest="20" BackgroundColor="Transparent"/>
-            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Vertical"  Padding="10,10,10,10" Spacing="10">
-                <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Start" Orientation="Horizontal" >
-                    <Image HorizontalOptions="Start" VerticalOptions="Center" Source="photos.png" HeightRequest="30"/>
-                    <Label Text="Photos" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Center" />
-                </StackLayout>
-                <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Horizontal" >
-
-                    <Image HorizontalOptions="FillAndExpand" Source="Test1.png" HeightRequest="100"/>
-                    <Image HorizontalOptions="FillAndExpand" Source="Test2.png" HeightRequest="100"/>
-                    <Image HorizontalOptions="FillAndExpand" Source="Test3.png" HeightRequest="100"/>
-
-                </StackLayout>
-                <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Horizontal" >
-
-                    <Image HorizontalOptions="FillAndExpand" Source="Test1.png" HeightRequest="100"/>
-                    <Image HorizontalOptions="FillAndExpand" Source="Test2.png" HeightRequest="100"/>
-                    <Image HorizontalOptions="FillAndExpand" Source="Test3.png" HeightRequest="100"/>
-
-                </StackLayout>
-                <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Horizontal" >
-
-                    <Image HorizontalOptions="FillAndExpand" Source="Test1.png" HeightRequest="100"/>
-                    <Image HorizontalOptions="FillAndExpand" Source="Test2.png" HeightRequest="100"/>
-                    <Image HorizontalOptions="FillAndExpand" Source="Test3.png" HeightRequest="100"/>
-
-                </StackLayout>
-            </StackLayout>
-            <BoxView HeightRequest="20" BackgroundColor="Transparent"/>
-            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" HeightRequest="400"   Padding="10,10,10,10" Spacing="10">
-                <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Start" Orientation="Horizontal" >
-                    <Image HorizontalOptions="Start" VerticalOptions="Center" Source="location.png" HeightRequest="30"/>
-                    <Label Text="My Location" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Center" />
-                </StackLayout>
-                <maps:Map HeightRequest="400" 
-            x:Name="MyMap"
-            IsShowingUser="true"
-            MapType="Street" />
-            </StackLayout>
-
-            <BoxView HeightRequest="20" BackgroundColor="Transparent"/>
+            </ScrollView>
         </StackLayout>
-    </ScrollView>
+        <StackLayout IsVisible="{Binding ShowInterests}"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                             RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=0}" 
+                             RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0}"  
+                             RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,
+                                Property=Width,
+                                Factor=1}"
+                            RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,
+                                Property=Height,
+                                Factor=1}">
+            <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#111111" Opacity="0.5" />
+                <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="50,50,50,50" Orientation="Vertical">
+
+
+                    <Frame  BackgroundColor="White" CornerRadius="5" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+
+                        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="20,0,20,20">
+                            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Start" Orientation="Horizontal" >
+                                <Image Source="CloseButtons.png" WidthRequest="75" HorizontalOptions="EndAndExpand" VerticalOptions="Start">
+                                    <Image.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding CloseInterestsCommand}" />
+                                    </Image.GestureRecognizers>
+                                </Image>
+                            </StackLayout>
+
+
+                            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                                <ListView ItemsSource="{Binding InterestsItems}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" RowHeight="30">
+                                    <ListView.ItemTemplate>
+                                        <DataTemplate>
+                                            <ViewCell>
+                                                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                                                    <Image  WidthRequest="30" Source="{Binding Image}" />
+                                                    <Label Text="{Binding Name}" />
+                                                    <StackLayout.GestureRecognizers>
+                                                        <TapGestureRecognizer Command="{Binding SelectCommand}" />
+                                                    </StackLayout.GestureRecognizers>
+                                                </StackLayout>
+                                            </ViewCell>
+                                        </DataTemplate>
+                                    </ListView.ItemTemplate>
+                                </ListView>
+                            </StackLayout>
+
+                            <Button Text="Done" Command="{Binding AddInterestsCommand}" Style="{StaticResource buttonStylePrimary}" HorizontalOptions="Center"/>
+                        </StackLayout>
+                    </Frame>
+
+                </StackLayout>
+
+            </Grid>
+
+        </StackLayout>
+
+    </RelativeLayout>
+
 </ContentPage>

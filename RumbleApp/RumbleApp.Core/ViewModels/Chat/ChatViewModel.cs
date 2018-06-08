@@ -32,29 +32,37 @@ namespace JamnationApp.Core.ViewModels.Profile
         public ICommand SendCommand { get; set; }
 
         public ICommand LocationCommand { get; set; }
-
-        public ChatViewModel()
+        public ISignalRService SignalRClient { get; set; }
+        public ChatViewModel(ISignalRService _SignalR)
         {
 
+            SignalRClient = _SignalR;
+            SignalRClient.Start().ContinueWith(task => {
+                if (task.IsFaulted)
+                    App.UserDialogService.AlertAsync("Error", "An error occurred when trying to connect to SignalR: " + task.Exception.InnerExceptions[0].Message, "OK");
+            });
 
+            //try to reconnect every 10 seconds, just in case
+            Device.StartTimer(TimeSpan.FromSeconds(10), () => {
+                if (!SignalRClient.IsConnectedOrConnecting())
+                    SignalRClient.Start();
+
+                return true;
+            });
+
+            
+            SignalRClient.OnMessageReceived += (username, message) => {
+                TheseMessages.Add(new Message() { Text = username + ": " + message, MessageDateTime = DateTime.Now, IsIncoming = true });
+                OnPropertyChanged("TheseMessages");
+            };
 
             TheseMessages = new ObservableCollection<Message>();
 
             SendCommand = new Command(() =>
             {
-                var message = new Message
-                {
-                    Text = OutGoingText,
-                    IsIncoming = false,
-                    MessageDateTime = DateTime.Now
-                };
-
-
-                TheseMessages.Add(message);
-
-                App.TwilioMessenger?.SendMessage(message.Text);
-
-                OutGoingText = string.Empty;
+                TheseMessages.Add(new Message() { Text = "Me: " + OutGoingText, IsIncoming = false, MessageDateTime=DateTime.Now);
+                SignalRClient.SendMessage(App.ThisUser.Email, OutGoingText);
+                OnPropertyChanged("TheseMessages");
             });
 
 
@@ -74,7 +82,7 @@ namespace JamnationApp.Core.ViewModels.Profile
                     };
 
                     TheseMessages.Add(message);
-                    App.TwilioMessenger?.SendMessage("attach:" + message.AttachementUrl);
+                    //App.TwilioMessenger?.SendMessage("attach:" + message.AttachementUrl);
 
                 }
                 catch (Exception ex)
@@ -82,7 +90,7 @@ namespace JamnationApp.Core.ViewModels.Profile
 
                 }
             });
-
+            /*
 
             if (App.TwilioMessenger == null)
                 return;
@@ -90,7 +98,7 @@ namespace JamnationApp.Core.ViewModels.Profile
             App.TwilioMessenger.MessageAdded = (message) =>
             {
                 TheseMessages.Add(message);
-            };
+            };*/
         }
 
 

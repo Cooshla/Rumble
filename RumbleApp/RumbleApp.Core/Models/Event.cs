@@ -22,4 +22,8 @@ namespace JamnationApp.Core.Models
         public int ProfileId { get; set; }
         public bool IsActive { get; set; }
     }
+    public class Events
+    {
+        public delegate void MessageReceived(string username, string message);
+    }
 }

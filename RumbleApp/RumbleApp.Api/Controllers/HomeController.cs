@@ -14,5 +14,12 @@ namespace JamnationApp.Api.Controllers
 
             return View();
         }
+
+        public ActionResult ChatTest()
+        {
+            ViewBag.Title = "Home Page";
+
+            return View();
+        }
     }
 }

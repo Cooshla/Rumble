@@ -8,12 +8,19 @@
 
     <ScrollView  Orientation="Vertical" HorizontalOptions="Fill" VerticalOptions="FillAndExpand">
         <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Spacing="0">
-            
+
             <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Vertical" HeightRequest="250" BackgroundColor="{StaticResource SecondaryColor}">
-                <Image Source="guy.png" WidthRequest="100" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+
+                <controls:CircleImage x:Name="ProfileImage" BorderColor="{StaticResource PrimaryColor}" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" BorderThickness="2"  Aspect="AspectFill" WidthRequest="100" HeightRequest="100" />
+                <Label x:Name="ProfileName" TextColor="White" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalOptions="FillAndExpand" VerticalTextAlignment="Start" FontSize="Large" FontAttributes="Bold"/>
             </StackLayout>
+
             <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Vertical" HeightRequest="50" BackgroundColor="{StaticResource BackgroundColor}" Padding="10,10,10,10" Spacing="10">
-                <Label Text="Send Friend Request" FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Start" TextColor="White" />
+                <Label Text="Send Friend Request" FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Start" TextColor="White" >
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding AddFriendRequestCommand}" />
+                    </Label.GestureRecognizers> 
+                </Label>
             </StackLayout>
 
 
@@ -21,57 +28,47 @@
             <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Vertical" Padding="10,10,10,10" Spacing="10" >
                 <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Start" Orientation="Horizontal" >
                     <Image HorizontalOptions="Start" VerticalOptions="Center" Source="interests.png" HeightRequest="30"/>
-                    <Label Text="Interests" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Center" />
+                    <Label Text="Interests" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
                 </StackLayout>
-                <Label LineBreakMode="WordWrap" VerticalOptions="CenterAndExpand" HorizontalOptions="Start" Text="Jazz, Rock, Blues" />
+
+                <Label x:Name="InterestsLabel" LineBreakMode="WordWrap" TextColor="Black" VerticalOptions="CenterAndExpand" HorizontalOptions="Start" HorizontalTextAlignment="Start"   />
+                
             </StackLayout>
 
             <BoxView HeightRequest="20" BackgroundColor="Transparent"/>
             <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Vertical"  Padding="10,10,10,10" Spacing="10">
                 <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Start" Orientation="Horizontal" >
                     <Image HorizontalOptions="Start" VerticalOptions="Center" Source="details.png" HeightRequest="30"/>
-                    <Label Text="About Me" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Center" />
+                    <Label Text="About Me" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
                 </StackLayout>
-                <Label LineBreakMode="WordWrap" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat" />
+
+                <Label x:Name="DescriptionLabel" LineBreakMode="WordWrap" VerticalOptions="CenterAndExpand" HorizontalOptions="Start"  HorizontalTextAlignment="Start"   />
+                
             </StackLayout>
             <BoxView HeightRequest="20" BackgroundColor="Transparent"/>
-            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Vertical"  Padding="10,10,10,10" Spacing="10">
+
+            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" HeightRequest="400"   Padding="10,10,10,10" Spacing="10">
                 <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Start" Orientation="Horizontal" >
-                    <Image HorizontalOptions="Start" VerticalOptions="Center" Source="photos.png" HeightRequest="30"/>
-                    <Label Text="Photos" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Center" />
+                    <Image HorizontalOptions="Start" VerticalOptions="Center" Source="musiclibrary.png" HeightRequest="30"/>
+                    <Label Text="Tracks" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
                 </StackLayout>
-                <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Horizontal" >
-
-                    <Image HorizontalOptions="FillAndExpand" Source="Test1.png" HeightRequest="100"/>
-                    <Image HorizontalOptions="FillAndExpand" Source="Test2.png" HeightRequest="100"/>
-                    <Image HorizontalOptions="FillAndExpand" Source="Test3.png" HeightRequest="100"/>
-
-                </StackLayout>
-                <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Horizontal" >
-
-                    <Image HorizontalOptions="FillAndExpand" Source="Test1.png" HeightRequest="100"/>
-                    <Image HorizontalOptions="FillAndExpand" Source="Test2.png" HeightRequest="100"/>
-                    <Image HorizontalOptions="FillAndExpand" Source="Test3.png" HeightRequest="100"/>
-
-                </StackLayout>
-                <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Horizontal" >
-
-                    <Image HorizontalOptions="FillAndExpand" Source="Test1.png" HeightRequest="100"/>
-                    <Image HorizontalOptions="FillAndExpand" Source="Test2.png" HeightRequest="100"/>
-                    <Image HorizontalOptions="FillAndExpand" Source="Test3.png" HeightRequest="100"/>
-
-                </StackLayout>
+                <WebView x:Name="SoundCloudEmbedLabel"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" WidthRequest="300" />
             </StackLayout>
-            <BoxView HeightRequest="20" BackgroundColor="Transparent"/>
+
+
             <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" HeightRequest="400"   Padding="10,10,10,10" Spacing="10">
                 <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Start" Orientation="Horizontal" >
                     <Image HorizontalOptions="Start" VerticalOptions="Center" Source="location.png" HeightRequest="30"/>
-                    <Label Text="My Location" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Center" />
+                    <Label Text="Location" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Center" />
                 </StackLayout>
-                <maps:Map HeightRequest="400" 
-            x:Name="MyMap"
-            IsShowingUser="true"
-            MapType="Street" />
+
+                <maps:Map HeightRequest="400" HorizontalOptions="FillAndExpand"
+                    x:Name="MyMap"
+                    HasScrollEnabled="true" 
+                    HasZoomEnabled="true" 
+                    IsShowingUser="false"
+                    MapType="Street"  />
+
             </StackLayout>
 
             <BoxView HeightRequest="20" BackgroundColor="Transparent"/>
