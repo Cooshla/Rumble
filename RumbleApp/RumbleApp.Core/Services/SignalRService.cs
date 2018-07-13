@@ -29,15 +29,16 @@ namespace JamnationApp.Core.Services
             };
 
             ChatHubProxy = Connection.CreateHubProxy("Chat");
-            ChatHubProxy.On<string, string>("MessageReceived", (username, text) => {
-                OnMessageReceived?.Invoke(username, text);
+
+            ChatHubProxy.On<string,string, string>("MessageReceived", (fromemail, toemail, text) => {
+                OnMessageReceived?.Invoke(fromemail, toemail, text);
             });
             Start();
         }
 
-        public void SendMessage(string username, string text)
+        public void SendMessage(string fromemail, string toemail, string text)
         {
-            ChatHubProxy.Invoke("SendMessage", username, text);
+            ChatHubProxy.Invoke("Send", fromemail, toemail, text);
         }
 
         public Task Start()
@@ -49,6 +50,7 @@ namespace JamnationApp.Core.Services
         {
             return Connection.State != ConnectionState.Disconnected;
         }
+        
 
         public ConnectionState ConnectionState { get { return Connection.State; } }
         

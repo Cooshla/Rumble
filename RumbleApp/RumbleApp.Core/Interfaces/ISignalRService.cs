@@ -12,7 +12,7 @@ namespace JamnationApp.Core.Interfaces
     public interface ISignalRService
     {
         event MessageReceived OnMessageReceived;
-        void SendMessage(string username, string text);
+        void SendMessage(string fromemail, string toemail, string text);
 
         Task Start();
 

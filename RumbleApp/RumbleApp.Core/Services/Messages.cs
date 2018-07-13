@@ -30,5 +30,8 @@ namespace JamnationApp.Core
         public const string Navigate = "Navigate";
 
         public const string SearchResults = "SearchResults";
+
+
+        public const string ChatStarted = "ChatStarted";
     }
 }

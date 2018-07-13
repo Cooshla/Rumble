@@ -43,4 +43,14 @@ namespace JamnationApp.Models.Profiles
         public bool Accepted { get; set; }
     }
 
+    public class ChatHistory : BaseModel
+    {
+        [Key]
+        public int ChatHistoryId { get; set; }
+        public int FromId { get; set; }
+        public int ToId{ get; set; }
+        public string Message { get; set; }
+        public DateTime DateSent { get; set; }
+    }
+
 }

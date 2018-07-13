@@ -42,6 +42,7 @@ namespace JamnationApp.Core.ViewModels.Profile
                 App.UserDialogService.HideLoading();
             });
 
+
             MessagingCenter.Subscribe<ChatHistory, JamnationApp.Core.Models.Profile>(this, Messages.FriendsClicked, (sender, arg) =>
             {
                 GoToProfile(arg);

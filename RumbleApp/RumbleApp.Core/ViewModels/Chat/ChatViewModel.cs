@@ -21,18 +21,16 @@ namespace JamnationApp.Core.ViewModels.Profile
 
         public ObservableCollection<Message> TheseMessages { get; set; }
 
-        string outgoingText = string.Empty;
+        public JamnationApp.Core.Models.Profile ToProfile { get; set; }
 
-        public string OutGoingText
-        {
-            get { return outgoingText; }
-            set { outgoingText= value; OnPropertyChanged("OutGoingText"); }
-        }
+        public ICommand SendCommand { get { return new Command(Send); } }
+        public ICommand LocationCommand { get { return new Command(Location); } }
 
-        public ICommand SendCommand { get; set; }
 
-        public ICommand LocationCommand { get; set; }
         public ISignalRService SignalRClient { get; set; }
+
+        public string OutGoingText { get; set; }
+        
         public ChatViewModel(ISignalRService _SignalR)
         {
 
@@ -51,45 +49,17 @@ namespace JamnationApp.Core.ViewModels.Profile
             });
 
             
-            SignalRClient.OnMessageReceived += (username, message) => {
-                TheseMessages.Add(new Message() { Text = username + ": " + message, MessageDateTime = DateTime.Now, IsIncoming = true });
+            SignalRClient.OnMessageReceived += (fromemail,toemail, message) => {
+
+                
+
+                TheseMessages.Add(new Message() { Text = fromemail + ": " + message, MessageDateTime = DateTime.Now, IsIncoming = true });
                 OnPropertyChanged("TheseMessages");
             };
 
             TheseMessages = new ObservableCollection<Message>();
 
-            SendCommand = new Command(() =>
-            {
-                TheseMessages.Add(new Message() { Text = "Me: " + OutGoingText, IsIncoming = false, MessageDateTime=DateTime.Now);
-                SignalRClient.SendMessage(App.ThisUser.Email, OutGoingText);
-                OnPropertyChanged("TheseMessages");
-            });
 
-
-            LocationCommand = new Command(async () =>
-            {
-                try
-                {
-                    var local = await CrossGeolocator.Current.GetPositionAsync();
-                    var map = $"https://maps.googleapis.com/maps/api/staticmap?center={local.Latitude.ToString(CultureInfo.InvariantCulture)},{local.Longitude.ToString(CultureInfo.InvariantCulture)}&zoom=17&size=400x400&maptype=street&markers=color:red%7Clabel:%7C{local.Latitude.ToString(CultureInfo.InvariantCulture)},{local.Longitude.ToString(CultureInfo.InvariantCulture)}&key=";
-
-                    var message = new Message
-                    {
-                        Text = "I am here",
-                        AttachementUrl = map,
-                        IsIncoming = false,
-                        MessageDateTime = DateTime.Now
-                    };
-
-                    TheseMessages.Add(message);
-                    //App.TwilioMessenger?.SendMessage("attach:" + message.AttachementUrl);
-
-                }
-                catch (Exception ex)
-                {
-
-                }
-            });
             /*
 
             if (App.TwilioMessenger == null)
@@ -99,6 +69,48 @@ namespace JamnationApp.Core.ViewModels.Profile
             {
                 TheseMessages.Add(message);
             };*/
+
+            MessagingCenter.Subscribe<ChatHistoryViewModel, JamnationApp.Core.Models.Profile>(this, Messages.ChatStarted, (sender, arg) =>
+            {
+                // started chat with old chat contact
+                ToProfile = arg;
+                OnPropertyChanged("ToProfile");
+
+            });
+        }
+
+
+
+        private void Send(object obj)
+        {
+            TheseMessages.Add(new Message() { Text = "Me: " + OutGoingText, IsIncoming = false, MessageDateTime = DateTime.Now });
+
+            SignalRClient.SendMessage(App.ThisUser.Email,ToProfile.Email, OutGoingText);
+            OnPropertyChanged("TheseMessages");
+        }
+        private async void Location(object obj)
+        {
+            try
+            {
+                var local = await CrossGeolocator.Current.GetPositionAsync();
+                var map = $"https://maps.googleapis.com/maps/api/staticmap?center={local.Latitude.ToString(CultureInfo.InvariantCulture)},{local.Longitude.ToString(CultureInfo.InvariantCulture)}&zoom=17&size=400x400&maptype=street&markers=color:red%7Clabel:%7C{local.Latitude.ToString(CultureInfo.InvariantCulture)},{local.Longitude.ToString(CultureInfo.InvariantCulture)}&key=";
+
+                var message = new Message
+                {
+                    Text = "I am here",
+                    AttachementUrl = map,
+                    IsIncoming = false,
+                    MessageDateTime = DateTime.Now
+                };
+
+                TheseMessages.Add(message);
+                //App.TwilioMessenger?.SendMessage("attach:" + message.AttachementUrl);
+
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
 
 

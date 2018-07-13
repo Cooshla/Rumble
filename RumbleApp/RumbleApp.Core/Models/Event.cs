@@ -24,6 +24,6 @@ namespace JamnationApp.Core.Models
     }
     public class Events
     {
-        public delegate void MessageReceived(string username, string message);
+        public delegate void MessageReceived(string fromemail, string toemail, string message);
     }
 }

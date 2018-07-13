@@ -61,5 +61,7 @@ namespace JamnationApp.Api.Models
         public DbSet<NotificationTags> NotificationGroups { get; set; }
         public DbSet<Location> Locations { get; set; }
         public DbSet<FriendRequests> Friends { get; set; }
+
+        public DbSet<ChatHistory> ChatHistory { get; set; }
     }
 }

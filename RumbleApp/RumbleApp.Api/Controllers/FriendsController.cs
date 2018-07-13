@@ -47,5 +47,6 @@ namespace JamnationApp.Api.Controllers
             db.Friends.Remove(s);
             db.SaveChanges();
         }
+
     }
 }
